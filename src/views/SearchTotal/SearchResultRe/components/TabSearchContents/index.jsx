@@ -1,0 +1,33 @@
+import React, {Component} from 'react';
+
+import ResultSide from '../ResultSide';
+import ResultTxt from '../ResultTxt';
+import ResultTxt2 from '../ResultTxt2';
+import ResultTxtImg from '../ResultTxtImg';
+import ResultBadge from '../ResultBadge';
+
+
+class TabSearchContents extends Component {
+
+    render() {
+        return (
+            <div className="tab_search_contents">
+                <ResultSide />
+
+                <div className="result_list rContents">
+                    <div className="inner">
+                        <p className="ttl_txt"><strong>'데이터'</strong> 중 <strong className="search_keyword">'분석'</strong>에 대한 검색결과는 총 <strong>39건</strong>입니다.</p>
+
+                        <ResultTxt />
+                        <ResultBadge />
+                        <ResultTxt2 />
+                        <ResultTxtImg />
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+
+
+export default TabSearchContents

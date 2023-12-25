@@ -1,0 +1,6 @@
+.login-content .join-contents .field .err-msg{
+    color:#e1002a;
+    font-size: 0.75rem;
+    position: absolute;
+    bottom:1.375rem;
+}

@@ -1,0 +1,7 @@
+.ui.modal.base .login-confirm p{
+    padding : 3.125rem 0;
+    color:#555; 
+    font-size: 0.875rem; 
+    white-space: pre-wrap; 
+    text-align: center;
+}

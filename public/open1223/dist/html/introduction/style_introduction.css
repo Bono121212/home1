@@ -1,0 +1,87 @@
+.introduction.kor .ui.menu.sku2 .item,
+.introduction.chn .ui.menu.sku2 .item,
+.introduction.eng .ui.menu.sku2 .item{margin-right:3.75rem;}
+
+section.content.introduction.kor .tab-menu2,
+section.content.introduction.chn .tab-menu2,
+section.content.introduction.eng .tab-menu2 {width: 100%;border-top: .0625rem solid #eee;border-bottom: .0625rem solid #d6deed;background: #fff;}
+/* 마이써니소개 */
+.introduction.kor .common-intro.case1 .inner,
+.introduction.chn .common-intro.case1 .inner,
+.introduction.eng .common-intro.case1 .inner{background:url('../../../../images/all/mysuni-Main.png') no-repeat left bottom;}
+/* 22-09-28 mySUNI소개 Case5 추가  */
+.introduction .common-intro.case5 {height: 664px; border-bottom: 0.0625rem solid #ddd;}
+.introduction .common-intro.case5 .inner {height: 100%;padding: 376px 0 0 0;text-align: center;background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/intorduction-suni-v5.png') center 50px no-repeat;background-size: 500px auto;}
+.introduction .common-intro.case5 .inner .strong {margin-bottom: 10px; line-height: 36px;}
+.introduction .common-intro.case5 .inner .normal {font-size: 20px; line-height: 29px;}
+.introduction .common-intro.case5 .inner .btn-area {margin-top:30px;}
+.introduction .common-intro.case5 .inner .btn-intro {display:inline-flex; align-items:center; justify-content: center; height: 48px; padding: 0 30px; border-radius: 30px; background-color: #00bfae; color:#fff; font-weight:700; font-size: 16px;}
+.introduction .common-intro.case5 .inner .btn-intro::after {content: '';width: 1rem;height: 1rem;margin-left: .5rem;background: url("https://image.mysuni.sk.com/suni-asset/public/images/all/icon-16-openinnew-white.png") center center no-repeat; background-size: 1rem auto;}
+
+/* 홍보자료 */
+.introduction.kor .common-intro.case4,
+.introduction.chn .common-intro.case4,
+.introduction.eng .common-intro.case4{height:auto;padding-bottom:5rem;text-align:center;border-bottom: 0.0625rem solid #ddd; }
+.introduction.kor .common-intro.case4 .inner,
+.introduction.chn .common-intro.case4 .inner,
+.introduction.eng .common-intro.case4 .inner{ background: url("../../../../images/all/introduction-certification.png") 100% 50% no-repeat; }
+.introduction.kor .common-intro.case4 .inner strong,
+.introduction.chn .common-intro.case4 .inner strong,
+.introduction.eng .common-intro.case4 .inner strong{ margin-bottom: 1.4375rem; }
+.introduction.kor .common-intro.case4 .promotion-strong,
+.introduction.chn .common-intro.case4 .promotion-strong,
+.introduction.eng .common-intro.case4 .promotion-strong{margin: 3.75rem auto 2.5rem;font-size: 1.5rem;font-weight: bold;line-height: 1.5;letter-spacing: -0.6px;text-align: center;}
+.introduction.kor .common-intro.case4 .subVideo-inner,
+.introduction.chn .common-intro.case4 .subVideo-inner,
+.introduction.eng .common-intro.case4 .subVideo-inner{display:flex;width:45rem;margin: 2.5rem auto;justify-content: space-between;}
+.introduction.kor .common-intro.case4 .subVideo,
+.introduction.chn .common-intro.case4 .subVideo,
+.introduction.eng .common-intro.case4 .subVideo {width:10.125rem;margin:0;cursor: pointer;position: relative;}
+.introduction.kor .common-intro.case4 .subVideo .subVideoThumbImg,
+.introduction.chn .common-intro.case4 .subVideo .subVideoThumbImg,
+.introduction.eng .common-intro.case4 .subVideo .subVideoThumbImg {width: 100%;height: 5.75rem;}
+.introduction.kor .common-intro.case4 .subVideo .subVideo-text a,
+.introduction.chn .common-intro.case4 .subVideo .subVideo-text a,
+.introduction.eng .common-intro.case4 .subVideo .subVideo-text a{font-size: 0.75rem;line-height: 1.83;letter-spacing: -.4px;}
+.introduction.kor .common-intro.case4 .subVideo .subVideo-text a.active,
+.introduction.chn .common-intro.case4 .subVideo .subVideo-text a.active,
+.introduction.eng .common-intro.case4 .subVideo .subVideo-text a.active{font-weight:900;text-decoration: underline;}
+.introduction.kor .common-intro.case4 .subVideo .playIcon,
+.introduction.chn .common-intro.case4 .subVideo .playIcon ,
+.introduction.eng .common-intro.case4 .subVideo .playIcon {width: 1.75rem;height: 1.75rem;position: absolute;top: 25%;left: 40%;}
+
+/* 인증제도소개 */
+section.content .tab-menu2{width: 100%; border-top: .0625rem solid #eee; border-bottom: .0625rem solid #d6deed; background: #fff;}
+section.content .tab-menu2 .fixed.top.sticky{box-shadow: -2px 5px 20px -6px rgb(38 39 69 / 50%); width: 100%; border-bottom: .0625rem solid #d6deed; background: #fff;}
+.introduction.g-type .common-intro .inner .strong{font-size: 1.5rem; line-height: 2.25rem; color: #222; font-weight: 700; letter-spacing: -.0375rem;}
+.introduction.g-type .common-intro.case3{height: auto;padding-bottom: 5rem; border-bottom: .0625rem solid #ddd; text-align: center;}
+.introduction.g-type .common-intro.case3 .inner{padding: 3.75rem 0 0; background: none;}
+.introduction.g-type .common-intro.case3 .inner .strong{margin-bottom:1.875rem}
+.introduction.g-type .common-intro.case3 .inner .inner-video{width:920px; height:517px}
+.introduction.g-type .certification{padding:3.75rem 0 5rem}
+.introduction.g-type .certification .ui.segment.full{width: 75rem; box-sizing: border-box; margin: 0 auto; padding: 0; border: 0; box-shadow: none; background: transparent; border-radius: 0;}
+.introduction.g-type .certification .table-wrap{padding: 5rem 0 0}
+.introduction.g-type .certification .table-wrap .title{margin-bottom: 1.25rem; overflow: hidden;}
+.introduction.g-type .certification .table-wrap .title .left{float: left; font-size: 1.5rem; color: #222; font-weight: 700;}
+.introduction.g-type .certification .table-wrap .title .right{float: right; color: #222; font-size: .875rem; letter-spacing: -.025rem; margin-top: .8125rem; text-align: right;}
+.introduction.g-type .certification .table-wrap .title .right span.gray{display: block; color:#666}
+.introduction.g-type .certification .table-wrap .table{clear: both; border-top: .25rem solid #ddd; border-bottom: .1875rem solid #ddd;}
+.introduction.g-type .certification .table-wrap .table tr td,
+.introduction.g-type .certification .table-wrap .table tr th{font-size: .875rem; letter-spacing: -.025rem; text-align: left; border-bottom: .0625rem solid #ddd; vertical-align: top;}
+.introduction.g-type .certification .table-wrap .table tr th {width: 13.625rem; color: #222; padding: .875rem 0 .875rem 2.5rem; font-weight: 700;}
+.introduction.g-type .certification .table-wrap .table tr.level td{color: #eda739; font-weight: 700;}
+.introduction.g-type .certification .table-wrap .table tr td:first-child,
+.introduction.g-type .certification .table-wrap .table tr td:nth-child(2){width:21.25rem;}
+.introduction.g-type .certification .table-wrap .table tr.level td:nth-child(3) span{width:2rem;}
+.introduction.g-type .certification .table-wrap .table tr.level td:nth-child(4) span{width:3rem;}
+.introduction.g-type .certification .table-wrap .table tr td{color: #999; padding-top: .875rem; padding-bottom: .875rem;}
+.introduction.g-type .certification .table-wrap .table tr td,
+.introduction.g-type .certification .table-wrap .table tr th{font-size: .875rem; letter-spacing: -.025rem; text-align: left; border-bottom: .0625rem solid #ddd; vertical-align: top;}
+.introduction.g-type .certification .table-wrap .table tr.level td:nth-child(2) span{width: 1rem;}
+.introduction.g-type .certification .table-wrap .table tr.level td span{display: inline-block; height: 1rem; vertical-align: top; margin-top: .125rem; margin-right: .375rem; background: url("../../../../images/all/lv-1.svg") 0 0 repeat-x;}
+.introduction.g-type .certification .table-wrap .table tr td ul li{margin-bottom:0.5rem}
+.introduction.g-type .certification .table-wrap .table tr td ul li span.open{color:#222}
+.introduction.g-type .certification .table-wrap .table tr td ul li span.open:after{content: "*"; color: #ff664d;}
+.introduction.g-type .cont-inner .item-button{text-align: center; width: 180px; height: 32px; border: 1px solid #4c4c4c; border-radius: 4px; position: absolute; top: 50%; right: 0; font-family: NotoSansCJKkr; font-size: 12px; font-weight: 700; color: #4c4c4c; padding: 6px; box-sizing: border-box; transform: translateY(-50%);}
+.introduction.g-type .lms-marginTop-60{margin-top:60px}
+.introduction.g-type.chn .certification .table-wrap .title .right span.gray{display: inline-block;}

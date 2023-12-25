@@ -1,0 +1,29 @@
+.loading{z-index:2;display:flex;position:fixed;top:50%;left:50%;transform:translate(-50%, -50%);width:25.125rem;height:3rem;line-height:3rem;padding: 0 24px;border-radius: 24px;background: rgba(117, 131, 159, 0.9);color:#fff;}
+.loading.hide{display:none;}
+.loading .spin{overflow:hidden;width: 1.25rem;height:1.25rem;margin:14px 10px 14px 0;border-radius: 50%; background: rgba(117, 131, 159, 0.9);}
+.loading .path{width: 1.25rem;height:1.25rem;border: 3px solid rgba(255,255,255,.3);border-radius: 50%; border-top-color: #fff;
+  animation:  1s spin ease-in-out infinite;
+  -webkit-animation:  1s spin ease-in-out infinite;
+}
+.loading p{font-size:14px;}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}

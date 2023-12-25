@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+    <defs>
+        <filter id="adnp5x6nba" color-interpolation-filters="auto">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.749020 0 0 0 0 0.682353 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="m88s9pgu8b" color-interpolation-filters="auto">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <path fill="#F4F7FD" d="M0 0H1400V1576H0z" transform="translate(-729 -339)"/>
+            <g>
+                <g>
+                    <path fill="#FFF" stroke="#D6DEED" d="M0.5 0.5H869.5V71.5H0.5z" transform="translate(-729 -339) translate(430 159) translate(1 163)"/>
+                    <g filter="url(#adnp5x6nba)" transform="translate(-729 -339) translate(430 159) translate(1 163)">
+                        <g stroke="#3E8AE9" transform="translate(134 17)">
+                            <rect width="175" height="37" x=".5" y=".5" rx="4"/>
+                        </g>
+                    </g>
+                    <g transform="translate(-729 -339) translate(430 159) translate(1 163) translate(292 11)">
+                        <circle cx="12" cy="12" r="12" fill="#00BFAE"/>
+                        <g filter="url(#m88s9pgu8b)">
+                            <g fill="#B0B0B0" fill-rule="nonzero">
+                                <path d="M12 7.059h-1.539c-.12.494-.31.953-.572 1.362l1.087 1.087-1.482 1.483-1.087-1.087c-.41.254-.868.444-1.348.557V12H4.94v-1.539c-.48-.113-.939-.303-1.348-.557L2.506 10.99 1.009 9.494l1.087-1.087c-.254-.41-.444-.868-.557-1.348H0V4.962h1.532c.113-.494.31-.953.564-1.37L1.01 2.507l1.483-1.482L3.579 2.11c.41-.262.875-.452 1.362-.572V0H7.06v1.539c.48.113.939.303 1.348.557L9.494 1.01l1.497 1.497-1.087 1.087c.254.416.451.875.564 1.37H12v2.096zM6 9.176c1.758 0 3.176-1.418 3.176-3.176 0-1.758-1.418-3.176-3.176-3.176-1.758 0-3.176 1.418-3.176 3.176 0 1.758 1.418 3.176 3.176 3.176z" transform="translate(6 6)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

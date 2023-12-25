@@ -1,0 +1,19 @@
+.ui.breadcrumb {
+    float: right;
+}
+
+.textarea-test-box {
+    border: 0.0625rem solid #7f7f7f;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    min-height: 8em;
+    padding: 0.8857143em 1em;
+    background:#fff;
+    font-size:0.875rem;
+    font-weight:normal;
+}
+
+.textarea-test-box > p {
+    font-size:0.875rem;
+    font-weight:normal;
+}

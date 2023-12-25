@@ -1,0 +1,52 @@
+.content.profile .profile_box{height:350px;background:#fff;}
+.content.profile .community-containter {display: block}
+.content.profile .profile_box .profile_pic{position:relative;height:150px;margin-bottom:60px;text-align:center;}
+.content.profile .profile_box .profile_pic .pic_area img{width:100%;height: 100%}
+.content.profile .community-containter > div:first-child {margin-right: 0;}
+.content.profile .profile_box .profile_pic .pic_area.user{position:absolute;left:50%;top:80px;width:110px;height:110px;margin-left:-55px;z-index:12;}
+.content.profile .profile_box .profile_pic .pic_area.user p{overflow:hidden;border-radius:50%; width: inherit;
+    height: inherit;}
+.content.profile .profile_box .profile_pic .pic_area.background{position:relative;}
+.content.profile .profile_box .profile_pic .pic_area.background p{position:relative;overflow:hidden;height:150px;}
+.content.profile .profile_box .profile_pic .pic_area.background img{position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);width:auto;height:auto; width: 100%}
+.content.profile .profile_box .profile_pic .pic_area .btn_pic_edit{position:absolute;width:32px;height:32px;font-size:0;background:url(../../../images/all/btn_pic_edit.png) no-repeat left top;}
+.content.profile .profile_box .profile_pic .pic_area.user .btn_pic_edit{bottom:0;right:0;}
+.content.profile .profile_box .profile_pic .pic_area.background .btn_pic_edit{bottom:-15px;left:50%;margin-left:568px;}
+
+.content.profile .profile_box .profile_info{width:1200px;margin:0 auto;font-size:14px;text-align:center;}
+.content.profile .profile_box .profile_info p{margin-top:10px;}
+.content.profile .profile_box .profile_info .name{margin:0;color:#222;font-size:24px;font-weight:700;}
+.content.profile .profile_box .profile_info ul{margin-top:22px;font-size:0;}
+.content.profile .profile_box .profile_info li{position:relative;display:inline-block;padding-left:23px;color:#666;vertical-align:middle;}
+.content.profile .profile_box .profile_info li > *{font-size:14px;}
+.content.profile .profile_box .profile_info li:after{position:absolute;top:11px;right:-12px;width:3px;height:2.5px;border-radius:50%;background:#999;content:'';}
+.content.profile .profile_box .profile_info li > a{cursor: pointer;}
+.content.profile .profile_box .profile_info li:last-child:after{display:none;}
+
+.content.profile .profile_box .profile_info li em{margin-left:8px;color:#222;font-style:normal;font-weight:700;}
+.content.profile .profile_box .profile_info li button{text-decoration:underline;}
+.content.profile .profile_box .profile_info li .btn_profile_edit{color:#ff664d;font-size:12px;}
+.content.profile .profile_box .profile_info li .btn_profile_edit:after{display:inline-block;width:8px;height:8px;margin:0 0 2px 2px;vertical-align:bottom;background:url(../../../images/all/icon-info-jump-8-px.png) no-repeat left top;content:'';}
+.content.profile .profile_box .profile_info li .btn_profile_follow{color:#0e73db;font-size:14px;font-weight:700;}
+
+.content.profile .sort-reult{padding:60px 0 0 0;}
+.content.profile .ui.input.profile{width:100%;}
+.content.profile .ui.input.profile input{padding:12px 3.5rem 13px 1.125rem;line-height:normal !important; height: 48px; width: 100%; font-size: 14px}
+.content.profile .ui.input.profile i.clear{position: absolute;right:12px;top:12px;width:1.5rem;height:1.5rem;}
+.content.profile .profile_box .profile_info .ui.input.profile{margin-top:20px;}
+
+/* profile용 table 추가 */
+.ui.table.vertical{/*margin-top:10px;*/box-shadow:0 2px 6px rgba(204, 212, 231, .5);border:none;}
+.ui.table.vertical tbody th{text-align:center;border-top:1px solid #eee;background:#fbfbfb;}
+.ui.table.vertical tbody td{padding:30px;font-weight:700;}
+.ui.table.vertical tbody tr:first-child th{border-top:none;border-radius:.28571429rem 0 0 0;}
+.ui.table.vertical tbody tr:last-child th{border-radius:0 0 0 .28571429rem;}
+
+.content.profile .buttons{padding:2.5625rem 0 0; text-align:center;}
+
+/* Modal */
+.ui.modal.w500{width:31.25rem;}
+.content .profile_v.profile_box{padding:2.5rem 1.875rem;text-align:center;}
+.content .profile_v.profile_box .profile_info{width:100%;margin-top:1.25rem;}
+.content .profile_v.profile_box .profile_info p{margin-top:10px;font-size:14px;}
+.content .profile_v.profile_box .profile_info .name{margin:0;color:#222;font-size:24px;font-weight:700;}

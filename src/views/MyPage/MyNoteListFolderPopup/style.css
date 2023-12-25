@@ -1,0 +1,12 @@
+.note-tab-area .note-folder{width:100%; margin-bottom:2.25rem; padding:1rem 0.813rem; border:0.0625rem solid #d6deed; border-radius: 0.25rem; background-color: #fff;}
+.note-tab-area .note-folder .folder-table{display: table; width: 100%; table-layout: fixed; }
+.note-tab-area .note-folder .folder-table .folder-wrapper {display: table-row;}
+.note-tab-area .note-folder .folder-table .folder-wrapper .row{display:table-cell; text-indent:0; vertical-align: top;}
+.note-tab-area .note-folder .folder-table .folder-wrapper .row .button{border-radius: 0.25rem; font-size:0.875rem; font-weight: 700; border-width:0.0625rem; border-style: solid; color:#555;}
+.note-tab-area .note-folder .folder-table .folder-wrapper .row.folder-list .folder-belt .button.active{border-color:#3e8ae9; color:#3e8ae9; background-color: #fff;}
+.note-tab-area .note-folder .folder-table .folder-wrapper .row.folder-new{width:9.625rem; padding:0 1.063rem;}
+.note-tab-area .note-folder .folder-table .folder-wrapper .row.folder-new .button{background-color: #333;  color:#fff; }
+.note-tab-area .note-folder .folder-table .folder-wrapper .row.folder-list .folder-belt{height:2.375rem; overflow:hidden;}
+.note-tab-area .note-folder .folder-table .folder-wrapper .row.folder-list .folder-belt.open{height: auto; overflow: auto;}
+.note-tab-area .note-folder .folder-table .folder-wrapper .row.folder-list .folder-belt .button{border-color:#999; margin-bottom:0.625rem;}
+.note-tab-area .note-folder .folder-table .folder-wrapper .row.folder-toggle{width:2.875rem; height: 2.125rem; padding-top:0.188rem;}

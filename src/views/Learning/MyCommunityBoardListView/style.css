@@ -1,0 +1,19 @@
+.board-down-title-right > button.ui.button.post.list3{width: 10.25rem;}
+.ui.button.list3:hover{color:#6c788f;}
+
+.list-view .survey-header{
+    margin-bottom: 0;
+    padding: 0 0 1rem;
+}
+.list-view .table-board-title{margin:2.75rem 0 0;}
+.card-slide-wrapper .belt-wrapper + .belt-wrapper{margin-top: 2.813rem}
+.card-slide-wrapper .belt-wrapper{margin-top:2.5rem}
+.list-view .belt-title{margin-bottom: 1.25rem;}
+.list-view .belt-title span{
+    color:#222;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.list-view .card-slide-list .belt{padding-left:0}
+
+.card-slide-list .belt .ui.card{margin-bottom: 1.5rem !important}

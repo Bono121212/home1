@@ -1,0 +1,15 @@
+
+/* .video-quiz-wrap .quiz-content-wrap .result-survey{height:25.938rem;} */
+.video-quiz-wrap .quiz-content-wrap .result-survey .quiz-header > p.hint{color:#699793;}
+
+.result-survey .result-list li::after{content:'';display:block;clear:both;height:0;}
+.result-survey .result-list li{position:relative;padding-bottom:1.063rem;}
+.result-survey .result-list li p{overflow: hidden;width:23rem;display:inline-block;margin:.8rem 0 0 .625rem;font-size:.875rem;letter-spacing:-.0125rem;line-height:1.563rem;text-overflow: ellipsis; white-space: nowrap;color:#282e3b}
+.result-survey .result-list li.mine p{font-weight:700;color:#222;}
+.result-survey .result-list li .card-gauge-bar.sty2{position:absolute;top:1.5rem;right:4.375rem;}
+.result-survey .result-list li .card-gauge-bar.color-others .percent{background-color:#00bfae;}/* 타인이 선택한 항목*/
+.result-survey .result-list li .card-gauge-bar.color-mine .percent{background-color:#ff5740;}/* 내가 선택한 항목 */
+
+.result-survey .result-list li .rangeBox .range{display:inline-block;width:6.25rem;}
+.result-survey .result-list li .rangeBox .range .percent{position:initial;float:right;}
+.result-survey .result-list li .rangeBox .range + span{margin-left:1.25rem;}

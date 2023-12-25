@@ -1,0 +1,90 @@
+.ui.dimmer.white-dimmer{
+    left: 0% !important;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+    padding-left:8rem;
+    padding-bottom:10rem;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -webkit-align-items : flex-start;
+    align-items: flex-start;
+}
+
+.ui.dimmer.white-dimmer.active .loading-area{
+    text-align: center;
+}
+.ui.dimmer.white-dimmer.active .loading-area strong{
+    display:block;
+    color:#222;
+    font-size: 0.875rem;
+    white-space: pre-line;
+    padding-top:2.625rem;
+    line-height: 1.43;
+}
+
+.ui.dimmer.white-dimmer.active .load-pot{
+    position: relative;
+    background: #ff664d;
+    animation: loading-pot 1.5s infinite linear;
+    -webkit-animation: loading-pot 1.5s infinite linear;
+}
+
+.ui.dimmer.white-dimmer.active .load-pot::after,
+.ui.dimmer.white-dimmer.active .load-pot::before{
+    content:'';
+    position: absolute;
+    top : 0;
+    background: #ddd;
+}
+
+.ui.dimmer.white-dimmer.active .load-pot::before{
+    right:150%;
+    animation: loading-pot-before 1.5s infinite linear;
+    -webkit-animation: loading-pot-before 1.5s infinite linear;
+}
+.ui.dimmer.white-dimmer.active .load-pot::after{
+    left:150%;
+    animation: loading-pot-after 1.5s infinite linear;
+    -webkit-animation: loading-pot-after 1.5s infinite linear;
+}
+
+.ui.dimmer.white-dimmer.active .load-pot,
+.ui.dimmer.white-dimmer.active .load-pot::after,
+.ui.dimmer.white-dimmer.active .load-pot::before{
+    display: inline-block;
+    width: 0.938rem;
+    height: 0.938rem;
+    border-radius: 100%;
+}
+@keyframes loading-pot-before{
+    33% { background: #ddd; }
+    66% { background: #ff664d; }
+    100% { background: #ddd; }
+}
+@-webkit-keyframes loading-pot-before{
+    33% { background: #ddd; }
+    66% { background: #ff664d; }
+    100% { background: #ddd; }
+}
+@-webkit-keyframes loading-pot{
+    0% { background: #ff664d; }
+    33% { background: #ddd; }
+    66% { background: #ddd; }
+    100% { background: #ff664d; }
+}
+@keyframes loading-pot{
+    0% { background: #ff664d; }
+    33% { background: #ddd; }
+    66% { background: #ddd; }
+    100% { background: #ff664d; }
+}
+@-webkit-keyframes loading-pot-after{
+    0%{background: #ddd;}
+    33%{background: #ff664d;}
+    66%{background: #ddd;}
+}
+@keyframes loading-pot-after{
+    0%{background: #ddd;}
+    33%{background: #ff664d;}
+    66%{background: #ddd;}
+}

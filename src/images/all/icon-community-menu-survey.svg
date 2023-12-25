@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon / communtiy / menu / survey</title>
+    <g id="icon-/-communtiy-/-menu-/-survey" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" stroke="#B9B9B9" transform="translate(2.000000, 1.000000)">
+            <path d="M11.5,0.5 L11.5,6 L11.5,10.5 L5.63559385,10.5 L2.56127939,12.9597321 L2.56092872,10.5 L0.5,10.5 L0.5,0.5 L11.5,0.5 Z" id="Combined-Shape"></path>
+            <line x1="3.5" y1="4.5" x2="8.5" y2="4.5" id="Line" stroke-linecap="square"></line>
+            <line x1="3.5" y1="6.5" x2="8.5" y2="6.5" id="Line-Copy" stroke-linecap="square"></line>
+        </g>
+    </g>
+</svg>

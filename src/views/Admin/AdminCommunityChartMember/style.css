@@ -1,0 +1,40 @@
+.chart-container .admin_text_input + .ui.button.admin_text_button{
+    display: inline-block;
+    vertical-align: top !important;
+    line-height: 1.15;
+}
+.chart-container .cnt-container .table-board-title{margin-top:1.875rem}
+
+.cnt-container .cnt-view{
+    margin: 1.25rem 0;
+    padding : 1.875rem 12.5rem;
+    background: #fff;
+    border: 0.063rem solid #00bfae;
+}
+.cnt-container .cnt-view ul{
+    display: flex; 
+    justify-content: space-around;
+}
+.cnt-view li{
+    position: relative;
+    font-size: 0.875rem;
+    color:#222;
+}
+.cnt-view li strong{
+    display: inline-block;
+    margin-left: 3.125rem;
+    font-size: 1.125rem;
+    vertical-align: top;
+    line-height: 1.12;
+}
+
+.cnt-view li:nth-child(-n+2):before{
+    content:'';
+    display: inline-block;
+    width: 0.063rem;
+    height: 0.75rem;
+    background:#d8d8d8;
+    position: absolute;
+    left: calc(100% + 5rem);
+    top : 0.188rem;
+}

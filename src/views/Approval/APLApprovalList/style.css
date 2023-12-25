@@ -1,0 +1,8 @@
+.ui.segment.full .confirm-list-wrap .list-top {overflow: initial;}
+.ui.segment.full .confirm-list-wrap .list-top > .bottom {overflow: initial; display: flex; justify-content: space-between;}
+.ui.segment.full .confirm-list-wrap .list-top > .bottom::after {content: ""; display: none;}
+.ui.segment.full .confirm-list-wrap .list-top > .bottom .right-area .list-num-sel{width:135px}
+.confirm-list-wrap .list-top .bottom .left-area {float: none;}
+.confirm-list-wrap .list-top .bottom .right-area {float: none;}
+.confirm-list-wrap .list-top .left-area button.return,
+.confirm-list-wrap .list-top .left-area button.approval{width:auto; padding:0 15px !important;}

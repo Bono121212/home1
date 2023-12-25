@@ -1,0 +1,17 @@
+#root section.footer { background: #35363a;}
+#root section.footer .f-copyright {
+  left: 65px;
+  top: 32px;
+  font-size: 12px;
+}
+#root section.footer .s-kuniversity {
+  top: 39px;
+}
+i.icon.sk-university:before {
+  background: url(https://image.mysuni.sk.com/suni-asset/public/images/all/header-logo.svg)
+    no-repeat 0 0 !important;
+}
+
+#root section.footer .s-kuniversity {
+  top: 37px;
+}

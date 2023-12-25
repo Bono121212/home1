@@ -1,0 +1,11 @@
+<svg width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(8.486 4.629)" fill="none" fill-rule="evenodd">
+        <path d="m4.83 15.373 26.458-3.249a1.714 1.714 0 0 1 1.91 1.493l3.155 25.692a1.714 1.714 0 0 1-1.492 1.91L8.402 44.47a1.714 1.714 0 0 1-1.91-1.493L3.337 17.283a1.714 1.714 0 0 1 1.493-1.91z" stroke="#777" stroke-width="1.714"/>
+        <rect stroke="#777" stroke-width="1.714" fill="#FFF" fill-rule="nonzero" y="7.714" width="33.943" height="37.029" rx="1.714"/>
+        <path fill="#777" fill-rule="nonzero" d="M3.857 38.571h20.057v1.543H3.857zM3.857 34.714h26.229v1.543H3.857zM3.857 30.857h7.714V32.4H3.857zM18.515 18.514h11.57v1.543h-11.57zM18.515 22.372h11.57v1.543h-11.57zM18.515 14.657h11.57V16.2h-11.57z"/>
+        <path d="M14.657 19.671a5.014 5.014 0 1 1-5.014-5.014" stroke="#777" stroke-width="1.714"/>
+        <path d="M10.8 12.343a6.171 6.171 0 0 1 6.171 6.171H10.8v-6.171z" fill="#FF664D" fill-rule="nonzero"/>
+        <path d="M23.914 3.086V5.4h3.857c.853 0 1.543.69 1.543 1.543v2.314H4.63V6.943c0-.852.69-1.543 1.542-1.543h3.858V3.086h13.885z" stroke="#777" stroke-width="1.714" fill="#FFF" fill-rule="nonzero"/>
+        <rect stroke="#777" stroke-width="1.714" x="7.714" width="18.514" height="3.086" rx=".857"/>
+    </g>
+</svg>

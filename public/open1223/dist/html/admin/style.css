@@ -1,0 +1,31 @@
+.login-content.logbg{background: #f4f7fd;}
+.login-content.logbg .right-area .inner{padding: 7.875rem 16.875rem;width: 52.5rem;height: 38.75rem;background: #fff;border: 0.063rem solid #d6deed;border-radius: 0.5rem;}
+.login-content.logbg .right-area .inner.pd2{padding: 2.813rem 16.875rem;width: 52.5rem;height: 38.75rem;background: #fff;border: 0.063rem solid #d6deed;border-radius: 0.5rem;}
+
+
+.login-content .right-area.new-area{display: flex;justify-content: center;align-items: center;flex: none;width: 100%;padding: 0;}
+.login-content .right-area .inner .logo.new-logo{margin-bottom: 2.5rem;}
+i.icon.sk-university-login.new-log::before{display: inline-block;content: '';margin-bottom: 2.5rem; width: 80px;height: 35px;background: url(../../img/logo-gnb-login.png) !important;}
+.login-content .right-area .inner .button.login.sty2{width: 18.75rem;}
+/* AdminLogin_01_IdPassword */
+
+.confirm-bg{color: #b7c0d1; background: #e5eaf2;}
+.login-content.new-content .right-area .inner h2{margin-bottom: 1.875rem !important;}
+.login-content .right-area .inner .field.login{margin: 0.625rem 0;}
+.login-content .right-area .inner .button.login.info{margin-top: 1.25rem;width: 18.75rem;}
+.login-content .right-area .inner .button.login.info.sty2{margin-bottom: 2.5rem;}
+.field-title{display: inline-block;color: #4c4c4c;font-size: 0.875rem;font-weight: 700;}
+.mail-login-info{display: block;color: #4c4c4c;font-size: 0.75rem;}
+.mail-login-info.sty2{margin-bottom: 40px;}
+/* AdminLogin_02_Email */
+
+
+
+.login-content .right-area .inner .field .input.time{position: relative;}
+.login-content .right-area .inner .field .input .reamin-time{position: absolute;top: 15px;right: 36px;color: #e1002a;font-size: 12px;}
+/* AdminLogin_02_Email-sendCode */
+
+
+
+
+

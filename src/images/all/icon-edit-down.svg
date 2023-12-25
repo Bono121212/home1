@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>D33DF293-57F2-4AD3-8FC6-0AA90EF8CA91</title>
+    <g id="Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#Resources_Template" transform="translate(-304.000000, -448.000000)">
+            <g id="btn_component_down" transform="translate(295.000000, 439.000000)">
+                <g id="icon_edit_down" transform="translate(9.000000, 9.000000)">
+                    <polyline id="Path-5" stroke="#222222" stroke-width="2" stroke-linejoin="round" transform="translate(12.000000, 17.000000) rotate(-180.000000) translate(-12.000000, -17.000000) " points="4 21 12 13 20 21"></polyline>
+                    <rect id="Rectangle" fill="#222222" transform="translate(12.000000, 12.000000) rotate(-180.000000) translate(-12.000000, -12.000000) " x="11" y="4" width="2" height="16"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

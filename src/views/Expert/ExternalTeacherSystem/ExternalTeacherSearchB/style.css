@@ -1,0 +1,28 @@
+.wd100{width: 6.25rem !important;}
+.ui.button.admin_table_button03{background:#333333 !important;color:#fff !important;font-size: 0.875em;}
+
+.searchb tbody tr:nth-child(2) td .view-all .ui.radio.checkbox{margin-left: 0;}
+.searcha tbody tr:nth-child(2) td .view-all .ui.radio.checkbox{margin-left: 0;}
+.searchb tbody tr:nth-child(2) td .view-all .ui.radio.checkbox + .ui.radio.checkbox{margin-left: 1rem;}
+.searcha tbody tr:nth-child(2) td .view-all .ui.radio.checkbox + .ui.radio.checkbox{margin-left: 1rem;}
+
+.external-teacher .course-overview-wrap .admin-container{padding-top:0;}
+.course-overview-wrap .admin-container .admin_table_top{border: inherit;border-radius: 0.5rem;box-shadow: 0 0.125rem 0.375rem 0 #ddd;}
+.course-overview-wrap .admin-container .admin_table_top tr:last-child th{display: inline-block;margin-top: 0.625rem;vertical-align: top;}
+.course-overview-wrap .admin_table{border-top: initial;border-radius: 0.5rem;box-shadow: 0 0.125rem 0.375rem 0 #ddd;}
+.course-overview-wrap .admin_table thead th:first-child{border-radius: 0.5rem 0 0 0;}
+.course-overview-wrap .admin_table thead th:last-child{border-radius: 0 0.5rem 0 0;}
+.course-overview-wrap .admin_table tbody td{color: #666666;background: #fff;border-bottom: 0.063rem solid #eee;}
+.course-overview-wrap .admin_table tbody td:nth-child(2){text-align: left;font-size: 1rem;}
+.course-overview-wrap .admin_table tbody tr:last-child td:first-child{border-radius: 0 0 0 0.5rem;}
+.course-overview-wrap .admin_table tbody tr:last-child td:last-child{border-radius: 0 0 0.5rem 0;}
+
+.table-board-title .table_list_string.searchb span{color: #6c788f;}
+.table-board-title .table_list_string.searchb span strong{color: #6c788f;}
+.ui.dropdown.small-border.admin_table_select.searchb{border: 0.063rem solid #6c788f !important;}
+.ui.dropdown.small-border.admin_table_select.searchb > .text{color: #6c788f !important;}
+
+/* .ui.input.admin_text_input.searcha > input{width: 51.25rem;} */
+.ui.input.admin_text_input.searchb > .searchb-inp{width: 51.188rem !important;}
+.ui.button.admin_text_button.searchb{display: block;margin-left: 27.2rem;margin-top: 1.25rem;width: 6.25rem;}
+.ui.button.admin_text_button.searcha{display: block;margin-left: 27.5rem;margin-top: 1.25rem;width: 6.25rem;}

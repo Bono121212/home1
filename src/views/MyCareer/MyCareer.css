@@ -1,0 +1,57 @@
+/* 2023-10 [신규] 스킬 큐브, 상세 페이지작업 */
+.career-platform{}
+.career-platform-section{margin-top:2.5rem !important;}
+.career-platform-section .ui.segment.full.learning-section{margin-top:1rem !important;}
+.career-platform-section-head{display:flex;justify-content:space-between;margin-bottom:1.0625rem;padding:0 .625rem;}
+.career-platform-section-head .btn-more {padding-right:18px; background: url("https://image.mysuni.sk.com/suni-asset/public/images/all/icon_12_right_06.png") no-repeat right center / 12px auto;}
+.career-platform-section .no-cont-wrap{padding: 3.75rem 0 !important;height: 15.3125rem;}
+.career-platform-skill{display:flex;}
+.career-platform-skill-banner .skill-banner-content{font-size:1.25rem;color:#222;height:20rem;box-shadow:0 2px 6px 0 rgba(67, 67, 67, 0.2);border-radius:.75rem;padding:1.5rem;position:relative;background:#f0f4fe no-repeat 0 0/17.5rem 20rem;font-weight:400;background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/banner-280-career.png');width:17.5rem}
+.career-platform-skill-banner .skill-banner-content strong{font-weight:700;display:inline-block;}
+.career-platform-skill-banner .skill-banner-content .go-to-page{color:#fff;background:#4c4c4c;width:14.5rem;border-radius:.5rem;height:3rem;display:block;text-align:center;line-height:1.5rem;padding:.75rem;position: absolute;bottom: 1.5rem;font-size: 1rem;}
+
+.career-platform-skill-cubes{width:57.75rem;}
+.career-platform-skill-cubes .swiper-slide{width:18.75rem !important; flex:0 0 18.75rem !important;}
+.career-platform-skill-cubes .ui.card.card-item{width:18.75rem !important; flex:0 0 18.75rem !important;}
+
+.swiperCareerPlatform .swiper-button-prev{left:10px;}
+.swiperCareerPlatform .swiper-button-next{right:10px;}
+
+.career-platform-section .card-item .hover-content .hover-content-inner .txticon-wrap{margin-top: 0;padding-top: 1rem;border-top: 1px solid #d9d9d9;position: absolute;bottom: 0;margin: 0 -20px;height: 54px;}
+.career-platform-section .card-item .hover-content .hover-content-inner .career-inner-item {text-align: center;}
+.career-platform-section .card-item .hover-content .hover-content-inner .icon-move-blank{background-image: url("https://image.mysuni.sk.com/suni-asset/public/images/all/icon-20-blank-link-white.svg");margin-right: .25rem;}
+.career-platform-section .card-item .hover-content .hover-content-inner .icon-move-blank + span{font-size: 1rem;font-weight: 700;}
+
+.career-platform-infomation{font-size:1.375rem;display:flex;height:2rem;align-items:center;}
+.career-platform .channel-of-interest{border:1px solid #ddd;padding:1.25rem 0;border-radius:0.25rem;}
+.career-platform .channel-of-interest .channel-tag-wrap{margin-bottom:0;padding:0 1.875rem;}
+.career-platform .section-head{display:flex;margin-bottom:.625rem;font-size:1.375rem;color:#222;height:2.75rem;padding:0 .625rem;}
+.career-platform .section-head .channel{font-weight:700;}
+.career-platform .main-info-area .progress-info-wrap .cell:first-child .cell-inner{overflow:unset;}
+.career-platform .main-info-area.content-division{border:none;}
+.career-platform .main-info-area > .progress-info-wrap.personal-channel{height:auto;padding:2.5rem 0;}
+.career-platform .sort-reult{padding-top:0;}
+.career-platform .section-head{padding:0 !important;}
+.career-platform-dropdown{margin:0 1rem;display:flex;position:relative;}
+.career-platform-dropdown .dropdown-wrap{border:1px solid #000;position:absolute;top:2.8125rem;z-index:2;background:#fff;border-radius:.5rem;overflow:hidden;box-shadow:0px 0px 10px 0px rgba(67, 67, 67, 0.2);}
+.career-platform-dropdown .dropdown-ul{border-radius:.5rem;}
+.career-platform-dropdown .dropdown-item{white-space: nowrap;}
+.career-platform-dropdown .dropdown-item:not(:last-child){border-bottom:1px solid #ddd;}
+.career-platform-dropdown .dropdown-link{font-size:.875rem;display:block;padding:.75rem 3.375rem .75rem 1.5rem;position:relative;}
+.career-platform-dropdown .dropdown-link:hover,
+.career-platform-dropdown .dropdown-link.active{background-color:#f7f7f7;font-weight:700;white-space:nowrap;}
+.career-platform-dropdown .dropdown-link.active::after{content:'';width:1.5rem;height:1.5rem;background:url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-24-career-dropbox-check.png') no-repeat 0 0/1.5rem 1.5rem;position:absolute;right:.75rem;top:.625rem;}
+.career-platform-dropdown .text{font-weight:700;border-bottom:1px solid #000;}
+.career-platform-dropdown.single{margin: 0 .5rem;}
+.career-platform-dropdown.single .text{font-weight:700;border-bottom:none;}
+.career-platform-select-control{width:2rem;height:2rem;background:url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-32-career-open-arrow.png') no-repeat 0 0/2rem 2rem;margin-left:.375rem;transition: all .16s;}
+.career-platform-select-control.on{transform: rotate(180deg);}
+
+.ui.modal.base.career-platform-modal-wrap{width:31.25rem !important;height:31.25rem !important;border-radius:.5rem !important;}
+.ui.modal.base.career-platform-modal-wrap .close{background:url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-24-modal-close.svg') no-repeat 0/1.5rem 1.5rem;padding:0 0 0 1.875rem;height:1.5rem;color:#000;font-weight:400;margin: 0;font-size: .875rem;}
+.ui.modal.base.career-platform-modal-wrap .career-platform-modal-content{padding:0 !important;border-radius: .5rem .5rem 0 0 !important;overflow: hidden;}
+.ui.modal.base.career-platform-modal-wrap .career-platform-random-banner{position: relative;}
+.ui.modal.base.career-platform-modal-wrap .career-platform-random-banner img{width:100%;height:auto;vertical-align:bottom;}
+.ui.modal.base.career-platform-modal-wrap .career-platform-random-banner .go-to-mycareer{position: absolute;width: 12.5rem;height: 3rem;top:16.0625rem;left:9.375rem;background: transparent;border-radius: 6.25rem;}
+.ui.modal.base.career-platform-modal-wrap .actions.career-platform-action{padding:.8125rem 1.25rem !important;height:3.125rem !important;display: flex;justify-content: space-between;border-radius:0 0 .5rem .5rem !important;}
+.ui.modal.base.career-platform-modal-wrap .ui.checkbox input.hidden + label {font-weight: 400;font-size: 1rem;color: #222;}

@@ -1,0 +1,25 @@
+h2.tt {
+    font-size: 20px;
+    color: #282e3b;
+    font-weight: 700;
+    margin: 52px 0 20px;
+}
+
+.parents::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.parents .badge {
+    float: left;
+    margin-right: 27px;
+}
+
+.badge.s220 .title .cell {padding:0 1.5rem}
+.badge.s220 .title .cell span {overflow:hidden; display:block; word-break:keep-all; text-overflow:clip; -webkit-line-clamp: none}
+.msie .badge.s220 .title .cell {font-weight:500}
+
+.badge.s280 .title .cell {padding:0 1.5rem}
+.badge.s280 .title .cell span {overflow:hidden; display:block; word-break:keep-all; text-overflow:clip; -webkit-line-clamp: none}
+.msie .badge.s280 .title .cell {font-weight:500}

@@ -1,0 +1,235 @@
+.introduction.v2 .college-cont-map {
+    padding-top: 50px;
+}
+
+/* 타이틀 */
+.introduction.v2 .college-cont-title h1.title {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+.introduction.v2 .college-cont-title.ai h1.title {
+    color: #9f3fc5;
+}
+
+.introduction.v2 .college-cont-title.dt h1.title {
+    color: #613fc6;
+}
+
+.introduction.v2 .college-cont-title.happiness h1.title {
+    color: #ff9600;
+}
+
+.introduction.v2 .college-cont-title.happiness h1.title {
+    color: #ff9600;
+}
+
+.introduction.v2 .college-cont-title.sv h1.title {
+    color: #ee712c;
+}
+
+.introduction.v2 .college-cont-title.design h1.title {
+    color: #d72d2f;
+}
+
+.introduction.v2 .college-cont-title.global h1.title {
+    color: #38b84c;
+}
+
+.introduction.v2 .college-cont-title.leadership h1.title {
+    color: #2987cd;
+}
+
+.introduction.v2 .college-cont-title.management h1.title {
+    color: #28b4ac;
+}
+
+.introduction.v2 .college-cont-title.semicond h1.title {
+    color: #4b6bcc;
+}
+
+.introduction.v2 .college-cont-title.skacademy h1.title {
+    color: #ea6957;
+}
+
+.introduction.v2 .college-cont-title.energy h1.title {
+    color: #009abd;
+}
+
+.introduction.v2 .college-cont-title.BM h1.title {
+    color: #bd38a5;
+}
+
+/* 상단 안내 메세지 */
+.introduction.v2 .belt .guide-area {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.introduction.v2 .belt .guide-area .guide-text {
+    flex: none;
+}
+
+.introduction.v2 .belt .guide-area .guide-text p.p_link {
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+
+.introduction.v2 .college-cont-map.ai p.p_link {
+    color: #9f3fc5;
+}
+
+.introduction.v2 .college-cont-map.dt p.p_link {
+    color: #613fc6;
+}
+
+.introduction.v2 .college-cont-map.happiness p.p_link {
+    color: #ff9600;
+}
+
+.introduction.v2 .college-cont-map.sv p.p_link {
+    color: #ee712c;
+}
+
+.introduction.v2 .college-cont-map.design p.p_link {
+    color: #d72d2f;
+}
+
+.introduction.v2 .college-cont-map.global p.p_link {
+    color: #38b84c;
+}
+
+.introduction.v2 .college-cont-map.leadership p.p_link {
+    color: #2987cd;
+}
+
+.introduction.v2 .college-cont-map.management p.p_link {
+    color: #28b4ac;
+}
+
+.introduction.v2 .college-cont-map.semicond p.p_link {
+    color: #4b6bcc;
+}
+
+.introduction.v2 .college-cont-map.skacademy p.p_link {
+    color: #ea6957;
+}
+
+.introduction.v2 .college-cont-map.green p.p_link {
+    color: #009abd;
+}
+
+.introduction.v2 .college-cont-map.BM p.p_link {
+    color: #bd38a5;
+}
+
+.introduction.v2 .belt .guide-area .guide-btn {
+    flex: none;
+    margin-left: auto;
+}
+
+.introduction.v2 .belt .guide-area .guide-btn .item-button {
+    display: inline-block;
+    min-width: 7.5rem;
+    vertical-align: middle;
+    text-align: center;
+    height: 2rem;
+    font-size: 0.75rem;
+    color: #4c4c4c;
+    padding: 0.35rem 20px;
+    font-weight: bold;
+    border: 1px solid #4c4c4c;
+    border-radius: 6px;
+}
+
+.introduction.v2 .belt .guide-area .guide-btn .item-button>img {
+    vertical-align: bottom;
+    margin-right: 0.313rem;
+}
+
+#root section.content .tab-menu-inner.sub .ui.attached.tabular.menu {
+    display: table;
+}
+
+#root section.content .tab-menu-inner.sub .ui.attached.tabular.menu .item {
+    display: table-cell;
+}
+
+#root section.content .tab-menu-inner.sub.English .ui.attached.tabular.menu .item{padding: 0 1.15rem; height: 3.5rem}
+
+.introduction.v2 .college-cont-map:last-child {
+    padding: 55px 0 120px;
+}
+
+#root section.content .tab-menu-inner.sub .sub-tab-menu.dt .ui.menu .item {
+    padding: 1.75rem 1.07rem !important;
+    letter-spacing: -0.42px;
+}
+
+.introduction.v2 .ai-con-text p + p {
+    margin-top:10px;
+}
+.introduction.v2 .ai-con-text p {letter-spacing: -0.57px;}
+
+.introduction.v2 .map-area {
+    position:relative;
+}
+.introduction.v2 .map-area .badge:focus,
+.introduction.v2 .map-area .badge:active,
+.introduction.v2 .map-area .badge:hover,
+.introduction.v2 .map-area .badge {
+    background: #cc3134;
+    display: block;
+    height: 25px;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.25rem;
+    padding:0 10px;
+    margin:0;
+}
+.introduction.v2 .tab-menu-inner.sub.English .college-cont-title .normal{letter-spacing : -0.8px}
+.introduction.v2 .college-sub-txt > div > p.p_link {
+    margin-top:20px;
+}
+.introduction.v2 .college-link-box {
+    padding-top:50px;
+}
+.ui.popup.p-badge {width : 180px; height: 180px; text-align: center; border: 2px solid #777}
+.ui.popup.p-badge::before{box-shadow: 2px 2px 0 0 #777;}
+
+.tab-menu-inner.sub .sub-tab-menu .college-sub-txt li {
+    white-space: nowrap;
+}
+#root section.content.introduction.v2 .tab-menu-inner.sub .tab-menu-wrap > .sub-tab-menu > .ui.menu{height : 80px !important}
+#root section.content.introduction.v2 .tab-menu-wrap > .sub-tab-menu > .ui.menu > a.item {
+    padding: 0 20px !important;
+    white-space : pre-wrap;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -0.4px;
+    height : 80px !important
+}
+#root section.content.introduction.v2 .tab-menu-inner.sub .tab-menu-wrap > .sub-tab-menu.mgmt > .ui.menu > a.item {padding: 0 30px !important;}
+
+#root section.content .tab-menu-inner.sub.English .sub-tab-menu.dt .ui.menu{
+    display: table;
+}
+#root section.content .tab-menu-inner.sub.English .sub-tab-menu.dt .ui.menu .item{
+    display: table-cell;
+    height: 5rem !important;
+    padding : 1.25rem 1.07rem !important;
+}
+.tab-menu-inner.sub.English .college-cont-title.design .normal {
+    letter-spacing: -0.85px;
+    font-size: 18px;
+}
+.introduction.v2 .college-cont-title.management .normal {font-size: 1.125rem;}
+.introduction.v2 .college-cont-title .normal {font-size:1.25rem; white-space: nowrap;}
+
+.college-cont-map.happiness .belt .guide-area {position: absolute;top: 0;right: 0;}

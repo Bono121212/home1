@@ -1,0 +1,243 @@
+@charset "utf-8";
+/*****************************************************
+	로그인
+	@@ 공통
+    @@ V2 Design
+	@@ 문의하기
+	@@ FAQ
+*****************************************************/
+/*****************************************************
+	@@ 공통
+*****************************************************/
+/* Fonts */
+@font-face {font-family: "notosanskr";font-style: normal;
+	font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2)
+	format("woff2"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff)
+	format("woff"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format("opentype");}
+
+	@font-face {font-family: "notosanskr";font-style: normal;font-weight: 300;
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2)
+	format("woff2"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff)
+	format("woff"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format("opentype");}
+
+	@font-face {font-family: "notosanskr";font-style: normal;font-weight: 400;
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2)
+	format("woff2"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff)
+	format("woff"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format("opentype");}
+
+	@font-face {font-family: "notosanskr";font-style: normal;font-weight: 500;
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format("woff2"),
+	url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format("woff"),
+	url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format("opentype");}
+
+	@font-face {font-family: "notosanskr";font-style: normal;font-weight: 700;
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2)
+	format("woff2"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff)
+	format("woff"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format("opentype");}
+
+	@font-face {font-family: "notosanskr";font-style: normal;font-weight: 900;
+	  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2)
+	  format("woff2"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff)
+	  format("woff"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format("opentype");}
+
+/*****************************************************
+	@@ V2 Design
+*****************************************************/
+/* 공통 */
+.ui.modals.dimmer {background-color: rgba(0, 0, 0, 0.75);}
+
+/* Layout */
+.login-content.v2 {background-color: #E8F2FF;}
+.login-content.v2 .left-area {position:relative; padding-top:150px; background-color: #E8F2FF;}
+.login-content.v2 .right-area {position:relative; background-color: #fff; border-radius: 40px 0 0 40px; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);}
+.login-content.v2 .right-area .inner .logo.big {display: inline-block; vertical-align: top; margin-bottom: 1.8rem; margin-left:0rem;}
+
+/* Content */
+.login-content.v2 .left-area .title {font-size: 92px; line-height: 112px; font-weight: 700; margin-bottom: 12px; color: #BBD2EE;}
+.login-content.v2 .left-area p {color: #666; font-size: 16px; line-height: 24px; text-align: center; padding-bottom: 0;}
+.login-content.v2 .left-area p strong {font-weight: 700;}
+.login-content.v2 .left-area .illust {margin-top:20px; width:480px;}
+.login-content.v2 .left-area .illust img {width: 100%;}
+.login-content.v2 .right-area.sty2 .inner .txt-btn-area {display:flex; justify-content: space-between;}
+/* .login-content.v2 .right-area.sty2 .inner .txt-btn-area {display:flex; justify-content: space-between; margin-top:16px; margin-bottom: 16px;} */
+.login-content.v2 .right-area.sty2 .inner .txt-btn-area li {padding: 0;}
+.login-content .right-area .inner .txt-btn-area li a, .login-content .right-area .inner .txt-btn-area li button {color:#666;}
+.login-content.v2 .right-area .inner .button.login {margin-top:20px;}
+.login-content.v2 .right-area .inner .making-guide > span strong {font-weight: 400;}
+.login-content.v2 .right-area .inner .making-guide + .button.login {margin-top:0;}
+.login-content.v2 .right-area .inner .button.join {margin-top:10px;}
+.login-content.v2 .right-area .inner .button.home {margin-top:30px;}
+.login-content.v2 .right-area .login-guide {width: 300px;}
+/* .login-content.v2 .right-area .login-guide {width: 300px; border-top:1px solid #eee; padding-top:16px;} */
+.login-content.v2 .right-area .login-guide p {word-break: keep-all;}
+.login-content .right-area .inner .login-guide li {color:#666;}
+.login-content .right-area .inner .login-guide li::before {background-color: #666;}
+.login-content.v2 .right-area .text-wrap h2 + .login-guide {margin-top:30px;}
+.login-content.v2 .right-area .inner.pw-change h2 {margin-bottom: 0.625rem;}
+.login-content.v2 .right-area .inner.pw-change .field {margin-bottom: 1rem;}
+.login-content.v2 .right-area .inner.pw-change .field:nth-child(2) {margin-bottom: 1rem;}
+.login-content.v2 .right-area .inner.pw-reset .field {margin-bottom: 1rem;}
+.login-content.v2 .right-area .inner.pw-reset .field:nth-child(2) {margin-bottom: 10px;}
+.login-content.v2 .right-area .inner.pw-reset .field:nth-child(3) {margin-bottom: 0.625rem;}
+.login-content.v2 .right-area .btn-helpdesk-area {margin-top:30px; text-align: right;}
+.login-content.v2 .right-area .btn-helpdesk {display: inline-flex; justify-content: center; align-items: center; padding: 0; line-height: 20px; font-size: 14px;}
+.login-content.v2 .right-area .btn-helpdesk::before {content:''; display: inline-block; width: 20px; height: 20px; margin-right: 8px; background: url("https://image.mysuni.sk.com/suni-asset/public/images/all/login/icon_20_helpdesk_black.png") no-repeat 0 0 / 100% auto; vertical-align: middle;}
+/* .login-content.v2 .right-area .btn-helpdesk-area {display: flex; align-items: center; height: 48px; margin-top:16px; border-radius: 4px; border-top:1px solid #EEEEEE;}
+.login-content.v2 .right-area .btn-helpdesk-area .split {display: block; flex:none; width: 1px; height: 12px; background-color: #D9D9D9;}
+.login-content.v2 .right-area .btn-faq,
+.login-content.v2 .right-area .btn-helpdesk {display: inline-flex; width:100%; flex:1 1 auto; justify-content: center; align-items: center; height: 100%; padding: 0; line-height: 20px; font-size: 14px; color:#666;}
+.login-content.v2 .right-area .btn-faq::before,
+.login-content.v2 .right-area .btn-helpdesk::before {content:''; display: inline-block; width: 20px; height: 20px; margin-right: 8px; background: no-repeat 0 0 / 100% auto; vertical-align: middle;}
+.login-content.v2 .right-area .btn-faq::before {background-image: url("https://image.mysuni.sk.com/suni-asset/public/images/all/login/icon_20_faq_gray.png");}
+.login-content.v2 .right-area .btn-helpdesk::before {background-image: url("https://image.mysuni.sk.com/suni-asset/public/images/all/login/icon_20_helpdesk_gray.png");} */
+
+/*****************************************************
+	@@ 문의하기
+*****************************************************/
+/* 문의하기 모달 */
+.ui.modal.base.inquery-modal {width: calc(100% - 60px); max-width: 1200px;}
+.ui.modal.base.inquery-modal .content {padding: 0px !important;}
+.ui.modal.base.inquery-modal .header {height: auto !important; padding:60px 0 30px 0; margin: 0 60px; border-bottom:1px solid #ddd; text-indent: 0;}
+.ui.modal.base.inquery-modal .header .apl-title {font-size:28px; font-weight: 700; line-height: 40px;}
+.ui.modal.base.inquery-modal .header .apl-notice {margin-top:14px; font-size:14px; line-height: 22px; font-weight: 400;}
+.ui.modal.base.inquery-modal .header .apl-notice strong {font-weight: 700;}
+.ui.modal.base.inquery-modal .header .ui.button.close {position: absolute; right: 12px; top:12px; width: 24px; height: 24px;}
+.ui.modal.base.inquery-modal .header .ui.button.close.black {background-color: transparent;}
+.ui.modal.base.inquery-modal .header .ui.button.close.black::before {background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-floating-close-24-px.svg');}
+.ui.modal.base.inquery-modal .apl-form-wrap {padding: 14px 60px 60px 60px;}
+.ui.modal.base.inquery-modal .apl-form-wrap .ui.form .field {margin-bottom: 0;}
+.ui.modal.base.inquery-modal .apl-form-wrap .ui.form .field + .field {margin-top: 40px;}
+.ui.modal.base.inquery-modal .apl-form-wrap .ui.form .field label {display:inline-block; font-weight: 700; font-size: 16px; margin-bottom: 14px;}
+.ui.modal.base.inquery-modal .apl-form-wrap .ui.form .field > label::before {margin-right:6px;}
+.ui.modal.base.inquery-modal .apl-form-wrap .ui.form .field.row {display:flex;}
+.ui.modal.base.inquery-modal .apl-form-wrap .ui.form .field.row label {margin-right: 20px;}
+.ui.modal.base.inquery-modal .apl-form-wrap .ui.form .field .lg-attach {margin:0;}
+.ui.modal.base.inquery-modal .apl-form-wrap .ui.form .field .ui.input.right-top-count textarea {height: 130px;}
+.ui.modal.base.inquery-modal .apl-form-wrap .buttons {margin-top:40px;; padding-top:40px;}
+.ui.modal.base.inquery-modal .apl-form-wrap .buttons button.ui.button {width: 200px;}
+.ui.modal.base.inquery-modal .apl-form-wrap .ui.input.right-top-count.error .validation {margin-top:2px;}
+.ui.modal.base.inquery-modal .lg-attach .attach-inner .ui.small.header.text-grey {height: 0 !important; padding:0;}
+.ui.modal.base.inquery-modal .lg-attach .attach-inner .ui.small.header.text-grey .icon-file-upload label {right: 0; overflow: hidden; text-indent: 0; margin:0 !important;}
+.ui.modal.base.inquery-modal .lg-attach .attach-inner .ui.small.header.text-grey .icon-file-upload label .ui.text {left: 0;}
+.ui.modal.base.inquery-modal .lg-attach .attach-inner .ui.small.header.text-grey .icon-file-upload label input[type=file] {position: absolute; left: 0; top:0; }
+.ui.modal.base.inquery-modal .lg-attach .attach-inner .side-segment-list {height: 129px;}
+.ui.modal.base.inquery-modal .lg-attach .attach-inner .side-segment-list .ui.list {height: 80px;}
+.apl-form-wrap .form-guide {text-align: right; color: #4c4c4c; font-size: 14px; margin: 0 !important;}
+.apl-form-wrap .star {color:#ff664d; margin-left: 4px;}
+.apl-form-wrap .ui.form .field > label .star {margin-left: 4px;}
+.apl-form-wrap .lg-attach .attach-inner .bottom {line-height: 46px; padding-left:1rem; font-size: 14px; color:#222;}
+.apl-form-wrap .privacy-text-agree {margin-top:10px;}
+.apl-form-wrap .privacy-text-agree .ui.checkbox input.hidden + label {font-size: 14px !important; font-weight: 400 !important;}
+.ui.modal.base.inquery-modal .apl-form-wrap.support {position: static;}
+.apl-form-wrap.support .form-guide {position: absolute; right: 0; top: -50px;}
+.apl-form-wrap button.faq-info {margin-left:10px; font-size: 12px; font-weight: 400; color: #888; padding-left: 30px; padding-top: 0; line-height: 20px; background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon_20_info_gray.svg') no-repeat 0 0 / auto 20px;}
+.apl-form-wrap button.faq-info,
+.apl-form-wrap button.faq-info:hover,
+.apl-form-wrap button.faq-info:active,
+.apl-form-wrap button.faq-info:focus{background-color: #fff; color:#888; border:0; outline: none;}
+
+/* 기본 */
+.side-segment-list {padding: 15px !important;max-height: 180px;width: 100%;overflow-y: auto;overflow-x: hidden;}
+.side-segment-list .item {margin-bottom: 10px !important;}
+.side-segment-list .item .content {padding-top: 0 !important;}
+.side-segment-list .item .content:last-child {padding-bottom: 0 !important;}
+.side-segment-list .item .material-icons {color: #999;vertical-align: middle;}
+.side-segment-list .item .sub-info {color: #999;font-size: 0.85em;margin-right: 0.8em;}
+.side-segment-list .item:last-child {margin-bottom: 0 !important;}
+.icon-file-upload .photo50 {width: 3.125rem !important;height: 3.125rem !important;background: url("./resources/images/down/btn-photo50.svg") 0 0 no-repeat !important;background-size: 100% auto !important;}
+.icon-file-upload .photo50 svg {display: none;}
+.ui.icon.button.clear {background: inherit;}
+
+/* 개인정보수집 */
+.apl-form-wrap .privacy-text-box {width: 100%;height: 195px;overflow-y: auto;border: 0.063rem solid #ddd;}
+.apl-form-wrap .privacy-text-box .inner {width:100%; padding:1.5rem; color:#4c4c4c}
+.apl-form-wrap .privacy-text-box .text1 {font-weight: bold;margin-bottom: 0.25rem;font-size: 0.875rem;}
+.apl-form-wrap .privacy-text-box .text2 {font-size: 0.875rem;}
+.apl-form-wrap .privacy-text-box .text3 {font-size: 0.875rem;}
+.apl-form-wrap .privacy-text-box .text1 ~ .text1 {margin-top:10px;}
+
+/* 첨부파일 */
+.lg-attach .attach-inner .bottom {position: absolute;width: 100%;height: 3rem;bottom: 0;border-top: 0.0625rem solid #7f7f7f;padding-right: 7.5rem;}
+.lg-attach .attach-inner .bottom .text {font-size: 0.875rem;line-height: 1.71;color: #666;line-height: 3rem;padding-left: 1.125rem;}
+.lg-attach .attach-inner .bottom .text1 {font-size: 0.875rem;line-height: 1.71;color: #666;line-height: 3rem;padding-left: 1.125rem;}
+.lg-attach .attach-inner .bottom .text1 i.icon {position: relative;top: -0.0625rem;margin-right: 0.25rem;}
+.lg-attach .attach-inner .bottom .text1 i.icon:before {vertical-align: middle !important;}
+.lg-attach .attach-inner .bottom .right-btn {position: absolute;right: 0;top: 0;}
+.lg-attach .attach-inner .placeholder-txt {position: absolute;top: 0;padding: 1rem;font-size: 0.86rem;color: #999;}/* 한줄 */.modal .line-attach label:before {text-align: left !important;}
+
+/* 여러줄 */
+.lg-attach {position: relative;margin-bottom: 5rem;}
+.lg-attach .attach-inner {position: relative;top: 0;left: 0;width: 100%;}
+.lg-attach .attach-inner .sr-only {overflow: hidden;}
+.lg-attach .attach-inner .ui.small.header.text-grey {height: 0;visibility: hidden;margin: 0;}
+.lg-attach .attach-inner .ui.small.header.text-grey .icon-file-upload {visibility: visible;position: absolute;bottom: 0;background: #4c4c4c;width: 122px;right: 0;height: 3rem;z-index: 1;border-radius: 0 0 0.28571429rem 0;}
+.lg-attach .attach-inner .ui.small.header.text-grey .icon-file-upload label {position: absolute;bottom: 0;width: 121px !important;background: #4c4c4c;color: #4c4c4c; border-radius: 0 0 0.28571429rem 0;}
+.lg-attach .attach-inner .ui.small.header.text-grey .icon-file-upload label:before {content: "Upload" !important;display: block;background: #4c4c4c;color: #fff;height: 3rem;text-align: center;font-size: 0.92rem;padding: 0;border-radius: 0 0 0.28571429rem 0;}
+.lg-attach .attach-inner .ui.small.header.text-grey .icon-file-upload label .ui.text.blue,.lg-attach .attach-inner .ui.small.header.text-grey .icon-file-upload label .sr-only {position: absolute;bottom: 0;width: 120px;height: 3rem;/* z-index: 99; */}
+.lg-attach .attach-inner .ui.small.header.text-grey .icon-file-upload label .ui.dropdown {position: absolute;top: 0;width: 120px;right: 0;height: 3rem;}
+.lg-attach .attach-inner .ui.small.header.text-grey .icon-file-upload input[type='file'] {position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);border: 0;}
+.lg-attach .attach-inner .content-scroll .segment {padding: 0 !important;}
+.lg-attach .attach-inner .content-scroll+input {z-index: 1;position: absolute;opacity: 0;width: 120px;right: 0;}
+.lg-attach .attach-inner .side-segment-list {border: 0.0625rem solid #7f7f7f !important;border-radius: 0.28571429rem;height: 172px;overflow-y: auto;margin: 0 !important;}
+.lg-attach .attach-inner .side-segment-list .ui.list {padding: 1.25rem 1rem;height: 124px;overflow-y: auto;}
+.lg-attach .attach-inner .side-segment-list .ui.list .item {position: relative;display: table;margin-bottom: 0 !important;}
+.lg-attach .attach-inner .side-segment-list .ui.list .item .sub-info {line-height: 2;}
+.lg-attach .attach-inner .side-segment-list .ui.list .item .material-icons {color: #fff !important;}
+.lg-attach .attach-inner .side-segment-list .ui.list .item .material-icons:before {content: "";display: inline-block;vertical-align: top;width: 1.375rem;height: 1.375rem;background: url("https://image.mysuni.sk.com/suni-asset/public/resources/images/down/btn-clear-nomal.svg") no-repeat 0 0 !important;background-size: 100% 100% !important;}
+.lg-attach .attach-inner .side-segment-list .ui.list .item .content {display: table;}
+.lg-attach .attach-inner .side-segment-list .ui.list .item .content>a {display: table-cell;vertical-align: top;font-size: 0.875rem;line-height: 1.43;letter-spacing: -0.0125rem;color: #222;line-height: 1.625rem;}
+.lg-attach .attach-inner .side-segment-list .ui.list .item .content>a .file-type .file {display: none;}
+.lg-attach .attach-inner .bottom {position: absolute;width: 100%;height: 3rem;bottom: 0;border-top: 0.0625rem solid #7f7f7f;padding-right: 7.5rem;letter-spacing: -0.4px;}
+.lg-attach .attach-inner .bottom .text {font-size: 0.875rem;line-height: 1.71;color: #666;line-height: 3rem;padding-left: 1.125rem;}
+.lg-attach .attach-inner .bottom .text1 {font-size: 0.875rem;line-height: 1.71;color: #666;line-height: 3rem;padding-left: 1.125rem;}
+.lg-attach .attach-inner .bottom .text1 i.icon {position: relative;top: -0.0625rem;margin-right: 0.25rem;}
+.lg-attach .attach-inner .bottom .text1 i.icon:before {vertical-align: middle !important;}
+.lg-attach .attach-inner .bottom .right-btn {position: absolute;right: 0;top: 0;}
+.lg-attach .attach-inner .placeholder-txt {position: absolute;top: 0;padding: 1rem;font-size: 0.86rem;color: #999;}
+
+/* 인풋 체크 */
+.ui.input.right-top-count.write input:focus + button i.icon.clear::before {background-image: url("https://image.connect.mysuni.com/suni-asset/public/resources/images/down/btn-clear-selceted.svg") !important;}
+.ui.selection.dropdown:focus, .ui.selection.active.dropdown, .ui.selection.active.dropdown .menu {border-color: #52cbc4 !important;}
+.ui.dropdown.selection .menu .item:focus, .ui.dropdown.selection .menu .item:hover {background: #f6f6f6;}
+.ui.selection.dropdown.error {border-color: #db1111;}
+/* 팝업 버튼 */
+
+/*****************************************************
+	@@ FAQ
+*****************************************************/
+/* FAQ 모달 */
+.ui.modal.base.faq-modal {width: calc(100% - 60px); max-width: 1200px;}
+.ui.modal.base.faq-modal > .content {padding: 0px !important;}
+.ui.modal.base.faq-modal .header {height: auto !important; padding:60px 0 30px 0; margin: 0 60px; border-bottom:1px solid #ddd; text-indent: 0;}
+.ui.modal.base.faq-modal .header .apl-title {font-size:28px; font-weight: 700; line-height: 40px;}
+.ui.modal.base.faq-modal .header .apl-notice {margin-top:14px; font-size:14px; line-height: 22px; font-weight: 400;}
+.ui.modal.base.faq-modal .header .apl-notice strong {font-weight: 700;}
+.ui.modal.base.faq-modal .header .ui.button.close {position: absolute; right: 12px; top:12px; width: 24px; height: 24px;}
+.ui.modal.base.faq-modal .header .ui.button.close.black {background-color: transparent;}
+.ui.modal.base.faq-modal .header .ui.button.close.black::before {background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-floating-close-24-px.svg');}
+.ui.modal.base.faq-modal .faq-wrap {padding: 14px 60px 90px 60px;}
+
+/* FAQ List Top */
+.faq-wrap .list-top {display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;}
+.faq-wrap .list-top .s-search i.icon.search-32 {position: absolute;right: 3px;top: 3px;width: 2rem;height: 2rem;background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-gnb-search-32-px.svg') no-repeat 50% 50%;}
+.faq-wrap .list-top .list-top-left {padding-top:18px; color: #777; line-height: 22px;}
+
+/* FAQ Accordion */
+.faq-list-wrap {width: 100%; max-height: 500px; overflow: auto; border-top:1px solid #999999; border-bottom:1px solid #999999;}
+.faq-list-wrap .ui.accordion {width: 100%; border:0; background: #fff; border-radius: 0; box-shadow: none;}
+.faq-list-wrap .ui.accordion .title {display: table;width: 100%;line-height: 24px;padding: 13px 28px;position: relative;font-size: 1rem;font-weight: 400;color: #222;border-top: 1px solid #eee;}
+.faq-list-wrap .ui.accordion .title.active {background-color: #fbfbfb; font-weight: 700;}
+.faq-list-wrap .ui.accordion .title .faq-icon {display: table-cell;width: 3rem;}
+.faq-list-wrap .ui.accordion .title .txt-wrap {display: table-cell;padding-right: 2rem;}
+.faq-list-wrap .ui.accordion .title .dropdown.icon {position: absolute;right: 30px;top: 13px; -webkit-transform: rotate(0deg);transform: rotate(0deg);}
+.faq-list-wrap .ui.accordion .dropdown.icon:before {display: none;}
+.faq-list-wrap .ui.accordion .dropdown.icon:after {content: "";display: inline-block;width: 24px;height: 24px;background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon_24_faq.svg');}
+.faq-list-wrap .ui.accordion .title.active .dropdown.icon:after {-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+.faq-list-wrap .ui.accordion .content {display: none;padding:0.5rem 3.8rem 1.5rem 4.8rem;font-size: .875rem;line-height: 1.4;color: #444;}
+.faq-list-wrap .ui.accordion .content p img {max-width: 100%;}
+.faq-list-wrap .ui.accordion .content.active {display: block;background: #fbfbfb; padding-left: 4.8rem; padding-top: 0; padding-right: 3.8rem; font-size: .875rem; line-height: 1.4; color: #444;}
+.faq-list-wrap .ui.accordion .content.active p {margin-bottom: 8px;}
+.faq-list-wrap .ui.accordion .content.active p:last-child {margin-bottom: 0;}
+.faq-list-wrap .no-cont-wrap {display: flex; flex-direction: column; justify-content: center; align-items: center; height:300px; text-align: center;}
+.faq-list-wrap .no-cont-wrap i.icon.no-contents80::before {content: '';display: inline-block;width: 80px;height: 80px;background: url(https://image.mysuni.sk.com/suni-asset/public/images/all/no-contents-80-px.svg) center no-repeat !important;background-size: 100% 100% !important;}
+.faq-list-wrap .no-cont-wrap .text {margin-top: 1rem;font-size: 1.25rem;color: #4c4c4c;letter-spacing: -0.03125rem; font-weight: 400;}

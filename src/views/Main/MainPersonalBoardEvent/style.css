@@ -1,0 +1,69 @@
+/* 4월 출석이벤트 배너 */
+.main_personal > .main-event-btn {display: inline-block;margin-top: 0.438rem;margin-left: 0.625rem;}
+.main_personal > .main-event-btn > button{width: 13.125rem;height: 2.5rem;background: url("http://mysuni.sk.com/files/pub-img/event-btn.gif") no-repeat 0 0;background-size:100% 100%;}
+/* 4월 출석이벤트 팝업*/
+.ui.active.modal.w640.attend{position:relative;width:40rem;padding-bottom:.375rem;background:#ff5740;}
+.ui.modal.base.attend .content.admin_popup_add{width:39.375rem;margin:0 auto;padding:0 !important;flex-wrap: wrap;flex-direction: row;border-radius:0 0 .625rem .625rem;background:#fff;}
+.ui.modal.base.attend .header{height:11.125rem !important;padding-right:.313rem;text-indent:0;border-bottom:none;border-radius:.625rem;
+    background:#ff5740 url("../../../images/all/event-key-image-area.png") no-repeat 25.25rem 100%;}
+.ui.modal.base.attend .header .imgbox{margin-left: 2.5rem;padding-top:1.875rem;}
+.ui.modal.base.attend .header .imgbox span + span{display:block;margin-top:-.5rem;margin-bottom:-.8rem;}
+
+.contentbox{display:flex;padding:2.25rem 2.813rem 2.25rem 2.188rem;}
+.contentbox .notibox{width:9.375rem;margin-right:1.625rem;text-align:left;}
+.contentbox .notibox .notitxt{font-size:1.5rem;}
+.contentbox .notibox .notitxt::before{content:'오늘도\A 출첵 하세요!';white-space:pre;}/*출석체크전*/
+.contentbox .notibox.done .notitxt::before{content:'오늘\A 출석체크 완료!';white-space:pre;}/*오늘출석완료*/
+.contentbox .notibox.alldone .notitxt::before{content:'출석왕\A 도전 완료!';white-space:pre;color:#ff5740;}/*모든출석완료*/
+
+.contentbox .notibox dl{font-size:.875rem;}
+.contentbox .notibox dl dt{margin-top:1.875rem;}
+.contentbox .notibox dl dd strong{display:block;}
+.contentbox .notibox span{font-size:.625rem;letter-spacing:-.03rem;color:#999;}
+.contentbox .notibox .go_event{display:block;width:9.375rem;margin-top:1.1rem;margin-bottom:-.2rem;padding-left:.625rem;line-height:1.875rem;font-weight:900;font-size:.625rem;
+    border-radius:.25rem;background:#a7abbe url("../../../images/all/icon-white-jump-8-px.svg") no-repeat 95% 50%;color:#fff;}
+
+.contentbox .stampbox{position:relative;background: url("../../../images/all/event_border.svg") no-repeat 0 0;}
+.contentbox .stampbox ul{display:flex;flex-wrap: wrap;flex-direction: row;width:21.75rem;margin-left:1.563rem;}
+.contentbox .stampbox ul li{overflow:hidden;position:relative;width:3.75rem;height:3.75rem;margin-right:.75rem;margin-bottom:.75rem;border-radius:50%;  border: solid 2px #e0e0e0;background-color:#ececec;}
+.contentbox .stampbox ul li:nth-child(5n){margin-right:0;}
+.contentbox .stampbox ul li:nth-child(16),
+.contentbox .stampbox ul li:nth-child(17),
+.contentbox .stampbox ul li:nth-child(18),
+.contentbox .stampbox ul li:nth-child(19),
+.contentbox .stampbox ul li:nth-child(20){margin-bottom:0;}
+.contentbox .stampbox ul li button{position:absolute;top:.188rem;left:.188rem;width:3.125rem;height:3.125rem;padding:.5rem 0;border-radius:50%;border:.3px solid #e0e0e0;font-size:.625rem;color:#cecece;cursor:default;}
+.contentbox .stampbox ul li button strong{display:block;margin-top:-.313rem;text-align:center;font-size:1.125rem;}
+.contentbox .stampbox ul li.gift button{top:-.125rem;left:-.125rem;width:3.75rem;height:3.75rem;border:none;
+    background-repeat:no-repeat;background-position:0 0;background-size:100% 100%;background-image: url("../../../images/all/event_stamp_present_before.svg");}
+/* 오늘 */
+.contentbox .stampbox ul li.today{border-color:#ff9688;background-color:#fff;}
+.contentbox .stampbox ul li.today button{cursor: pointer;}
+.contentbox .stampbox ul li.today .date{border-color:#ff9688;color:#ff9688;}
+.contentbox .stampbox ul li.gift.today button{background-image: url("../../../images/all/event_stamp_present_clickme.svg");}
+/* 출석완료 */
+.contentbox .stampbox ul li.done{border:none;}
+.contentbox .stampbox ul li.done::after{content:'';display:block;position:absolute;top:0;left:0;right:0;width:3.75rem;height:3.75rem;background-image: url("../../../images/all/event_stamp-after.svg");background-size:100% 100%;background-repeat:no-repeat;background-position:0 0;}
+.contentbox .stampbox ul li.gift.done{border:2px solid #ff5740;background-color:#ffe207;}
+.contentbox .stampbox ul li.gift.done::after{top:-.125rem;left:-.125rem;background-image: url("../../../images/all/event_stamp_present_after.svg");}
+
+.attend .linkbox{position:relative;display:flex;justify-content: center;padding:.91rem 0;box-shadow:0 .25rem .625rem 0 rgba(0, 0, 0, 0.2);border-top:1px solid #cfd7e6;}
+.attend .linkbox a{display:block;font-size:.875rem;border-radius:.25rem;font-weight:900;}
+.attend .linkbox a.go_study{width:11.25rem;line-height:2.5rem;background:#ff5740;color:#fff;}
+.attend .linkbox a.go_lotto{visibility:hidden;position:absolute;top:.91rem;right:5.938rem;width:7.5rem;line-height:2.25rem;margin-left:.625rem;padding-left:2.1rem;border: solid 2px #ff5740;color:#ff5740; background:url("../../../images/all/event_icon-lotto.svg") no-repeat .625rem 100%;}
+.attend .linkbox a.go_lotto.show{visibility:visible;}
+
+.stamp_sample{margin-top:.625rem;}
+.stamp_sample em{display:inline-block;width:2.5rem;height:2.5rem;}
+.stamp_sample em img{width:100%;}
+.stamp_sample em:first-child{margin-right:.313rem;}
+
+/* 이벤트종료  */
+.enddim{overflow:hidden;position:absolute;top:5px;left:5px;right:5px;bottom:4.5rem;display:table;border-radius:8px;background-color:rgba(255,255,255,.9);}
+.enddim .dim_inner{display:table-cell;width:39.375rem;height:30.313rem;padding-top:3rem;text-align:center;vertical-align:middle;}
+.enddim .dim_inner .imgbox{overflow:hidden;display:block;width:5.625rem;height:5.625rem;margin:0 auto;border-radius:50%;background-color: #fff;;}
+.enddim .dim_inner img.ui.image{display:inline-block;}
+.enddim p{line-height:1.3;color:#000;}
+.enddim p em{display:block;margin:.625rem 0 1rem 0;font-style:normal;font-weight:700;font-size:1.25rem;}
+.enddim p span{display:block;margin:.313rem auto .625rem;line-height:2;font-size:.875rem;}
+.enddim p + p{line-height:1.5;font-size:.75rem;font-weight:700;color:#ff5740}

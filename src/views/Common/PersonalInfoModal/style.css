@@ -1,0 +1,34 @@
+.ui.modal.w760{width:47.5rem;}
+
+.ui.modal.base.popup_info .header{height:auto !important;line-height:1.25rem !important;}
+.ui.modal.base.popup_info .header span{display:block;margin-top:.313rem;font-size:.75rem;font-weight:500;color:#6c788f}
+
+.popup_info .info_txt1{font-size:1rem;font-weight:900;color:#222;}
+.popup_info .info_txt2{margin:.625rem 0 1.25rem 0;font-size:0.875rem;color:#666;}
+.popup_info .info_inner{padding:1.25rem}
+.popup_info .info_table{height:12.625rem;}
+.popup_info .info_table table{text-align:center;border-top:1px solid #d6deed;}
+.popup_info .info_table table th{padding:.938rem;border-bottom:1px solid #eee;font-size:12px;font-weight:900;color:#222;}
+.popup_info .info_table table td{padding:.938rem;border-bottom:1px solid #eee;font-size:12px;color:#222;}
+.popup_info .info_chk{padding-top:2.625rem;text-align:center;}
+.popup_info .info_chk .ui.radio.checkbox:first-child{margin-right:3.125rem;}
+.popup_info .info_chk .ui.radio.checkbox label{font-size:.875rem;}
+
+.popup_info .info_noti{margin-top:.625rem;text-align:center;font-size:.688rem;color:#db1111;}
+.popup_info .info_noti.hidden{display:none;}
+.popup_info .info_noti i{width:1rem;height:1rem;vertical-align:bottom;}
+
+.popup_info .actions3 button{width:11.875rem;height:2.5rem;font-size:.875rem;color:#fff;}
+.popup_info .actions3 button:hover,
+.popup_info .actions3 button:focus{color:#fff;}
+.popup_info .actions3 button.b_cancel{background:#6c788f;}
+.popup_info .actions3 button.b_chk{background:#ff664d;}
+
+.ui.modal.base.popup_info .header span {color: #777;}
+.ui.modal.base.popup_info .content {overflow-y: auto; max-height: 40vh; position: static; padding : 20px 30px !important}
+.ui.modal.popup_info .info_inner{padding : 0}
+.ui.modal.popup_info .info_table{height: auto; position: relative;}
+.ui.modal.popup_info .info_table table {border-top-color: #ddd;}
+.ui.modal.popup_info .info_chk{padding: 2.625rem 0 30px}
+.ui.modal.popup_info .info_noti {position: absolute;bottom: 8px;margin: 0;left: 50%;transform: translateX(-50%);}
+.ui.modal.popup_info .actions3 button.b_cancel{background-color: #777;}

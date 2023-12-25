@@ -1,0 +1,81 @@
+.modal.modal_sc_post_box .cnt_inner{padding: 1.25rem 1.25rem 2rem 1.25rem;}
+
+.modal.modal_sc_post_box .post_search_box{width: 100%; padding: 1.875rem;border : 0.063rem solid #ddd;}
+.modal.modal_sc_post_box .post_search{display: flex;}
+.modal.modal_sc_post_box .post_search + .post_search{margin-top:.75rem;}
+.cnt_inner .post_search .ui.selection.dropdown{width: 22.5rem !important;}
+.cnt_inner .post_search .ui.selection.dropdown + .dropdown{margin-left:.625rem;}
+.post_search_box .sc_tit{
+    width:4.375rem;
+    color:#4c4c4c;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 2.375rem;
+}
+.cnt_inner .ui.selection.dropdown{
+    width: 11.25rem !important;
+    height : 2.375rem !important;
+    vertical-align: top;
+    line-height: 1.75rem !important;
+    border-color: #999 !important;
+} 
+.cnt_inner .ui.dropdown.small-border > .text{
+    color:#222 !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    vertical-align: middle;
+    word-break: break-all;
+}
+
+.sc_content .input > input{
+    width: 45.625rem;
+    height: 2.375rem;
+    font-size: 0.875rem;
+    color:#222;
+    line-height: 1.25rem;
+    border: 0.063rem solid #999 ;
+}
+.sc_content .ui.dropdown.small-border .text{line-height: 1;}
+
+.cnt_inner .ui.dropdown.small-border .icon.dropdown{top : 0.5rem !important}
+.cnt_inner .list_title{
+    display: flex;
+    justify-content: space-between;
+    margin-top : 1.875rem 
+}
+
+.cnt_inner .list_title span{
+    color:#222;
+    font-size: 0.875rem;
+    line-height:2.375rem;
+}
+
+.cnt_inner .ui.table{
+    border : 0;
+    border-top : 0.125rem solid #6c788f;
+    border-radius: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.cnt_inner .table_wrap .ui.table tr{border-bottom:1px solid rgba(34, 36, 38, 0.1)}
+
+.cnt_inner .ui.table th{
+    background: #fff;
+    color:#222;
+    font-size: 0.875rem;
+    text-align: center;
+    padding : 0.625rem 0;
+}
+.cnt_inner .ui.table td{
+    color:#222;
+    font-size: 0.875rem;
+    padding: 0.78rem 0;
+    text-align: center;
+    border-top:0;
+}
+
+.modal_sc_post_box .b_close{position:absolute;top:.625rem;right:.625rem;width:28px;height:28px;padding:0;}
+.modal_sc_post_box .b_close:hover,
+.modal_sc_post_box .b_close:focus{background:transparent;}

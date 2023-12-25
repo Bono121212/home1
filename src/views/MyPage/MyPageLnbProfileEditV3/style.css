@@ -1,0 +1,50 @@
+.mypagev3 { display: flex; width: 75rem; margin: 0 auto;}
+.mypagev3 .mypage_lnb { width: 240px; border-right: #ddd 1px solid; }
+.mypagev3 .mypage_contents { width: 910px; margin-left: auto; padding-top: 50px; padding-bottom: 130px; }
+.mypagev3 .badge-list-type.list-wrapper ul li { padding-left: 45px; padding-right: 45px; width: 33%}
+.mypagev3 .badge-list-type.list-wrapper { margin-left: -28px; margin-right: -28px; }
+
+.mypagev3 .profile-contents-area { width: 100%; border-radius: 0; }
+.mypagev3 .profile-contents-area .profile-wrapper { width: 100%; }
+.mypagev3 .profile-contents-area .bg-wrapper { width: 100%; height: auto; max-height: 250px; }
+.mypagev3 .profile-contents-area .profile-info-wrapper { width: 100%; background: none; height: auto; max-height: 250px; border-bottom: #ddd 1px solid; }
+.mypagev3 .profile-contents-area .profile-info-wrapper .profile-info-area { width: 100%; height: auto; padding: 50px 20px 30px;}
+.mypagev3 .profile-contents-area .profile-info-wrapper .profile-info-area .profile-info { color: #222; margin-top: 6px; }
+.mypagev3 .profile-contents-area .profile-info-wrapper .profile-info-area .profile-info .foll-info { color: #666; margin-top: 8px; }
+.mypagev3 .profile-contents-area .profile-info-wrapper .profile-info-area .image-area { margin-top: 0; }
+.mypagev3 .profile-contents-area .profile-info-wrapper .profile-info-area .profile-info .foll-info span:last-of-type:before { background: #666; }
+.mypagev3 .mypage_menu_list .menu_list { border-bottom: #ddd 1px solid; padding: 10px 0 9px; }
+.mypagev3 .mypage_menu_list ul li { padding: 10px 14px 4px; border: 0 }
+.mypagev3 .mypage_menu_list ul li a { display: inline-block; padding: 7px 10px 7px; font-size: 14px; line-height: 20px; font-weight: 300; }
+.mypagev3 .mypage_menu_list ul li a.active { font-weight: bold; }
+.mypage_menu_list .icon { margin-right: 5px; transform: translateY(-1px); }
+.mypage_menu_list .IconStatus { display: inline-block; width: 16px; height: 16px; vertical-align: middle; background: url(../../../images/all/icon-mypage-menu-status.svg) no-repeat center; }
+.mypage_menu_list .IconBadge { display: inline-block; width: 16px; height: 16px; vertical-align: middle; background: url(../../../images/all/icon-mypage-menu-badge.svg) no-repeat center; }
+.mypage_menu_list .IconStamp { display: inline-block; width: 16px; height: 16px; vertical-align: middle; background: url(../../../images/all/icon-mypage-menu-stamp.svg) no-repeat center; }
+.mypage_menu_list .IconNote { display: inline-block; width: 16px; height: 16px; vertical-align: middle; background: url(../../../images/all/icon-mypage-menu-note.svg) no-repeat center; }
+.mypage_menu_list .IconPlay { display: inline-block; width: 16px; height: 16px; vertical-align: middle; background: url(../../../images/all/icon-mypage-menu-playlist.svg) no-repeat center; }
+.mypage_menu_list .IconProfile { display: inline-block; width: 16px; height: 16px; vertical-align: middle; background: url(../../../images/all/icon-mypage-menu-profile2.svg) no-repeat center; }
+.mypage_menu_list .active .IconStatus { background: url(../../../images/all/icon-mypage-menu-status-bk.svg) no-repeat center; }
+.mypage_menu_list .active .IconBadge { background: url(../../../images/all/icon-mypage-menu-badge-bk.svg) no-repeat center; }
+.mypage_menu_list .active .IconStamp { background: url(../../../images/all/icon-mypage-menu-stamp-bk.svg) no-repeat center; }
+.mypage_menu_list .active .IconNote { background: url(../../../images/all/icon-mypage-menu-note-bk.svg) no-repeat center; }
+.mypage_menu_list .active .IconPlay { background: url(../../../images/all/icon-mypage-menu-playlist-bk.svg) no-repeat center; }
+.mypage_menu_list .active .IconProfile { background: url(../../../images/all/icon-mypage-menu-profile2-bk.svg) no-repeat center; }
+.mypage_menu_list .active { color: #222; font-weight: bold; }
+.mypagev3 .mypage_menu_list .logout-area { margin: 13px 19px 0; text-align: right; }
+.mypagev3 .mypage_menu_list .logout-area .ui.button { color: #b9b9b9; font-weight: normal; text-decoration:none }
+.mypagev3 .mypage_menu_list .logout-area .ui.button i.icon.logout-16px{margin : 0 0 0 6px !important}
+
+
+.mypagev3 .mypage_contents .ui.segment.full { width: 100%; }
+
+.mypagev3 .cont-inner{width:100% !important;}
+.mypagev3 .mypage_contents .ui.segment.full{width:100% !important;}
+
+.mypagev3 .search_box .option_box .ui.selection.dropdown.option_detail{width:25.25rem;}
+.mypagev3 .search_box .note_input input{width:25.25rem;}
+.mypagev3 .search_box .ui.table tr th{width:auto;font-size:.875rem;}
+.mypagev3 .admin_calendar .ui.input .react-datepicker-wrapper .react-datepicker__input-container > input{width:7.25rem !important;}
+
+.mypage_contents .top-line span { color: #777;}
+.mypage_contents.my-stamp-list .top-line .left-line span { color: #777; }

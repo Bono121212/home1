@@ -1,0 +1,79 @@
+.chart-container .table.tab_top th{
+    padding: 1.875rem;
+    color:#4c4c4c;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.chart-container .table.tab_top td{padding:1.875rem}
+.chart-container .table.tab_top .preview{padding-left:0.625rem}
+.chart-container .table.tab_top .button.bg02{
+    margin: 0;
+    padding: 0.625rem 1.25rem;
+    background:#333;
+    color:#fff;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.chart-container .table-board-title{
+    margin-top: 3.75rem;
+}
+.chart-container .table_list_string{
+    font-size: 1.125rem;
+}
+
+.chart-container .right-wrap span{
+    color:#555;
+    font-size:0.875rem;
+}
+.chart-container .right-wrap strong{ color:#222; }
+.chart-wrapper{
+    width:100%;
+    height:20.25rem;
+    background:#fff;
+    /* border: 0.063rem solid #d6deed; */
+    position: relative;
+}
+.table-top-area .top-left-side{
+    float: left;
+    padding: 2.5rem 0 1.25rem;
+}
+.table-top-area .top-right-side{
+    float:right;    
+    padding: 2.5rem 0 1.25rem;
+}
+
+.clfx::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.ui.table.chart-table{
+    border: 0;
+    border-top: 0.125rem solid #777;
+    border-bottom: 0.063rem solid #ddd;
+    border-radius: 0;
+    background: transparent;
+    margin-top: 0;
+}
+.ui.table.chart-table thead{background: #fff}
+.ui.table.chart-table th{    
+    padding: 1.25rem 0;
+    color:#222;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ui.table.chart-table td{
+    padding: 1.375rem 0.625rem;
+    text-align: center;
+    color:#222;
+    font-size: 0.875rem;
+}
+
+.chart-container .ui.button.post:hover, 
+.chart-container .ui.button.post:active, 
+.chart-container .ui.button.post:focus {color:#6c788f}

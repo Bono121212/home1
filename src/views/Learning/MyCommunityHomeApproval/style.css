@@ -1,0 +1,43 @@
+
+.mycommunity-card-list {background: #fff;border-radius: 0.5rem;box-shadow: 0 2px 6px 0 #ccd4e7;}
+.card-group > p {border-top:1px solid #eeeeee;border-bottom:1px solid #eeeeee;padding:0.8rem 2rem;background:#fbfbfb;font-size:14px;}
+.mycommunity-card-list .card-title h3 {font-size:20px;padding:1.5rem 2rem;font-weight:700;}
+.mycommunity-card-list .member-card {width:50%;display:inline-block;padding:1.5rem 2rem;border-bottom:1px solid #eeeeee;}
+.mycommunity-card-list > .member-card:nth-child(odd) {border-right:1px solid #eeeeee;}
+.mycommunity-card-list .member-card .comment > div {display:inline-block;}
+.mycommunity-card-list .member-card .comment .content {margin-left:1rem;vertical-align: top;}
+.mycommunity-card-list .member-card .comment .content .author > img {padding-right:0.5rem;vertical-align: sub;}
+.mycommunity-card-list .member-card .comment .content > .metadata:nth-child(2) {font-size:14px;color:#666666;margin:0.5rem 0;}
+.mycommunity-card-list .member-card .comment .content .metadata span:nth-child(even) {font-weight:700;margin-left:0.5rem;color:#000;}
+.mycommunity-card-list .member-card .comment .content > .metadata:last-child {font-size:14px;color:#999999;}
+
+.member-card.profile-box {width:50%;display:inline-block;padding:1.5rem 2rem;border-bottom:1px solid #eeeeee;}
+.member-card.profile-box:nth-child(odd) {border-right:1px solid #eeeeee;}
+.member-card.profile-box .comment > div {display:inline-block;}
+.member-card.profile-box .comment .content .lms-nick {font-size: 0.875rem;
+    font-weight: 700;
+    color: #222;}
+.member-card.profile-box .comment .content {margin-left:1rem;vertical-align: top;}
+.member-card.profile-box .comment .content > .metadata.profile-box-mate01 {font-size:14px;color:#666666;margin:0.5rem 0;}
+.member-card.profile-box .comment .content .metadata span:nth-child(even) {font-weight:700;margin-left:0.5rem;color:#000;}
+.member-card.profile-box .comment .content > .metadata:last-child {font-size:14px;color:#999999;}
+.member-card .comment .content .card-follow {color:#0e73db;font-size: 0.875rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.card-group-list {padding:1.5rem 2rem;}
+.card-group-list.each-list {background: #fff;border-radius: 0.5rem;box-shadow: 0 2px 6px 0 #ccd4e7;margin:1.5rem 0;}
+.card-group-list h3 {font-size:20px;font-weight:700;display:inline-block;}
+.card-group-list .card-group-span {float:right;font-size:14px;}
+.card-group-list .card-group-span > span {padding-bottom: 0.2rem;vertical-align: middle;display: inline-block;}
+.card-group-list .card-group-span > button {margin-left:1rem;}
+.card-group-list .card-group-span > span:nth-child(1) {color:#4c4c4c;font-weight:700;}
+.card-group-list .card-group-span > span:nth-child(1)::after {content: '';display: inline-block;width: 0.0625rem;height: 0.625rem;background: #d8d8d8;margin: 0  0.7375rem;}
+.card-group-list .card-group-span > span:nth-child(2) {color:#666666;padding-right:0.6rem;}
+.card-group-list .card-group-span > span:nth-child(3) {color:#4c4c4c;font-weight:700;}
+
+ 
+.board-down-title-right.margin_button_top > button.ui.button.post.delete {margin:0 !important}
+.board-down-title-right.margin_button_top > button.ui.button.post.list2 {margin:0 0.625rem !important;}
+.board-down-title-right.margin_button_top > button.ui.button.post.list2.complete {margin:0 !important}

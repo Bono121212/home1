@@ -1,0 +1,93 @@
+.ui.breadcrumb {
+  float: right;
+}
+
+.mainVideoInner {
+  position: relative;
+}
+
+.promotionVideo {
+  cursor: pointer;
+}
+
+.promotion-strong {
+  margin: 60px auto 40px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: -0.6px;
+  text-align: center;
+}
+
+.subVideo-inner {
+  margin: 40px auto;
+}
+
+.subVideo {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+.subVideo .subVideoThumbImg {
+  width: 162px;
+  height: 92px;
+}
+
+.mainVideoInner .playIcon {
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.subVideo:nth-child(2) {
+  padding: 0 24px;
+}
+
+.subVideo:nth-child(3) {
+  padding: 0 24px 0 0;
+}
+
+.subVideo-inner .subVideo-text {
+  width: 162px;
+}
+
+.subVideo-inner .subVideo-text a {
+  font-family: NotoSansCJKkr;
+  font-size: 12px;
+  line-height: 1.83;
+  letter-spacing: -0.4px;
+}
+
+.subVideo-inner .subVideo-text a.active {
+  font-family: NotoSansCJKkr;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.83;
+  letter-spacing: -0.4px;
+  text-decoration: underline;
+}
+
+.subVideo .playIcon {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+
+.subVideo .playIcon.second {
+  position: absolute;
+  top: 25%;
+  left: 44%;
+} 
+
+.subVideo .playIcon.thrid {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}

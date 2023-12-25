@@ -1,0 +1,107 @@
+.external-info-wrap{position:relative;display:flex;width:75rem;margin:0 auto;padding:1.938rem 0;}
+.external-info-wrap .ui.label.onlytext{display:block;margin-bottom:.438rem;}
+.external-info-wrap .ui.label.onlytext span{font-size:1rem;}
+
+.external-info-wrap .cell + .cell {margin-left:auto;margin-top:.375rem;padding-right:1.5rem;}
+.external-info-wrap .cell-inner{position:relative;display:flex;}
+.external-info-wrap .cell .profile{width:4.875rem;height:4.875rem;margin-right:1.125rem;}
+.external-info-wrap .cell .profile .pic{overflow:hidden;width:100%;height:100%;border-radius:100%;border:.0625rem solid #ddd; position: relative;}
+.external-info-wrap .cell .profile .pic img{width:100%;height:100%;}
+.external-info-wrap .cell .text-info .part{font-size:1.25rem;color:#4c4c4c;}
+.external-info-wrap .cell .text-info .name{font-size:1.625rem;font-weight:900;color:#000;}
+
+.external-info-wrap .expert-info1{position:relative;width:6.25rem;margin-left:2.688rem;text-align:center;}
+.external-info-wrap .expert-info1:first-child{margin-left:0;}
+.external-info-wrap .expert-info1::before{content:'';position:absolute;top:50%;left:-25%;display:block;width:.188rem;height:.188rem;border-radius:100%;background:#999;}
+.external-info-wrap .expert-info1:first-child::before{width:0;height:0;background:transparent;}
+.external-info-wrap .expert-info1 .value2{text-align: center;font-size:1rem;}
+.external-info-wrap .expert-info1 .value2 strong{font-size:1.5rem;}
+
+/* main  */
+.external-course-area {width:100%;background: #fff;}
+.external-course-area .external-course-wrap{position: relative;width: 75rem;margin: 0 auto;padding: 2.5rem 0 2.375rem 0;}
+.external-course-area .external-course-wrap .title-area {position: relative;width: 49.375rem;height: 100%;vertical-align: top;box-sizing: border-box;}
+.external-course-area .external-course-wrap .title-area .header {display:inline-block;margin-left:.625rem;font-size: 1.875rem;line-height: 2.625rem; letter-spacing: -0.05rem;word-break: normal;color: #222;}
+.external-course-area .external-course-wrap .title-area .deatil{margin-top:.625rem;}
+
+.all-status-area .status-inner{position:relative;width:75rem;margin:0 auto;padding:2.813rem 0;}
+.all-status-area .status-title{position:relative;}
+.all-status-area .status-title strong{display:block;margin-bottom:1.25rem;font-size:1.25rem;}
+.all-status-area .status-title .board-down-title-right{position:absolute;top:0;right:0;}
+.all-status-area .graph-wrap .graph {overflow:hidden;height:23.188rem;border-radius:.5rem;background:#fff;}
+
+.learning-status{background:#dde5f3;}
+.learning-status .graph-wrap{display:flex;}
+.learning-status .graph-wrap .graph{box-shadow: 0 2px 6px 0 rgba(183, 192, 212, 0.5);}
+.learning-status .graph-wrap > .graph:first-child{width:23.75rem;}
+.learning-status .graph-wrap > .graph + div{width:49.375rem;margin-left:auto;}
+
+.relative-status{background:#f4f7fd;}
+.relative-status .graph{ box-shadow: 0 2px 6px 0 #ccd4e7;}
+
+.tab-area{width:75rem;margin:3.438rem auto 0;}
+.tab-area .ui.menu{height:3.125rem;border:none;border-radius:0;border-bottom:1px solid #637893;background:transparent;box-shadow:none;}
+.tab-area .ui.menu .item{display:inline-block;width:10rem;text-align:center;border:1px solid #cfcfcf;border-bottom:none;border-right:none;border-radius: 0;}
+.tab-area .ui.menu .item:last-child{border-right:0.063rem solid #cfcfcf;}
+.tab-area .ui.menu .item.active{height:3.188rem;font-weight:900;border:0.063rem solid #637893;border-bottom:none;background:#f4f7fd;color:#000;}
+
+
+/* 테이블 */
+.table-board-title {margin:2rem auto 1.25rem;height:auto;}
+.table-board-title::after{content:'';display:block;clear:both;height:0;}
+.table-board-title .list-number {float: left;margin-top:0.2rem;font-size: 1rem;color: #777;line-height: 1.5rem;letter-spacing: -0.01875rem;}
+.table-board-title .right-wrap {float:right;}
+.table-board-title .right-wrap > button {margin:0 0.3rem;}
+.table-board-title .right-wrap.right_txt span {margin-right:0.625rem;vertical-align: middle;}
+.table-board-title .right-wrap .ui.checkbox + .ui.checkbox{margin-left:1.875rem;}
+.table-board-title .right-wrap .ui.checkbox label{padding-left: 2rem; font-size: .875rem;color: #222;}
+.table-board-title .right-wrap .ui.checkbox input[type="checkbox"] + label::before{background-image:url('../../../../images/all/btn-check-disabled.svg') !important;;}
+.table-board-title .right-wrap .ui.checkbox input[type="checkbox"]:checked + label::before{background-image: url("../../../../images/all/btn-check-selected.png") !important;}
+.table-board-title .right-wrap .ui.selection.dropdown{margin-left:1.875rem;}
+
+.external-table-wrap .ui.table{overflow:hidden;border-radius:.5rem;border:none;  box-shadow: 0 0.125rem 0.375rem 0 #ccd4e7;}
+.external-table-wrap .ui.table thead th,
+.external-table-wrap .ui.table tbody td{text-align:center;border-width:0 0 0.063rem 0;border-style:solid;border-color:#d6deed;}
+.external-table-wrap .ui.table thead th{padding:1.25rem 0;background:#fff;}
+.external-table-wrap .ui.table tbody td{padding:1.375rem 0;}
+
+.external-table-wrap .ui.table .title{width:28rem;}
+.external-table-wrap .ui.table .title span{display:block;width:27.938rem;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.external-table-wrap .ui.table .category{width:7.75rem;}
+.external-table-wrap .ui.table .type,
+.external-table-wrap .ui.table .done,
+.external-table-wrap .ui.table .new,
+.external-table-wrap .ui.table .reply,
+.external-table-wrap .ui.table .send,
+.external-table-wrap .ui.table .wait,
+.external-table-wrap .ui.table .grade{width:6rem;}
+.external-table-wrap .ui.table .grade{padding-right:1.25rem;}
+
+.paging-search > .ui.selection.dropdown {margin-right:1rem;border: 0.063rem solid #ddd !important;height: 2.3rem !important;vertical-align: top;min-width: 10.5rem !important;}
+.paging-search > .ui.input.search.h38 input {width:38rem;background:#fff !important;border-color:#d1d6e2 !important}
+.paging-search > .ui.dropdown.small-border > .text {line-height: 2.2rem;}
+
+
+
+/* profile 신규 */
+.external-info-wrap .cell .profile{position: relative;}
+.external-info-wrap .cell .profile .button.edit{margin:0; padding:0; display: block; width: 24px; height: 24px; border-radius: 50%; border: 1px solid #4c4c4c; background:#fff url('../../../../images/all/icon-list-post-24-px-4c.svg')no-repeat center/16px; position: absolute; bottom: 0; right:0;}
+.popup_profile_edit .profile-edit-contents .inner{padding: 24px;}
+
+ /* _profile_edit */
+.profile-edit-contents .table{ border-radius: 0.5rem; box-shadow: 0 0.125rem 0.375rem 0 rgba(76,76,76,.2); background: #fff; border:0; overflow: hidden;}
+.profile-edit-contents .table tr td{ padding: 1.375rem 1.875rem; color:#222; font-size: 1rem; border-right: 0.063rem solid #eee;}
+.profile-edit-contents .table tr td:first-of-type{ background:#fbfbfb; color:#4c4c4c; text-align: left; }
+.profile-edit-contents td .ui.input{width:100%;}
+.profile-edit-contents td .ui.input > input, .profile-edit-contents td textarea{ width:100%; max-width:100%; border-radius: 0.25rem; border: 0.063rem solid #7f7f7f; padding: 0.875rem 1.125rem; max-height: 4.375rem; font-size: 0.875rem;}
+.profile-edit-contents .table .bttn-line td{ padding: 0.938rem 1.875rem; }
+.profile-edit-contents td .ui.input > .fileup-bttn{ display:none; }
+.profile-edit-contents td .ui.input > .fileupload-area{ width: auto; border: 0; padding: 0; margin-left: 1.25rem; line-height: 1.43;}
+.profile-edit-contents .line02{ padding: 0.5rem 1.25rem 0.625rem; font-size: 0.875rem; background: #333; color: #fff; margin:0; line-height: 1.43;}
+.profile-edit-contents .line02:hover{ background:#333; color:#fff;}
+.profile-edit-contents .line02 + span{ display:inline-block; margin-left: 1.25rem; font-size: 0.875rem; color:#555; }
+.profile-edit-contents .mypage-edit-bottom{ padding-top: 2.5rem; text-align: center; }
+.profile-edit-contents .mypage-edit-bottom span{ display:inline-block; color:#6c788f; font-size: 1rem;}
+.profile-edit-contents .mypage-edit-bottom .bttn-area{padding: 1.25rem;}
+.profile-edit-contents .bttn-area .button +.button{margin-left:1.25rem;}
+.profile-edit-contents .bttn-area .ui.button.fix.line{background:transparent}

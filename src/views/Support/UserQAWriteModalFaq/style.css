@@ -1,0 +1,17 @@
+.ui.modal.base.qna-write-modal .faq-modal-cont-area.content {padding: 25px 30px 20px !important;height: 77vh;overflow-y: auto;}
+.support-list-wrap.faq.modal-faq-container { overflow: hidden; padding-bottom: 10px; }
+.support-list-wrap.faq.modal-faq-container .cate-wrap {margin-bottom: 15px;}
+.support-list-wrap.faq.modal-faq-container .list-top { overflow: hidden; }
+.support-list-wrap.faq.modal-faq-container .list-top .list-top-left { font-size: 14px; height: 38px; line-height: 38px; }
+.scrolling-60vh.faq-list-wrap { height: 50vh; max-height: 50vh;position: relative;border-top:1px solid #999;border-bottom: 1px solid #999;}
+.scrolling-60vh.faq-list-wrap .accordion.ui.styled { border-radius: 0;}
+.scrolling-60vh.faq-list-wrap .accordion.ui.styled .title { line-height: 20px; padding: 1rem 1.5rem; }
+.scrolling-60vh.faq-list-wrap .accordion.ui.styled .title .faq-icon { width: 2rem; }
+.scrolling-60vh.faq-list-wrap .accordion.ui.styled .title .dropdown.icon { top: 1rem; }
+.scrolling-60vh.faq-list-wrap .accordion.ui.styled .content { padding-top: 0 !important; padding-left: 3.8rem !important; padding-right: 3.2rem !important }
+.scrolling-60vh.faq-list-wrap .accordion.ui.styled .title:first-of-type{border-top:0}
+
+.support-list-wrap.faq.modal-faq-container .cate-wrap .radio-wrap .ui.radio.checkbox { height: 36px;}
+.support-list-wrap.faq.modal-faq-container .cate-wrap .radio-wrap .ui.radio.checkbox input.hidden + label { padding: 0 35px !important; height: 36px; line-height: 2.571; font-size: 0.875rem;}
+
+.qna-write-modal .lms-paging-holder{padding-bottom:0}

@@ -1,0 +1,16 @@
+.ui.modal.base .content.admin_popup_content {padding:2rem 0 2.5rem !important;text-align:center;}
+.admin_popup_content h3 {font-size:1.625rem;color:#222222;font-weight:700;margin-bottom: 0.5rem;}
+.admin_popup_content p {font-size:0.875rem;color:#555555;}
+.admin_popup_close {float: right;margin: 0.5rem 1rem;}
+
+.ui.modal.base .content.admin_popup_reject {padding:1.875rem !important;}
+.ui.modal.base .content.admin_popup_reject h4 {font-size:1rem;color:#222222}
+.ui.modal.base .content.admin_popup_reject h5 {font-size:0.875rem;font-weight:bold;color:#222222;margin-bottom:0.5rem;}
+.ui.modal.base .content.admin_popup_reject p {font-size:0.875rem;color:#4c4c4c;margin-bottom:1.875rem;}
+.ui.modal.base .content.admin_popup_reject .admin-popup-textarea > textarea {max-height: 9.75rem;}
+.ui.modal.base .content.admin_popup_reject > a {font-size:0.75rem;color:#9a9a9a;text-decoration: underline;margin-bottom:1rem;display: inline-block;}
+
+.ui.modal.w450 { width: 25.25rem; }
+
+.ui.modal.w700 { width: 43.75rem; }
+ 

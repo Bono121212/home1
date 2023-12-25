@@ -1,0 +1,6 @@
+
+.support-list-wrap.user-qa .list-top .post.ask.ui.button:active, 
+.support-list-wrap.user-qa .list-top .post.ask.ui.button:focus, 
+.support-list-wrap.user-qa .list-top .post.ask.ui.button:hover { color: #777; }
+.admin-answer-top {display: flex;justify-content: space-between;align-items: flex-end;}
+.admin-answer-top .ui.button.post.ask { width: auto; padding: 0 12px !important; display: inline-block; }

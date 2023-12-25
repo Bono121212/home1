@@ -1,0 +1,4 @@
+.badge-list ul li {margin-right:100px}
+.badge-list ul li:nth-child(4n) {margin-right:0}
+.badge-list ul li .badge-name {width:100%}
+.badge-list ul li .badge-name span {float:left}

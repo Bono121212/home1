@@ -1,0 +1,7 @@
+.support-list-wrap.user-qa .list-top .post.ask.ui.button{margin-left:20px;}
+.support-list-wrap.user-qa .qna-admin-list-wrap .ui.table.qna-admin-list .title .ellipsis{width:auto; max-width: 500px;}
+.support-list-wrap.user-qa .qna-admin-list-wrap .ui.table.qna-admin-list a{display: inline-block;}
+
+.support-list-wrap.user-qa .list-top .post.ask.ui.button:hover,
+.support-list-wrap.user-qa .list-top .post.ask.ui.button:active,
+.support-list-wrap.user-qa .list-top .post.ask.ui.button:focus{color:#777; outline: none; background-color: transparent;}

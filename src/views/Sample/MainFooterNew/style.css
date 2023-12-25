@@ -1,0 +1,56 @@
+/* footer 리뉴얼 */
+#root section.footer2 { background: #35363a; height: auto; }
+#root section.footer2 .cont-inner { padding: 1rem 0 1.5rem; }
+.footer .footer-inner.foot-nav-wrap { display: table; width: 100%; }
+.footer .foot-nav { overflow: hidden; display: table-cell; }
+.footer .foot-nav .foot-nav-item { float: left; }
+.footer .foot-nav .foot-nav-item + .foot-nav-item { margin-left: 6.6rem; }
+.footer .foot-nav .foot-nav-item .foot-nav-li { padding: 2px 0; box-sizing: initial; }
+.footer .foot-nav .foot-nav-item .foot-nav-li.tit { height: 3rem; line-height: 3rem; padding: 0;}
+.footer .foot-nav .foot-nav-item .foot-nav-li a { color: #b9b9b9; font-size: 0.8rem; }
+.footer .foot-nav .foot-nav-item .foot-nav-li.tit a { color: #fff; font-size: 0.9rem; font-weight: bold; }
+.footer2 .foot-nav .foot-nav-item .foot-nav-li a.on { color: #e2bb5d; }
+.footer2 .foot-site { display: table-cell; width: 192px; vertical-align: top; }
+.footer2 .ui.selection.dropdown.f-site {
+    display: block; position: relative; background: transparent; border-radius: 0 !important; border: #4c4c4c 1px solid !important;
+    width: 12rem; min-width: 6.25rem; min-height: 3rem; height: 3rem; line-height: 2.75rem !important;
+}
+.footer2 .ui.selection.dropdown.f-site.active { border: #4c4c4c 1px solid !important;}
+.footer2 .ui.selection.dropdown.f-site > .text { color: #eee !important; }
+.footer2 .ui.selection.dropdown.f-site .menu {
+    max-height: 9rem !important; background: #35363a; border: #4c4c4c 1px solid !important; border-radius: 0; padding: 0.5rem; padding-right: 0.8rem;
+}
+.footer2 .ui.selection.dropdown.f-site { color: #eee;}
+.footer2 .ui.selection.dropdown.f-site .item { height: 2rem; line-height: 2rem; background: none; color: #eee;}
+.footer2 .ui.selection.dropdown.f-site .item:hover { background: #404040}
+.footer2 .ui.dropdown.selection.f-site .icon.dropdown { margin: 0 !important; top: 0 !important; right: 0 !important; }
+.footer2 .ui.dropdown.selection.f-site .icon.dropdown:before { background: none !important; content: "\f078"; font-family: 'Icons'; line-height: 22px; }
+.footer2 .ui.dropdown.selection.f-site.active .icon.dropdown:before { content: "\f077"; }
+.footer2 .copy-wrap { border-top: #4c4c4c 1px solid; }
+#root .footer2 .copy-wrap .cont-inner { color: #666; font-size: 0.8rem; height: 1.5rem; line-height: 1.5rem; box-sizing: initial; padding: 1.3rem 0 1.2rem;}
+#root .footer2 .copy-wrap .cont-inner > div { display: inline-block; }
+#root .footer2 .copy-wrap .foot-logo { margin-right: 1rem; }
+#root .footer2 .copy-wrap .s-kuniversity { position: static; width: auto; opacity: 0.2; }
+#root .footer2 .copy-wrap .cont-inner .foot-copyright .copyright { opacity: .5; }
+
+/* 2021.10.08 재작업 */
+.f-site-box { position: relative; width: 12rem; height: 3rem; color: #eee; font-size: .875rem; }
+.f-site-box .f-site-btnbox { overflow: hidden; padding-left: 1.1rem; line-height: 2.9rem; border: #4c4c4c 1px solid; cursor: pointer; }
+.f-site-box .f-site-btnbox .icon { display: block; float: right; height: 2.9rem; width: 2.9rem; transition: all 200ms; }
+.f-site-box.on .f-site-btnbox .icon { transform: rotate(180deg); }
+.f-site-box .f-site-menu { display: none; position: absolute; top: 100%; left: 0; right: 0; line-height: 2rem; max-height: 9rem; overflow: auto; border: #4c4c4c 1px solid; border-top: 0; padding: .5rem; }
+.f-site-box.on .f-site-menu { display: block; }
+
+.f-site-box .f-site-menu ul, .f-site-menu li { display: block; }
+.f-site-box .f-site-menu .link-options { padding: 0 .6rem; }
+.f-site-box .f-site-menu .link-options:hover { background: #404040; }
+.f-site-box .f-site-menu .link-options a { display: block; }
+
+#root section.content.sample-footer {
+    min-height: calc(100vh - 76px - 33px - 64px - 277px);
+}
+
+/* Footer 수정(2021.12.06) */
+#root .footer2 .copy-wrap .cont-inner { overflow: hidden; font-size: 12px; }
+#root .footer2 .copy-wrap .cont-inner .foot-logo { display: block; float: left; height: 1.5rem; line-height: 1.5rem; }
+#root .footer2 .copy-wrap .cont-inner .foot-copyright { transform: translateY(-1px); }

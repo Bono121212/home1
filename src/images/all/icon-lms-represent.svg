@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="20" viewBox="0 0 31 20">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g transform="translate(-449 -1221) translate(400 159) translate(0 413) translate(0 554) translate(49 95)">
+                            <rect width="30" height="19" x=".5" y=".5" fill="#FFF" stroke="#FF664D" rx="9.5"/>
+                            <text fill="#FF664D" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="10" font-weight="bold" letter-spacing="-.4">
+                                <tspan x="6.7" y="14">대표</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

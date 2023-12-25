@@ -1,0 +1,7 @@
+.container-full{ position:relative; margin:0; padding:0; width : 100%; height: calc(100vh - 20px); background-color:#fff; text-align: center; display: table; }
+.align.browser{height: 300px; display: table-cell; vertical-align: middle;}
+.align.browser .ui.image { display: block; margin: 0 auto; position:relative; max-width: 100%; background-color:transparent;}
+.align.browser .align-text { display: block; margin-top: 16px; color: #222; font-size: 0.875rem; letter-spacing: -0.35px; line-height: 1.43;}
+.align.browser .align-text strong { font-size: 20px; letter-spacing: -0.5px;}
+.align.browser .align-text p { color: #666; margin: 20px auto; }
+.align.browser .align-count { margin-top: 17px; color:#222; font-size: 30px; font-weight: 700; letter-spacing: -0.75px; }

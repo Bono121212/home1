@@ -1,0 +1,79 @@
+.ui.input.action.file_input label {
+    display: inline-block !important;
+    width: 7.5rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    color: #fff;
+    border-radius: 0 0.25rem 0.25rem 0 !important;
+    background: #4c4c4c !important;
+    text-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0;
+}
+
+.ui.form .field .field_tit{color:#222; font-size: 1rem; font-weight: bold;}
+.ui.form .field .field_tit + .report-attach{margin-top:12px}
+i.icon.info20{margin:0; width:1.25rem; height: 1.25rem; position: relative; top:-2px; left:6px}
+i.icon.info20::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url("../../../images/all/icon-tooltip-gray-20-px.svg") no-repeat 0 0 !important;
+    background-size: 100% 100% !important;
+}
+
+.dt_tit .sub_tit{display: inline-block; color:#222; font-size: 1.875rem; margin-left: 2.063rem;}
+.left_line16{position: relative;}
+.left_line16::before{content:''; display: inline-block; position: absolute; width:0.063rem; height: 1rem; background-color: #d8d8d8; top : 0.875rem; left: -1rem}
+
+.edit-form{margin: 2.5rem 0; padding-bottom: 3.75rem; border-top:0.063rem solid #ddd; border-bottom: 0.063rem solid #ddd;}
+.write-form .ui.form .field{position: relative; margin:2.5rem 0;}
+.write-form .ui.form .field > label{margin-bottom:1rem; color:#222; font-size: 1rem; font-weight: bold;}
+.write-form .ui.checkbox input.hidden + label{color:#777; font-size: 0.875rem; }
+input.title_input{border-color:#999 !important; color:#222 !important; font-size: 0.875rem !important; padding: 0.875rem 4rem 0.875rem 1.125rem !important}
+.count.input_in{display: inline-block; position:absolute; right:0.75rem; bottom: 0.75rem}
+.write-form .count .now{color: #222; font-size: 0.875rem;}
+.write-form .count .max{color: #999; font-size: 0.875rem;}
+.write-form .ql-toolbar.ql-snow{
+    background: #f5f5f5;
+    border-color: #7f7f7f;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.write-form .quill .ql-toolbar + .ql-container{
+    border-color:#7f7f7f;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+.ui.button.add_file{
+    margin:0;
+    padding: 0.375rem 1rem;
+    color:#777;
+    font-size: 0.875rem;
+    font-weight: bold;
+    border: 0.063rem solid #777;
+    border-radius: 0.25rem;
+}
+
+.bottom_file_area .ui.form .field + .field{margin-top:40px}
+.flex.sp_bt{justify-content: space-between;}
+.ui.action.input.file_input{position: relative; margin-top:0.75rem}
+.ui.action.input.file_input + .file_input{margin-top: 0.63rem}
+.rmd_form{padding-top: 2.25rem}
+.rmd_form .table_card{margin-top: 0.75rem;}
+
+.bottom-bttn{text-align: center;}
+.bottom-bttn .ui.button + .ui.button{margin-left:1.25rem}
+.rmd_form .nodata{margin-top: 12px; padding: 24px 0 40px; border-top: 2px solid #666;}
+.rmd_form .nodata .txt{color:#999; font-size: 0.875rem;}
+
+.ui.checked.checkbox input.hidden + label{font-weight: 700; letter-spacing: -0.6px;}
+
+.templete_sub_contents .lg-attach .ui.segment{box-shadow: none; margin-top: 16px;}
+.popup_text.ui.top.left.popup:before{bottom:-0.38em}

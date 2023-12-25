@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C3B258AC-3AC9-47ED-BF54-842B0C79DF2D</title>
+    <g id="Collection" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Collection_Chapter_Overview_01" transform="translate(-1436.000000, -175.000000)">
+            <g id="@-Contents" transform="translate(400.000000, 163.000000)">
+                <g id="btn_note_write" transform="translate(1024.000000, 0.000000)">
+                    <circle id="Oval" stroke="#BBBBBB" cx="24" cy="24" r="23.5"></circle>
+                    <path d="M19.3359528,32 L17.4964066,32 C16.3918371,32 16,31.515981 16,30.5692072 L16,15.4474096 C16,14.5006358 16.3918371,14 17.4964066,14 L30.5072632,14 C31.6118327,14 32,14.5006358 32,15.4474096 L32,19.7737908" id="Path" stroke="#979797" stroke-width="1.5"></path>
+                    <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" x="20.5" y="19.5" width="7" height="1"></rect>
+                    <rect id="Rectangle-Copy" stroke="#979797" fill="#D8D8D8" x="20.5" y="23.5" width="3" height="1"></rect>
+                    <path d="M30.25,21.75 L30.25,34.6262225 L28.0166814,36.3103357 L25.75,34.6232792 L25.75,21.75 L30.25,21.75 Z" id="Rectangle" stroke="#979797" stroke-width="1.5" transform="translate(28.000000, 29.123730) rotate(-315.000000) translate(-28.000000, -29.123730) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

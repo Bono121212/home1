@@ -1,0 +1,12 @@
+.ui.modal.base .content.admin_popup_add {padding:2rem 2rem 2.5rem !important;text-align:center;}
+.ui.modal.w450 { width: 25.25rem; }
+ 
+.ui.input.admin_text_input.add > input {min-width: 30.25rem !important;}
+
+.quiz-zoom > .admin_popup_add > div > img {width:100%;}
+.quiz-zoom > .header .admin_popup_close {overflow:hidden;margin:0 1.875rem 0 0;height:3rem;}
+.quiz-zoom > .header .admin_popup_close > img {margin:1rem 0.313rem 0 0;}
+.quiz-zoom > .header .admin_popup_close > span {font-size:0.875rem;font-weight:normal;color:#222222;vertical-align: top;}
+.ui.modal.base.quiz-zoom > .header {height:3.75rem !important;line-height: 3.75rem !important;}
+
+.ui.modal.base.quiz-zoom > .content.admin_popup_add {padding:0.625rem !important;}

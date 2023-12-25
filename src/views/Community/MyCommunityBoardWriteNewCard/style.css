@@ -1,0 +1,39 @@
+.form-contants .ui.form .field{position:relative;}
+.form-contants .button.btn_select{position:absolute;top:-.375rem;left:5.313rem;display:inline-block;width:6.938rem;height:2rem;padding:.375rem .938rem;font-weight:900;font-size:.875rem;border-radius:.25rem;border: 1px solid #6c788f;color:#6c788f;}
+
+.table_card{position:relative;margin-top:1.3rem;}
+.table_card .hidden{position:absolute;top:0;left:0;width:0;height:0;font-size:0;}
+.table_card .ui.table{border-radius:0;border:none;border-top:2px solid #666;font-size:.875rem;background:transparent}
+.table_card .ui.table th{padding:0.625rem 0;text-align:center;background-color:#fff;color:#222;}
+.table_card .ui.table td{padding:.6rem 0;text-align:center;color:#222;word-break: break-all;}
+.table_card .ui.table td:first-child{padding-left:1rem;}
+.table_card .ui.table tr:last-child td{border-bottom:1px solid #ddd;}
+.table_card .ui.table .ellipsis{max-width:25.625rem;text-align:left;letter-spacing: -.04rem;}
+.table_card .button{width:1.625rem;height:1.625rem;margin:0 0 0 .375rem;padding:0;background-repeat:no-repeat;background-position: 50%;}
+.table_card .button.btn_down{background-image:url('../../../images/all/btn-control-down-26-px-grey.svg');}
+.table_card .button.btn_up{background-image:url('../../../images/all/btn-control-top-26-px-grey.svg');}
+.table_card .button.btn_delete{background-image:url('../../../images/all/btn-control-delete-26-px.svg');}
+
+
+.ui.modal.base.popup_slt_card{width:62.5rem;}
+.ui.modal.base.popup_slt_card .content{padding:1.875rem !important;}
+
+.popup_slt_card .hidden{position:absolute;top:0;left:0;width:0;height:0;font-size:0;}
+.popup_slt_card .header{position: relative;height:3rem !important;}
+.popup_slt_card .header .button.close{position: absolute;top:.625rem;right:.625rem;}
+.search_box .ui.table{border-color: #ddd;}
+.search_box .note_input { background: #fff;}
+.popup_slt_card .search_box .ui.table tr th{width:6.25rem;font-size:.875rem;}
+.popup_slt_card .search_box .ui.table tr td{padding:.625rem 0;}
+/* .popup_slt_card .search_box .option_box{width:11.563rem;} */
+.popup_slt_card .search_box .note_input input{width:32.438rem;}
+.popup_slt_card .admin_calendar .ui.input .react-datepicker-wrapper .react-datepicker__input-container > input{width:11.563rem !important;}
+
+.popup_slt_card .table_card .ui.table td{padding:.65rem 0;}
+.popup_slt_card .table_card .ui.table .ellipsis{max-width:38rem;}
+
+.popup_slt_card .ui.checkbox{margin-bottom:-.25rem;}
+.popup_slt_card .lms-paging-holder{padding:.25rem 0 0 0;}
+.popup_slt_card .actions .button{width:11.875rem;height:2.5rem;font-size:.875rem;font-weight:900;}
+.popup_slt_card .actions .button.btn_close{border:1px solid #687891;color:#222;}
+.popup_slt_card .actions .button.btn_save{background:#ff664d;color:#fff;}

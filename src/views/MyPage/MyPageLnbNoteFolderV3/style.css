@@ -1,0 +1,4 @@
+.folder_inner.moveOn .folder_new .button { background: #bbb; border-color: #bbb; }
+.folder_inner.moveOn .folder_box li.moveActive .folder { box-shadow: 0 2px 6px 0 rgba(76, 76, 76, 0.2); }
+.folder_setting { color: #777; line-height: 2.375rem; border-bottom: #ddd 1px solid; }
+.mypage_contents .table-wrapper .community_nodata { box-shadow: 0 2px 6px 0 rgba(76, 76, 76, 0.2);}

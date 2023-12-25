@@ -1,0 +1,96 @@
+.global-curriculum-wrap{
+    display: inline-block;
+}
+.global-curriculum-wrap .global-component{
+    display: flex;
+    flex-direction: column;
+}
+
+.global-curriculum-wrap .global-component .global-curriculum-box{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 538px;
+    background: #e9e9e9;
+    border-radius: 8px;
+}
+
+.global-curriculum-wrap .global-component .global-curriculum-box .curriculum-link-box {
+    text-align: center;
+}
+
+.global-curriculum-wrap .global-component .global-curriculum-box .curriculum-link-box strong{
+    display: block;
+    padding: 13px 0;
+}
+
+.global-curriculum-wrap .global-component .global-curriculum-box a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    background: #53bc64;
+    border-radius: 8px;
+}
+
+.global-curriculum-wrap .global-component .global-curriculum-box .curriculum-link-box a{
+    margin: 0 10px 10px;
+    width: 518px;
+    height: 70px;
+}
+
+.global-curriculum-wrap .global-component .global-curriculum-box .link-wrap{
+    display: flex;
+}
+
+.global-curriculum-wrap .global-component .global-curriculum-box .curriculum-link-box .link-wrap a{
+    margin: 0 10px 10px;
+    width: 254px;
+    height: 150px;
+}
+
+.global-curriculum-wrap .global-component .global-curriculum-box .curriculum-link-box .link-colum-box a{
+    width: 254px;
+    height: 70px;
+}
+
+.global-curriculum-wrap .global-component .global-curriculum-box .link-colum-box a + a{
+    margin-top: 10px;
+}
+
+
+/* wrap2 */
+.global-curriculum-wrap.wrap2{
+    margin-left: 10px;
+}
+
+.global-curriculum-wrap.wrap2 .global-component{
+    flex-direction: initial;
+}
+
+.global-curriculum-wrap.wrap2 .global-component .global-curriculum-box{
+    width: 264px;
+    height: 350px;
+}
+
+.global-curriculum-wrap.wrap2 .global-component .global-curriculum-box + .global-curriculum-box {
+    margin-left: 10px;
+}
+
+.global-curriculum-wrap.wrap2 .global-component .global-curriculum-box .curriculum-link-box .link-wrap .link-colum-box a{
+    width: 244px;
+    height: 140px;
+    background: #afbd44;
+}
+
+.global-curriculum-wrap.wrap2 .global-component .global-curriculum-box .curriculum-link-box .link-wrap .link-colum-box.sty2 a{
+    height: 90px;
+}
+
+
+
+
+
+
+

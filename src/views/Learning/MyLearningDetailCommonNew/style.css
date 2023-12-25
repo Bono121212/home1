@@ -1,0 +1,89 @@
+.ui.breadcrumb {
+    float: right;
+}
+.main-info-area > .progress-info-wrap.mypage.personal-detail {padding:1.563rem 0;height:7.5rem;}
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .text-info .name {font-size: 1.375rem;font-weight: bold;}
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .text-info .part {font-size:1rem;color:#4c4c4c;}
+
+
+.main-info-area > .progress-info-wrap.personal-detail .cell:nth-child(1) .cell-inner::after,
+.main-info-area > .progress-info-wrap.personal-detail .cell:nth-child(2) .cell-inner::after,
+.main-info-area > .progress-info-wrap.personal-detail .cell:nth-child(3) .cell-inner::after,
+.main-info-area > .progress-info-wrap.personal-detail .cell:nth-child(4) .cell-inner::after  {content:none;}
+
+
+
+.main-info-area > .progress-info-wrap.personal-detail .cell:nth-child(1) {width:43.75rem;}
+.main-info-area > .progress-info-wrap.personal-detail .cell:nth-child(2) {vertical-align: middle;}
+.main-info-area > .progress-info-wrap.personal-detail .cell:nth-child(3) {width:8.0625rem;vertical-align: middle;}
+.main-info-area > .progress-info-wrap.personal-detail .cell:nth-child(4) {width:13.75rem;padding-top: 0.25rem;vertical-align: initial;}
+
+
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .stamp-wrap .ui.label.stamp {text-align:center;margin-top:0.3rem}
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .stamp-wrap .ui.label.stamp .text1 {
+   margin-bottom: 12px; line-height: 1.125rem;font-size:0.875rem;}
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .stamp-wrap .ui.label.stamp .text2,
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .stamp-wrap .ui.label.stamp .text3 {font-size:1.375rem;text-align:center;color: #222;}
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .stamp-wrap .ui.label.stamp .text5,
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .stamp-wrap .ui.label.stamp .text6 {font-size: 1rem;font-weight: normal;color:#000;margin: 0 0 0 0.1rem;}
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .stamp-wrap .ui.label.stamp > div:last-child {line-height:1.2rem;display:inline-block;border-bottom:1px solid black;}
+
+
+
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .total-time .btn-total-time .label > span {font-size: 0.875rem;text-decoration: none;}
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .total-time .btn-total-time .label > span > strong {
+    font-weight: normal;
+    margin-right:0.188rem;
+    margin-top: 0.188rem;
+    display: inline-block;
+    color: #ff5740;}
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .total-time .btn-total-time .value2 {display: inline-block;border-bottom:0.063rem solid #000;margin-top:0.7rem;text-align: center; height: 1.75rem;}
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .total-time .btn-total-time .value2 > strong {margin-top: 0.438rem;font-size: 1.375rem;line-height:1.5rem;}
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .total-time .btn-total-time .value2 > span {line-height:auto;font-weight: 400;line-height: 1.4rem;}
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .total-time .btn-total-time .value2 > strong span {font-size: 1rem;font-weight: 400; margin: 0 0 0 0.1rem;}
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .total-time .btn-total-time > .ui.label.onlytext {margin-top: 0.225rem;margin-bottom:0;}
+
+.main-info-area > .progress-info-wrap.personal-detail .cell:nth-child(1) .text3 {
+    border-bottom: #000 1px solid;
+}
+.main-info-area > .progress-info-wrap.personal-detail .cell:nth-child(2) .cell-inner {
+    padding: 0; text-align: center;
+}
+.main-info-area > .progress-info-wrap.personal-detail .cell:nth-child(3) .cell-inner {
+    padding: 0 !important; text-align: center;
+}
+.main-info-area > .progress-info-wrap.personal-detail .cell .cell-inner .stamp-wrap .stamp > div:last-child {
+    border-bottom: 0 !important;
+}
+.content.mylearning .main-info-area > .progress-info-wrap.personal-detail .cell:nth-child(2) .text3,
+.content.mylearning .main-info-area > .progress-info-wrap.personal-detail .cell:nth-child(3) .text2 {
+    border-bottom: #000 1px solid;
+}
+
+.main-info-area>.progress-info-wrap.personal-detail .cell:nth-child(2) .cell-inner {
+    padding: 0;
+    text-align: center;
+}
+.main-info-area>.progress-info-wrap.personal-detail .cell:nth-child(3) .cell-inner {
+    padding: 0 !important;
+    text-align: center
+}
+
+.completion-time .table-css .head .cell {
+    height: 3rem;
+    padding-bottom: .25rem;
+}
+.completion-time .table-css .head .cell i.icon {
+    float: left;
+    margin-bottom: 0.25rem;
+}
+.completion-time .table-css .head .cell .text01 {
+    display: block;
+    float: left;
+    margin-right: .125rem;
+}
+.completion-time .table-css .head .cell .text02 {
+    display: block;
+    float: left;
+    margin-left: 0;
+}

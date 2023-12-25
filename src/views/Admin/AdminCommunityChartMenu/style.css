@@ -1,0 +1,8 @@
+.top-left-side strong{
+    color:#222;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.top-right-side .ui.dropdown + .button{margin-left:0.625rem}
+.ui.table.chart-table .state-dl td{color:#888}

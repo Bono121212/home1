@@ -1,0 +1,23 @@
+.ui.table.ml-05-p01 tbody tr td{border-bottom:0.063rem solid #eee;}
+.ui.table.ml-05-p01 tbody tr td.el span{width:100% !important;}
+.ui.table.ml-05-p01 tbody tr td .teacher_list li{overflow: hidden;white-space: nowrap;width: 100%;word-wrap: break-word;text-overflow:ellipsis;}
+.ui.modal.base .content.test-content-modal{height: 49.313rem;overflow-y: scroll;}
+.course-radio-survey > .ui.input.right-top-count{margin-left: 2rem;margin-bottom: 1rem;width: 55.313rem;}
+.ui.input.right-top-count input.text-pop[type=text] { border: 0.063rem solid #dae0eb;background: #f8f8f8;}
+.test-pop{padding: 0 2.813rem;}
+.test-right-box{margin-top: 0.25rem;color: #999999;font-size: 0.875rem;float: right;}
+.course-radio-survey.course-pop{border-bottom: none !important;}
+.admin_popup_close.test_pop{position: absolute;margin: 0;top: 0.75rem;right: 1.313rem;}
+.admin_popup_close.test_pop > img{vertical-align: middle;}
+.admin_popup_close.test_pop > span{margin-left: 0.25rem; vertical-align: inherit;}
+
+.course-radio-survey .survey-explain{display: inline-block;margin-top: 1rem; margin-left: 2rem;padding: 0.625rem 0;border-top: 0.063rem solid #eeeeee;width: 100%;border-bottom: 0.063rem solid #eeeeee;}
+.course-radio-survey .survey-explain .survey-answer{margin-top: 1.25rem;}
+.course-radio-survey .survey-explain .survey-answer + .survey-answer{margin-top: 0.75rem;}
+.course-radio-survey .survey-explain .survey-answer span{font-size: 0.875rem;vertical-align: top;line-height: 1.625rem;}
+.course-radio-survey .survey-explain .survey-answer span:first-child{font-weight: 700;}
+.course-radio-survey .survey-explain .survey-answer span + span{display: inline-block;margin-left: 1.25rem;width: 50.938rem;}
+.course-radio-survey .survey-explain .ui.icon.button.btn-blue .icon.morelink.more2{background: url('../../../images/all/icon-contents-more-close-8-px.png') 0 0 no-repeat;}
+.course-radio-survey .survey-explain .ui.icon.button.btn-blue .icon.morelink.more2.view-down{background: url('../../../images/all/icon-contents-more-open-8-px.png') 0 0 no-repeat;}
+.course-radio-survey .course-survey-list .img-mb30{margin-bottom: 1rem;}
+

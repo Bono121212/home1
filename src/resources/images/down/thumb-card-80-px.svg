@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g style="mix-blend-mode:darken">
+                    <g transform="translate(-1270 -159) translate(400 159) translate(870) translate(6.857 6.857)">
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.12 19.177H47.063V47.120000000000005H19.12zM55.806 33.246L47.417 33.246"/>
+                        <circle cx="59.291" cy="33.189" r="3.497" fill="#D0C9F4" fill-rule="nonzero" stroke="#000" stroke-width="2"/>
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M47.417 25.68L56.617 25.68 61.017 21.291M47.417 40.8L56.617 40.8 61.017 45.2"/>
+                        <circle cx="62.789" cy="47.2" r="3.497" fill="#D0C9F4" fill-rule="nonzero" stroke="#000" stroke-width="2"/>
+                        <circle cx="62.789" cy="19.177" r="3.497" fill="#D0C9F4" fill-rule="nonzero" stroke="#000" stroke-width="2"/>
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.48 33.246L18.869 33.246"/>
+                        <circle cx="6.994" cy="33.189" r="3.497" fill="#D0C9F4" fill-rule="nonzero" stroke="#000" stroke-width="2"/>
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.869 25.68L9.669 25.68 5.269 21.291M18.869 40.8L9.669 40.8 5.269 45.2"/>
+                        <circle cx="3.497" cy="47.2" r="3.497" fill="#D0C9F4" fill-rule="nonzero" stroke="#000" stroke-width="2"/>
+                        <circle cx="3.497" cy="19.177" r="3.497" fill="#D0C9F4" fill-rule="nonzero" stroke="#000" stroke-width="2"/>
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M33.086 55.806L33.086 47.417"/>
+                        <circle cx="33.143" cy="59.303" r="3.497" fill="#D0C9F4" fill-rule="nonzero" stroke="#000" stroke-width="2"/>
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M40.64 47.417L40.64 56.629 45.04 61.017M25.52 47.417L25.52 56.629 21.12 61.017"/>
+                        <circle cx="19.131" cy="62.789" r="3.497" fill="#D0C9F4" fill-rule="nonzero" stroke="#000" stroke-width="2"/>
+                        <circle cx="47.154" cy="62.789" r="3.497" fill="#D0C9F4" fill-rule="nonzero" stroke="#000" stroke-width="2"/>
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M33.086 10.491L33.086 18.869"/>
+                        <circle cx="33.143" cy="6.994" r="3.497" fill="#D0C9F4" fill-rule="nonzero" stroke="#000" stroke-width="2"/>
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M40.64 18.869L40.64 9.669 45.04 5.269M25.52 18.869L25.52 9.669 21.12 5.269"/>
+                        <circle cx="19.131" cy="3.497" r="3.497" fill="#D0C9F4" fill-rule="nonzero" stroke="#000" stroke-width="2"/>
+                        <circle cx="47.154" cy="3.497" r="3.497" fill="#D0C9F4" fill-rule="nonzero" stroke="#000" stroke-width="2"/>
+                        <rect width="19.566" height="19.566" x="23.303" y="23.246" fill="#D0C9F4" fill-rule="nonzero" rx=".01"/>
+                        <path fill="#D0C9F4" fill-rule="nonzero" d="M5.566 4H8.068999999999999V6.503H5.566zM11.223 50.446H14.812000000000001V54.035H11.223zM50.103 16.046H52.286V18.229H50.103z"/>
+                        <path fill="#000" fill-rule="nonzero" d="M24.96 27.966h2.777c3.097 0 5.006 1.6 5.006 5.017 0 3.417-1.909 5.108-4.892 5.108H24.96V27.966zm2.651 8.491c1.886 0 3.063-1.006 3.063-3.428 0-2.423-1.143-3.429-3.063-3.429h-.628v6.857h.628zM36.309 29.646L33.463 29.646 33.463 27.966 41.2 27.966 41.2 29.646 38.331 29.646 38.331 38.091 36.309 38.091z"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,126 @@
+.ui.breadcrumb {
+    float: right;
+}
+
+.main-info-area > .progress-info-wrap.personal-channel {padding:0.563rem 0;height: 7.5rem;}
+.recommend-info.personal-channel-header {text-align:center;}
+.recommend-info.personal-channel-header > .ui.label.onlytext {text-align:center;}
+.recommend-info.personal-channel-header > .ui.label.onlytext > .personal-channel-tit{display: inline-block;margin-top: 0.188rem;margin-bottom: 0.358rem; text-decoration: underline;}
+.recommend-info.personal-channel-header > .ui.label.onlytext > .personal-channel-tit > a {text-decoration: none;}
+.recommend-info.personal-channel-header > .value1 {}
+.recommend-info.personal-channel-header > .value1 > .text01 {font-size:1.375rem;}
+.recommend-info.personal-channel-header > .value1 > .text04 {font-size:1rem;font-weight:400;margin:0 0 0 0.1rem;}
+.main-info-area > .progress-info-wrap.personal-channel .cell:nth-child(3) {width:7.75rem;text-align:right;padding-left:0;padding-right:3.75rem;vertical-align: middle;}
+.main-info-area > .progress-info-wrap.personal-channel .cell:nth-child(2) {width: 36rem;padding-top: 0.875rem;}
+.main-info-area > .progress-info-wrap.personal-channel .cell:nth-child(1) {width:17.75rem;}
+.main-info-area > .progress-info-wrap.personal-channel .cell .text-info .name {font-size: 1.375rem;font-weight: bold;}
+.main-info-area > .progress-info-wrap.personal-channel .cell .text-info .part {font-size:1rem;color:#4c4c4c;}
+.main-info-area > .progress-info-wrap.personal-channel .cell:nth-child(1) .cell-inner::after,
+.main-info-area > .progress-info-wrap.personal-channel .cell:nth-child(2) .cell-inner::after,
+.main-info-area > .progress-info-wrap.personal-channel .cell:nth-child(3) .cell-inner::after {content:none;}
+.main-info-area > .progress-info-wrap.personal-channel .cell .recommend-info .personal-channel-list{height: 2.188rem;}
+.main-info-area > .progress-info-wrap.personal-channel .cell .recommend-info .personal-channel-list h3 {
+    display:inline-block;
+    width:9.063rem;
+    font-size:0.875rem;
+    vertical-align: top;
+    margin-top: 0.4rem;
+}
+.main-info-area > .progress-info-wrap.personal-channel .cell .recommend-info .personal-channel-list + .personal-channel-list {
+    margin-top:0.625rem;
+}
+.main-info-area > .progress-info-wrap.personal-channel .cell .recommend-info .personal-channel-list h3::before {
+    content:'';
+    display:inline-block;
+    width:5px;
+    height:5px;
+    background:#666666;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-top: 0.5rem;
+    margin-right: 0.438rem;
+}
+
+.main-info-area > .progress-info-wrap.personal-channel .cell .recommend-info .personal-channel-list > span {
+    width:9.375rem;
+    color:#222222;
+    border:1px solid #dddddd !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 0.9375rem;
+    line-height: 1.75rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: -0.01063rem;
+    color: #233b6a;
+    border-radius: 0.9375rem;
+    background: #fff;
+    display: inline-block;
+    min-height: 1em;
+    outline: none;
+    text-align: center;
+}
+
+.main-info-area > .progress-info-wrap.personal-channel .cell .recommend-info .personal-channel-list > span + span {margin-left:0.375rem;}
+
+
+
+
+
+
+
+.badge-category.sty2{padding: 40px 0 20px;}
+.badge-category.sty2 .swiper-container{position: initial;width: 840px;}
+.badge-category.sty2 .swiper-container .swiper-slide{margin-bottom: 0;height: 7.625rem;}
+.badge-category.sty2 .fn-parent-on{width: 10.5rem;overflow: hidden;height: 8.625rem;float: left;}
+.badge-category.sty2 .fn-parent-on.stick{position: relative;left: 28.5rem;}
+.badge-category.sty2  .fn-parent-on a{display: table;padding: 0 !important;}
+.badge-category.sty2  .fn-parent-on a .icon{display: block;vertical-align: middle;width: 5.625rem;height: 5.625rem;background: #eee;border-radius: 100%;text-align: center;}
+
+.badge-category.sty2  .fn-parent-on a .icon span{
+    display: block;
+    width: 5.625rem;
+    height: 5.625rem;
+    padding: 1.125rem;
+    box-sizing: border-box;
+}
+
+.badge-category.sty2  .fn-parent-on a .icon span img{
+    position: relative;
+    max-width: 100%;
+    width: 3.375rem;
+    height: 3.375rem;
+    background-color: transparent;
+}
+
+.badge-category.sty2  .fn-parent-on a .title{
+    display: block;
+    height: 2.625rem;
+    padding-top: 0.625rem;
+    padding-left: 0;
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.badge-category.sty2  .fn-parent-on a .title .ellipsis{
+    max-width: 6.125rem;
+    max-height: 3.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.badge-category.sty2 .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+    left: 22rem;
+    top: 6rem;
+}
+.badge-category.sty2 .swiper-button-next, .swiper-container-rtl .swiper-button-prev{right: 23.1rem;top: 6rem;}
+
+
+.channel-of-interest .table-css.type3 .cell:first-of-type{width: 11.8rem}
+.channel-of-interest .table-css.type3 .item-wrap{width:60.2rem}
+.content.mylearning .main-info-area > .progress-info-wrap.personal-channel .cell:first-child{width:26rem;}
+.content.mylearning .main-info-area>.progress-info-wrap.personal-channel .cell:nth-child(2){width:10rem;}

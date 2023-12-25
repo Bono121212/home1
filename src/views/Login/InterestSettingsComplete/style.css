@@ -1,0 +1,13 @@
+.ui.breadcrumb {
+    float: right;
+}
+
+#root .center-content .align.loading {
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: auto;
+    width: auto;
+    background: none;
+    line-height: inherit;
+}

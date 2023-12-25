@@ -1,0 +1,18 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M29.504 51c12.702 0 23-10.297 23-23s-10.298-23-23-23c-12.703 0-23 10.297-23 23s10.297 23 23 23z" id="l3t6f7265a"/>
+        <mask id="3q68aqwopb" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="46" height="46" fill="#fff">
+            <use xlink:href="#l3t6f7265a"/>
+        </mask>
+    </defs>
+    <g transform="translate(.45 2)" fill="none" fill-rule="evenodd">
+        <ellipse cx="29.476" cy="28" rx="26.967" ry="27"/>
+        <use stroke="#00BFAE" mask="url(#3q68aqwopb)" stroke-width="2" stroke-dasharray="4,2" xlink:href="#l3t6f7265a"/>
+        <path d="M3.872 25.588 50.33 13.365a2 2 0 0 1 2.27.989c1.93 3.604 3.116 6.23 3.557 7.875.438 1.636.699 4.386.782 8.25a2 2 0 0 1-1.493 1.98L8.936 44.694a2 2 0 0 1-2.293-1.028L3.081 36.65l-.695-8.974a2 2 0 0 1 1.486-2.088z" fill="#FFF"/>
+        <text font-family="Jalnan" font-size="10" font-weight="bold" fill="#00BFAE" transform="rotate(-15 100.899 11.87)">
+                                        <tspan x="12.32" y="13.647">학습전</tspan>
+                                    </text>
+        <circle stroke="#00BFAE" stroke-width="2" cx="29.551" cy="28" r="27"/>
+        <path stroke="#00BFAE" stroke-width="2" d="m2.574 26.315 49.332-12.932M8.194 44.676l47.819-12.575"/>
+    </g>
+</svg>

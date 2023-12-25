@@ -1,0 +1,46 @@
+import React, { Component } from "react";
+import { Image, Icon } from "semantic-ui-react";
+import { Link } from "react-router-dom";
+
+// import thumb1 from "../../../../../images/all/matter01.png"
+import Writer from "../../../../../images/all/profile-110-px-sample-4.png"
+
+class CTxtList1A extends Component {
+
+    render() {
+        return (
+            <div className="compo_txt_list compo1">
+                <Link to="/">
+                    <div className="compo_info">
+
+                        {/* <strong className="title ellipsis2">[공지] 3rd Letter : 2주 동안의 진행된써니 교육에 대한 이벤트를 진행합니다.</strong> */}
+                        {/* 변경내역 */}
+                        {/*
+                            <strong className="title new"> 에 new클래스 여부에 따라 [n] 아이콘이 노출/비노출 됩니다
+                            <span className="ellipsis2">
+                        */}
+                        <strong className="title new">
+                            <span className="ellipsis2">[공지] 3rd Letter : 2주 동안의 진행된써니 교육에 대한 이벤트를 진행합니다.</span>
+                        </strong>
+                    </div>
+                    <div className="info_top">
+                        <span className="writer">
+                            <Icon>
+                                <Image src={Writer} alt="글쓴이이미지" />
+                            </Icon>
+                            <span className="ellipsis">김글쓴이작성자김글쓴이작성자</span>
+                        </span>
+                        <span className="date">2021.05.10</span>
+                    </div>
+                    <div className="info_bottom">
+                        <span className="cnt">1,578</span>
+                        <span className="like">1,004</span>
+                        <span className="reply">100</span>
+                    </div>
+                </Link>
+            </div>
+        );
+    }
+}
+
+export default CTxtList1A;

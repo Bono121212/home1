@@ -1,0 +1,5 @@
+/* Main Search */
+.community-main-left > .sub-info-box > .main-left-search {padding:2rem;border-bottom: 1px solid #eeeeee;}
+.community-main-left > .sub-info-box > .main-left-search > .ui.input.search.h38 {width:100%;}
+.community-main-left > .sub-info-box > .main-left-search > .ui.input.search.h38 input {background: #fff !important;border-color: #6c788f!important;color:#6c788f !important; width: 100%}
+.community-main-left > .sub-info-box > .main-left-search > .ui.input.search.h38 input::placeholder {color:#6c788f !important;}

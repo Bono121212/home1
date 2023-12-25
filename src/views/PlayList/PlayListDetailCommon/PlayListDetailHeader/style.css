@@ -1,0 +1,30 @@
+.ed-popup { margin-top:10px; display: none; position: absolute; right: 0; top: 100%; z-index: 5; background-color: #fff; border: 1px solid #666;}
+.ed-popup.on{display: block;}
+.ed-popup .ui.button{margin:0; padding: 13px 25px 12px 16px}
+.ui.button.ed-edit{color: #222; font-size: 0.875rem;}
+.ui.button.ed-delete{color: #222; font-size: 0.875rem;}
+.ed-popup ul li + li { border-top: 1px solid #eee;}
+.ed-popup ul li:hover { background: #f4f4f4;}
+
+/* button, icon */
+.ui.button.bigRight{display: block;margin : 0; padding: 0}
+.ui.button.bigRight span{margin-top:6px; display: block; color: #666; font-size: 0.875rem; text-align: center; font-weight: normal;}
+.ui.button.bigRight.on span{color:#00bfae}
+i.icon.likeOffBig{display: inline-block; width: 40px; height : 40px !important;}
+i.icon.likeOffBig::before{content:''; display: block; width:40px; height: 40px; background: url('../../../../images/all/icon-pl-like-off.svg') 0 0/100% no-repeat !important;}
+i.icon.likeOnBig{display: inline-block; width: 40px; height : 40px !important;}
+i.icon.likeOnBig::before{content:''; display: block; width:40px; height: 40px; background: url('../../../../images/all/icon-pl-like-on.svg') 0 0/100% no-repeat !important;}
+i.icon.shareBig{display: inline-block; width: 40px; height : 40px !important;}
+i.icon.shareBig::before{content:''; display: block; width:40px; height: 40px; background: url('../../../../images/all/icon-40-px-pl-share.svg') 0 0/100% no-repeat !important;}
+i.icon.putinOnBig{display: inline-block; width: 40px; height : 40px !important;}
+i.icon.putinOnBig::before{content:''; display: block; width:40px; height: 40px; background: url('../../../../images/all/icon-40-px-pl-putin-on.svg') 0 0/100% no-repeat !important;}
+i.icon.putinOffBig{display: inline-block; width: 40px; height : 40px !important;}
+i.icon.putinOffBig::before{content:''; display: block; width:40px; height: 40px; background: url('../../../../images/all/icon-40-px-pl-putin-off.svg') 0 0/100% no-repeat !important;}
+i.icon.tumbUpBig{display: inline-block; width: 40px; height : 40px !important;}
+i.icon.tumbUpBig::before{content:''; display: block; width:40px; height: 40px; background: url('../../../../images/all/icon-40-px-pl-thumbsup.svg') 0 0/100% no-repeat !important;}
+i.icon.editBigOff{display: inline-block; width: 40px; height : 40px !important;}
+i.icon.editBigOff::before{content:''; display: block; width:40px; height: 40px; background: url('../../../../images/all/icon-40-px-pl-edit-off.svg') 0 0/100% no-repeat !important;}
+i.icon.editBigOn{display: inline-block; width: 40px; height : 40px !important;}
+i.icon.editBigOn::before{content:''; display: block; width:40px; height: 40px; background: url('../../../../images/all/icon-40-px-pl-edit-on.svg') 0 0/100% no-repeat !important;}
+i.icon.deleteBig{display: inline-block; width: 40px; height : 40px !important;}
+i.icon.deleteBig::before{content:''; display: block; width:40px; height: 40px; background: url('../../../../images/all/icon-40-px-pl-delete.svg') 0 0/100% no-repeat !important;}

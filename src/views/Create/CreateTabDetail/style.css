@@ -1,0 +1,14 @@
+.ui.breadcrumb {
+    float: right;
+}
+
+
+.apl-form-wrap.create .ui.button.post.delete{width: auto; padding: 0 10px !important}
+
+.apl-form-wrap.create .ui.dropdown.selection .icon.dropdown {
+    display: block;
+    width: 32px;
+    height: 32px;
+    padding: 0 !important;
+    margin: 0;
+}

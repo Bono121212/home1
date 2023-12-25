@@ -1,0 +1,10 @@
+.community .ui.segment.full .no-cont-wrap .text{
+  color: #4c4c4c;
+  margin-bottom: 10px;
+}
+.community .ui.segment.full .no-cont-wrap .sub-text{
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}

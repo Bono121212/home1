@@ -1,0 +1,45 @@
+.mypagev2{display:flex;width:75rem;margin:0 auto;padding-top:3.125rem;padding-bottom:7.5rem;}
+.mypagev2 .mypage_lnb{width:17.5rem;}
+.mypagev2 .mypage_lnb .inner{overflow:hidden; border-radius: .5rem;box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);}
+.mypagev2 .mypage_contents{width:54.375rem;margin-left:auto;}
+
+.mypagev2 .cont-inner{width:100% !important;}
+.mypagev2 .mypage_contents .ui.segment.full{width:100% !important;}
+
+.mypagev2 .contents-wrapper{display:flex; background:transparent;}
+.mypagev2 .side-wrapper{background:#fff;border-radius: 0.5rem; overflow: hidden; height: 37.5rem;}
+.mypagev2 .prof-tit{display: block;font-size:1.25rem; font-weight:900; }
+.mypagev2 .profile-contents-area{border-radius:.5rem .5rem 0 0;}
+
+.mypage_menu_list{padding-bottom:1.875rem;background:#fff;}
+.mypage_menu_list img.ui.image{display:inline-block;margin-right:.5rem; vertical-align: -2px;}
+.mypage_menu_list ul li{padding:1.25rem 1.875rem;border-bottom:1px solid #eee;}
+.mypage_menu_list ul li a{font-size: 1rem;color:#222;}
+.mypage_menu_list ul li.active a{font-weight:900;text-decoration:underline;color:#222;}
+.mypage_menu_list .ui.button{margin: 0;padding: 0;color: #222;font-size: .75rem;font-weight: 700;text-decoration: underline; background:#fff;}
+.mypage_menu_list .logout-area{margin-top:3.5rem;text-align:center;}
+
+.mypagev2 .search_box .option_box .ui.selection.dropdown.option_detail{width:25.25rem;}
+.mypagev2 .search_box .note_input input{width:25.25rem;}
+.mypagev2 .search_box .ui.table tr th{width:auto;font-size:.875rem;}
+.mypagev2 .admin_calendar .ui.input .react-datepicker-wrapper .react-datepicker__input-container > input{width:7.25rem !important;}
+
+.mypage_title{font-size:1.875rem;font-weight:900;}
+
+/* 2022-04-05 playlist */
+.mypage_title_wrap {display:flex; align-items: center;}
+.mypage_title_wrap .mypage_btn {position:relative; display:inline-flex; align-items: center; height:36px; margin-left:14px; padding:0 16px; border:1px solid #b9b9b9; border-radius:20px; color:#777; font-size:14px; font-weight:700;}
+.profile-playlist-contents .top-line {padding-top:30px;}
+
+
+.mypagev2 .mynote_write .note_btn{position:relative;}
+.mypagev2 .mynote_write .txt_cnt{position:absolute;bottom:.625rem;right:9.625rem;color:#999;}
+.mypagev2 .mynote_write .txt_now{font-weight:900;}
+
+.mypagev2 .ui.menu.note-tab a.item { width: auto; }
+.mypagev2 .folder_inner .folder_new .button { width: auto; max-width: none; display: block; white-space: nowrap; }
+.mypagev2 .folder_inner .folder_new { width: auto; margin-right: .625rem; }
+
+.mypagev2 .admin_calendar > .ui.icon.input > i.icon{right: 3px;}
+.mypagev2 .ui.h40.admin_calendar > .admin_date > button{padding: 11px 15px}
+.mypagev2 .search_box .ui.table td, .mypagev2 .admin_calendar {white-space: nowrap;}

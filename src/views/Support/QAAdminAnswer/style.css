@@ -1,0 +1,50 @@
+.support .post-view-wrap .post-view.qna-admin{border-bottom: 0;}
+.support .post-view-wrap .post-view.qna-admin .title-area .title-inner{padding: 60px 0 41px}
+.support .post-view-wrap .post-view.qna-admin .title-area .title-inner .actions{bottom:48px}
+.support .post-view-wrap .post-view.qna-admin .title-area .title-inner .actions .postset{margin-left:20px}
+.support .post-view-wrap .post-view.qna-admin .title-area .title-inner .actions .postset.icon.button>.icon.delete_bk{vertical-align: top;}
+
+.qna-admin .qna-navi{margin-top:9px; color:#222; font-size: 0.875rem; display: flex; justify-content: flex-start; align-items: center;}
+.qna-admin .qna-navi strong{position: relative; padding-right:20px}
+.qna-admin .qna-navi strong + div::before{content:''; display: inline-block; width:1px; height:0.625rem; background-color: #b9b9b9; position: absolute; top:6px; left: -10px}
+.qna-admin .qna-navi > div{position: relative; font-weight: 700; padding-right:20px}
+.qna-admin .qna-navi > div span + span{padding-left: 0.875rem; position: relative;}
+.qna-admin .qna-navi > div span + span::before{content:'>'; display: inline-block; position: absolute; top: 0px; left: 3.5px; color: #222;}
+.qna-admin .qna-navi .done{color:#00bfae}
+.qna-admin .qna-navi .wait{color:#a7abbe}
+.qna-admin .qna-navi .stat::before{content:''; display: inline-block; width:1px; height:0.625rem; background-color: #b9b9b9; position: absolute; top:6px; left: -10px}
+.qna-admin .user-info span{position:relative; display: inline-block; color:#4c4c4c; font-size: 0.875rem; line-height:2.25rem; vertical-align: top;}
+.qna-admin .user-info span + span{padding-left:21px;}
+.qna-admin .user-info span + span::before{content:''; display: inline-block; width:1px; height:0.625rem; background-color: #b9b9b9; position: absolute; top:14px; left: 10px}
+
+.support .post-view-wrap .post-view.qna-admin .content-area .content-inner{min-height: auto; padding: 50px 0 55px;}
+.support .post-view-wrap .post-view.qna-admin .content-area .content-inner p{min-height: auto;}
+
+.content-admin-write{margin:0 auto; padding: 0 0 36px; width:75rem; border-top:1px solid #ddd; }
+.content-admin-write .admin-answer-top{padding:36px 0 20px}
+.content-admin-write .admin-answer-top strong{color:#222; font-size: 1.875rem;}
+.content-admin-write .form-table-wrapper{margin-bottom:24px; border:1px solid #eee;border-radius: 8px; overflow: hidden;}
+.content-admin-write .admin-answer-form.ui.table{border-collapse: collapse; border:none; }
+.content-admin-write .admin-answer-form.ui.table tr:nth-last-child(n+2){border-bottom:1px solid #eee}
+.content-admin-write .admin-answer-form.ui.table th{padding:30px; width:240px;background-color: #fbfbfb; border-right:1px solid #eee }
+.content-admin-write .admin-answer-form.ui.table th span{position: relative; color:#4c4c4c; font-size: 1rem;}
+.admin-answer-form.ui.table th .impt::after{content:'*'; display: inline-block; color:#db1111; font-size: 1rem; position: absolute; top:0px; right:-10px}
+.admin-answer-form.ui.table td{padding: 30px; border:none}
+.admin-answer-form.ui.table td .write-form .ui.form .field{margin:0}
+.admin-answer-form.ui.table td .write-form{width:100%}
+.admin-answer-form.ui.table td .quill .ql-toolbar + .ql-container{height:138px !important}
+.admin-answer-form.ui.table td .lg-attach{margin:0}
+.admin-answer-form.ui.table td .radio-bttn .ui.checkbox + .ui.checkbox{margin-left:50px}
+.admin-answer-form.ui.table td .sr-only::before{display: none;}
+.admin-answer-form.ui.table .ui.checkbox label{color:#222; font-size: 0.875rem;}
+.admin-answer-form.ui.table .ui.checked.checkbox input.hidden + label{font-weight: normal;}
+.admin-answer-form.ui.table .ui.checked.checkbox.radio input.hidden + label{font-weight: 700;}
+.admin-answer-form.ui.table .ui.memo-ipt{min-height: 48px;}
+.content-admin-write + .supt-bottom{padding-top:50px; border-top:1px solid #ddd}
+.supt-bottom .bttn-area{text-align: center;}
+.supt-bottom .bttn-area .button+.button{margin-left:1.25rem}
+
+.content-admin-write .ui.form .field{margin:0}
+
+.admin-answer-form.ui.table td .memo-ipt + p{margin-top: 0.5rem; color:#4c4c4c}
+.admin-answer-form.ui.table td .memo-ipt + p .icon.info20{left:0; margin-right: 6px;}

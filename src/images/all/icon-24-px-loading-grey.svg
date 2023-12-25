@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0336C0FD-6DEE-48A9-8449-F1DE25D1D84C</title>
+    <defs>
+        <path d="M0,22 L0,0 L11,0 L11,11 L21,11 L21,22 L0,22 Z" id="path-1"></path>
+    </defs>
+    <g id="Front" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Community_00_Common_00_GNB(CM-10-20)" transform="translate(-756.000000, -613.000000)">
+            <g id="btn_join_loading" transform="translate(740.000000, 606.000000)">
+                <g id="icon_join_loading" transform="translate(16.000000, 7.000000)">
+                    <g id="Icon-Path" transform="translate(1.000000, 1.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <path d="M11.015025,20 C16.0033389,20 20,15.98 20,11 C20,6.02 16.0033389,2 11.015025,2 C6.02671119,2 2,6.02 2,11 C2,15.98 6.02671119,20 11.015025,20 Z" stroke="#B7C0D1" stroke-width="1.5" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M12.015025,21 C17.0033389,21 21,16.98 21,12 C21,7.02 17.0033389,3 12.015025,3 C7.02671119,3 3,7.02 3,12 C3,16.98 7.02671119,21 12.015025,21 Z" id="Icon-Path" stroke="#B7C0D1" stroke-width="1.5" stroke-dasharray="2" fill-rule="nonzero"></path>
+                    <g id="niddle" transform="translate(11.000000, 7.000000)" fill="#B7C0D1">
+                        <rect id="Rectangle" x="0" y="4.5" width="6" height="1.5"></rect>
+                        <rect id="Rectangle" transform="translate(0.750000, 3.000000) rotate(-270.000000) translate(-0.750000, -3.000000) " x="-2.25" y="2.25" width="6" height="1.5"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

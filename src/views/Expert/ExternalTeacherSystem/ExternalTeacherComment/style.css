@@ -1,0 +1,18 @@
+.ui.form.reply.base .outline .more .count.sty2 > .count-box-belt.te-comment > .ui.checkbox label::before{display: none;cursor: none;}
+.ui.form.reply.base .outline .more .count.sty2 > .count-box-belt.te-comment > .ui.checkbox label::after{display: none;}
+.ui.comments.base .comments .avatar ~ .content.com-delete{display: block;padding-top: 0.063rem;height: 3rem;}
+.course-video-area{width: 75rem;height: 42.25rem;background: grey;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

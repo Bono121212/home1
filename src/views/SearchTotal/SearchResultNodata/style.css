@@ -1,0 +1,4 @@
+.tab_search_contents .result_nodata{padding-top: 30px}
+.tab_search_contents .result_nodata p{position:relative; padding-left:7px; color:#666; font-size: 0.875rem;}
+.tab_search_contents .result_nodata p + p{margin-top:6px}
+.tab_search_contents .result_nodata p::before{content:''; display: inline-block; width: 2px; height: 2px; background: #666; position:absolute; top:9px; left:0 }

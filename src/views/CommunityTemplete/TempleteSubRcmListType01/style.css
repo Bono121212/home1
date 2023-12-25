@@ -1,0 +1,13 @@
+.card-slide-list.type02{border-top: 0.125rem solid #666 }
+.card-slide-list.type02 .scrolling{padding-top:0.5rem}
+.card-slide-list.type02 .board-down-title{padding-top: 2.5rem; margin-bottom: 0.75rem}
+.card-slide-list.type02 .board-down-title strong{display:inline-block;color:#222; font-size:1.25rem; font-weight: bold; word-break: break-all; max-width: calc(100% - 5.25rem);}
+.card-slide-list.type02 .board-down-title span{display:inline-block; color:#555; font-size:1.25rem; font-weight: normal;word-break: break-all; vertical-align: top;}
+.templete_sub_contents .sub_title .label_2{position: relative; display: inline-block; vertical-align: text-bottom; margin-left: 1rem; padding: 7px 1rem; font-size: .875rem; border: 1px solid #777; border-radius: 25px; color: #777; font-weight: bold;}
+i.icon.rcmd_grey{width: 1.125rem; height: 1.125rem; vertical-align: text-bottom; background : url('../../../images/all/icon-list-24-px.svg') no-repeat center;}
+.label_2 i.icon.rcmd_grey { background-position: -2px -4px;}
+i.icon.excel-down {
+  background: url('../../../images/all/icon-excel-24-px.svg')
+    0 0 no-repeat !important;
+}
+.card-slide-list.type02 + .lms-paging-holder{padding-top:2.5rem}

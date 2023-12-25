@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>SUNI</title>
+    <link rel="stylesheet" href="../../css/semantic.min.css">
+    <link rel="stylesheet" href="../../css/calendar.min.css">
+    <link rel="stylesheet" href="../../css/swiper.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/mysuni_login.css">
+    <!-- vendor prefix version
+<link rel="stylesheet" href="../../css/style.min.css">
+-->
+    <script src="../../js/jquery-1.12.4.js"></script>
+    <script src="../../js/semantic.min.js"></script>
+    <script src="../../js/state.min.js"></script>
+    <script src="../../js/calendar.min.js"></script>
+    <script src="../../js/modal.min.js"></script>
+    <script src="../../js/swiper.min.js"></script>
+    <script src="../../js/ui.js"></script>
+</head>
+
+
+<body class="white">
+    <!-- .content -->
+    <section class="content-half">
+        <div class="login-content v2">
+            <div class="left-area">
+                <div class="inner">
+                    <h1 class="title">Welcome!</h1>
+                    <p>구성원의 지속가능한 성장과 행복을 지원하는<br/><strong>‘mySUNI’</strong>에 오신것을 환영합니다.</p>
+                    <div class="illust">
+                        <img src="https://image.mysuni.sk.com/suni-asset/public/images/all/login/img_login_welcome.png" alt="머그컵을 들고 서있는 남자1명, 책상에 앉아있는 여자1명이 손인사를 하고있다." />
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2021-12 login관련 화면에 right-area에 sty2추가 해주세요, inline으로 들어가있는 style은 삭제해주세요.-->
+            <div class="right-area sty2">
+                <div class="inner">
+                    <!-- 다국어 선택 -->
+                    <div class="login_language_wrap">
+                        <span class="blind">언어선택</span>
+                        <button type="button" class="btn_language is_active">한국어</button>
+                        <b></b>
+                        <button type="button" class="btn_language">中文(简体)</button>
+                        <b></b>
+                        <button type="button" class="btn_language">English</button>
+                    </div>
+
+                    <div class="logo big" style="margin-bottom: 1.8rem;margin-left:0rem;"><i class="sk-university-login-big icon"><span class="blind">SUNI</span></i></div>
+
+                    <p class="login_1" style="font-size:20px; margin-bottom :10px">로그인</p>
+                    <form id="formLogin" method="post" class="ui form" action="https://proxy.gdisso.sk.com:443/nsso-authweb/logon.do?ssosite=mysuni.sk.com">
+                        <div class="field">
+                            <label class="blind">Email</label>
+                            <div class="ui h48 input">
+                                <!--opensaml은 username을 사용-->
+                                <input id="id" type="text" placeholder="E-mail" name="userID">
+                                <i aria-hidden="true" class="clear link icon"></i>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="blind">Password</label>
+                            <div class="ui h48 input">
+                                <input id="password" type="password" placeholder="Password" name="password">
+                                <i aria-hidden="true" class="clear link icon"></i>
+                            </div>
+                        </div>
+                        <div class="save-id-wrap">
+                            <div class="ui base checkbox">
+                                <input id="inputSaveId" type="checkbox">
+                                <label for="inputSaveId">E-mail 저장</label>
+                            </div>
+                        </div>
+
+                        <div class="making-guide error _divError">
+                            <i class="error16 icon"><span class="blind">error</span></i>
+                            <span class="_spanErrorMessage">ID가 없거나 비밀번호가 올바르지 않습니다.</span>
+                        </div>
+
+                        <button id="buttonLogin" class="ui button fix bg login">Login</button>
+                        <input id="creType" type="hidden" value="BASIC" name="credType">
+                        <input id="returnUrl" type="hidden" name="returnURL" value="https://mysuni.sk.com/login">
+                    </form>
+
+                    <ul class="txt-btn-area">
+                        <li><a href="javascript:void(0);" id="aResetPassword">비밀번호 초기화</a></li>
+						<li><a href="https://ma.mysuni.sk.com/suni-asset/public/design-pub-ext/REACT/open1223/dist/html/login/LO-01-01.html" target="_blank">SK 구성원이 아니신가요?</a></li>
+                    </ul>
+                    <ul class="login-guide">
+                        <li><p>최초 로그인 시 비밀번호를 변경해야 합니다.</p></li>
+                        <li><p>비밀번호 분실 시, 비밀번호 초기화를 통해 접속하실 수 있습니다.</p></li>
+                        <li><p>비밀번호 입력 시도 5회 초과하여 계정이 잠겼을 때, 비밀번호 초기화를 통해 접속하실 수 있습니다.</p></li>
+                        <li><p>Help Desk : 02) 6323-9002</p></li>
+                     </ul>
+                     <div class="btn-helpdesk-area">
+                        <!-- <button type="button" class="btn-faq" onclick="handlerFaqModal()">FAQ</button>
+                        <span class="split"></span> -->
+                        <button type="button" class="btn-helpdesk" onclick="handlerInqueryModal()">문의</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // .content -->
+
+
+    <div class="ui page modals dimmer transition hidden" style="display: flex !important;">
+        <!-- 문의하기 모달 -->
+        <div class="ui modal transition hidden base w1000 inquery-modal">
+            <!-- ModalHeader -->
+            <div class="header">
+                <h3 class="apl-title">문의하기</h3>
+                <div class="apl-notice">
+                    <p>문의 내용 확인 후, 해당 담당자가 <strong>이메일</strong>로 답변 드립니다. 신속하게 답변드릴 수 있도록 최선을 다하겠습니다.</p>
+                </div>
+                <button class="ui button close black" onclick="$('.inquery-modal').modal('hide')"><span class="blind">Close</span></button>
+            </div>
+            <!-- //ModalHeader -->
+            <!-- ModalContent -->
+            <div class="content">
+                <div class="scrolling-80vh">
+                    <div class="apl-form-wrap type-join">
+                        <form class="ui form">
+                            <p class="form-guide"><span class="star">*</span> 표시는 필수 입력 사항입니다.</p>
+                            <!-- 개인정보 활용 동의 -->
+                            <div class="field filed-line"><label>개인정보 활용 동의<span class="star">*</span></label>
+                                <div class="privacy-text-box">
+                                    <div class="inner">
+                                        <p class="text1">수집 항목</p>
+                                        <p class="text2">문의자 유형, 이름, 이메일</p>
+                                        <p class="text1">처리 목적</p>
+                                        <p class="text2">mySUNI 문의 응대</p>
+                                        <p class="text1">처리 및 보유기간</p>
+                                        <p class="text2">문의 응대 후 6개월</p>
+                                    </div>
+                                </div>
+                                <div class="privacy-text-agree">
+                                    <div class="ui checkbox base">
+                                        <input class="hidden ui checkbox base" readonly="" tabindex="0" type="checkbox" id="p_chk" value="">
+                                        <label for="p_chk">개인정보 이용 목적을 모두 확인하였으며, 이에 동의합니다.</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //개인정보 활용 동의 -->
+                            <!-- 문의유형 -->
+                            <div class="field"><label>문의 유형<span class="star">*</span></label>
+                                <button type="button" class="faq-info" onclick="handlerInfoActive()">혹시 이런 문의일까요?</button>
+                                <div class="select-box">
+                                    <!-- 선택된 상태로 시작 에러케이스 없음. -->
+                                    <div role="listbox" aria-expanded="false" class="ui selection dropdown selection" tabindex="0">
+                                        <div class="text" role="alert" aria-live="polite" aria-atomic="true">회원가입 문의</div><i
+                                            aria-hidden="true" class="dropdown icon"></i>
+                                        <div class="menu transition">
+                                            <div role="option" aria-checked="true" aria-selected="true"
+                                                class="active selected item" style="pointer-events: all;"><span
+                                                    class="text">회원가입 문의</span></div>
+                                            <div role="option" aria-checked="false" aria-selected="false" class="item"
+                                                style="pointer-events: all;"><span class="text">로그인 문의</span></div>
+                                            <div role="option" aria-checked="false" aria-selected="false" class="item"
+                                                style="pointer-events: all;"><span class="text">서비스 탈퇴</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //문의유형 -->
+                            <!-- 이름 -->
+                            <div class="field"><label>이름<span class="star">*</span></label>
+                                <!-- 필수입력체크 에러일때 error 클래스 추가 -->
+                                <div class="ui input right-top-count error">
+                                    <input type="text" placeholder="이름을 입력해 주세요." value="" onInput="handlerInqueryWrite(this)"/>
+                                    <button type="button"><i aria-hidden="true" class="icon clear link"></i></button>
+                                    <span class="validation">이름은 필수 입력 항목입니다. 해당 정보를 입력하신 후 등록해 주세요.</span>
+                                </div>
+                            </div>
+                            <!-- //이름 -->
+                            <!-- 이메일 -->
+                            <div class="field"><label>E-mail<span class="star">*</span></label>
+                                <!-- 필수입력체크 에러일때 error 클래스 추가 -->
+                                <div class="ui input right-top-count error">
+                                    <input type="text" placeholder="E-mail을 입력해 주세요." value="" onInput="handlerInqueryWrite(this)" />
+                                    <button type="button"><i aria-hidden="true" class="icon clear link"></i></button>
+                                    <span class="validation">E-mail은 필수 입력 항목입니다. 해당 정보를 입력하신 후 등록해 주세요.</span>
+                                </div>
+                            </div>
+                            <!-- //이메일 -->
+                            <!-- 제목 -->
+                            <div class="field"><label>제목<span class="star">*</span></label>
+                                <!-- 필수입력체크 에러일때 error 클래스 추가 -->
+                                <div class="ui input right-top-count error">
+                                    <span class="count"><span class="now">0</span>/<span class="max">100</span></span>
+                                    <input type="text" placeholder="제목을 입력해 주세요." value="" onInput="handlerInqueryWrite(this)" />
+                                    <button type="button"><i aria-hidden="true" class="icon clear link"></i></button>
+                                    <span class="validation">제목은 필수 입력 항목입니다. 해당 정보를 입력하신 후 등록해 주세요.</span>
+                                </div>
+                            </div>
+                            <!-- //제목 -->
+                            <!-- 내용 -->
+                            <div class="field"><label>내용<span class="star">*</span></label>
+                                <div class="ui editor-wrap">
+                                    <div class="ui form">
+                                        <!-- 필수입력체크 에러일때 error 클래스 추가 -->
+                                        <div class="ui right-top-count input error">
+                                            <span class="count"><span class="now">0</span>/<span class="max">1000</span></span>
+                                            <textarea placeholder="내용을 입력해 주세요."></textarea>
+                                            <span class="validation">내용은 필수 입력 항목입니다. 해당 정보를 입력하신 후 등록해 주세요.</span>
+                                            <!-- <span class="validation">최대 1000자까지 입력 가능합니다.</span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //내용 -->
+                            <!-- 첨부파일 -->
+                            <div class="field"><label>첨부파일</label>
+                                <div class="lg-attach">
+                                    <div class="attach-inner">
+                                        <div class="ui segment" style="border: 0.1rem; padding: 0px;">
+                                            <div class="ui inverted dimmer">
+                                                <div class="content">
+                                                    <div class="ui medium text loader">Waiting</div>
+                                                </div>
+                                            </div>
+                                            <div class="content-scroll">
+                                                <div class="ui basic vertical segment">
+                                                    <div class="ui small header text-grey">
+                                                        <div class="fl-right">
+                                                            <div class="icon-file-upload">
+                                                                <label for="app-icon-uploadfileBox1">
+                                                                    <span class="ui text blue"><i class="material-icons">add</i></span>
+                                                                    <span class="sr-only"></span>
+                                                                    <input type="file" id="app-icon-uploadfileBox1">
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <i class="material-icons">attach_file</i>첨부파일
+                                                    </div>
+                                                    <div class="ui segment side-segment-list">
+                                                        <div role="list" class="ui middle aligned list">
+                                                            <div role="listitem" class="item">
+                                                                <div class="right floated content">
+                                                                    <span class="sub-info">100KB</span>
+                                                                    <a href="./" rel="noopener noreferrer"><i class="material-icons">close</i></a>
+                                                                </div>
+                                                                <div class="content">
+                                                                    <a href="./" rel="noopener noreferrer" download="">
+                                                                        <span class="file-type alternate"><i aria-hidden="true" class="file alternate icon"></i></span>
+                                                                        img-280-px-thumbnail-live-wait.png
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div role="listitem" class="item">
+                                                                <div class="right floated content">
+                                                                    <span class="sub-info">100KB</span>
+                                                                    <a href="./" rel="noopener noreferrer"><i class="material-icons">close</i></a>
+                                                                </div>
+                                                                <div class="content">
+                                                                    <a href="./" rel="noopener noreferrer" download="">
+                                                                        <span class="file-type alternate"><i aria-hidden="true" class="file alternate icon"></i></span>
+                                                                        img-280-px-thumbnail-live-wait.png
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div role="listitem" class="item">
+                                                                <div class="right floated content">
+                                                                    <span class="sub-info">100KB</span>
+                                                                    <a href="./" rel="noopener noreferrer"><i class="material-icons">close</i></a>
+                                                                </div>
+                                                                <div class="content">
+                                                                    <a href="./" rel="noopener noreferrer" download="">
+                                                                        <span class="file-type alternate"><i aria-hidden="true" class="file alternate icon"></i></span>
+                                                                        img-280-px-thumbnail-live-wait.png
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div role="listitem" class="item">
+                                                                <div class="right floated content">
+                                                                    <span class="sub-info">100KB</span>
+                                                                    <a href="./" rel="noopener noreferrer"><i class="material-icons">close</i></a>
+                                                                </div>
+                                                                <div class="content">
+                                                                    <a href="./" rel="noopener noreferrer" download="">
+                                                                        <span class="file-type alternate"><i aria-hidden="true" class="file alternate icon"></i></span>
+                                                                        img-280-px-thumbnail-live-wait.png
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            jpg, jpeg, png, mp4, xlsx, xls, ppt, pptx, pdf, doc, docx, hwp, csv, zip의 확장자로 50MB 이하의 파일을 등록하실 수 있습니다.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 첨부파일 -->
+                            <div class="buttons">
+                                <button class="ui button fix bg" disabled>등록</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- //ModalContent -->
+        </div>
+        <!-- //문의하기 모달 -->
+
+        <!-- FAQ 모달 -->
+        <div class="ui modal transition hidden base w1000 faq-modal">
+            <!-- ModalHeader -->
+            <div class="header">
+                <h3 class="apl-title">FAQ</h3>
+                <button class="ui button close black" onclick="$('.faq-modal').modal('hide')"><span class="blind">Close</span></button>
+            </div>
+            <!-- //ModalHeader -->
+            <!-- ModalContent -->
+            <div class="content">
+                <div class="scrolling-80vh">
+                    <div class="faq-wrap">
+                        <div class="list-top">
+                            <div class="list-top-left">
+                                총 <strong>0개</strong>의 리스트가 있습니다.
+                            </div>
+                            <div class="list-top-right">
+                                <div class="ui input s-search h38">
+                                    <input type="text" placeholder="검색어를 입력하세요."/>
+                                    <i class="ui icon search-32"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faq-list-wrap">
+                            <div class="no-cont-wrap">
+                                <i aria-hidden="true" class="icon no-contents80"></i><span class="blind">콘텐츠 없음</span>
+                                <div class="text">검색 결과가 없습니다.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //ModalContent -->
+        </div>
+        <!-- //FAQ 모달 -->
+    </div>
+
+    <script>
+        // FAQ
+        const handlerFaqModal = () => {
+            $('.faq-modal').modal('show');
+        }
+        const handlerFaqTitle = (el) => {
+            const $title = $(el);
+            const $ccontent = $(el).next();
+            $title.toggleClass('active');
+            $ccontent.toggleClass('active');
+            if ($title.hasClass('active')){
+                $title.siblings('.title').removeClass('active');
+                $ccontent.siblings('.content').removeClass('active');
+            }
+        }
+
+        // 문의하기 내 FAQ 호출
+        const handlerInfoActive = () => {
+            $('.faq-modal').modal('show');
+        }
+
+        // 문의하기
+        const handlerInqueryModal = () => {
+            $('.inquery-modal').modal('show', function(){
+                $('.inquery-modal .ui.selection.dropdown').dropdown({
+                    clearable: true
+                })
+            });
+        }
+        const handlerInqueryWrite = (ele) => {
+            if (ele.value !== "") {
+                $(ele).parent().addClass("write");
+             } else {
+                $(ele).parent().removeClass("write");
+             }
+        }
+    </script>
+</body>
+
+</html>

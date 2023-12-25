@@ -1,0 +1,125 @@
+.terms-content .logo-area{padding:3.125rem 0 3rem}
+.privacy-agree.agree-new .ui.form .field{
+    margin:0;
+    padding: 1.875rem 0;
+}
+.privacy-agree.agree-new .ui.form .field:first-child{border-bottom: 0.063rem solid #ddd}
+.privacy-text-box{    
+    width: 100%;
+    height: 6.25rem;
+    overflow-y: auto;
+    border: 0.063rem solid #ddd;
+    margin-top: 1.25rem;
+}
+
+.privacy-agree.agree-new .ui.form .field:last-child{
+    border-top: 0.063rem solid #ddd;
+    padding-top:0;
+}
+
+.privacy-agree.agree-new .checkbox label{color:#4c4c4c}
+.privacy-agree.agree-new .black.checkbox label{color:#222}
+.privacy-agree.agree-new strong.check_red{color:#db1111}
+.privacy-agree.agree-new strong.check_gray{color:#999}
+
+.privacy-text-box .inner{width:100%; padding:1.5rem; color:#4c4c4c}
+.privacy-text-box .text1{    
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    font-size: 0.875rem;
+}
+.privacy-text-box .text2{
+    font-size: 0.875rem;
+}
+.privacy-text-box .text3{
+    font-size: 0.875rem;
+}
+.privacy-agree.agree-new .top-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacy-agree.agree-new .top-area .go-more{
+    color:#999;
+    font-size: 0.75rem;
+    padding:0.125rem 0.625rem;
+    border: 0.063rem solid #999;
+}
+.top-area .go-more.icon .gray-arrow::after{
+    content:'';
+    display: inline-block;
+    width: 0.5rem;
+    height:0.5rem;
+    background:url('../../../images/all/icon-rate-jump-8-px-gray.svg');
+}
+.privacy-bottom-box{ 
+    padding: 0 6.25rem 0 2rem;
+}
+.privacy-bottom-box p{
+    font-size: 0.875rem;
+    padding: 1.188rem 0 0 0.5rem;
+    color: #4c4c4c;
+}
+
+.privacy-modal.ui.modal > .header.res{
+    font-size: 0.875rem;
+    padding : 0.875rem 1.875rem;
+}
+
+.privacy-modal.ui.modal .content.pr_popup_content{
+    padding : 2.125rem 1.875rem;
+    height: 33.75rem;
+    overflow-y: auto;
+}
+.privacy-modal.modal .inner > p{
+    color:#222;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+.privacy-modal.modal .inner .text1{font-weight: 600}
+.privacy-modal.modal .inner .text3{font-weight: bold}
+.privacy-modal.modal .inner .text4{padding-left: 1rem; margin-bottom: 0.5rem;}
+.privacy-modal.modal .inner .text2{padding-left:1rem;}
+.privacy-modal.modal .inner .text2 span{display: inline-block; text-indent: -1.125rem;}
+.privacy-modal.modal .inner .mb0{margin-bottom: 0;}
+.privacy-modal.modal .inner .mt1{margin-top:1rem}
+.privacy-modal.modal .inner .mt30{margin-top:1.875rem}
+.privacy-text-box .inner .mt30{margin-top:1.875rem}
+
+.privacy-modal.modal > .actions{ 
+    display:flex;
+    padding: 0;
+    text-align: center;
+    overflow:hidden;
+    height: 3.75rem;
+}
+.privacy-modal.modal > .actions .pop2{margin:0; flex:1 1}
+
+.pr_popup_content .ui.table{    
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:none
+}
+.pr_popup_content .ui.table thead th{
+    text-align: center;
+    font-size: .75rem;
+    font-weight: 700;
+    color: #222;
+    padding: .6875rem .75rem;
+    border-right: .0625rem solid #c8d0e0;
+    border-bottom: .0625rem solid #c8d0e0;
+}
+.pr_popup_content .ui.table tbody td{
+    vertical-align: top;
+    font-size: .75rem;
+    letter-spacing: -.0125rem;
+    color: #666;
+    padding: 1rem .75rem;
+    border-right: .0625rem solid #c8d0e0;
+    border-bottom: .0625rem solid #c8d0e0;
+}
+
+.pr_popup_content .ui.table thead th:last-of-type, 
+.pr_popup_content .ui.table tbody tr td:last-of-type{border-right:none}
+
+.pr_popup_content .table-wrap{margin:1.25rem 0; border-top:0.063rem solid #6c788f;}

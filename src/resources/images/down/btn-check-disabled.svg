@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ECD5A756-EC39-4640-8718-DA36BEECE36C</title>
+    <g id="Symbols_assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-645.000000, -1935.000000)">
+            <rect fill="#F9F9F9" x="0" y="0" width="2600" height="4300"></rect>
+            <g id="btn_check_disabled" transform="translate(645.000000, 1935.000000)" fill="#CDE4E2">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24" rx="4"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,64 @@
+/* guide 레이아웃 스타일 */
+.gWrap header {
+    width: 100%;
+    padding: 25px 0;
+}
+
+.gWrap header h1 {
+    padding-left: 20px;
+    color: #121212;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.gCont {
+    max-width: 1200px;
+    padding: 0 20px 20px;
+}
+
+.test {
+    margin-top: 10px;
+    padding: 10px 0;
+    border-top: 1px dashed #666;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.gCont .gTit:before {
+    content: '*';
+    margin-right: 10px;
+    color: #ac0c3c;
+}
+
+.gCont .gInfo {
+    margin: 0 0 10px;
+    padding-left: 20px;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.5
+}
+
+.gCont .gInfo:before {
+    content: "●";
+    display: inline-block;
+    margin-right: 10px;
+    color: #777;
+    font-size: 10px;
+}
+
+.gCont .preview {
+    min-height: 30px;
+    margin-bottom: 40px;
+    padding: 0 0 0 20px;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.test {
+    color: red;
+}
+.ui.label.onlytext .icon.host {content: ''; display: inline-block; width:24px; height:24px;vertical-align: top; background: url('../../images/all/icon-host-24-px.svg') 0 0/100% auto no-repeat !important; }
+.ui.label.onlytext .icon.category { background: url('../../images/all/icon-category-24-px.svg') 0 0 no-repeat; }

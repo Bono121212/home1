@@ -1,0 +1,43 @@
+.content.profile .community-list-wrap .ui.table{margin:0;}
+.content.profile .community-list-wrap .ui.table thead th{background:#fff;}
+.content.profile .community-list-wrap .ui.table thead th,.community-list-wrap .ui.table tbody td{text-align:center;}
+.content.profile .community-list-wrap .ui.table tbody td{padding:21px 10px 22px;color:#666;font-size:14px;}
+.content.profile .community-list-wrap .ui.table tbody td.title{color:#222;text-align:left; display: table-cell;}
+.content.profile .community-list-wrap .ui.table tbody td.title span{margin-right:4px;color:#0e73db;font-size:16px;}
+.content.profile .community-list-wrap .ui.table tbody td .manager{padding-left:22px;background:url(../../../images/all/icon-community-manager02.png) no-repeat left center;}
+.lms-flex{display: flex}
+.lms-flex .community-open-card{
+    flex: none;
+    flex-flow: row wrap
+}
+.content.profile .community-list-wrap.mycomu_fi .ui.table tbody td:first-child {font-size:1rem;padding-left:1.875rem;}
+.content.profile .community-list-wrap.mycomu_fi .ui.table tbody td button.manage_btn {    width: 5.5rem;
+    height: 2rem;
+    padding: 0 !important;
+    -webkit-box-sizing: border-box;
+    -box-sizing: border-box;
+    color: #3e8ae9;
+    font-size: 0.875rem;
+    letter-spacing: -0.01625rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    border: 1px solid #3e8ae9;
+    border-radius: 0.25rem;
+    background: transparent;
+    margin-right: 0;}
+.content.profile .community-list-wrap.mycomu_fi .ui.table tbody td button.sece_btn {
+    width: 5.5rem;
+    height: 2rem;
+    padding: 0 !important;
+    -webkit-box-sizing: border-box;
+    -box-sizing: border-box;
+    color: #6c788f;
+    font-size: 0.875rem;
+    letter-spacing: -0.01625rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    border: 1px solid #6c788f;
+    border-radius: 0.25rem;
+    background: transparent;
+    margin-right: 0;
+}

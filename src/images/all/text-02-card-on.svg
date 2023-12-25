@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g transform="translate(-300 -929) translate(120 917) translate(152) translate(28 12) translate(2 11)">
+                            <path fill="#FFF" d="M0 0H46V58H0z"/>
+                            <path fill="#FFAEA1" d="M6 48H12V50H6zM14 48H20V50H14zM22 48H28V50H22zM14 34H25V36H14z"/>
+                            <circle cx="9" cy="35" r="3" fill="#FF664D"/>
+                            <path fill="#FF664D" d="M6 8H40V12H6zM6 14H22V18H6z"/>
+                            <path fill="#FFAEA1" d="M6 22H40V24H6zM6 26H40V28H6z"/>
+                        </g>
+                        <g transform="translate(-300 -929) translate(120 917) translate(152) translate(28 12) translate(50 11)">
+                            <path fill="#FFF" d="M0 0H28V58H0z"/>
+                            <path fill="#FFAEA1" d="M6 48H12V50H6zM14 48H20V50H14zM22 48H28V50H22zM14 34H25V36H14z"/>
+                            <circle cx="9" cy="35" r="3" fill="#FF664D"/>
+                            <path fill="#FF664D" d="M6 8H28V12H6zM6 14H22V18H6z"/>
+                            <path fill="#FFAEA1" d="M6 22H28V24H6zM6 26H28V28H6z"/>
+                        </g>
+                        <path fill="#FF664D" d="M67.051 11H78v58h-7.184C67.606 63.682 66 58.634 66 53.857c0-4.777.806-9.543 2.418-14.3 1.599-3.678 2.398-7.864 2.398-12.557 0-4.693-1.255-10.026-3.765-16z" transform="translate(-300 -929) translate(120 917) translate(152) translate(28 12)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

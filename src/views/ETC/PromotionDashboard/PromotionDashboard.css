@@ -1,0 +1,176 @@
+/*****************************************************
+	@@ 프로모션대시보드
+*****************************************************/
+.ui.modal.promotion-dashboard{width:75rem;}
+.ui.modal.promotion-dashboard .close{background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-24-promotion-close.png') no-repeat left center/1.5rem 1.5rem;padding: 0 0 0 1.875rem;height: 1.5rem;color: #666;font-weight: 400;}
+.ui.modal.promotion-dashboard .header{display:flex;justify-content:space-between;align-items:center;}
+.ui.modal.promotion-dashboard .promotion-contents.content{padding:0 !important;}
+.ui.modal.promotion-dashboard .promotion-title-pic{background:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/promotion-badge-title.png') no-repeat 0 -1px;background-size:cover;width:100%;height:30.375rem;display:flex;position: relative;justify-content: center;padding-top: 16rem;background-color: #fff;}
+.ui.modal.promotion-dashboard .promotion-title-pic .goto-mission{width: 11.25rem;height: 2.8125rem;background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/promotion-badge-gotomission.png') no-repeat 0 0/11.25rem 2.8125rem;text-indent: -9999px;color: transparent;overflow: hidden;}
+.ui.modal.promotion-dashboard .content{background: #eee;}
+.ui.modal.promotion-dashboard .content.scrolling-80vh{max-height:80vh;}
+
+.promotion-dashboard .content-box{background:#fff;border-radius:.25rem;overflow:hidden;}
+.promotion-dashboard .content-box+.content-box{margin-top:2.5rem;}
+.promotion-dashboard .promotion-badge_main{width:9.375rem;height:9.375rem;margin-bottom:.5rem;overflow:hidden;position: relative;;background:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/promotion-badge-main.png') no-repeat left 0/28.125rem 9.375rem;}
+.promotion-dashboard .promotion-badge_main.badge.half{background-position: center 0;}
+.promotion-dashboard .promotion-badge_main.badge.end{background-position: right 0;}
+.promotion-dashboard .badge-count{font-size: .875rem;color:#222;letter-spacing: .0625rem;margin-top: .125rem;}
+.promotion-dashboard .badge-count strong{font-size: .875rem;color:#222;font-size: inherit !important;padding: unset !important;}
+
+.status-board {display:flex;flex-direction: column;padding: 2.5rem 1.25rem;background-color:#fff;}
+.promotion-dashboard .content-box{overflow: unset;overflow: hidden;border-radius: .75rem;border: 1px solid #ddd;}
+.promotion-dashboard .content-box .main-status{background:transparent;width: 100%;}
+.promotion-dashboard .content-box .main-status .badge-info{display:flex;column-gap:1.5rem;padding: 1.5rem 1.25rem 1.875rem;border-radius: 1rem;width:22.5rem;margin: 0 auto;box-sizing: border-box;box-shadow:0 2px 6px 0 rgba(67, 67, 67, 0.2);}
+.promotion-dashboard .content-box .main-status .badge-info .header-tit {font-size:1.25rem;color:#222;font-weight: 700;margin-bottom: 1rem;}
+
+.promotion-dashboard .content-header{background:#008dca;color:#fff;padding:.875rem 2.5rem;display:flex;justify-content:space-between;font-size:1.125rem;align-items:center;}
+.promotion-dashboard .content-header strong{font-size:1.375rem;}
+.promotion-dashboard .content-header.color{background:#000;}
+.promotion-dashboard .content-header .count{display:inline-block;text-align:center;border-radius:.375rem;font-weight:700;position: relative;padding: .1875rem .625rem .1875rem 1.875rem;margin-left: .625rem;}
+.promotion-dashboard .content-header .count{background-repeat: no-repeat;background-size: 1.25rem;background-color: #fff;color:#008dca;background-position: left .3125rem center;}
+.promotion-dashboard .content-header .count.main{background-image: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-20-promotion-header-mission-main.png');}
+.promotion-dashboard .content-header .count.month{background-image: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-20-promotion-header-mission-month.png');margin-right: .625rem;}
+
+/* 프로모션 대시보드:나의 현황 */
+.promotion-dashboard .badge-group{display:flex;justify-content:center;column-gap:1rem;padding: 2.5rem 0 1.25rem;}
+.promotion-dashboard .badge-group .badge-sub-group{display:flex;flex-direction:column;width:6.25rem;flex:1;border-radius: 1rem;background-color: #f9f9f9;border: 1px solid #ddd;box-shadow: 0px 2px 10px 0px rgb(221, 221, 221);}
+.promotion-dashboard .badge-group .sub-group-header{text-align:center;font-size:.875rem;color:#666;margin:1.5rem 0 1.25rem;}
+.promotion-dashboard .badge-group .sub-group-header strong{font-size:1.25rem;color:#222;}
+.promotion-dashboard .badge-group .promotion-badge{width:7.5rem;height:7.5rem;}
+.promotion-dashboard .mission-end .badge-info-box{position:relative;padding: 0;height: 100%;}
+.promotion-dashboard .mission-end .badge-info-box::before{content:'';position:absolute;width:100%;height:100%;background-color:rgba(0,0,0,0.5);border-radius:0 0 1rem 1rem;}
+.promotion-dashboard .mission-end .badge-info-box .end-message-box{display:flex;width:100%;height:100%;align-items:center;justify-content:center;position:absolute;}
+.promotion-dashboard .mission-end .badge-info-box .end-message{display:flex;flex-direction: column; width:12.5rem;height:12.5rem;background:#fff;color:#222;z-index:1;border-radius:100%;text-align:center;align-items:center;justify-content:center;transform:rotate(-25deg);}
+.promotion-dashboard .mission-end .badge-info-box .end-message strong{font-size: 1.375rem;}
+
+.promotion-dashboard .badge-info-box{display:flex;flex-direction:row;column-gap:.5rem;padding: 0 .625rem;}
+.promotion-dashboard .badge-info{color:#666;text-align:center;border-radius:.5rem;display:flex;flex-direction:column;font-size:.875rem;align-items:center;padding:0 0 1.875rem 0;width:100%;}
+.promotion-dashboard .badge-info .promotion-badge{background-repeat:no-repeat !important;background-size:cover !important;background-position: left 0;margin-bottom: .5rem;}
+.promotion-dashboard .badge-info.badge-off .promotion-badge{background-position:right 0;}
+.promotion-dashboard .badge-info .promotion-badge.oct_1{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/promotion-badge-oct-mission1.png');}
+.promotion-dashboard .badge-info .promotion-badge.oct_2{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/promotion-badge-oct-mission2.png');}
+.promotion-dashboard .badge-info .promotion-badge.nov_1{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/promotion-badge-nov-mission1.png');}
+.promotion-dashboard .badge-info .promotion-badge.nov_2{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/promotion-badge-nov-mission2.png');}
+.promotion-dashboard .badge-info .promotion-badge.dec_1{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/promotion-badge-dec-mission1.png');}
+.promotion-dashboard .badge-info .promotion-badge.dec_2{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/promotion-badge-dec-mission2.png');}
+.promotion-dashboard .badge-info.align{text-align:center;}
+.promotion-dashboard .badge-info strong{font-size:1rem;color:#222;margin-bottom:.5rem;padding:0 0.5rem;height:2.75rem;white-space: nowrap;}
+.promotion-dashboard .badge-info .badge-tit{font-size:.75rem;margin-bottom:.5rem;font-weight:700;color: #222;}
+.promotion-dashboard .badge-info .badge-result{font-weight:700;}
+.promotion-dashboard .mission-join{color:#222;border:1px solid #222;padding:.375rem 1rem;border-radius:6.25rem;font-size:.875rem;width:5.625rem;font-weight:700;}
+
+.promotion-dashboard .promotion-content{padding:3.125rem 1.25rem;}
+.promotion-dashboard .tab-control{text-align:center;height:3.5rem;border-bottom:1px solid #ddd;background: #fff;}
+.promotion-dashboard .tab-control .tab{height:100%;width:11.75rem;position:relative;color: #999;}
+.promotion-dashboard .tab-control .tab.active{font-weight:700;color:#000;}
+.promotion-dashboard .tab-control .tab.active::after{content:'';height:3px;background:#000;position:absolute;left:0;bottom:-0.0625rem;width:100%;}
+
+.promotion-dashboard .dashboard-infomation{text-align:center;font-size:.875rem;padding:0 0 3.125rem;color: #222;}
+.promotion-dashboard .dashboard-infomation .info-tit{font-size:1.625rem;font-weight:600;margin-bottom: .5rem;}
+.promotion-dashboard .dashboard-infomation .info-txt{font-size:1rem;margin-bottom:1.0625rem;}
+.promotion-dashboard .dashboard-infomation .now-user{color:#008dca;}
+.promotion-dashboard .dashboard-infomation .line-deco{text-decoration:underline;font-weight: 700;font-size: 1rem;}
+
+.promotion-dashboard .message{position:relative;}
+
+/* 프로모션 대시보드:전체 현황 */
+.promotion-dashboard .complete-status{padding:2.5rem 0;}
+.promotion-dashboard .complete-status .status-bar-header{display:flex;justify-content:center;text-align: right;color: #666;font-size: .875rem;}
+.promotion-dashboard .complete-status .status-bar-header .header-center{width: 35rem;position: relative;margin-left: 12.5rem;}
+.promotion-dashboard .complete-status .status-bar-header .header-right{width: 7.5rem;}
+.promotion-dashboard .complete-status .status-bar{display:flex;justify-content:center;}
+.promotion-dashboard .complete-status .status-bar:not(:first-child){margin-top:.25rem;}
+.promotion-dashboard .complete-status .bar-tit{width:12.5rem;flex:0 0 12.5rem;text-align:right;align-self:center;}
+.promotion-dashboard .complete-status .bar-gauge{width:35rem;flex:0 0 35rem;background:#F5F5F5;border-radius:.25rem;margin:.5625rem 1rem;position:relative;overflow:hidden;}
+.promotion-dashboard .complete-status .bar-gauge.after .gauge-value{background:linear-gradient(90deg, #f5f5f5, #008dca);}
+.promotion-dashboard .complete-status .gauge-value{background:linear-gradient(90deg, #f5f5f5, #000);height:100%;display:block;border-radius:.25rem;}
+.promotion-dashboard .complete-status .gauge-value{transform:translateX(-100%); animation:gaugeValueProgress 0.6s 0.8s ease forwards;}
+@keyframes gaugeValueProgress{
+  from{
+    transform:translateX(-100%)
+  }
+  to{
+    transform:translateX(0%)
+  }
+}
+.promotion-dashboard .complete-status .allow-value{position: absolute;right: .5rem;top: 0;color: #aaa;font-size: .875rem;height: 100%;line-height: 1.875rem;}
+.promotion-dashboard .complete-status .my-position{color:#008dca;position:absolute;font-size:.875rem;padding:0.3rem 0.5rem 0.3rem 1.5625rem;z-index:1;margin-left: 1.25rem;background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-20-promotion-my-position.png') no-repeat left center/1.25rem 1.25rem;}
+.promotion-dashboard .complete-status .goods{width:7.5rem;flex:0 0 7.5rem; display:flex;align-items:center;font-size:.875rem;justify-content:flex-end;background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-24-promotion-list-bg.png') no-repeat left center/1.25rem 1.25rem;}
+.promotion-dashboard .complete-status .goods-pic{flex:0 0 3rem; width:3rem;height:3rem;border-radius:100%;overflow:hidden;display:inline-block;margin:0 .375rem;}
+.promotion-dashboard .complete-status .goods-range{width:2.1875rem;color: #666;}
+.promotion-dashboard .complete-status .goods-pic .goods{width: 3rem;height: 3rem;background-repeat: no-repeat !important;background-size:3rem 3rem !important;text-indent: -9999px !important;background-position: 0 0 !important;}
+.promotion-dashboard .complete-status .goods-pic .goods.goods1{background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/challenge-googs01.png');}
+.promotion-dashboard .complete-status .goods-pic .goods.goods2{background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/challenge-googs02.png');}
+.promotion-dashboard .complete-status .goods-pic .goods.goods3{background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/challenge-googs03.png');}
+.promotion-dashboard .complete-status .goods-pic .goods.goods4{background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/challenge-googs04.png');}
+.promotion-dashboard .complete-status .goods-pic .goods.goods5{background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/challenge-googs05.png');}
+.promotion-dashboard .complete-status .goods-pic .goods.goods6{background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/challenge-googs06.png');}
+.promotion-dashboard .complete-status .goods-pic .goods.goods7{background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/challenge-googs07.png');}
+.promotion-dashboard .complete-status .goods-pic .goods.goods8{background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/challenge-googs08.png');}
+.promotion-dashboard .complete-status .goods-pic .goods.goods9{background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/challenge-googs09.png');}
+.promotion-dashboard .complete-status .goods-pic .goods.goods10{background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/challenge-googs10.png');}
+.promotion-dashboard .complete-status .goods-pic .goods.nopic{background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-48-goods-preset.png');}
+.promotion-dashboard .complete-status-footer{background: #f4f4f4;font-size: .875rem;text-align: center;padding: 1rem;color: #666;}
+
+.promotion-dashboard .content-header .fs{font-size:1rem;color: #ddd;}
+.promotion-dashboard .tag-area{padding:1.25rem 2.5rem 0;}
+.promotion-dashboard .tag-area .toggle{padding:0 0.9375rem;line-height:1.75rem;font-size:.875rem;font-weight:400;letter-spacing:-0.01063rem;color:#666;border-radius:0.9375rem;border:0.0625rem solid #ddd;background:#fff;margin-bottom:.625rem;}
+.promotion-dashboard .tag-area .toggle.active{background:transparent !important;color:#00bfae !important;border-color:#00bfae;}
+
+.promotion-dashboard .complete-detail-status{padding:2.5rem;}
+.promotion-dashboard .complete-detail-status .table-caption{text-align:right;font-size:.875rem;color:#666;margin-bottom:.75rem;}
+.promotion-dashboard .complete-detail-status .detail-status{display:flex;column-gap:.625rem;justify-content:center;width: 25.25rem;margin-right: 3.125rem;}
+.promotion-dashboard .complete-detail-status .detail-status .status-item{width:3rem;height:3rem;background-size:3rem 6rem;background-position:0 -3rem;text-align:center;line-height:3rem;font-size:.875rem;color:#999;font-weight:700;overflow: hidden;text-indent: -9999px;background-repeat: no-repeat;}
+.promotion-dashboard .complete-detail-status .detail-status .status-item.complete{background-position:0 0;color:#00bfae;}
+.promotion-dashboard .complete-detail-status .detail-status .status-item.main{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-48-promotion-badge-all-status.png')}
+.promotion-dashboard .complete-detail-status .detail-status .status-item.oct_1{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-48-promotion-badge-oct-status.png')}
+.promotion-dashboard .complete-detail-status .detail-status .status-item.oct_2{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-48-promotion-badge-oct-status.png')}
+.promotion-dashboard .complete-detail-status .detail-status .status-item.nov_1{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-48-promotion-badge-nov-status.png')}
+.promotion-dashboard .complete-detail-status .detail-status .status-item.nov_2{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-48-promotion-badge-nov-status.png')}
+.promotion-dashboard .complete-detail-status .detail-status .status-item.dec_1{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-48-promotion-badge-dec-status.png')}
+.promotion-dashboard .complete-detail-status .detail-status .status-item.dec_2{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-48-promotion-badge-dec-status.png')}
+
+.promotion-dashboard .complete-detail-status .my-state{background:#E5F9F7;margin: 1.375rem 0;position: relative;border-bottom: 0;}
+.promotion-dashboard .complete-detail-status .my-state .my-state-prev,
+.promotion-dashboard .complete-detail-status .my-state .my-state-next{display: flex;justify-content: center;align-items: center;position: absolute;width: 100%;text-align: center;font-size: .875rem;line-height: 1.375rem;color: #008dca;}
+.promotion-dashboard .complete-detail-status .my-state .my-state-prev{top: -1.375rem;}
+.promotion-dashboard .complete-detail-status .my-state .my-state-next{bottom: -1.375rem;border-bottom: 1px solid #ddd;}
+.promotion-dashboard .complete-detail-status .my-state [class^="my-state-"]::before,
+.promotion-dashboard .complete-detail-status .my-state [class^="my-state-"]::after {content: '';width: 1.25rem;height: 1.25rem;display: block;background-size: 1.25rem 2.5rem;background-repeat: no-repeat;background-image: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/icon-20-promotion-my-position-pb.png');}
+.promotion-dashboard .complete-detail-status .my-state .my-state-prev::before{background-position: 0 top;margin-right: .1875rem;}
+.promotion-dashboard .complete-detail-status .my-state .my-state-prev::after{background-position: 0 top;margin-left: .1875rem;}
+.promotion-dashboard .complete-detail-status .my-state .my-state-next::before{background-position: 0 bottom;margin-right: .1875rem;}
+.promotion-dashboard .complete-detail-status .my-state .my-state-next::after{background-position: 0 bottom;margin-left: .1875rem;}
+.promotion-dashboard .complete-detail-status .my-state .state-info {min-width: 9.6875rem;}
+
+.promotion-dashboard .status-table{border-radius: .5rem;}
+.promotion-dashboard .status-table th{padding:1.125rem 2.5rem;}
+.promotion-dashboard .status-table td{padding:.625rem 0;}
+.promotion-dashboard .status-table table{position: relative;height: 30rem;}
+.promotion-dashboard .status-table thead{position: sticky;width: 100%;height: 3.3125rem;}
+.promotion-dashboard .status-table tbody{position: absolute;left: 0;top: 0;width: 100%;height: 26.5625rem;margin-top: 3.3125rem;overflow-y: auto;overflow-x: hidden !important;}
+.promotion-dashboard .status-table tbody tr{display: flex;justify-content: space-between;border-bottom: 1px solid #ddd;}
+.promotion-dashboard .status-table tbody tr:last-child{border-bottom: 0}
+.promotion-dashboard .status-table tbody tr td{border-top: 0;}
+.promotion-dashboard .status-table .header-style th{padding: 0 2.5rem;height: 3.3125rem;}
+.promotion-dashboard .status-table .user-wrap{align-items: center;display: flex;position: relative;max-width: 32.625rem;margin-left: 2.5rem;}
+.promotion-dashboard .status-table .user-wrap .detail-my{color:#008dca;}
+.promotion-dashboard .status-table .user-wrap .detail-user{padding:0 .625rem;position:relative;display: block;max-width: 5rem;white-space: nowrap;word-wrap:normal;overflow: hidden;text-overflow: ellipsis;}
+.promotion-dashboard .status-table .user-wrap .detail-user:first-child{padding-left: 0;}
+.promotion-dashboard .status-table .user-wrap .detail-user:not(:last-child)::after{content:'';display:block;width:.0625rem;height:.625rem;background:#ddd;position:absolute;right:0;top:.5rem;}
+.promotion-dashboard .status-table .user-wrap .detail-user + .detail-user {max-width: 11.25rem;}
+.promotion-dashboard .status-table .user-wrap .detail-user + .detail-user + .detail-user {max-width: 13.75rem;padding-right: 0;}
+
+/* 메인 배너 영역 */
+.info-boading .boading-wrap{background-image: none !important;width: 16.875rem !important;position: relative;}
+.info-boading .boading-wrap .banner {background-size: cover;width: 16.875rem;height: 3rem;display: block;position: absolute;left: 0;top: 0;}
+.info-boading .boading-wrap .part1 {background-image: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/banner-promotion1.png');animation:bannerChange 10s 2s ease infinite;}
+.info-boading .boading-wrap .part2 {background-image: url('https://image.mysuni.sk.com/suni-asset/public/images/all/202310-event-image/banner-promotion2.png');}
+@keyframes bannerChange{
+  0% {opacity: 1;}
+  25.1% {opacity: 0;}
+  50% {opacity: 0;}
+  75.1% {opacity: 1;}
+  100% {opacity: 1;}
+}

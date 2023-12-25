@@ -1,0 +1,184 @@
+.admin-container {margin: 0 auto;padding-top: 4rem;}
+
+.admin_community_top {background:#777;padding:1.2rem 0;color:#fff;}
+.admin_community {width: 75rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+    border-radius: 0;}
+.admin_community > h3 {display:inline-block;font-size:1.375em;font-weight:bold;}
+.admin_community > button {font-size:0.813em;color:#fff;border:1px solid #ddd;padding:0.5rem 1rem;float:right;border-radius: 4px;}
+.admin_community > button > img {margin-right:0.3rem;}
+.admin_table { border-color: #777;}
+.admin_table tbody td, .admin_table thead th { border-color: #ddd;}
+
+/* 멤버관리, 메뉴관리, 홈관리 */
+.admin_tab_top {margin-bottom:2.5rem;}
+.admin_tab_top > ul li {display:inline-block;color:#777;font-size:1.250em;margin:0 1.6rem;position: relative;cursor: pointer;}
+.admin_tab_top > ul > li:first-child {margin-left:0;}
+.admin_tab_top > ul li.active {color:#000;font-weight:700;}
+/* .admin_tab_top > ul li.active::after{display: block;content: "";width: 4px;height: 4px;background-color: #e1002a;} */
+.admin_tab_top > ul li.active::before {content:'';position:absolute;top:0;right: -8px;;width:5px;height:5px;background:#e1002a;border-radius: 50%;}
+
+/* 탭 */
+.admin_tab {border-bottom: 2px solid #00bfae; margin-bottom: 2.5rem;}
+.admin_tab > ul li {display:inline-block;background: #fff;color: #777;padding: 0.7rem 1.5rem;border: 1px solid #ddd;cursor: pointer;border-bottom:none !important;}
+
+.admin_tab > ul li.active {background:#00bfae;color:#fff;border:1px solid #00bfae;font-weight:bold;}
+.admin_tab > ul li:nth-child(2) {border-left:none}
+.admin_tab > ul li:nth-child(3) {border-left:none}
+.admin_tab > ul li:last-child {border-left:none;}
+
+/* 서브 타이틀 */
+.admin_title_p {font-size:1rem;color:#4c4c4c;font-weight:700;margin-bottom:1.5rem;}
+
+
+/* 가입일자, 검색어 */
+.admin_table_top {background:#fff;border:1px solid #ddd; margin-bottom:3.75rem;}
+.admin_table_top.none {margin-bottom:0;}
+.admin_table_top.margin {margin-bottom:1.25rem;}
+.admin_table_top tbody th {font-size: 0.875em;color:#4c4c4c;font-weight:700;text-align:left;vertical-align: middle;padding:1rem 2rem;}
+.admin_table_top tbody tr:first-child td,
+.admin_table_top tbody tr:first-child th {padding-top:2rem;padding-bottom:0.5rem;}
+.admin_table_top tbody tr td {padding-right:2rem;}
+.admin_table_top tbody tr:last-child td,
+.admin_table_top tbody tr:last-child th {padding-bottom:2rem;padding-top:0.5rem;}
+.admin_table_search tbody tr>th>span, .admin_table_top tbody th>span {color: #e1002a; margin-left: 0.2rem;}
+.admin_table_search { border-color: #ddd; }
+.admin_table_search tbody tr > th > span {color: #e1002a;margin-left: 0.2rem;}
+.admin_table_top tbody tr > td > input {background: #fff;
+    border: 1px solid #999999;
+    font-size: 0.875em;
+    color: #999999;
+    line-height: 1.21428571em;
+    padding: 0.67857143em 1em;
+    border-radius: 0.28571429rem;
+    width: 100%;}
+    .admin_table_top tbody tr > td.margin > .ui.button.admin_text_button02 {margin-left:0;}
+.ui.input.right-top-count.admin > input {
+    border: 1px solid #999999;
+    font-size: 0.875em;
+    height:auto;
+    color: #999999;
+    line-height: 1.21428571em;
+    padding: 0.67857143em 1em;
+    border-radius: 0.28571429rem;
+}
+.ui.input.right-top-count.admin > input.bg {background:#fff;}
+.ui.input.right-top-count.admin > i.clear {top:0.45rem;}
+.admin_table_top tbody tr > td.admin_img > .ui.button.admin_text_button {margin-left:0;}
+
+.admin_table_radio .ui.checkbox input.hidden + label{color:#000; font-size: 0.875rem;}
+.admin_table_radio .ui.radio.base input:checked + label{color:#000}
+.admin_table_radio .ui.radio.checkbox:nth-child(n+2){margin-left:20px}
+
+/* 검색결과 */
+.admin_table_result {background:#fff;border:1px solid #00bfae;margin-bottom:3.75rem;}
+.admin_table_result tbody th {font-size: 0.875em;color:#4c4c4c;font-weight:700;text-align:left;vertical-align: middle;padding:2rem 0 2rem 2rem;}
+.admin_table_result tbody td {padding:2rem 0;}
+.admin_table_result tbody td .upload_result:first-child {margin-right:2.2rem;}
+.admin_table_result tbody td .upload_result:nth-child(2)::before {content:'';width:1px;height:10px;display:inline-block;background:#dddddd;margin-right:2.2rem;}
+.upload_result {font-size:1rem;color:#4c4c4c;display:inline-block;}
+.upload_result span {color:#00bfae;font-weight:700;}
+.admin_result_right {float:right;margin-right:2rem;}
+.admin_result_right span {font-size:0.875em;color:#555555;margin-right:2rem;}
+
+/* 검색 */
+.admin_table_search {background:#fff;border:1px solid #ddd;margin-bottom:3.75rem;}
+.admin_table_search.sub {margin-bottom:2rem;}
+.admin_table_search tbody th {font-size: 0.875em;color:#4c4c4c;font-weight:700;text-align:left;vertical-align: middle;padding:2rem 0 2rem 2rem;}
+.admin_table_search tbody td {padding:2rem 0;}
+.ui.input.admin_search_input > input {min-width: 52.25rem !important;font-size:0.875em;color:#222;border:1px solid #999999;}
+.admin_search_input > input {min-width:41.25rem !important;}
+
+/* 캘린더 */
+.admin_calendar .ui.input .react-datepicker-wrapper .react-datepicker__input-container > input {width: 12.25rem !important;font-size: 0.875em;color: #000;padding:0.57857143em 0.8em;border-radius: 0.28571429rem;border: 1px solid #999999;}
+.admin_calendar span {margin:0 0.5rem;}
+.admin_calendar > .ui.icon.input > i.icon {top:-5px;width:23px;right:12px;}
+.ui.h40.admin_calendar > .admin_date {display:inline-block;}
+.ui.h40.admin_calendar > .admin_date > button {font-size: 0.875em;border:1px solid #999999;color: #555555;font-weight:700;background:#fff;margin:0 0.25rem;}
+.ui.h40.admin_calendar > .admin_date > button:first-child {margin-left:0.5rem;}
+.ui.h40.admin_calendar > .admin_date > button.active {color:#3e8ae9 !important;border:1px solid #3e8ae9 !important;}
+
+/* 드롭다운 */
+.ui.dropdown.small-border.admin_tab_select {min-width: 12.25rem !important;height: 2.32rem !important;line-height: 2rem !important;border:1px solid #999999 !important;margin-right:0.5rem;}
+.ui.dropdown.small-border.admin_tab_select .icon.dropdown {top: 50% !important;}
+.ui.dropdown.small-border.admin_tab_select > .text {color:#000 !important;}
+.ui.input.admin_text_input > input {min-width: 40.25rem !important;font-size:0.875em;color:#222;border:1px solid #ddd;}
+.ui.button.admin_text_button {font-size:0.875em;background:#333333;color:#fff;margin-left:0.5rem;}
+.ui.button.admin_text_button02 {font-size:0.875em;border:1px solid #999999;color:#555555;margin-left:0.5rem;background:#fff;}
+.ui.input.admin_group_input > input {min-width:59.25rem !important;font-size:0.875em;color:#999999;border:1px solid #999999;}
+
+/* 드롭다운 */
+.ui.dropdown.small-border.admin_table_select {min-width: 9.25rem !important;height: 2.32rem !important;line-height: 2rem !important;border:1px solid #999999 !important;margin-right:0.3rem;vertical-align: middle;}
+.ui.dropdown.small-border.admin_table_select .icon.dropdown {top: 50% !important;}
+.ui.dropdown.small-border.admin_table_select > .text {color:#000 !important;}
+
+/* 테이블 버튼 */
+.ui.button.admin_table_button {background:#00bfae !important;color:#fff !important;font-size: 0.875em;}
+.ui.button.admin_table_button02 {color:#00bfae !important;border:1px solid #00bfae;font-size: 0.875em;font-weight:700;background: #fff;}
+.ui.button.admin_table_button02.left {float:left;}
+.table-board-title .table_list_string {float: left;font-size: 1rem;color: #666;line-height: 1.5rem;letter-spacing: -0.01875rem;}
+.table-board-title .table_list_string span {display:inline-block;margin-bottom:0.5rem;}
+.table-board-title .table_list_string strong {color:#222222;font-weight:700;margin-right: 0.2rem;}
+.table-board-title .table_list_string .admin_table_select {margin-left:1.5rem;}
+
+/* 테이블 */
+.admin_table {border-top: 2px solid #777;border-radius: 0;}
+.admin_table.cursor > thead > tr > th,
+.admin_table.cursor > tbody > tr > td {cursor: pointer;}
+.admin_table.sub.survey_popup_table > tbody > tr > td:nth-child(2) {text-align:left;}
+.admin_table.sub tbody td {padding:0.58571429em 0.78571429em;}
+.admin_table thead th {background:#fff;padding: 1.22857143em 0.78571429em;font-weight:700;}
+.admin_table tbody td {padding:1.28571429em 0.78571429em;}
+.admin_table thead th,
+.admin_table tbody td {font-size: 0.875em;text-align:center;border-bottom:1px solid #ddd;}
+.admin_table tbody tr > td.admin_red {color:#e1002a;}
+
+/* 엑셀파일 */
+.regi_span {font-size: 0.875em;vertical-align: middle;color: #555555;margin-left: 1rem;display: inline-block;}
+.regi_span.left{margin-top: 9px;float: left;}
+
+/* 하단 버튼 */
+.admin_bottom_button {text-align:right;margin-top:1.25rem;}
+.admin_bottom_button.line {border-top:1px solid #d6deed;padding-top:1rem;margin:0;}
+.admin_bottom_button.margin {margin:0;}
+.admin_bottom_button.line.none {border:none;}
+.admin_bottom_button > button:first-child {margin-right:0.3rem;}
+.admin_bottom_button > button:last-child {margin-left:0.3rem;}
+
+.admin_html {background:#eeeeee;border:1px solid #dddddd;min-height:31.250em;width:100%;}
+
+
+
+.input_normal {background: #f4f7fd;border: 1px solid #999999;font-size: 0.875em;color: #999999;line-height: 1.21428571em;padding: 0.67857143em 1em;border-radius: 0.28571429rem;width: 100%;}
+.input_normal.white {background:#fff;}
+.input_normal.width100 {width:100%;}
+.input_normal.width90 {width:90%;}
+
+
+.menu_survey {border-top:1px solid #777; margin-bottom: 20px}
+.menu_survey thead tr th {text-align:center;background:#fff;font-weight:700;border-bottom:1px solid #ddd;padding:0.8rem;font-size:	0.875em;}
+.menu_survey tbody tr > td {border-bottom:1px solid #ddd; padding: 0.8rem; font-size: 0.875em; text-align:center;}
+.menu_survey tbody tr > td:first-child {text-align:left;}
+.admin_survey_th {vertical-align: top;padding-top:1.5rem}
+.admin_survey_btn > .ui.button.admin_table_button02 {margin:1rem 0;}
+
+
+.menuAdd_title {font-size:0.875em;margin:1rem 0;text-align:left;}
+
+.ui.input.file2 label.ui.button.admin_text_button {
+    padding: 0.78571429em 1.5em 0.78571429em;
+    font-weight: normal;
+    font-size: 0.875em;
+    height: auto;
+    border-radius: 0.28571429rem !important;
+    line-height: normal;
+    width: auto !important;
+    background: #333333;
+}
+
+.preview.admin {display:inline-block;}

@@ -1,0 +1,11 @@
+.login-content .right-area .logo.new-logo{margin-bottom: 2.875rem}
+.logo.new-logo i.icon.sk-university-login::before{background-image:url('../../img/logo-gnb-login.png') !important; width:80px; height:35px}
+.login-content .right-area .inner .making-guide.pt10{padding-top:10px}
+.login-content.logbg .right-area .inner.pd3{padding: 45px 0 41px 270px; width:52.5rem;}
+.log-radio .ui.radio.checkbox label.radio-tit{color:#222 }
+.log-radio .ui.radio.checkbox + .ui.ui.radio.checkbox{margin-left:40px}
+.login-content .inner.pd3 .ui.form .ui.button.login.info{margin-top:16px}
+
+.ui.form.mt30{margin-top:30px;}
+.ui.button.fix.bg.w300{width:18.75rem}
+button.ui.button.fix.bg:disabled{opacity: 1!important; color:#bbb; background-color: #eee;}

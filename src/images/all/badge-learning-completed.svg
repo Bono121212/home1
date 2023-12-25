@@ -1,0 +1,10 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(.974 2)" fill="none" fill-rule="evenodd">
+        <circle stroke="#FF664D" stroke-width="2" fill="#FFF" cx="29.026" cy="28" r="27"/>
+        <circle stroke="#FF664D" cx="28.979" cy="28" r="22.5"/>
+        <path d="M3.487 24.185 48.976 12.23a2 2 0 0 1 2.281 1.013c1.963 3.773 3.174 6.518 3.633 8.232.457 1.704.754 4.566.89 8.586a2 2 0 0 1-1.49 2.003L8.75 44.032a2 2 0 0 1-2.302-1.049L2.82 35.635l-.817-9.342a2 2 0 0 1 1.484-2.108z" fill="#FF664D"/>
+        <text font-family="Jalnan" font-size="10" font-weight="bold" fill="#FFF" transform="rotate(-15 95.367 12.555)">
+                                        <tspan x="7.061" y="14">학습완료</tspan>
+                                    </text>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>EE5011AD-8C88-4808-B81D-0D70093349CC</title>
+    <g id="Front" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CommunityTemplate_Sample_C" transform="translate(-343.000000, -620.000000)">
+            <g id="@-center" transform="translate(0.000000, 77.000000)">
+                <g id="Component_01" transform="translate(100.000000, 465.000000)">
+                    <g id="001" transform="translate(0.000000, 72.000000)">
+                        <g id="icon_thumb_video" transform="translate(243.000000, 6.000000)">
+                            <rect id="Rectangle-Copy-3" fill="#222222" x="0" y="0" width="30" height="30"></rect>
+                            <circle id="Oval" fill="#DDDDDD" cx="15" cy="15" r="7"></circle>
+                            <path d="M13.8775378,12.5311037 L17.5558197,15 L13.8775378,17.4688963 L13.8775378,12.5311037 Z" id="Path-3" stroke="#222222" stroke-width="0.5" fill="#222222" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

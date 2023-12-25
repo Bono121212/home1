@@ -1,0 +1,250 @@
+/* 추가 */
+section.content.mylearning {background: black !important;}
+
+/* 1depth변경시 learning*/
+button.ui.button.post {color: hotpink !important; border: 1px solid hotpink !important;}
+.ui.segment.full .top-guide-title .list-number {color: hotpink !important;}
+.ui.segment.full .top-guide-title .left-wrap .post+.list-number:after {background: hotpink !important;}
+button.ui.button.moreview {color: hotpink !important;}
+i.icon.del24:before {background-color: hotpink !important;}
+.ui.button.excel-down .icon {background-color: hotpink !important;}
+.ui.button.post .icon.filter2 {background-color: hotpink !important;}
+.ui.icon.button.moreview .icon {background-color: hotpink !important;}
+button.ui.button.pop2.d {background-color: hotpink !important;}
+.follow_list .chk_follow {border: 1px solid hotpink !important; background-color: hotpink !important;}
+.follow_list .chk_follow.checked {color: blue !important; border-color: blue !important;}
+i.icon.list-down16:before {background-color: hotpink !important;}
+i.icon.list-up16:before {background-color: hotpink !important;}
+
+/* 1depth변경시 : recommend */
+.recommend-area .section-head {color: hotpink !important;}
+.recommend-detail .channel-of-interest {border: 1px solid hotpink !important;}
+.table-css.type3 .tit-set {color: hotpink !important;}
+.ui.button.img-icon .icon.arrow-up {background: hotpink !important;}
+.ui.button.img-icon .icon.arrow-down {background: hotpink !important;}
+.ui.button.img-icon .icon.setting17 {background-color: hotpink !important;}
+.ui.button.toggle.toggle4 {border-color: hotpink !important; color: hotpink !important; background-color: darkgreen !important;}
+
+/* 1depth변경시 : certification */
+.ui.menu.sku2 .item {color: hotpink !important;}
+.challenge-wrap .challenge-badge .right-area .badge-title { color: peachpuff !important;  border-bottom-color: red !important;}
+.challenge-wrap .challenge-badge .right-area .badge-title .t2:after { background: peachpuff !important;}
+.challenge-wrap .challenge-badge .right-area .badge-title .path { background-color: peachpuff !important; color: hotpink !important;}
+.challenge-wrap .challenge-badge .left-area .status .txt {color: peachpuff !important;}
+.challenge-wrap .challenge-badge .left-area .status .number {color: peachpuff !important;}
+.challenge-wrap hr.dividing {border-color: hotpink !important;}
+
+/* 1depth변경시 : 공통 라디오 박스 */
+.ui.checkbox:not(.radio) input:focus~label:before, .ui.checkbox:not(.radio) label:before, .ui.checkbox:not(.radio) label:hover:before {background-image: none !important; background-color : chocolate !important}
+.ui.checkbox:not(.radio) input:checked~label:before {background-color: blueviolet !important; background-image: none !important;}
+
+.sort-reult .section-count {color: hotpink !important;}
+.sort-reult .section-count+.comments-sort .ui.checkbox input:checked+label {color: hotpink !important;}
+.sort-reult .section-count+.comments-sort .ui.checkbox input+label {color: hotpink !important;}
+.ui.dropdown.inline .menu .item:focus, .ui.dropdown.inline .menu .item:hover {background: hotpink !important;}
+.ui.checkbox:not(.radio) input:checked:focus~label:before { background-color: purple !important; background-image: none !important;}
+
+/* 1depth변경시 : support*/
+.support-list-wrap.faq .cate-wrap .radio-wrap .ui.radio.checkbox.checked {background-color: red !important;}
+.support-list-wrap.faq .cate-wrap .radio-wrap .ui.radio.checkbox {color: hotpink !important;    border-color: hotpink !important;}
+.support-list-wrap.faq .cate-wrap .radio-wrap .ui.radio.checkbox.checked:after {border-color: hotpink !important;}
+
+
+/* 1depth변경시 : 공통 filter */
+.filter-table .title {background-color: cadetblue !important; color: red !important;}
+.result-button {border-color: hotpink !important; background-color: aquamarine !important;}
+.filter-table .title:after {border-bottom-color: cadetblue !important;}
+.filter-table>table tr th {color: red !important;}
+.filter-table>table tr td .checkbox label {color: red !important;}
+.filter-table .selected table tr th .clear+span {color: red !important;}
+i.icon.reset:before {background-color: cadetblue !important;}
+.ui.calendar.h40 .ui.input input[type=text] { border-color: yellowgreen !important;}
+.ui.calendar.h40 .ui.input label { border-color: yellowgreen !important; color: red !important;}
+.btn-filter-blue.on span { background-color: hotpink !important;}
+button.ui.button.btn-filter-blue.on { color: hotpink !important; border-color: hotpink !important;}
+.ui.button.del { border-color: red !important; color: red !important; background-color: brown !important;}
+.ui.button.del:before {background-color: red !important;}
+.filter-table .selected {border-color: red !important; background: indianred !important;}
+.moreAll {color: red !important;border-color: crimson !important;background-color: brown !important;}
+.more-text {color: red !important;}
+.ui.calendar.h40 .ui.input input[type=text] {border-color: yellowgreen !important;}
+.ui.calendar.h40 .ui.input label {border-color: yellowgreen !important; color: red !important;}
+.ui.radio input:focus, .ui.radio input:focus~label:before, .ui.radio label:before, .ui.radio label:hover:before {background-color: red !important;}
+.ui.radio input:checked, .ui.radio input:checked:focus, .ui.radio input:checked:focus~label:before, .ui.radio input:checked~label:before { background-color: red !important;}
+.ui.button.pop.d {background-color: yellowgreen !important;}
+.ui.accordion.channel .title i:before {background-color: green !important;}
+.ui.accordion.channel .title.active i:before {background-color: lightgreen !important;}
+.ui.radio.rect-icon input:checked+label { color: hotpink !important; background-color: red !important;}
+.ui.rect-icon.radio.checkbox input:checked~label:before { background-color: red !important;}
+.completion-time .table-css .radio-wrap ul li .ui.radio.rect-icon input:checked+label+.buri { background-color: burlywood !important; background-image: none !important;}
+.ui.radio.rect-icon input:checked+label {background-color: burlywood !important;}
+
+/* 전체 변경 시 */
+body {background: blue !important;color: blue !important;}
+.content.lms .course-info-detail, .content.lms.v-wide .course-info-detail {background: black !important;}
+.content.lms .lms-sticky-menu, .content.lms .lms-sticky-menu.lms-fixed .lms-fixed-inner {background-color: transparent; border-bottom: 1px solid hotpink !important;}
+.content.lms .lms-sticky-menu .lms-fixed-inner a {color: hotpink !important;}
+.content.lms .contents-header .title-area .header {color: hotpink !important;}
+.content.lms .ui.button.post-s {color: hotpink !important; border-color: hotpink !important;}
+.content.lms i.icon.ask {background-color: hotpink !important;}
+.ui.label.onlytext {color: hotpink !important;}
+.content.lms .header-deatil .item .ui.label.onlytext:after {color: hotpink !important;}
+.content.lms .header-right-link a {color: hotpink !important;}
+.content.lms .icon.listAdd {background-color: hotpink !important;}
+.content.lms .icon.linkCopy {background-color: hotpink !important;}
+i.lms-comment-icon {background-color: hotpink !important;}
+.content.lms .scrolling-area.area2 .section-head .title-style .onlytext span {color: hotpink !important;}
+.ui.label.onlytext .icon.category {background-color: hotpink !important;}
+.badge-detail .ov-paragraph .list .item>.title {color: hotpink !important;}
+.badge-detail .ov-paragraph .list .item>.detail {color: hotpink !important;}
+.badge-detail .ov-paragraph .list.bulleted .item .title:before {background: hotpink !important;}
+.badge-detail .ov-paragraph .title-style .onlytext span {color: hotpink !important;}
+.ui.label.onlytext .icon.tag2 {background-color: hotpink !important;}
+.ui.label.tag {border: 1px solid hotpink !important; color: hotpink !important;}
+.ui.label.onlytext .icon.document24 { background-color: hotpink !important;}
+.content.lms .ui.label.onlytext .icon.advanced{background-color: hotpink !important;}
+.icon.lms-badge { background-color: hotpink !important;}
+.content.lms .ov-paragraph.download-area .down a span { color: hotpink !important;}
+.content.lms .ov-paragraph.download-area .down a:after { background-color: hotpink !important;}
+.ui.radio.base input:checked+label {color: hotpink !important;}
+.ui.radio.base label { color: hotpink !important;}
+.comment-star-rating .c { color: hotpink !important;}
+.comment-star-rating .t { color: hotpink !important;}
+.ui.button.orange-arrow, .ui.button.orange-arrow2 { color: hotpink !important;}
+.content.lms i.icon.noteWrite {background-color: hotpink !important;}
+.content.lms .header-right-link button {color: hotpink !important;}
+#root .video-fixed-holder.lms-video-fixed+.lms-sticky-menu {background-color: black !important;}
+.ui.label.onlytext .icon.goal {background-color: hotpink !important;}
+.ui.label.onlytext .icon.target {background-color: hotpink !important;}
+.ui.label.onlytext .icon.host {background-color: hotpink !important;}
+.sticky-video-content .header-right-link .ui.button span {color: hotpink !important;}
+.content.lms .header-rating span {color: hotpink !important; font-style: italic !important;}
+.content.lms .ui.label.onlytext i.icon.time2 {background-color: hotpink !important;}
+.content.lms .ui.label.onlytext .icon.date { background-color: hotpink !important;}
+.ui.icon.button.btn-blue .icon.more2 { background-color: hotpink !important;}
+.ql-snow.overview { color: hotpink !important;}
+.ui.profile .pic {border-color: hotpink !important;}
+.ui.segment.full .contents.overview .ov-paragraph .title-style .onlytext span {color: hotpink !important;}
+.ui.label.onlytext .icon.series {background-color: hotpink !important;}
+.ui.segment.full .contents.overview .ov-paragraph .series-wrap .table {border-color: hotpink !important;}
+.ui.segment.full .contents.overview .ov-paragraph .series-wrap .th-info th:first-child {border-bottom-color: hotpink !important;}
+.ui.segment.full .contents.overview .ov-paragraph .series-wrap .th-info th {color: hotpink !important;}
+.ui.segment.full .contents.overview .ov-paragraph .series-wrap .th-info td {color: hotpink !important; border-bottom-color: hotpink !important;}
+.ui.segment.full .contents.overview .ov-paragraph-v2 .series-wrap .table th span:before { background-color: hotpink !important;}
+.lms-open-graph-link { box-shadow: 0 1px 3px 0 hotpink;}
+.lms-open-graph-link a .link { color: hotpink;}
+.content.lms .ui.label.onlytext .icon.inter { background-color: hotpink !important;}
+.badge-detail .ov-paragraph { border-bottom-color: hotpink !important;}
+.ui.icon.button.btn-blue .icon.hide2 { background-color: hotpink !important;}
+.content.lms .ui.label.onlytext .icon.basic { background-color: hotpink !important;}
+.lms-open-graph-link a .txt {color: hotpink !important;}
+.ui.segment.full .no-cont-wrap .text {color: hotpink !important;}
+.community-cont .community-list {box-shadow: 0 2px 6px 0 hotpink !important;}
+.course-info-header.task {border-bottom-color: hotpink !important;}
+.discuss-wrap .task-condition .task-condition {color: hotpink !important;}
+.discuss-wrap .task-condition .task-condition:before {background-color: hotpink !important;}
+.discuss-wrap .task-condition span {color: hotpink !important;}
+.discuss-wrap .task-condition p {color: hotpink !important;}
+.discuss-wrap .task-condition span:before {background-color: hotpink !important;}
+.discuss-wrap {border-bottom-color: hotpink !important;}
+.task-title-wrap .task-number span {color: hotpink !important;}
+.course-radio.task .task-post-btn {border-color: hotpink !important; color: hotpink !important;}
+.course-radio.task .task-post-btn:before {background-color: hotpink !important;}
+i.icon.no-contents80:before {background-color: hotpink !important;}
+.support-list-wrap.user-qa .list-top .post.ask.ui.button {background-color: red;}
+i.icon.ask24:before {background-color: hotpink !important;}
+.support-list-wrap .list-top .list-top-left {color: hotpink !important;}
+.qna-admin-list-wrap {box-shadow: 0 2px 6px 0 hotpink !important;}
+/* 공통 modal */
+.ui.modal.size-mini .main .header { color: hotpink !important; border-bottom-color: hotpink !important;}
+.ui.modal.size-mini .main .content .modal-img img { background: hotpink !important;}
+.ui.modal.size-mini .main .content .description .title { color: hotpink !important;}
+.ui.modal.size-mini .main .content .description { color: hotpink !important;}
+.ui.modal.size-mini .actions.normal .button.secondary {background-color: hotpink !important;}
+
+/* 바꿀지말지 모르는 거 -pdf */
+.pdf-control { background-color: silver !important;}
+.ui.button.free.complete {color: slateblue !important; border-color: slateblue !important;}
+.lms-paging-holder .lms-next, .lms-paging-holder .lms-prev {background-color: hotpink !important;}
+.lms-paging-holder .lms-num.lms-on {color: hotpink !important;}
+.lms-paging-holder > .lms-num:after {background-color: hotpink !important;}
+.badge-slide-inner .fn-parent .icon { background-color: hotpink;}
+.badge-slide-inner .fn-parent.on .icon span:after, .badge-slide-inner .fn-parent:hover .icon span:after {border-color: orangered !important;}
+.badge-navi .btn-prev.prev-off {background-color: hotpink !important;}
+.badge-navi .btn-next.next-on {background-color: hotpink !important;}
+.notice-bar {background-color: hotpink !important;}
+.ui.button.free.line {border-color: hotpink !important; color: hotpink !important;}
+.lms-paging-holder .lms-num {color: hotpink !important;}
+
+/*전체 공통*/
+.ui.dropdown.selection .menu .item.selected {background: hotpink !important;}
+.ui.dropdown.small-border .text {color: orangered !important;}
+.ui.dropdown.small-border {border-color: hotpink !important; color: hotpink !important;}
+.ui.dropdown.small-border .icon.dropdown:before {background-color: hotpink !important;}
+.ui.dropdown.small-border.active .icon.dropdown:before {background-color: hotpink !important;}
+.ui.dropdown.active.small-border>.text {color: hotpink !important;}
+.ui.selection.active.dropdown {border-color: hotpink !important;}
+.ui.selection.active.dropdown .menu {border-color: hotpink !important;}
+.ui.default.dropdown:not(.button)>.text, .ui.dropdown:not(.button)>.default.text {color: hotpink !important;}
+.ui.selection.dropdown:focus {border-color: hotpink !important;}
+.ui.dropdown.selection .menu .item:focus, .ui.dropdown.selection .menu .item:hover {background-color: hotpink !important;}
+/*college > 전체보기*/
+.channel .college-detail .section-top .section-count-big {color: hotpink !important;}
+
+/*mypage, note*/
+.ui.menu.note-tab a.item.active {background: hotpink !important; border-bottom: hotpink !important;}
+.note_area {box-shadow: 0 2px 6px 0 hotpink;}
+.search_box .ui.table {border-color: hotpink !important;}
+.total_box {color: hotpink !important; border-bottom-color: hotpink !important;}
+.total_box .tit_cnt+.tit_cnt:before {background-color: hotpink !important;}
+.mypagev2 .mypage_lnb .inner {box-shadow: 0 2px 6px 0 hotpink !important;}
+.folder_area {border-color: hotpink !important;}
+.total_box .tit_folder+.tit_cnt:before {background-color: hotpink !important;}
+
+/*community*/
+.favorites_tab .ui.menu .item.active .total {color: hotpink !important;}
+.favorites_tab .ui.menu .item.active {background-color: hotpink !important;}
+.ui.comments.base {box-shadow: 0 2px 6px 0 hotpink !important;}
+
+
+
+
+
+
+
+/*색상확정*/
+.ui.menu.sku .item.active .count, .ui.menu.sku .item .new {color: #ff664d;}
+.ui.menu.sku .item.active {border-bottom-color: #00bfae;}
+.content.lms .lms-sticky-menu .lms-fixed-inner a.lms-act {border-bottom-color: #00bfae}
+.content.lms .lms-sticky-menu .lms-fixed-inner a .count {color: #ff664d;text-shadow: none;}
+.ui.menu.sku2 .item.active {border-bottom-color: #00bfae;}
+.ui.menu.sku2 .item.active .count {color: #ff664d;}
+
+/*community admin*/
+.admin_community_top { background: #777; }
+.admin_table_top {border-color: #ddd;}
+.admin_table tbody td, .admin_table thead th { border-color: #ddd; }
+.admin_table {border-color: #777;}
+.table-board-title .table_list_string { color: #666; }
+.ui.button.admin_table_button { background-color: #00bfae !important; }
+.admin_tab>ul li.active { background-color: #00bfae; border-color: #00bfae;}
+.admin_tab { border-color: #00bfae;}
+.admin_tab>ul li {color: #777;border-color: #ddd;}
+.admin_tab_top>ul li { color: #777; }
+.upload_result span { color: #00bfae; }
+.admin_table_result { border-color: #00bfae; }
+.admin_table_search { border-color: #ddd; }
+.menu_left_btn>button:nth-child(3) { background-color: #00bfae; }
+.admin_menu_left { border-color: #ddd; }
+.menu_left_btn>button:first-child, .menu_left_btn>button:nth-child(2) {border-color: #ddd;}
+.menu_right_contents { border-color: #ddd;}
+.menu_right_contents>ul { border-color: #ddd; }
+.admin_menu_title { border-color: #ddd; }
+.templete_title .btn_box button.change { border-color: #00bfae; color: #00bfae;}
+.list_table table.table td, .list_table table.table th { border-color: #ddd; border-top: 0;}
+.list_table table.table { border-color: #777;}
+.list_table.intro .no_intro { border-color: #ddd;}
+.btn_box button.button.blue, .btn_box button.button.blue:focus, .btn_box button.button.blue:hover { background-color: #00bfae; border-color: #00bfae;}
+.ui.table.chart-table { border-top-color: #777; border-bottom-color: #ddd;}
+.ui.table thead th { background-color: #fafafa;}
+.cnt-container .cnt-view {border-color: #ddd;}

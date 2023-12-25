@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CA122891-219A-469D-AB87-00E32DE62EE6</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Note" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A-/-Note_03_Write(CI-12-12)" transform="translate(-272.000000, -122.000000)">
+            <g id="@-LNB" transform="translate(-0.000001, 109.000000)">
+                <g id="btn-/-24px-/-new-/-wht" transform="translate(0.000001, 0.000000)" filter="url(#filter-1)">
+                    <g transform="translate(272.000000, 13.000000)" id="Icon_learningtype_Cohort_16px"></g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

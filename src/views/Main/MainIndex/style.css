@@ -1,0 +1,11 @@
+.ui.breadcrumb {
+    float: right;
+}
+
+/*2020-12-17 대쉬보드 수정작업*/
+.main_index_top tbody tr > td {vertical-align: top;}
+.main_index_top tbody tr > td:first-child {vertical-align: middle;}
+.main_sub_all {font-size:0.875rem;color:#fff;}
+.main_sub_all:hover {color:#fff;}
+.main_index_top tbody tr > td:nth-child(3) {padding:2rem 2.125rem;}
+.main_sub_all .big2 {font-weight:700;margin:0 3px;}

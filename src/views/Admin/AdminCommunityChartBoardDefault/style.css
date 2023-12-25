@@ -1,0 +1,6 @@
+.ui.segment.full .chart-container .no-cont-wrap{padding-top: 6.5rem;}
+.ui.segment.full .chart-container .no-cont-wrap .text{
+    color:#555;
+    font-size: 1rem;
+    white-space: pre-wrap; 
+}

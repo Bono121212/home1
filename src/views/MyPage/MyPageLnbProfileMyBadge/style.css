@@ -1,0 +1,181 @@
+.mypage_menu_list ul li .active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.profile-badge-contents .top-line{
+    padding: 2.75rem 0 1rem;
+}
+.profile-badge-contents .top-line::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.profile-badge-contents .top-line span{
+    float: left;
+    display: block;
+    font-size: 1rem;
+    color: #6c788f;
+}
+
+.profile-badge-contents .top-line .dropdown{
+    float: right;
+    width: 7.5rem;
+}
+
+.profile-badge-contents .group-wrapper{
+    border-top: 0.063rem solid #d6deed;
+    padding-top: 1.313rem;
+}
+
+.badge-list-type.list-wrapper{padding-bottom:0}
+
+.badge-list-type.list-wrapper ul li{
+    padding: 0 1.688rem  3.125rem 1.875rem;
+    width:25%;
+    margin:0;
+    text-align: center;
+}
+
+.badge-list-type.list-wrapper .badge-name{
+    margin-top: 0.625rem;
+    color:#222;
+    font-size:1rem;
+    min-height: auto;
+}
+
+.badge-list-type.list-wrapper .button-area{
+    margin-top: 0.625rem;   
+}
+
+.badge-list-type.list-wrapper .button-area .ui.button{
+    color:#222;
+    border-color:#222;
+    background:transparent;
+    width: 14.5rem;
+}
+
+.ui.modals > .base.mypage-modal-pop{
+    width:59.375rem !important;
+    height: 100%;
+    background:transparent;
+}
+
+.ui.modals > .base.mypage-modal-pop .header{
+    padding: 1.375rem 1.875rem 1.188rem;
+    color:#222;
+    height: auto !important;
+    line-height: 1.714rem !important;
+    text-indent: 0;
+}
+
+.base.mypage-modal-pop .header::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.base.mypage-modal-pop .header .ui.button.close{
+    float:right;
+}
+
+.ui.modals .base.mypage-modal-pop > .content{
+    height:80%;
+    overflow-y: auto;
+}
+
+.ui.modals .base.mypage-modal-pop .contents-wrapper{
+    padding: 1.18rem 3.813rem 3.875rem 3.938rem !important;
+}
+
+.base.mypage-modal-pop .logo-area{
+    height: 2.625rem;
+    margin-bottom: 0.5rem;
+}
+.base.mypage-modal-pop .ctf-wrapper{
+    border: 0.063rem solid #ddd;
+}
+
+.base.mypage-modal-pop .message-wrapper{
+    padding: 1.875rem;
+}
+
+.base.mypage-modal-pop .message-wrapper span{
+    color: #222;
+    font-size: 1.5rem;
+    line-height: 1.42;
+}
+.base.mypage-modal-pop .message-wrapper .message-area{
+    margin: 1.25rem 0 1.875rem;
+    color:#222;
+    font-size:0.875rem;
+    line-height: 1.57;
+    white-space: pre-wrap;
+}
+
+.base.mypage-modal-pop .bottom-button{
+    margin: 1.875rem auto 2.5rem;
+    text-align: center;
+}
+
+.base.mypage-modal-pop .bottom-button .ui.button.line{
+    border-color: #4b9e9b !important;
+    color: #4b9e9b;
+}
+
+.base.mypage-modal-pop .bottom-button .ui.button.bg{
+    background-color: #4b9e9b !important;
+    margin-left: 1.25rem;
+}
+.base.mypage-modal-pop .bottom-button span{
+    display: inline-block;
+    margin-top: 1.25rem;
+    color: #ea012c;
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 1.71;
+}
+
+
+.certi_box .my_certificate{position:relative;width:46.25rem;height:33.063rem;}
+.certi_box .my_certificate .txt_box{position:absolute;top: 197px; left: 91px;width:22.5rem;text-align:center;}
+.certi_box .my_certificate .txt_box .name{font-size:1.313rem;color:#333; line-height: 28px;}
+.certi_box .my_certificate .txt_box p{margin:.625rem 0 1.125rem 0; color:#333; font-size:.875rem; line-height: 22px; }
+.certi_box .my_certificate .txt_box .category{display:block;margin-bottom:1.125rem;font-size:1rem ;color:#e1002a;}
+.certi_box .my_certificate .txt_box .date{font-size:.75rem;color:#4c4c4c;}
+
+.certi_box .my_certificate.mybadge .badge.badge-list-type{position:absolute;top:133px;right:4.563rem;width:10.313rem;height:10.313rem;padding:0;}
+.certi_box .my_certificate.mybadge .badge .badge-box{position:relative;width:10.313rem;height: 10.313rem;}
+.certi_box .my_certificate.mybadge .badge .badge_thumb img{width:100%;height:100%;}
+.certi_box .my_certificate.mybadge .badge .issuing{top:1.563rem;right:0;}
+.certi_box .my_certificate.mybadge .badge .college{top:2.813rem;right:0;}
+.certi_box .my_certificate.mybadge .badge .college img{width:2.25rem;height:2.25rem;margin:0 auto;}
+.certi_box .my_certificate.mybadge .badge .title{top:5.25rem;right:0;height:2rem;font-size:1.313rem;}
+.certi_box .my_certificate.mybadge .badge .title .cell span{max-height:2rem;font-size: .75rem;word-break:break-word;}
+.certi_box .my_certificate.mybadge .badge .star-score{bottom:1.875rem;right:0;}
+
+.certi_box .my_certificate.mystamp .stamp{position:absolute;top:10.063rem;right:4rem;}
+.certi_box .my_certificate.mystamp .category{overflow:hidden;max-height:4.75rem;margin-bottom:.625rem;font-size:.875rem;}
+
+#printWindow .certi_box{position:relative;width: 90%; margin:1.25rem auto ;}
+
+.print_certi{position: relative;}
+.print_certi .certi_box .my_certificate{position:relative;width:53.75rem;height:38.438rem;}
+.print_certi .certi_box .my_certificate > img{width:100%;}
+.print_certi .certi_box .my_certificate .txt_box p{font-size:1rem;}
+.print_certi .certi_box .my_certificate .txt_box .name{font-size:1.438rem;}
+.print_certi .certi_box .my_certificate .txt_box{left:7.75rem;top:15.5rem;}
+.print_certi .certi_box .my_certificate .txt_box .date{font-size:.875rem;}
+.print_certi .certi_box .my_certificate.mybadge .badge .badge-box{position:relative;width:14.5rem;height: 14.5rem;}
+.print_certi .certi_box .my_certificate.mybadge .badge.badge-list-type{top:11.063rem;right:4.1rem;width:14.5rem;height:14.5rem;}
+.print_certi .certi_box .my_certificate.mybadge .badge .title{top:7.8rem;}
+.print_certi .certi_box .my_certificate.mybadge .badge .star-score{bottom:2.5rem;}
+.print_certi .certi_box .my_certificate.mybadge .badge .issuing{top:2.3rem;}
+.print_certi .certi_box .my_certificate.mybadge .badge .college{top:3.6rem;}
+.print_certi .certi_box .my_certificate.mybadge .badge .college img{width:3.125rem;height:3.125rem;}
+
+@media print { 
+    .certi_box{ padding: 20px !important; } 
+    html { zoom: 139%; }
+}

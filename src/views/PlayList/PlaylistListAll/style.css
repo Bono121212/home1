@@ -1,0 +1,42 @@
+/* 2022-04-05 playlist */
+.playlist-all-infobox {padding:40px 0;}
+.playlist-all-infobox .playlist-tit {font-size:24px; font-weight: 700; color:#222; line-height: 36px; letter-spacing: -0.55px;}
+.playlist-all-infobox .playlist-subtxt {margin-top:6px; font-size:14px; color:#222; letter-spacing: -0.4px;}
+
+.playlist-all-container {display:flex; justify-content: space-between;}
+.playlist-all-container .playlist-all-content {width:910px; flex:1 1 auto;}
+.playlist-all-container .playlist-all-top {width:240px; margin-left:50px; flex:none;}
+.playlist-all-container .playlist-all-right {display:flex; align-items: flex-start; padding-top:4px; margin-left:auto;}
+.playlist-all-container .ui.playlist-view-tab.menu {display:flex;}
+.playlist-all-container .ui.playlist-view-tab.menu .item {border-top:1px solid transparent;}
+.playlist-all-container .ui.playlist-view-tab.menu .item.active {border-top-color:#222;}
+.playlist-all-container .playlist-all-right .ui.search.input {position:relative; width:240px; }
+.playlist-all-container .playlist-all-right .ui.search.input input {height:36px; background-color:#f6f6f6 !important; border-color:#f6f6f6 !important; padding-left:16px; width:100%;}
+.playlist-all-container .playlist-all-right .ui.search.input input::placeholder {font-size:12px;}
+.playlist-all-container .playlist-all-right .ui.search.input input:-ms-input-placeholder {font-size:12px;}
+.playlist-all-container .playlist-all-right .ui.search.input input::-moz-placeholder {font-size:12px;}
+.playlist-all-container .playlist-all-right .ui.search.input input::-webkit-input-placeholder {font-size:12px;}
+.playlist-all-container .playlist-all-right .ui.search.input .ui.button {display:flex; justify-content: center; align-items: center; margin:0; padding:0; width:32px; height:32px;}
+.playlist-all-container .playlist-all-right .ui.search.input .ui.button.clear {position:absolute; right:34px; top:50%; transform: translateY(-50%);}
+.playlist-all-container .playlist-all-right .ui.search.input .ui.button.clear .icon.clear::before {content:''; width:24px; height: 24px;background: url("../../../images/all/btn-clear-nomal-v2.svg") no-repeat 0 0 !important;background-size: 100% 100% !important;}
+.playlist-all-container .playlist-all-right .ui.search.input .ui.button.search {position:absolute; right:6px; top:50%; transform: translateY(-50%);}
+.playlist-all-container .playlist-all-right .ui.search.input .ui.button .icon {position:static; margin:0;}
+.playlist-all-container .playlist-all-right .list-toggle {position:relative; display:flex; background-color: #fff; margin-left:10px;}
+.playlist-all-container .playlist-all-right .list-toggle .ui.button {position:relative; z-index:2; width:36px; height:36px; margin:0; background:no-repeat center center;}
+.playlist-all-container .playlist-all-right .list-toggle .ui.button.is-active {background-color:#00bfae;}
+.playlist-all-container .playlist-all-right .list-toggle .ui.button.type-card {background-image: url('../../../images/all/icon-board-card-off.svg'); border-radius:4px 0 0 4px;}
+.playlist-all-container .playlist-all-right .list-toggle .ui.button.type-card.is-active {background-image: url('../../../images/all/icon-board-card-on.svg');}
+.playlist-all-container .playlist-all-right .list-toggle .ui.button.type-list {background-image: url('../../../images/all/icon-board-list-off.svg'); border-radius:0 4px 4px 0;}
+.playlist-all-container .playlist-all-right .list-toggle .ui.button.type-list.is-active {background-image: url('../../../images/all/icon-board-list-on.svg');}
+.playlist-all-container .playlist-all-right .list-toggle::before {content:''; position:absolute; z-index: 1; left:0; top:0; right:0; bottom:0; border:1px solid #ddd; border-radius: 4px;}
+
+.playlist-all-container .list-top {display:flex; justify-content: space-between; align-items: center; margin-bottom:14px;}
+.playlist-all-container .comments-sort,
+.playlist-all-container .comments-sort .ui.form .inline.fields {margin-bottom:0;}
+.playlist-all-container .comments-sort .ui.form .inline.fields .field:last-child {padding-right:0;}
+.playlist-all-container .list-more {display:flex; justify-content:center; margin-top:30px; text-align: center;}
+
+/* 플레이리스트 카드목록 */
+.playlist-all-container .playlist-box.card-item .playlist-info-box .list-type {height:24px;}
+.playlist-all-container .playlist-box.card-item .badge-info-box {position:absolute; right:6px; top:6px; display:flex;}
+.playlist-all-container .playlist-box.card-item .badge-info-box .ui.button.share {width:40px; height:40px; padding:10px; margin:0; background: url('../../../images/all/icon-pl-share-action.svg') no-repeat center center;}

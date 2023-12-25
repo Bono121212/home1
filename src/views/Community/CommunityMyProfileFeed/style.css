@@ -1,0 +1,19 @@
+ /*CO-PR-20 ,40*/
+.content.profile .community-containter {padding-top: 0}
+.content.profile .profile_box .profile_info .btn_nickname_edit{width:24px;height:24px;margin-top:-4px;font-size:0;vertical-align:middle;border-radius:50%;background:#eee url(../../../images/all/btn_nickname_edit.png) no-repeat left top;}
+
+.content.profile .ui.comments.base>.comment{min-height:auto;padding:1.4375rem 1.875rem !important;}
+.content.profile .community-main-contants{padding-top:3.75rem;}
+.content.profile .community-main-contants .sub-info-box{width:100%;}
+.content.profile .community-main-contants .community-main-card .ui.comments.base > .comment .content .text{margin-top:3px;}
+.content.profile .community-main-contants .community-main-card .ui.comments.base > .comment .content .actions .right.top{top:50%;margin-top:-19px;}
+
+.content.profile .community-main-contants .community-main-card .card-bottom{padding:1.25rem 1.875rem;border-top:1px solid #eee;}
+.content.profile .community-main-contants .community-main-card .card-bottom h3 .ico_feed{display:inline-block;width:24px;height:24px;margin:2px 6px 0 0;font-size:0;vertical-align:top;}
+.content.profile .community-main-contants .community-main-card .card-bottom h3 .ico_feed.attach{background:url(../../../images/all/icon_attech.png) no-repeat center center;}
+.content.profile .community-main-contants .community-main-card .card-bottom h3 .ico_feed.board{background:url(../../../images/all/icon_board.png) no-repeat center center;}
+.content.profile .community-main-contants .community-main-card .card-bottom h3 .ico_feed.message{background:url(../../../images/all/icon_message.png) no-repeat center center;}
+
+.content.profile .community-main-contants .community-main-card .card-bottom .attach_list{margin-top:1rem;}
+.content.profile .community-main-contants .community-main-card .card-bottom .attach_list a{display:block;margin-top:10px;padding-left:22px;color:#666;font-size:14px;text-decoration:underline;background:url(../../../images/all/icon_attach_file.png) no-repeat left center;}
+.content.profile .community-main-contants .community-main-card .card-bottom .attach_list a:first-child{margin:0;}

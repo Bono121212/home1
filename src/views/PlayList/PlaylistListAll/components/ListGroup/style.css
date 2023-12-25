@@ -1,0 +1,116 @@
+.playlist-tbl {
+    padding:10px 0;
+}
+.playlist-tbl .ui.table {
+    width: 100%;
+    border-radius: 0.5rem !important;
+    overflow: hidden;
+    background: #fff !important;
+    box-shadow: 0 2px 6px 0 #ccd4e7 !important;
+    border: none !important;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.playlist-tbl .ui.table thead tr th {
+    height: 3rem;
+    font-weight: 700;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-align: center !important;
+    vertical-align: middle;
+    color: #222;
+}
+
+.playlist-tbl .ui.table thead tr th {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.playlist-tbl .ui.table thead tr th.title {
+    text-align: center;
+}
+
+.playlist-tbl .ui.table thead tr th .icon {
+    vertical-align: middle;
+    margin: -0.125rem 0 0 0.25rem;
+}
+
+.playlist-tbl .ui.table thead tr th a {
+    font-weight: 700;
+}
+
+.playlist-tbl .ui.table tbody tr td {
+    border-top: 0.0625rem solid #eee;
+    height: 4.3125rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #222;
+}
+
+.playlist-tbl .ui.table tbody tr td {
+    width:auto;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.playlist-tbl .ui.table th:nth-child(1),
+.playlist-tbl .ui.table td:nth-child(1) {
+    width:500px;
+    padding-left: 1.75rem !important;
+}
+.playlist-tbl .ui.table th:nth-child(3),
+.playlist-tbl .ui.table td:nth-child(3) {
+    width:140px;
+}
+.playlist-tbl .ui.table th:nth-child(5),
+.playlist-tbl .ui.table td:nth-child(5) {
+    width:70px;
+    padding-right:1.75rem;
+}
+
+.playlist-tbl .ui.table tbody tr td.title {
+    text-align: left;
+}
+
+.playlist-tbl .ui.table tbody tr td .btn-blue {
+    color: #0e73db;
+    text-decoration: underline;
+}
+
+.playlist-tbl .ui.label.category {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:10px;
+    height:24px;
+    padding:0 7px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border:1px solid #ddd;
+    border-radius: 4px;
+    font-size:12px;
+    font-style: normal;
+    letter-spacing: -0.3px;
+}
+
+.playlist-tbl .ui.label.category.reclist {
+    color:#00bfae;
+    border-color:#00bfae;
+}
+.playlist-tbl .ui.label.category.mylist {
+    color:#bbbbbb;
+    border-color:#bbbbbb;
+}
+.playlist-tbl .ui.label.category.savelist {
+    color:#2cb0e6;
+    border-color:#2cb0e6;
+}
+
+.playlist-tbl .ui.button.btn-share {
+    margin:0;
+    padding:0;
+    width:32px;
+    height:32px;
+    background: url('../../../../../images/all/icon-share-action-02.svg') no-repeat center center;
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <filter id="d2rv3r0sla" width="106.7%" height="101.2%" x="-3.3%" y="-.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.798461069 0 0 0 0 0.83129593 0 0 0 0 0.905174366 0 0 0 1 0"/>
+        </filter>
+        <rect id="rvz85wax4b" width="300" height="1733" x="0" y="0" rx="8"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <path fill="#F4F7FD" d="M0 0H1400V2102H0z" transform="translate(-346 -189)"/>
+            <g>
+                <g transform="translate(-346 -189) translate(100 159)">
+                    <use fill="#000" filter="url(#d2rv3r0sla)" xlink:href="#rvz85wax4b"/>
+                    <use fill="#FFF" xlink:href="#rvz85wax4b"/>
+                </g>
+                <g>
+                    <g>
+                        <path fill="#A7ABBE" d="M20 5l-6-5v3S5 3 5 13.988C5 13.988 7.057 7 14 7v3l6-5z" transform="translate(-346 -189) translate(100 159) translate(246 30) translate(4 3)"/>
+                        <path stroke="#A7ABBE" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="1.5" d="M8 1H1.5C.672 1 0 1.672 0 2.5v13c0 .828.672 1.5 1.5 1.5h13c.828 0 1.5-.672 1.5-1.5V14h0" transform="translate(-346 -189) translate(100 159) translate(246 30) translate(4 3)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

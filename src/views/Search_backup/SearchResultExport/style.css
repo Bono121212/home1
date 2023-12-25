@@ -1,0 +1,21 @@
+h2.tt {
+    padding: 15px;
+    color: #e1002a;
+    font-weight: 700;
+    font-size: 14px;
+    height: 77px;
+}
+
+.case-wrap {
+    overflow: hidden;
+}
+
+.case-box {
+    float: left;
+    margin: 0 7px;
+    height: 890px;
+}
+
+.sub-info-wrap {
+    position: inherit !important;
+}

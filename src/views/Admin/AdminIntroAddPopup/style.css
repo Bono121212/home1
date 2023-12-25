@@ -1,0 +1,19 @@
+.modal.base.popup_add_intro{width:31.25rem;}
+.modal.base.popup_add_intro .header{display:flex;height:3.125rem !important;}
+.modal.base.popup_add_intro .header strong{line-height: 3.125rem;}
+.modal.base.popup_add_intro .header button.button.close{margin-left:auto;}
+.modal.base.popup_add_intro .popup_body{padding:2.5rem 0 3.75rem 0;}
+.modal.base.popup_add_intro .popup_body .add_title{margin-bottom:1.25rem;text-align:center;}
+.modal.base.popup_add_intro .popup_bottom button.button{width:11.875rem;}
+.modal.base.popup_add_intro .popup_bottom button.button.b_cancel{border:1px solid #687891;color:#222;}
+.modal.base.popup_add_intro .popup_bottom button.button.b_chk{border:1px solid #ff664d;background:#ff664d;color:#fff;}
+
+.popup_add_intro .add_box .compo_step{width:19rem;margin:0 auto;}
+.add_box .compo_step li i.icon.i_component{background-image:url('../../../images/all/type-comp-off.svg')}
+.add_box .compo_step li i.icon.i_html{background-image:url('../../../images/all/type-html-off.svg')}
+
+.add_box .compo_step li.active i.icon.i_component,
+.add_box .compo_step li:hover i.icon.i_component{background-image:url('../../../images/all/type-comp-on.svg');}
+.add_box .compo_step li.active i.icon.i_html,
+.add_box .compo_step li:hover i.icon.i_html{background-image:url('../../../images/all/type-html-on.svg')}
+

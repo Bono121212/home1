@@ -1,0 +1,27 @@
+.support .main-info-area .support-info::after{content: ''; display: inline-block; clear: both;}
+.support .main-info-area .support-info .title-area .text{white-space: nowrap;}
+.support .main-info-area .support-info .tit-right-area{font-size: 0.875rem; color: #222; letter-spacing: -0.4px; float:right; margin-right:92px}
+.support .main-info-area .support-info .tit-right-area .inner{position: relative; margin: 0; padding: 50px 0 0 60px;}
+.support .main-info-area .support-info .tit-right-area .inner::before{content:'';display: inline-block; width: 1px; height: 63px; background-color: #eee; position: absolute; top:54px; left:0px;}
+.support .main-info-area .support-info .tit-right-area span + div{margin-top:9px}
+.support .main-info-area .support-info .tit-right-area div > span +span{padding-left:16px; position: relative;}
+.support .main-info-area .support-info .tit-right-area div > span +span::before{content: ''; display: inline-block; width: 1px; height:10px; background-color:#c8d0e0; position: absolute; bottom:4px; left: 8px;}
+
+.support-list-wrap .list-top-right{float:right}
+.support-list-wrap .list-top-right .s-search input{padding: 0 40px 0 15px; width:250px}
+.support-list-wrap .list-top-right .s-search i.icon.search-32{position: absolute; right:3px; top:3px}
+.support-list-wrap .ui.table.qna-admin-list tr{cursor:pointer;}
+.support-list-wrap .ui.table.qna-admin-list .title a{display: inline-block; vertical-align: bottom;}
+.support-list-wrap .ui.table.qna-admin-list .title .reply { margin-left:.375rem; font-size: .875rem; vertical-align: 2px;}
+
+.support-list-wrap.notice .ui.table.qna-admin-list .title{text-align: left;}
+.support-list-wrap.notice .ui.table.qna-admin-list .title .ellipsis{width:auto;  max-width: 760px;}
+
+
+i.icon.search-32{width:2rem;height:2rem;margin:0 !important;background:url('../../../images/all/icon-gnb-search-32-px.svg') no-repeat 50% 50%;}
+i.icon.support-tel{width:1rem; height:1rem;margin:0; background: url("../../../images/all/icon-support-tel-16-px.svg") no-repeat 50% 50%;}
+.tit-right-area div i.icon.support-tel{vertical-align: -3px; margin-right: 4px;}
+
+.support-list-wrap .ui.table.qna-admin-list .title ~ td{color:#888}
+.qna-admin-list-wrap .ui.table.qna-admin-list .new .tit_inner{position: relative; display: inline-block;}
+.qna-admin-list-wrap .ui.table.qna-admin-list .new .tit_inner::after{ position: absolute; left: calc(100% + 6px); top: -2px; content: "NEW"; font-size: .75rem; line-height: 1.75rem; letter-spacing: -.01875rem; color: #ff664d; vertical-align: middle; font-weight: 700;}

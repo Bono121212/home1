@@ -1,0 +1,18 @@
+.support-list-wrap .list-top .list-top-left{float:left; color:#6c788f; font-size: 1rem;}
+.support .support-list-wrap .list-top .ui.checkbox input.hidden + label{font-size: 0.875rem;}
+
+.qna-admin-list-wrap{margin-top:3px; border-radius: 8px; box-shadow: 0 2px 6px 0 #ccd4e7; overflow: hidden;}
+.qna-admin-list-wrap .ui.table.qna-admin-list{border-collapse: collapse; border:none; margin: 0;}
+.qna-admin-list-wrap .ui.table.qna-admin-list th{padding:14px 0; color:#222; font-size: 0.875rem; text-align: center; background-color: #fff;}
+.qna-admin-list-wrap .ui.table.qna-admin-list th:first-of-type,
+.qna-admin-list-wrap .ui.table.qna-admin-list td:first-of-type{padding-left:30px; text-align: left;}
+.qna-admin-list-wrap .ui.table.qna-admin-list th:last-of-type,
+.qna-admin-list-wrap .ui.table.qna-admin-list td:last-of-type{padding-right:30px; padding-left:15px}
+.qna-admin-list-wrap .ui.table.qna-admin-list td{padding:22px 15px; color:#222; font-size: 1rem;  text-align: center;}
+.qna-admin-list-wrap .ui.table.qna-admin-list .ellipsis{max-width: 70px;}
+.qna-admin-list-wrap .ui.table.qna-admin-list .title{text-align: left;}
+.qna-admin-list-wrap .ui.table.qna-admin-list .title .ellipsis{max-width:450px;}
+.qna-admin-list-wrap .ui.table.qna-admin-list .ctg{width:200px; word-break: break-all;}
+section.content.support .lms-paging-holder{margin-top:20px}
+
+.support .main-info-area .support-info .title-area .line-wrap:after{display: none;}

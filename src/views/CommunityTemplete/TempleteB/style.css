@@ -1,0 +1,4 @@
+/* 템플릿 B - 뉴스매거진 : Aside */
+.tb_aside{width:14.375rem;margin-left:auto;padding-bottom:200px;}
+.tb_aside .title_link a,
+.tb_aside .title_nolink strong{font-size:1.125rem;}

@@ -1,0 +1,31 @@
+.templete .ui.menu.sku .item{margin-right:2.5rem}
+.templete .ui.menu.sku .item.active,
+.templete .ui.menu.sku .item.active .count{color:#4c4c4c}
+.member-search > .ui.input.search.h38 input{background:#fff !important;border-color:#999 !important;}
+
+.member_list{overflow:hidden;border:1px solid #ddd;border-radius:.5rem;}
+.member-card.profile-box.type1{padding:1.25rem 1.875rem;}
+.member-card.profile-box.type1 .comment .content > .metadata.profile-box-mate01{margin:.375rem 0;}
+
+.member-card.type1 .ui.profile .pic{border:0;}
+.member-card.type1 .comment{height: 5rem;overflow:hidden;}
+.member-card.type1 .comment > .author{display:inline-block;width:5rem;;}
+.member-card.type1 .comment .content{margin-left:1.5rem;}
+.member-card.type1 .comment .content .card-follow{color:#00bfae;}
+.member-card.type1 .comment .content .card-follow::before{content: '';width: 3px;height: 3px;display: inline-block;margin: 0 .625rem;border-radius: 50%;vertical-align: middle;background: #717988;}
+.member-card.type1 .comment .content .metadata span{position: relative;margin-left:.625rem;}
+.member-card.type1 .comment .content .metadata span:first-child{margin-left:0}
+.member-card.type1 .comment .content .metadata span:nth-child(2)::after,
+.member-card.type1 .comment .content .metadata span:nth-child(4)::after{content: '';display:block;position:absolute;top:5px;right:-.5rem;width: 0.0625rem;height: 0.625rem;background: #d8d8d8;}
+.member-card.type1 .comment .content .metadata span:nth-child(even){margin-right:.4rem;}
+
+.member-card.type1 .comment .avatar {overflow:hidden;height:5rem;border-radius: 50%; border: 1px solid #ddd;}
+.member-card.type1 .comment .avatar img{width:100%;height:100%;}
+.member-card.type1 .comment .lms-nick{padding:0;}
+.member-card.type1 .comment .lms-nick::before{content:'';position:relative;top:1px;display:inline-block;background-repeat:no-repeat;background-position:0 0;}
+.member-card.type1 .comment .lms-nick.manager{position:relative;padding-left:1.25rem;}
+.member-card.type1 .comment .lms-nick.manager::before{position:absolute; top:-1px; left:0;width:1rem;height:1rem;padding-left:1.375rem;background-image:url('../../../images/all/icon-community-manager.svg');}
+.member-card.type1 .comment .lms-nick.co_manager{position:relative;padding-left:1.25rem;}
+.member-card.type1 .comment .lms-nick.co_manager::before{position:absolute; top:-1px; left:0;width:1rem;height:1rem;padding-left:1.375rem;background-image:url('../../../images/all/icon-community-co-manager.svg');}
+
+.member-card.type1 button.button.follow{padding:0;}

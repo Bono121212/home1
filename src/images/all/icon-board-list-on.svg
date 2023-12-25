@@ -1,0 +1,10 @@
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#FFF" fill-rule="evenodd">
+        <rect x="7.5" y="3" width="10" height="3" rx="1.5"/>
+        <rect x="2.5" y="3" width="3" height="3" rx="1.5"/>
+        <rect x="7.5" y="8.5" width="10" height="3" rx="1.5"/>
+        <rect x="2.5" y="8.5" width="3" height="3" rx="1.5"/>
+        <rect x="7.5" y="14" width="10" height="3" rx="1.5"/>
+        <rect x="2.5" y="14" width="3" height="3" rx="1.5"/>
+    </g>
+</svg>

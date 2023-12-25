@@ -1,0 +1,5 @@
+.ui.box-cards .card .hover-content .g-lang-area{display: flex; align-items: center; margin:0px 0 12px; height: 24px;}
+.ui.box-cards .card .hover-content .g-lang-area .g-list span{position:relative; margin:0; padding: 0 5px; color:#fff; font-weight: bold; font-size: 12px; line-height: 24px;}
+.ui.box-cards .card .hover-content .g-lang-area .g-list .on{color:#fff; font-weight: bold;}
+.ui.box-cards .card .hover-content .g-lang-area .g-list span + span::before{content: ''; display: inline-block; width: 2px; height: 2px; background-color: #848589; position: absolute; top:9px; left:-1px;}
+.ui.box-cards .card .hover-content .g-lang-area .i-glb{margin: 2px 5px 0 0; width:14px; height: 14px; background: url("../../../images/all/icon-global.svg") center 100%;}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>EB211776-0FB3-4EA8-9825-49BEDD73327C</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1200" height="661" rx="8"></rect>
+        <filter x="-0.8%" y="-1.2%" width="101.7%" height="103.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.798461069   0 0 0 0 0.83129593   0 0 0 0 0.905174366  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-3">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.423529 0 0 0 0 0.470588 0 0 0 0 0.560784 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Note" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Note_Mypage_03_Note_02_Folder(54-20-00)" transform="translate(-220.000000, -773.000000)">
+            <rect fill="#F4F7FD" x="0" y="0" width="1400" height="1445"></rect>
+            <g id="tab" transform="translate(84.000000, 313.000000)">
+                <g id="small-title" transform="translate(3.000000, 186.000000)">
+                    <g id="Title" transform="translate(0.000000, 75.000000)">
+                        <g id="bg">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="list_03" transform="translate(29.999998, 173.000000)">
+                            <rect id="input-area" fill="#F7F7F7" x="0" y="0" width="1140" height="208" rx="8"></rect>
+                            <g filter="url(#filter-3)" id="icon_go_B">
+                                <g transform="translate(103.000002, 26.000000)">
+                                    <polygon id="Path-3" fill="#222222" points="3.00000146 1.5 9.00000146 1 8.50000146 7"></polygon>
+                                    <polygon id="Rectangle" fill="#222222" points="6.00000146 2 8.00000146 4 4.00000146 8 2.00000146 6"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

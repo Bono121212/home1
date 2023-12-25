@@ -1,0 +1,213 @@
+/* 2022-02-22 신규 - 2Depth추가 개선 */
+
+/* Category Layout */
+.ui.popup.g-menu-detail-v2.visible {
+	padding: 0;
+	border: none;
+	box-shadow: none;
+	margin: 16px 0 0 -120px;
+}
+.g-menu-detail-v2 .lms-category {
+	position: relative;
+	z-index: 10;
+	display:flex;
+	width: 1012px;
+	max-height:800px;
+	height:85vh;
+	background: #fff;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 0 10px 0 rgba(76, 76, 76, 0.24);
+	box-shadow: 0 0 10px 0 rgba(76, 76, 76, 0.24);
+}
+.g-menu-detail-v2 .category-nav-wrap {
+	flex: none;
+	width: 180px;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+.g-menu-detail-v2 .category-channel-wrap {
+	flex:1 1 auto;
+	width: calc(100% - 180px);
+	height: 100%;
+}
+.g-menu-detail-v2 .category-item-wrap {
+	overflow-x: hidden;
+	overflow-y: auto;
+	height:calc(100% - 84px - 160px);
+	padding:0px 0px 40px 20px;
+}
+.g-menu-detail-v2 .category-banner-wrap {
+	padding:40px;
+}
+
+/* Category Navigation */
+.g-menu-detail-v2 .category-nav {
+	width: 100%;
+	height:100%;
+	padding: 18px 0;
+	overflow-x:hidden;
+	overflow-y:auto;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.g-menu-detail-v2 .category-nav button {
+	width: 100%;
+	padding:10px 13px 10px 30px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: left;
+	color: #4c4c4c;
+	background-color: transparent;
+	border-radius: 0;
+}
+.g-menu-detail-v2 .category-nav .ui.button:focus,
+.g-menu-detail-v2 .category-nav .ui.button:hover,
+.g-menu-detail-v2 .category-nav .ui.button.active {
+	background: #ffffff;
+	color:#00bfae;
+}
+
+/* Category Header */
+.g-menu-detail-v2 .category-header-wrap {
+	padding:30px 40px;
+	display:flex;
+	justify-content:space-between;
+}
+.g-menu-detail-v2 h2 {
+	font-size:18px;
+	font-weight:400;
+	color:#222;
+	line-height:24px;
+}
+.g-menu-detail-v2 a {
+	color:#999;
+	font-size:14px;
+	line-height:24px;
+}
+
+/* Category Items */
+.g-menu-detail-v2 .category-item-wrap .category-item-grid {
+	display: flex;
+	flex-wrap: wrap;
+	width:792px;
+	margin:-15px 0 -15px 0;
+}
+.g-menu-detail-v2 .category-item-wrap .category-item {
+	width:50%;
+	padding:15px 20px 15px 20px;
+}
+.g-menu-detail-v2 .category-item-wrap .category-title {
+	display:flex;
+	align-items: center;
+	padding:10px 0;
+	border-bottom:1px solid #ddd;
+	position: relative;
+}
+.g-menu-detail-v2 .category-item-wrap .category-title .check-type3 {
+	top:-2px;
+}
+.g-menu-detail-v2 .category-item-wrap .category-title .category-all {
+	position:relative;
+	display:block;
+	flex:1 1 auto;
+	color:#222;
+	font-weight: 700;
+	font-size: 14px;
+}
+.g-menu-detail-v2 .category-item-wrap .category-title .category-all::after {
+	content:'';
+	position: absolute;
+	right:-10px;
+	top:50%;
+	display: block;
+	width:32px;
+	height:32px;
+	background: url('../../images/all/icon-arrow-16-px.svg') no-repeat center center;
+	transform: translateY(-50%);
+}
+.g-menu-detail-v2 .category-item-wrap .category-list ul {
+	padding-top:10px;
+}
+.g-menu-detail-v2 .category-item-wrap .category-list li {
+	display:flex;
+}
+.g-menu-detail-v2 .category-item-wrap .category-list li + li {
+	margin-top:10px;
+}
+.g-menu-detail-v2 .category-item-wrap .category-list .check-type3-marker:hover {
+	color:#00bfae
+}
+.g-menu-detail-v2 .category-item-wrap .category-sub {
+	position:relative;
+	display:block;
+	flex:1 1 auto;
+	color:#666;
+	font-weight: 400;
+	font-size: 14px;
+}
+.g-menu-detail-v2 .category-item-wrap .category-sub:focus,
+.g-menu-detail-v2 .category-item-wrap .category-sub:active,
+.g-menu-detail-v2 .category-item-wrap .category-sub:hover {
+	color:#222;
+}
+.g-menu-detail-v2 .category-item-wrap .num {
+	position:relative;
+	top:1px;
+	margin-left:4px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height:22px;
+	color:#999;
+}
+
+/* Category Banner */
+.g-menu-detail-v2 .category-banner {
+	display:flex;
+}
+.g-menu-detail-v2 .category-banner a {
+	display:block;
+	width:244px;
+	height:80px;
+}
+.g-menu-detail-v2 .category-banner a + a {
+	margin-left:10px;
+}
+.g-menu-detail-v2 .category-banner img {
+	width: 100%;
+	height: 100%;
+}
+
+/* Checkbox */
+.g-menu-detail-v2 .check-type3 {
+	font-size: 14px;
+	position: relative;
+	display: block;
+	margin-right:6px;
+}
+.g-menu-detail-v2 .check-type3 label {
+	cursor: pointer;
+	display:flex;
+	flex: none;
+}
+.g-menu-detail-v2 .check-type3 input + .check-type3-marker {
+	display: inline-block;
+	word-break: break-all;
+	width:20px;
+	height:20px;
+	background: url("../../images/all/btn-channel-bookmark-18-off.svg") 0 3px no-repeat;
+}
+.g-menu-detail-v2 .check-type3 input:checked + .check-type3-marker{
+	background-image: url("../../images/all/btn-channel-bookmark-18-on.svg");
+}
+
+/* 아이패드 체크박스 이슈 display:none 추가 */
+.g-menu-detail-v2 .check-type3 input{
+	display: none;
+	-webkit-appearance: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+}

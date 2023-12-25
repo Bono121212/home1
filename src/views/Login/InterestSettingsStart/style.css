@@ -1,0 +1,12 @@
+.introduction.login-set .intro-suni{padding: 70px 0 74px}
+.intro-header {background: #f6f6f6;}
+.intro-header .inner.interest{ margin: 0 auto; position: relative; width: 75rem; height:500px;}
+.intro-header .inner.interest .intro-header-img{position: absolute; top: 100px; left:0; right: 0; z-index : 0; }
+.intro-header .inner.interest .text-wrap {z-index: 1; width: 100%; position: absolute; left: 50%; bottom:140px; transform: translateX(-50%); text-align: center;}
+.intro-header .inner.interest .text-wrap h2 {color: #222;font-size: 32px; font-weight: bold; line-height : 44px}
+.intro-header .inner.interest .text-wrap p {padding-top: 10px;color: #666;font-size: 1.25rem;}
+.intro-header .inner.interest .text-wrap a {margin-top: 40px;display: block;}
+.introduction.login-set .ui.image,
+.introduction .common-intro.case1 .inner{image-rendering : -webkit-optimize-contrast;}
+.introduction.login-set .providers,
+.introduction.login-set .start-wrap{border-color: #ddd;}

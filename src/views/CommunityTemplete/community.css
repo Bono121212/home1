@@ -1,0 +1,168 @@
+/* 공통 */
+body {background: #fff;}
+#root section.content.admin {min-height: calc(100vh - 90px - 76px);}
+#root section.content.ctm { min-height: calc(100vh - 76px - 90px); }
+#root section.footer { background: #35363a;}
+.lms-paging-holder .ui.pagination.menu .active.item { color: #00bfae; }
+.lms-paging-holder .ui.menu a.item:hover { background: none; }
+.ui.segment.full .no-cont-wrap .text { color: #777; }
+.ui.dropdown.selection:focus { border-color: #00bfae !important;}
+.ui.dropdown.selection.active { border-color: #00bfae !important;}
+.ui.dropdown.selection.active .menu { border-color: #00bfae !important; }
+.ui.dropdown.selection .menu .item:focus, 
+.ui.dropdown.selection .menu .item:hover { background: #f6f6f6; }
+.ui.dropdown.small-border .text { color: #777; }
+.ui.modal.base .header { border-bottom-color: #ddd; }
+.ui.table thead th { background: #fbfbfb; }
+.ui.input.focus > input, .ui.input > input:focus { border-color: #00bfae; }
+.ui.button.post { color: #777; border-color: #777; }
+.ui.button.moreview { color: #777 !important; }
+.ui.button.pop.d { background: #777 !important }
+.ui.icon.button.postset { color: #aaa; }
+.ui.comments.base { box-shadow: 0 2px 6px 0 #ddd;}
+.ui.radio.base input:checked + label {color: #777;}
+
+
+/* admin */
+.admin_community_top { background: #777;}
+.admin_community > button { border-color: #ddd; }
+.admin_table_top { border-color: #ddd;}
+.admin_tab_top > ul li { color: #777;}
+.admin_tab { border-color: #00bfae;}
+.admin_tab > ul li { color: #777; border-color: #ddd; }
+.admin_tab > ul li.active { background: #00bfae; border-color: #00bfae;}
+.ui.h40.admin_calendar > .admin_date>button.active { color: #00bfae !important; border-color: #00bfae !important; }
+.ui.input.admin_text_input > input { color: #222;}
+.ui.button.admin_table_button { background: #00bfae !important; }
+.admin_table { border-color: #777;}
+.admin_table tbody td, .admin_table thead th { border-color: #ddd;}
+.admin_table_result {border-color: #00bfae;}
+.upload_result span { color: #00bfae;}
+.admin_table_search { border-color: #ddd; }
+.ui.input.admin_search_input > input { color: #222; }
+.admin_menu_title { border-color: #ddd; }
+.admin_menu_left { border-color: #ddd; }
+.menu_left_btn > button:nth-child(3) { background: #00bfae; }
+.menu_left_btn > button:first-child, .menu_left_btn > button:nth-child(2) { border-color: #ddd;}
+.ui.button.admin_table_button02 { color: #00bfae !important; border-color: #00bfae; background: #fff;}
+.menu_survey { border-color: #777;}
+.menu_survey tbody tr > td, .menu_survey thead tr th { border-color: #ddd; }
+.menu_right_contents { border-bottom-color: #ddd;}
+.menu_right_contents > ul {  border-color: #ddd; }
+.templete_title .btn_box button.change { border-color: #00bfae; color: #00bfae; }
+.list_table table.table {border-top-color: #777;}
+.list_table table.table td, .list_table table.table th { border-bottom-color: #ddd;}
+.list_table table.table tr td, .list_table table.table tr th { border-top: 0; }
+.list_table table.table .t_type.now span::before { background: #777;}
+.list_table table.table .t_type.now span::after { color: #00bfae; }
+.popup_editName .txt_cnt { color: #777; }
+.popup_editName .actions .button.cancel { background: #777; }
+.btn_box button.button.blue, .btn_box button.button.blue:focus, .btn_box button.button.blue:hover { background: #00bfae;}
+.btn_box button.button.blue { background: #00bfae; border-color: #00bfae;}
+.ui.table.chart-table { border-top-color: #777; border-bottom-color: #ddd; }
+.cnt-container .cnt-view { border-color: #00bfae; }
+.admin-edit { border-color: #ddd;}
+.popup_add .popup_body { border-color: #ddd; }
+.popup_bottom { border-color: #ddd;}
+.popup_bottom .btn_box button.next, 
+.popup_bottom .btn_box button.prev {color: #777; border-color: #777;}
+.add_box .b_slt { border-color: #777; color: #777;}
+.modal.modal_sc_post_box .post_search_box { border-color: #ddd;}
+
+/* _image */
+.lms-paging-holder .ui.menu > .item:first-child { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-pagenavi-back-nomal.svg') 50%/28px 28px no-repeat;}
+.lms-paging-holder .ui.menu > .item:first-child:hover { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-pagenavi-back-nomal.svg') 50%/28px 28px no-repeat;}
+.lms-paging-holder .ui.menu > .item:last-child, 
+.lms-paging-holder .ui.menu > .item:last-child:hover { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-pagenavi-next-nomal.svg') 50%/28px 28px no-repeat; }
+
+/* _image_checkbox,radio */
+.ui.checkbox input:focus~label::before, .ui.checkbox label::before, .ui.checkbox label:hover::before { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-check-normal.svg') 0 0 no-repeat!important; background-size: 100% auto !important; }
+.ui.checkbox input:checked~label::before { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-check-selected.svg') 0 0 no-repeat!important; background-size: 100% auto !important; }
+.ui.radio input:checked, .ui.radio input:checked:focus, .ui.radio input:checked:focus~label::before, .ui.radio input:checked~label::before { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-radio-type-2-selected.svg') 0 0 no-repeat!important; background-size: 100% auto !important;}
+.ui.radio input:focus, .ui.radio input:focus~label::before, .ui.radio label::before, .ui.radio label:hover::before { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-radio-type-2-nomal.svg') 0 0 no-repeat!important;}
+.ui.checkbox input:checked:focus ~ label::before { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-check-selected.svg') 0 0 no-repeat!important; background-size: 100% auto !important;}
+.ui.radio.checkbox input:checked:focus~label::before { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-radio-type-2-selected.svg') 0 0 no-repeat!important; background-size: 100% auto !important;}
+.ui.checkbox input:disabled~label:before { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-check-disabled.svg') 0 0 no-repeat !important; background-size: 100% auto !important;}
+.ui.checkbox input:disabled:checked~label:before { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-check-disabled-checked.svg') 0 0 no-repeat !important; background-size: 100% auto !important;}
+
+
+
+/* 수정해서 덮어쓰기  */
+.ta_lnb_area ul.list.ta_lnb_sub > li > a::before{background:url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-reply-16-px.svg') no-repeat 0 0;}
+.compo_txt_list .info_bottom .like, 
+.compo_vod .compo_info .info_bottom .like{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-community-like-on-16-px.svg')}
+.compo_txt_card .info_bottom .like{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-community-like-off-16-px.svg')}
+
+
+
+/* _image_icon */
+i.icon.no-contents80::before { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/no-contents-80-px.svg') 50% no-repeat!important; background-size: 100% auto !important;}
+i.icon.rcmd_grey { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-list-24-px.svg') 0 0 no-repeat; }
+i.icon.excel-down { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-excel-24-px.svg')0 0 no-repeat !important;}
+.ui.icon .icon.edit_bk{background: url("https://image.mysuni.sk.com/suni-asset/public/images/all/btn-comm-edit-16-px-bk.svg") no-repeat 100%;}
+.header_left_area i.icon.likeoff{background:url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-community-like-off-16-px.svg') no-repeat left top;}
+.header_left_area i.icon.commentoff{background:url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-comm-comment.svg') no-repeat left top;}
+.header_left_area i.icon.like_on{background: url("https://image.mysuni.sk.com/suni-asset/public/images/all/btn-community-like-on-16-px.png") no-repeat 100%;}
+.header_left_area i.icon.comment_on{ background: url("https://image.mysuni.sk.com/suni-asset/public/images/all/btn-community-comment-on.svg") no-repeat 100%;}
+.templete_sub_contents .location li.home {background: url("https://image.mysuni.sk.com/suni-asset/public/images/all/icon-breadcrumb-home.svg") no-repeat left 50%;}
+.content.lms .label-state-learning.proceeding { background: url("https://image.mysuni.sk.com/suni-asset/public/images/all/icon-lms-learing-ing.svg") center no-repeat; }
+.content.lms .label-state-learning.complete { background: url("https://image.mysuni.sk.com/suni-asset/public/images/all/icon-lms-learing-completed.svg") center no-repeat; }
+.compo_txt_card .info_bottom .reply,
+.compo_txt_list .info_bottom .reply, 
+.compo_vod .compo_info .info_bottom .reply{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-comm-comment.svg')}
+.ui.breadcrumb.standard i.icon.divider::before{background :url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-breadcrumb-step-grey.svg') 0 0 no-repeat !important}
+.ui.icon.button.postset .icon.reply2::before { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-comment-reply-16-px.svg') 0 0 no-repeat!important;}
+.ui.icon.button.postset .icon.edit2::before { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-comment-edit-16-px.svg') 0 0 no-repeat!important;}
+.ui.icon.button.postset .icon.delete::before { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-comment-delete-16-px.svg') 0 0 no-repeat!important;}
+.ui.icon.button.moreview .icon { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-list-more-16-px.svg') 50% no-repeat; margin-right: 4px !important;}
+.templete_sub_contents .location li + li { background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-breadcrumb-step-grey.svg') 0 53% no-repeat !important;}
+.compo_txt_card .info_bottom .cnt, 
+.compo_txt_list .info_bottom .cnt, 
+.compo_vod .compo_info .info_bottom .cnt{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-comm-see.svg')}
+.ta_lnb_area ul.list.ta_lnb button.b_toggle i.icon{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-tem-arrow-open.svg');}
+.ta_lnb_area ul.list.ta_lnb .title.active button.b_toggle i.icon{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-tem-arrow-close.svg');}
+.title_link a{background : url('https://image.mysuni.sk.com/suni-asset/public/images/all/btn-component-go.svg') no-repeat 100% 50%;}
+.compo_vod .compo_thumb i.vod_play{background:url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-thumb-video.svg') no-repeat 50% 50%;}
+.popup_bottom .btn_box button.prev{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-hhh-before.svg');}
+.popup_bottom .btn_box button.next{background-image:url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-hhh-next.svg');}
+.ta_lnb_area ul.list.ta_lnb li i.icon.i_board { background-image: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-communtiy-menu-board.svg');}
+.ta_lnb_area ul.list.ta_lnb li i.icon.i_survey { background-image: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-communtiy-menu-survey.svg');}
+.ta_lnb_area ul.list.ta_lnb li i.icon.i_discussion{background-image: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-communtiy-menu-discussion.svg');}
+.ta_lnb_area ul.list.ta_lnb li i.icon.i_download{background-image: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-communtiy-menu-download.svg')}
+.ta_lnb_area ul.list.ta_lnb li i.icon.i_link{background-image: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-community-menu-link.svg')}
+.ta_lnb_area ul.list.ta_lnb li i.icon.i_html{background-image: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-community-menu-html.svg');}
+
+
+
+
+/* 템플릿 */
+.templete_sub_contents .location li {color: #666;}
+.templete_title .btn_box button.cancel { border-color: #00bfae; color: #00bfae;}
+.compo_txt_list .info_bottom span { color: #999; }
+.compo_txt_list .info_top .date { color: #999;}
+.list_title span.slt_cnt { color: #00bfae;}
+.table_wrap { border-color: #ddd;}
+.cnt_inner .ui.table { border-color: #777; }
+.add_box button.b_add { border-color: #00bfae; color: #00bfae;}
+.options_list .name_input .txt_cnt { color: #777;}
+.popup_add .process li::after { content: ''; display: block; top: 15px; right: 50%; height: 1px; background: #b9b9b9; position: absolute; left: calc(-50% + 15px); z-index: -1;}
+.popup_add .process li:first-child::after{display:none}
+.popup_add .process::after { display: none;}
+.survey-header { border-color: #ddd;}
+.survey-header-right button.ui.button.free { background: #fff; }
+.templete_sub_contents .paging-search > .ui.selection.active.dropdown {border-color: #00bfae !important;}
+.course-radio-survey-new .course-survey-list .course-survey-list-backgrondBar { background-color: #f6f6f6;}
+.course-radio-survey-new .course-survey-list .improve-text { border-color: #ddd;}
+.course-survey-new-modal-header-img img.ui.image {vertical-align: text-top; top: 0 !important;}
+.templete_sub_contents .sub_title .label_2 { border-color: #777; color: #777;}
+.label_2 i.icon.rcmd_grey { background-position: -2px -4px;}
+.discuss-wrap { border-color: #ddd; }
+.pop_community .info4 .ui.menu { border-radius: 0; border-top: 0; border-right: 0; box-shadow: none; border-color: #00bfae;}
+.pop_community .info4 .ui.menu .item { border-color: #ddd;}
+.pop_community .info4 .ui.menu .active.item { border-color: #00bfae; background: #00bfae;}
+.member-card.type1 .comment .content .card-follow{color : #00bfae;}
+.community_templete .option_box .ui.selection.dropdown .icon.dropdown::before { top: -5px;}
+
+.ui.modal.size-mini .main .header { border-color : #ddd; }
+.ui.modal.size-mini .main .content .description { color: #777;}
+.ui.modal.size-mini .actions.normal .button.secondary { background: #777;}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0BAAA391-C465-4C77-9E4B-7FE29AEE1807</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.717647 0 0 0 0 0.752941 0 0 0 0 0.819608 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Community" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Community_02_Community_02_Board_01_Write_04(CO-HO-21)" transform="translate(-1258.000000, -1217.000000)">
+            <rect fill="#F4F7FD" x="0" y="0" width="1400" height="1647"></rect>
+            <g id="@-Contents" transform="translate(450.000000, 159.000000)">
+                <g id="글쓰기" transform="translate(0.000000, 126.000000)">
+                    <g id="5.-추천과정" transform="translate(0.000000, 832.000000)">
+                        <g id="table" transform="translate(0.000000, 48.000000)">
+                            <g id="01" transform="translate(0.000000, 52.000000)">
+                                <g id="btn-/-control-/-delete-/-26px" transform="translate(744.000000, 0.000000)" filter="url(#filter-1)">
+                                    <g transform="translate(64.000000, 0.000000)">
+                                        <rect id="Rectangle" stroke="#466197" x="0.5" y="0.5" width="25" height="25" rx="4"></rect>
+                                        <path d="M17.2426407,7.34314575 L18.6568542,8.75735931 L14.4141458,13.0001458 L18.6568542,17.2426407 L17.2426407,18.6568542 L13.0001458,14.4141458 L8.75735931,18.6568542 L7.34314575,17.2426407 L11.5861458,13.0001458 L7.34314575,8.75735931 L8.75735931,7.34314575 L13.0001458,11.5861458 L17.2426407,7.34314575 Z" id="icon_imgdelte_24px" fill="#466197" transform="translate(13.000000, 13.000000) rotate(-270.000000) translate(-13.000000, -13.000000) "></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

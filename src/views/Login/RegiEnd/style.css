@@ -1,0 +1,41 @@
+.regi-form .wel-wrap .image-wrap{
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: top;
+    text-align: center;
+}
+.ui.form .field.wel-wrap{
+    text-align: center;
+    margin-top: 6.25rem;
+}
+.msg-wrap *{
+    font-size: 1.125rem;
+    display: block;
+}
+.msg-wrap .suni-tit{
+    color:#000;
+    font-size: 1.25rem;
+    padding-top:0.75rem;
+}
+.msg-wrap strong{
+    color:#222;
+    padding-top:1.375rem;
+}
+.msg-wrap span{
+    color:#666;
+}
+
+.icon.logo-new.sk-login::before{
+    content:'';
+    display: inline-block;
+    background: url('../../../images/all/logo-gnb-login-new.svg') no-repeat 0 0 !important;
+    vertical-align: top;
+    width: 5rem;
+    height: 2.188rem;
+}
+
+.regi-form .terms-content .wel-wrap + .button-area{    
+    border-top: none;
+    padding-top: 0.563rem;
+    margin: 0;
+}

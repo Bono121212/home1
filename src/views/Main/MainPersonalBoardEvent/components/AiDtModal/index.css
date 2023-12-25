@@ -1,0 +1,11 @@
+.ui.aidt-modal.modal{max-width:62.5rem;background:transparent;}
+.ui.aidt-modal.modal > .header{padding:0 0 1rem 0;text-align:right;background:transparent;}
+.ui.aidt-modal.modal > .header .ui.checkbox label{font-size:.875rem;color:#fff;}
+.ui.aidt-modal.modal > .header .ui.button.close{margin-left:1rem;color:#fff;}
+.ui.aidt-modal.modal > .header .ui.button.close::before{background:url('../../../../../images/all/icon-close-22-px.svg') no-repeat left top;}
+
+.ui.aidt-modal.modal > .content{overflow:hidden;padding:0;border-radius:.625rem;}
+.aidt-modal .imgbox{position:relative;}
+.aidt-modal .imgbox a{position:absolute;bottom:4rem;width:15.4rem;height:5.7rem;color:transparent;}
+.aidt-modal .imgbox a.literacy{left:3.9rem;}
+.aidt-modal .imgbox a.executive{right:3.9rem;}

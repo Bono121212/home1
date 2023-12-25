@@ -1,0 +1,46 @@
+.chart-wrapper.board-chart{height:23.188rem}
+.table-top-area .ui.dropdown{vertical-align: top;}
+.table-top-area .button.view-bttn{
+    margin-left: 0.625rem;
+    padding: 0.5rem 1rem 0.5rem 1.25rem;
+    border-radius: 0.25rem;
+    border : 0.063rem solid #3e8ae9;
+    color:#3e8ae9;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+.table-top-area .view-bttn:focus,
+.table-top-area .view-bttn:active,
+.table-top-area .view-bttn:hover{
+    color:#3e8ae9;
+}
+.icon.blue-down{
+    cursor: pointer;
+    width:1.125rem;
+    height:1.125rem;
+    position: relative;
+}
+.icon.blue-down::before{
+    content:'';
+    display: block;
+    background-size: 1.125rem 1.125rem !important;
+    background: url('../../../images/all/icon-blue-open-18-px.svg') 50% 50% no-repeat !important;
+    position:absolute;
+    top: 0;
+    right:0;
+    width:1.125rem;
+    height:1.125rem;
+}
+
+.view-bttn.open .icon.blue-down::before{
+    background-size: 1.125rem 1.125rem !important;
+    background: url('../../../images/all/icon-blue-down-18-px.svg') 50% 50% no-repeat !important;
+}
+
+.table-wrapper .acc-table {display:none}
+.table-wrapper .acc-table.active{display:block}
+
+.table-wrapper .acc-table .lms-paging-holder{padding-bottom:0}
+
+.acc-table .ui.table.chart-table tbody td:nth-of-type(2),
+.acc-table .ui.table.chart-table tbody td:nth-of-type(3){text-align: left}

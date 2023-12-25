@@ -1,0 +1,10 @@
+/* layout && etc*/
+#root section.content.playlistDetail{margin : 0 auto; width : 75rem;}
+.playlistDetail .playlist-detail-info-inner { padding-top: 40px; position:relative;}
+.playlist-list .f-right .ui.button.bigRight { margin-left: 19px;}
+.playlist-view-content .list-top.active .ui.label.onlytext{margin-top:8px}
+.playlist-detail-infobox .playlist-sub-infobox{overflow: inherit; clear:both; padding-bottom:37px}
+.playlist-sub-infobox .f-right{position: absolute; top: 70px; right:0}
+.playlist-detail-infobox .playlist-tit { letter-spacing: -0.51px;}
+.playlist-detail-content .contents.comment { padding-top: 40px;}
+.playlist-list .f-right .ui.button.putin{min-width:68px}

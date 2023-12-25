@@ -1,0 +1,10 @@
+.ui.segment.full.intro{width:100%;}
+.ui.segment.full.intro .admin-container{width:75rem;margin:0 auto;}
+.ui.segment.full.intro .templete_title{width:75rem;margin:0 auto;}
+
+.intro_design1200{width:1280px;min-height:300px;margin:0 auto;padding:1.875rem 2.5rem;border:1px solid #d6deed;background:#fff;}
+.intro_design1200 .btn_add_component:first-child{position:relative;top:84px;}
+
+.intro_size{position:relative;margin-top:.5rem;margin-left:1.25rem;}
+.intro_size:before{content:'';display:block;position:absolute;top:.25rem;left:0;width:1px;height:1rem;background:#d8d8d8;}
+.intro_size .ui.checkbox{margin-left:20px;}

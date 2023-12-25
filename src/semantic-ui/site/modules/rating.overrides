@@ -1,0 +1,29 @@
+/*******************************
+         Site Overrides
+*******************************/
+@static-url : '../../../resources';
+.ui.rating .icon {
+    width: 1.1875rem !important;
+    height: 1rem !important;
+    color: #ddd !important;
+}
+
+.ui.rating .icon::before {
+    display: block !important;
+    content: '' !important;
+    width: 1rem !important;
+    height: 1rem !important;
+    background: url('@{static-url}/images/down/icon-rate-nomal-16-px.svg') 0 0 no-repeat !important;
+}
+
+.ui.rating .icon.selected:before, .ui.rating .icon.active:before {
+    display: block !important;
+    content: '' !important;
+    width: 1rem !important;
+    height: 1rem !important;
+    background: url('@{static-url}/images/down/icon-rate-active-16-px.svg') 0 0 no-repeat !important;
+}
+
+.ui.rating .icon.selected.selected:before, .ui.rating .icon.active.selected:before {
+    background: url('@{static-url}/images/down/icon-rate-active-16-px.svg') 0 0 no-repeat !important;
+}

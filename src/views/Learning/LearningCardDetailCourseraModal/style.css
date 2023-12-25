@@ -1,0 +1,94 @@
+.modal.coursera .content-wrap{padding: 22px}
+.coursera-cont .txt-box .text1{
+    color: #222;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    letter-spacing: -.4px;
+    font-weight: 700;
+}
+.coursera-cont .txt-box .text2{
+    color: #222;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    letter-spacing: -.4px;
+    text-indent: 1rem;
+}
+.coursera-cont .txt-box .text3{
+    color: #222;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    letter-spacing: -.4px;
+    text-indent: 2rem;
+}
+.coursera-cont .img-box .img-desc{
+    margin-top: .625rem;
+    display: block;
+    color: #666;
+    font-size: .75rem;
+    line-height: 1.5rem;
+    letter-spacing: -.17px;
+}
+.coursera-cont .txt-box li + li{
+    margin-top: 22px;
+}
+.coursera-cont .txt-box .text1 + .text2{
+    margin-top: .625rem;
+}
+.coursera-cont .txt-box .ph{
+    margin-top: .625rem;
+}
+.coursera-cont .txt-box .red{
+    color: #e1002a;
+    font-weight: 700;
+}
+.coursera-cont .img-box{
+    margin: 1.875rem 0;
+    padding: 1.25rem;
+    background-color: #f6f6f6;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+.coursera-cont .img-box ul{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.coursera-cont .img-box ul> li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.coursera-cont .img-box img{
+    height: 326px;
+    image-rendering: -webkit-optimize-contrast;
+}
+.coursera-cont .img-box .arrow{
+    margin: 0 10px;
+}
+.icon.arrow-popup-coursera{
+    margin: 0;
+    display: block;
+    position: relative;
+}
+.icon.arrow-popup-coursera::before{
+    content: '';
+    display: block;
+    width: 17px;
+    height: 13px;
+    background: url("../../../images/all/arrow-popup-coursera.svg") no-repeat 0 0 !important;
+}
+.text1 .icon.document24{
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: top;
+}
+.text1 .icon.document24::before{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url("../../../images/all/icon-documnet-24-px.svg") no-repeat 0 0 !important;
+}

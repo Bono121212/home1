@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>75022E5B-A799-4CD9-A161-23DE584E4FF9</title>
+    <g id="Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#Resources_Template" transform="translate(-304.000000, -386.000000)">
+            <g id="btn_component_see" transform="translate(295.000000, 377.000000)">
+                <g id="icon_edit_see" transform="translate(9.000000, 9.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    <path d="M12,19 C17.5228475,19 22,13.4053726 22,12 C22,10.5946274 17.5228475,5 12,5 C6.4771525,5 2,10.6079147 2,12 C2,13.3920853 6.4771525,19 12,19 Z" id="Oval" fill="#222222"></path>
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="1.5" fill="#222222" cx="12" cy="12" r="4.25"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

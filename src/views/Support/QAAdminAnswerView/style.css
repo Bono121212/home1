@@ -1,0 +1,15 @@
+.admin-answer-form.ui.table td div{color:#4c4c4c; font-size: 0.875rem;}
+.admin-answer-form.ui.table td div strong + span,
+.admin-answer-form.ui.table td div span + span,
+.admin-answer-form.ui.table td div span + strong{position: relative; padding-left:20px;}
+.admin-answer-form.ui.table td div strong + span::before{content:''; display: inline-block; width:1px; height:10px;background-color:#b9b9b9; position: absolute; left:10px; top:6px}
+.admin-answer-form.ui.table td div span + span::before{content:''; display: inline-block; width:1px; height:10px;background-color:#b9b9b9; position: absolute; left:10px; top:6px}
+.admin-answer-form.ui.table td div span + strong::before{content:''; display: inline-block; width:1px; height:10px;background-color:#b9b9b9; position: absolute; left:10px; top:6px}
+.admin-answer-form.ui.table td p{color:#222; font-size: 0.875rem; white-space: pre-line;}
+.admin-answer-form.ui.table td .admin-answer-memo{color:#4c4c4c}
+.admin-answer-form.ui.table td .link{color:#0e73db; font-size: 0.875rem; display: block;}
+.admin-answer-form.ui.table td .link:hover{text-decoration: underline; color:#0e73db}
+.admin-answer-form.ui.table td .link .ellipsis{max-width: 600px; word-break: break-all;}
+.admin-answer-form.ui.table td{color:#222; font-size: 0.875rem;}
+.admin-answer-form.ui.table td div + span{position: relative; padding-left: 20px; vertical-align: middle;}
+.admin-answer-form.ui.table td div + span::before{content:''; display: inline-block; width:1px; height:10px;background-color:#b9b9b9; position: absolute; left:10px; top:6px}

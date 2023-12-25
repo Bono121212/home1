@@ -1,0 +1,8 @@
+.ui.breadcrumb {
+    float: right;
+}
+
+.content.mylearning .mylearning-list-wrap table.ml-02-03 th:nth-child(5),
+.content.mylearning .mylearning-list-wrap table.ml-02-03 td:nth-child(5) {
+    width: 5.75rem;
+}

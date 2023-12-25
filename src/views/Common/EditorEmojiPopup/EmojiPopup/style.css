@@ -1,0 +1,105 @@
+.ui.button.emoji_close { margin: 0; padding: 0; overflow: hidden; border-radius: 50%; width: 28px; height: 28px;}
+.ui.button.emoji_close i.icon.banner-close { margin: 0 !important; height: 28px; width: 28px;}
+.emoji_bottom { position: absolute; top: calc(100% + 14px); left: 50%; transform: translateX(-50%);}
+
+.ui.form.reply.base .outline .more .count.left{text-align: left; text-indent: 1.875rem;}
+.emoji img.e_on, .emoji.active img.e_off{display: none;}
+.emoji img.e_off, .emoji.active img.e_on{display: block;}
+.emoji_popup .ui.button{background:#fff;}
+.emoji_popup .ui.button:active, 
+.emoji_popup .ui.button:focus, 
+.emoji_popup .ui.button:hover{background:#fff; color:#fff;}
+
+.ui.popup.emoji_popup{
+    border:0.063rem solid #d6deed; 
+    border-left: 0;
+    border-right: 0;
+    margin:0;
+    padding : 0;
+    min-width: 21.25rem;
+    text-align:left;
+    border-radius: 0;
+    box-shadow: 0.063rem 0 #d6deed, -0.063rem 0 #d6deed;
+    z-index:5;
+}
+.ui.popup.emoji_popup:before{display: none;}
+.emoji_popup .emoji_header{
+    border-bottom: 0.063rem solid #d6deed;
+    height:2.625rem;
+    text-align: center;
+    white-space:nowrap;
+}
+.emoji_header .emoji_list{
+    position: relative;    
+    display: inline-block;    
+    margin:0;
+    padding:0;    
+    width:2.625rem;
+    height:2.625rem;    
+}
+.emoji_header .emoji_list > .icon{
+    display: block;
+    width:100%; 
+    height:100%
+}
+
+i.icon.icon_emoji_1{background: url('../../../../images/all/btn-emoji-1.svg') no-repeat center/100%;}
+i.icon.icon_emoji_2{background: url('../../../../images/all/btn-emoji-2.svg') no-repeat center/100%;}
+i.icon.icon_emoji_3{background: url('../../../../images/all/btn-emoji-3.svg') no-repeat center/100%;}
+i.icon.icon_emoji_4{background: url('../../../../images/all/btn-emoji-4.svg') no-repeat center/100%;}
+i.icon.icon_emoji_5{background: url('../../../../images/all/btn-emoji-5.svg') no-repeat center/100%;}
+i.icon.icon_emoji_6{background: url('../../../../images/all/btn-emoji-6.svg') no-repeat center/100%;}
+i.icon.icon_emoji_7{background: url('../../../../images/all/btn-emoji-7.svg') no-repeat center/100%;}
+i.icon.icon_emoji_8{background: url('../../../../images/all/btn-emoji-8.svg') no-repeat center/100%;}
+.emoji_list.active > .icon.icon_emoji_1{background: url('../../../../images/all/btn-emoji-1-b.svg') no-repeat center/100%;}
+.emoji_list.active > .icon.icon_emoji_2{background: url('../../../../images/all/btn-emoji-2-b.svg') no-repeat center/100%;}
+.emoji_list.active > .icon.icon_emoji_3{background: url('../../../../images/all/btn-emoji-3-b.svg') no-repeat center/100%;}
+.emoji_list.active > .icon.icon_emoji_4{background: url('../../../../images/all/btn-emoji-4-b.svg') no-repeat center/100%;}
+.emoji_list.active > .icon.icon_emoji_5{background: url('../../../../images/all/btn-emoji-5-b.svg') no-repeat center/100%;}
+.emoji_list.active > .icon.icon_emoji_6{background: url('../../../../images/all/btn-emoji-6-b.svg') no-repeat center/100%;}
+.emoji_list.active > .icon.icon_emoji_7{background: url('../../../../images/all/btn-emoji-7-b.svg') no-repeat center/100%;}
+.emoji_list.active > .icon.icon_emoji_8{background: url('../../../../images/all/btn-emoji-8-b.svg') no-repeat center/100%;}
+
+.emoji_header .emoji_list.active::after{
+    content: '';
+    display: inline-block;
+    width: 1.625rem;
+    height: 0.125rem;
+    position: absolute;
+    bottom:0;
+    left:0.5rem;
+    background:#3e8ae9;
+}
+.emoji_popup_body{
+    overflow-x:hidden;
+    overflow-y:auto;
+    height:16.75rem;
+}
+.emoji_inner{
+    padding: 0.75rem 0 0.75rem 0.75rem;
+    margin: 0;
+}
+.emoji_tit{
+    display:block; 
+    color:#999;
+    font-size:0.75rem;
+    font-weight: bold;
+}
+.emoji_box + .emoji_box{padding-top:2px}
+.emoji_box + .emoji_box .emoji_tit{margin-top:0.625rem}
+
+.emoji_icons{display:flex; flex-wrap:wrap; margin: 0 -0.313rem}
+.emoji_icons .em_b{padding:0; margin:0.313rem; width:1.375rem; height:1.375rem; font-size:1.25rem; color:#fff; line-height:1.375rem; font-weight: normal;}
+.emoji_icons .em_b:hover, .em_b:active, .em_b:visited{background:transparent}
+.ui.popup.emoji_popup.reply{margin-top:1px}
+.ui.form.reply.base .outline .more2 .cancle{padding: 0 2.438rem}
+
+.emoji_icons .button.em_b{font-family:"BlinkMacSystemFont", "Segoe UI", "Roboto", "apple color emoji", "segoe ui emoji","noto color emoji","android emoji","emojisymbols","emojione mozilla","twemoji mozilla","segoe ui symbol","notosanskr", "-apple-system", sans-serif !important; font-style: normal;}
+.ui.comments.base > .comment .content div.text span,.ui.form.reply.base div.field textarea{font-family:  "BlinkMacSystemFont", "Segoe UI", "Roboto", "apple color emoji", "segoe ui emoji","noto color emoji","android emoji","emojisymbols","emojione mozilla","twemoji mozilla","segoe ui symbol", "-apple-system", "notosanskr", sans-serif !important; font-style: normal;}
+.ui.form.comment-form .field textarea.commt-field {font-family:  "BlinkMacSystemFont", "Segoe UI", "Roboto", "apple color emoji", "segoe ui emoji","noto color emoji","android emoji","emojisymbols","emojione mozilla","twemoji mozilla","segoe ui symbol", "-apple-system", "notosanskr", sans-serif !important; font-style: normal;}
+
+/* admin에만 적용
+.ui.popup.emoji_popup {max-width: 360px;}
+.emoji_popup .emoji_header { display: flex; justify-content: space-around; border-bottom-color: ​#ddd;}
+.emoji_header a.emoji_list.active:after {background: #00bfae;}
+button.ui.button.em_b { width: 25px;} */

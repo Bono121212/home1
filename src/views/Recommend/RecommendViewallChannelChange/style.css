@@ -1,0 +1,7 @@
+.ui.breadcrumb {
+    float: right;
+}
+
+/* 추천채널 드롭다운 스타일 수정(2021.10.26) */
+.ui.dropdown.inline.large .menu .item { font-size: 1rem; line-height: 2rem; }
+.ui.dropdown.inline.large .menu { max-height: 10rem; }

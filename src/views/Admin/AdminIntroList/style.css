@@ -1,0 +1,7 @@
+.list_table.intro table.table .t_type.now span::after{content:'대표 인트로';}
+
+
+.list_table.intro .no_intro{padding-top: 3.688rem;padding-bottom: 3.688rem;text-align: center;border-bottom:1px solid #ddd;}
+.list_table.intro .no_intro i.icon{display:block;width:5rem;height:5rem;margin:0 auto 1rem;}
+.list_table.intro .no_intro .txt1{margin-bottom:0.313rem;font-size:1.25rem;text-align:center;color:#222;}
+.list_table.intro .no_intro .txt1 + .txt2{font-size:.875rem;color:#666;}

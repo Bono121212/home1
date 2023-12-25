@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E89A2E9B-343A-41EC-8A16-4B7D6FF88FC5</title>
+    <g id="Front" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Community_00_Common_00_GNB(CM-10-20)" transform="translate(-756.000000, -443.000000)">
+            <g id="btn_join_go" transform="translate(740.000000, 436.000000)">
+                <g id="icon-/-24px-/-join-/-green" transform="translate(16.000000, 7.000000)">
+                    <g id="Group-5" transform="translate(2.557621, 3.528811)">
+                        <path d="M15,16.038414 L15,13.9644299 C15,11.3214766 10,10 7.5,10 C5,10 0,11.3214766 0,13.9644299 L0,16.038414" id="Icon-Path_2_" stroke="#00BFAE" stroke-width="1.5"></path>
+                        <path d="M7.44905677,8 C9.66608515,8 11.442379,6.21333333 11.442379,4 C11.442379,1.78666667 9.66608515,0 7.44905677,0 C5.23202839,0 3.44237897,1.78666667 3.44237897,4 C3.44237897,6.21333333 5.23202839,8 7.44905677,8 Z" id="Icon-Path" stroke="#00BFAE" stroke-width="1.5" fill-rule="nonzero"></path>
+                        <g id="plus" transform="translate(14.000000, 3.721189)" fill="#00BFAE">
+                            <rect id="Rectangle" x="0" y="2.75" width="7" height="1.5"></rect>
+                            <rect id="Rectangle" transform="translate(3.500000, 3.500000) rotate(-270.000000) translate(-3.500000, -3.500000) " x="0" y="2.75" width="7" height="1.5"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

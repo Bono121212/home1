@@ -1,0 +1,91 @@
+.mypagev2 .button.img-icon .icon.arrow-down{background:url('../../../images/all/icon-pboard-open.svg') no-repeat 50% 50%;}
+.mypagev2 .button.img-icon .icon.arrow-up{background:url('../../../images/all/icon-pboard-close.svg') no-repeat 50% 50%;}
+
+.folder_area{overflow:hidden;position:relative;height:4.5rem;margin-bottom:.625rem;padding:1.063rem 1.875rem;border:1px solid #d6deed;background: #fff;}
+.folder_area.open{height:auto;}
+.folder_area.open .folder_inner .folder_box li{margin:0 .625rem .625rem 0;}
+
+.folder_area + .txt1{margin-bottom:2.25rem;font-size:.875rem;color:#666;}
+.folder_area + .txt1 > i.icon{position:relative;top:2px;width:1rem;height:1rem;background:url('../../../images/all/icon-info-16-px.svg') ;}
+/* .folder_area button.button{background:transparent}
+.folder_area button.button:hover,
+.folder_area button.button:focus{background:transparent} */
+
+.folder_btn{text-align:right;}
+.folder_btn .button{width: 4.125rem;height: 2.375rem;padding:0;font-weight:900;}
+.folder_btn .save{margin-right:0;border:1px solid transparent;background:#333;color:#fff}
+.folder_btn .save:hover,
+.folder_btn .save:focus{background:#333;color:#fff}
+.folder_btn .cancel{border:1px solid #333;background:#fff;color:#333;}
+.folder_btn .cancel:focus,
+.folder_btn .cancel:hover{background:#fff;}
+.button.toggle_f{position: absolute;top:1.7em;right:1.875rem;padding:0;}
+.button.toggle_f:hover,
+.button.toggle_f:focus{background:transparent;}
+.button.toggle_f i.icon{background-image:url('../../../images/all/icon-pboard-close.svg');background-repeat:no-repeat;background-position:50% 50%;}
+.button.toggle_f.open i.icon{background-image:url('../../../images/all/icon-pboard-open.svg');}
+.folder_inner.moveOn + .folder_btn + .button.toggle.open i.icon{background-image:url('../../../images/all/icon-nboard-close.svg');}
+
+.folder_inner{display: flex;}
+.folder_inner .button{margin:0;padding:.7rem 1.25rem;font-size:.875rem;}
+
+/* 새폴더 생성 버튼 */
+.folder_inner .folder_new{width:6.5rem;}
+.folder_inner .folder_new .button{width:5.875rem;background:#333;border:1px solid #333;color:#fff;}
+.folder_inner .folder_new button.button:hover,
+.folder_inner .folder_new button.button:focus{background-color:#333;}
+/* 폴더 목록 */
+/* .folder_inner .folder_box{width:40.625rem;} */
+.folder_inner .folder_box{width:calc(100% - 7.875rem);}
+.folder_inner .folder_box ul{display:flex;flex-flow:wrap;}
+.folder_inner .folder_box li{position:relative;margin:0 .625rem 1.5rem 0;}
+/* .folder_inner .folder_box li button.button:hover,
+.folder_inner .folder_box li button.button:focus{background:transparent;} */
+.folder_inner .folder_box li .button.folder{font-weight:900;border:1px solid #999;color:#555;}
+.folder_inner .folder_box li .button.setting{display:none;position:absolute;top:-.5rem;right:-.5rem;width:1.5rem;height:1.5rem;padding:0;border-radius:50%;
+    background-color:#00bfae;
+    background-image:url('../../../images/all/icon-goalsetting-12-px.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;}
+.folder_inner .folder_box li .button.setting:hover,
+.folder_inner .folder_box li .button.setting:focus{background-color:#00bfae;}
+.folder_inner .folder_box li.setActive .folder{position:relative;border:1px solid #00bfae;color:#00bfae;}
+.folder_inner .folder_box li.setActive .setting{display:block;}
+
+.folder_inner .folder_box li .button.folder,
+.folder_inner .folder_box li .button.folder:hover,
+.folder_inner .folder_box li .button.folder:focus{background:transparent;}
+.folder_area button.button.toggle_f{background:transparent;}
+
+/* 폴더 : 좌우 이동버튼 */
+.folder_inner .folder_box li .button.left,
+.folder_inner .folder_box li .button.right{display:none;position:absolute;top:.563rem;width:1.25rem;height:1.25rem;padding:0;border:none;}
+.folder_inner .folder_box li.moveActive i.icon{margin:0 !important;background-repeat: no-repeat;background-position: 50% 50%;}
+.folder_inner .folder_box li.moveActive .left{left:-1.25rem;}
+.folder_inner .folder_box li.moveActive .left i.icon{background-image:url('../../../images/all/btn-order-left.svg');}
+.folder_inner .folder_box li.moveActive .right{right:-1.25rem;}
+.folder_inner .folder_box li.moveActive .right i.icon{background-image:url('../../../images/all/btn-order-right.svg');}
+
+.folder_inner .folder_box li .button.left,
+.folder_inner .folder_box li .button.right,
+.folder_inner .folder_box li .button.left:hover,
+.folder_inner .folder_box li .button.right:hover,
+.folder_inner .folder_box li .button.right:focus,
+.folder_inner .folder_box li .button.left:focus{background:#fff;}
+/* 폴더 : 순서 정렬 */
+.folder_inner.moveOn .folder_new .button{border-color:#b7c0d1;background:#b7c0d1;color:#fff;}
+.folder_inner.moveOn .folder_box .button{opacity:.5;border-color:#999;color:#555;}
+.folder_inner.moveOn .folder_box li.moveActive{margin:0 1.875rem .625rem 1.25rem;}
+.folder_inner.moveOn .folder_box li.moveActive .folder{opacity:1;border-color:#00bfae;box-shadow: 0 2px 6px 0 #ccd4e7;background:transparent;color:#00bfae;}
+.folder_inner.moveOn .folder_box li.moveActive .left,
+.folder_inner.moveOn .folder_box li.moveActive .right{display:block;}
+/* 폴더 설정 */
+.folder_setting{display:flex;margin-bottom:1.875rem;padding-bottom: 1.125rem;border-bottom: 1px solid #d6deed;color:#6c788f;}
+.folder_setting .button.delete{padding:0;background:transparent}
+.folder_setting .button.delete:hover,
+.folder_setting .button.delete:focus{background:transparent}
+.folder_setting .input{width:25rem;height:2.375rem;margin-left:.625rem;}
+.folder_setting .input input{padding:0 1rem;}
+.folder_setting .txt_cnt{margin-left:.625rem;margin-right:1rem;line-height:2.375rem;font-size:.875rem;color:#999}
+.folder_setting .txt_cnt .txt_now{font-weight: 900;}
+.folder_setting .folder_btn{margin-left:auto;}

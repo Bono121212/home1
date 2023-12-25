@@ -1,0 +1,30 @@
+.discussion-contents .editor-wrap .quill .ql-container{height: 9.5rem !important;}
+.discussion-contents .editor-wrap .quill{margin-bottom: 0;}
+.wd-92{width: 93.5% !important}
+
+.open-option-radio{display: inline-block;}
+.open-option-detail{font-size: 0.875rem;color: #4c4c4c;}
+.open-option-detail::before{display: inline-block;content: '';margin-right: 0.5rem;margin-bottom: 0.25rem;width: 0.188rem;height: 0.188rem;background-color: #666666;border-radius: 3.125rem;vertical-align: middle;}
+.ui.add-discussion-inp.input.file input[type=text]{width: 31.563rem;}
+.lg-attach .attach-inner .side-segment-list .ui.list .item.mg-top10 + .item.mg-top10{margin-top: 0.625rem;}
+.discussion-contents .ql-editor.ql-blank::before{color: #999999;font-size: 0.875rem;font-style: normal;}
+
+.add-discussion.lg-attach{margin-bottom: 0;}
+.add-discussion .right{padding-left: 0.625rem;}
+
+.admin_menu_right .menu_right_contents .discussion-contents th{padding-top: 0.813rem;vertical-align: top;}
+.admin_menu_right .menu_right_contents .discussion-contents td{padding: 1.25rem 0;}
+.admin_menu_right .menu_right_contents .discussion-contents + tr > th{padding-top: 0.625rem;vertical-align: top;}
+.admin_menu_right .menu_right_contents .related-material th{padding-top: 0.813rem;vertical-align: top;}
+.admin_menu_right .menu_right_contents .related-material td{padding-bottom: 1.25rem;}
+.admin_menu_right .menu_right_contents .related-url-belt td .related-url-bar{margin-bottom: 1.25rem;}
+.admin_menu_right .menu_right_contents .related-url-belt td .related-url-bar div:last-child{margin-top: 0.625rem;}
+.admin_menu_right .menu_right_contents .related-url-belt td div Button{margin-left: 0.75rem;padding: 0;height: 2.375rem;}
+.admin_menu_right .menu_right_contents .related-url-belt td div .cancle-btn{margin-bottom: 0.125rem;}
+.related-url-belt td div .ui.input.right-top-count{width: 93%;}
+
+.admin_menu_right .menu_right_contents .opinion-option .ui.checkbox input.hidden + label{font-size: 0.875rem;}
+.admin_menu_right .menu_right_contents .opinion-option .ui.radio.base label{color: #222222;}
+
+.menu_right_contents > table > tbody > tr > td > .board-write-radio.open-option-radio{margin-top: 0;}
+.opinion-option + .opinion-option td { padding-top:20px;}

@@ -1,0 +1,2 @@
+.login-content .pwd-content .form-section .field{position:relative; padding: 1.875rem 0 0.625rem;}
+.login-content .pwd-content .form-section .field + .field{padding : 0.625rem 0 3.125rem;}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>86218FAA-FFB6-41F9-88BC-3890233DFC74</title>
+    <g id="LMS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#-learningtype" transform="translate(-360.000000, -172.000000)">
+            <g id="Group" transform="translate(360.000000, 80.000000)">
+                <g id="Icon_learningtype_e-learning_16px" transform="translate(0.000000, 92.000000)">
+                    <g id="icon" transform="translate(2.500000, 2.000000)">
+                        <polyline id="Rectangle" stroke="#666666" stroke-width="1.5" stroke-linecap="square" transform="translate(5.000000, 6.500000) scale(-1, 1) translate(-5.000000, -6.500000) " points="6 1.5 10 1.5 10 11.5 0 11.5 0 7.5"></polyline>
+                        <line x1="10.5686571" y1="0.829010815" x2="4.93134295" y2="7.17098919" id="Line" stroke="#666666" stroke-width="1.5" transform="translate(7.750000, 4.000000) rotate(3.366461) translate(-7.750000, -4.000000) "></line>
+                        <rect id="Rectangle" fill="#666666" x="6.75" y="0" width="5" height="1.5"></rect>
+                        <rect id="Rectangle" fill="#666666" transform="translate(11.000000, 2.500000) rotate(90.000000) translate(-11.000000, -2.500000) " x="8.5" y="1.75" width="5" height="1.5"></rect>
+                    </g>
+                    <g id="icon" transform="translate(13.000000, 1.000000)"></g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

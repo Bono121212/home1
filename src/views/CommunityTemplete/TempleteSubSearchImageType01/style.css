@@ -1,0 +1,7 @@
+/* .info_body.important::before{content: '중요'; display: inline-block; width: 2.25rem; height: 1.5rem; margin-right: 6px; border: 1px solid #e1002a; text-align: center; line-height: 1.3rem; letter-spacing: -0.01875rem; border-radius: 0.25rem; font-size: 12px; color: #e1002a;}
+.info_body.new::after{content: 'N'; display: inline-block; line-height: 1.3rem; font-size: 0.5rem; font-weight: 900; color: #e1002a; margin : 0 0 0.25rem 0.25rem} */
+.compo_info .info_body + .result_text{margin-top : -0.375rem;}
+.compo_info .result_text p{color:#666; font-size: 0.875rem}
+.ellipsis.l_three{display: -webkit-box !important; -webkit-line-clamp: 3; -webkit-box-orient: vertical; white-space: normal; word-break: break-all;}
+.compo_vod .compo_info.s_type{height: 11.875rem}
+.compo_info .result_text + .info_bottom{margin-top: 0.938rem}

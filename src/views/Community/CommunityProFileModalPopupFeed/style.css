@@ -1,0 +1,160 @@
+.right-side .community-main-contants .sub-info-box{
+    width: 100%;
+    height: 28.375rem;
+    overflow-y: scroll;
+}
+.feed-list-area{
+    margin-right: 1.25rem;
+}
+.feed-list-area .ui.comments.base{
+    margin-bottom: 1.375rem;
+    padding-bottom:0;
+    border:0.063rem solid #ccc;
+    box-shadow: none;
+}
+
+.feed-list-area .ui.comments.base:last-of-type{margin-bottom:0}
+
+.feed-list-area .ui.comments.base > .comment{
+    padding : 1.25rem 1.875rem 1rem !important;
+    border-bottom: 0.063rem solid #eee; 
+    min-height: 4.75rem;
+}
+
+.feed-list-area .ui.comments.base > .comment .content .text{margin-top: 0.125rem}
+.ui.comments.base > .comment .content .text .line{
+    color: #999999; 
+    margin-right: 1.313rem; 
+}
+.ui.comments.base > .comment .content .text .line{position:relative;}
+.ui.comments.base > .comment .content .text .line:after{
+    content:'';
+    display:inline-block;
+    width:0.063rem;
+    height:0.375rem;
+    background: #d8d8d8;
+    position:absolute;
+    top:0.5rem;
+    right:calc(100% + 0.625rem);
+}
+.feed-list-area .ui.comments.base > .comment .content .text span:first-of-type::after{display:none;}
+.feed-list-area .ui.comments.base > .comment .content .text .id{color:#4c4c4c;}
+.feed-list-area .ui.comments.base > .comment .content .actions{
+    position: absolute;
+    top: 0.5rem;
+    right:0;
+}
+.feed-list-area .ui.comments.base > .comment .content .actions a{
+    margin:0;
+}
+.feed-list-area .ui.comments.base > .comment .content .actions a:first-of-type{
+    margin-right:1rem;
+}
+
+.feed-list-area .ui.comments.base > .comment .content .actions .button{
+    margin:0;
+    padding:0;
+    min-height: auto;
+    font-size:1.5rem;
+    background:#fff;
+}
+.feed-list-area .ui.comments.base > .comment .content .actions .button:active,
+.feed-list-area .ui.comments.base > .comment .content .actions .button:hover,
+.feed-list-area .ui.comments.base > .comment .content .actions .button:focus{
+    background:#fff;
+}
+
+
+.feed-list-area .ui.comments.base > .comment > .avatar{
+    width:2.25rem;
+    height:2.25rem;
+    cursor:pointer;
+}
+
+.feed-list-area .ui.comments.base > .comment > .avatar ~ .content{
+    margin-left:2.875rem;
+    position: relative;
+}
+
+.feed-list-area .feed-card{
+    padding: 0.75rem 1.875rem 0.5rem;
+    position:relative;
+}
+.feed-list-area .feed-tit{
+    display: inline-block;
+}
+
+.feed-list-area .feed-tit a{
+    display: inline-block;
+    margin:0 0.563rem 0 0.5rem;
+    max-width: 31.5rem;
+    color:#222;
+    font-size: 1rem;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    position: relative;
+}
+
+.feed-list-area .feed-tit.active a{
+    text-overflow: inherit;
+    overflow: visible;
+    white-space: normal;
+    word-break: break-all;
+}
+
+.feed-list-area .ui.accordion{
+    display: inline-block;
+    max-width: none;    
+}
+
+.feed-list-area .ui.accordion .more-bttn .dropdown.icon{
+    position: absolute;
+    top: 1.25rem;
+    right: 1.875rem;
+}
+
+.feed-list-area .ui.accordion .active.more-bttn .dropdown.icon:after{
+    transform: rotate(180deg);
+}
+
+.feed-list-area .ui.accordion .more-bttn .dropdown.icon:before{
+    content:'';
+}
+.feed-list-area .ui.accordion .more-bttn .dropdown.icon:after{
+    content:'';
+    display: inline-block;
+    background: url('../../../images/all/icon-comcard-open.svg');
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.feed-list-area .ui.accordion .more-bttn.active .dropdown.icon{
+    transform:none;
+}
+.feed-list-area .content.active{
+    padding-top:1rem;
+}
+.feed-list-area .summary{
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: -0.022rem;
+    white-space: pre-line;
+}
+
+.feed-list-area .ico_feed{
+    display: inline-block;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    font-size: 0;
+    vertical-align: top;
+}
+.feed-list-area .ico_feed.file{width: 1rem; height: 1rem; margin-top:0.25rem;}
+.feed-list-area .ico_feed.attach{background:url(../../../images/all/icon_attech.png) no-repeat center center;}
+.feed-list-area .ico_feed.board{background:url(../../../images/all/icon_board.png) no-repeat center center;}
+.feed-list-area .ico_feed.message{background:url(../../../images/all/icon_message.png) no-repeat center center;}
+.feed-list-area .ico_feed.file{background:url(../../../images/all/icon-community-file-copy-2.png) no-repeat center center;}
+.feed-list-area i.icon.popupBook.marking::before{background: url(../../../images/all/icon-pop-bookmark-empty.svg) 0 0 no-repeat !important;}
+
+.feed-list-area .summary img{max-width:100%}

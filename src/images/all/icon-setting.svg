@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7F7B0CB6-E316-491B-AB7C-A8983B7BF935</title>
+    <defs>
+        <path d="M8,0 L392,0 C396.418278,-2.58798134e-15 400,3.581722 400,8 L400,409 C400,413.418278 396.418278,417 392,417 L8,417 C3.581722,417 -3.47095419e-16,413.418278 0,409 L0,8 C-1.42926142e-15,3.581722 3.581722,-7.65539184e-17 8,0 Z" id="path-1"></path>
+        <filter x="-2.5%" y="-1.9%" width="105.0%" height="104.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Community_Admin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Community_Community_Main_01(41-31-02)" transform="translate(-1259.000000, -147.000000)">
+            <rect fill="#F4F7FD" x="0" y="0" width="1400" height="1000"></rect>
+            <g id="#-커뮤니티정보" transform="translate(900.000000, 70.000000)">
+                <g id="Rectangle">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <g id="커뮤니티내용" transform="translate(25.000000, 74.000000)"></g>
+                <g id="개설일" transform="translate(231.000000, 76.000000)" fill="#666666" fill-rule="nonzero">
+                    <g id="icon-/-setting-" transform="translate(128.000000, 1.000000)">
+                        <path d="M15,9.23529412 L13.2047059,9.23529412 C13.0647059,9.81176471 12.8423529,10.3470588 12.5376471,10.8247059 L13.8058824,12.0929412 L12.0764706,13.8223529 L10.8082353,12.5541176 C10.3305882,12.8505882 9.79529412,13.0729412 9.23529412,13.2047059 L9.23529412,15 L6.76470588,15 L6.76470588,13.2047059 C6.20470588,13.0729412 5.66941176,12.8505882 5.19176471,12.5541176 L3.92352941,13.8223529 L2.17764706,12.0764706 L3.44588235,10.8082353 C3.14941176,10.3305882 2.92705882,9.79529412 2.79529412,9.23529412 L1,9.23529412 L1,6.78941176 L2.78705882,6.78941176 C2.91882353,6.21294118 3.14941176,5.67764706 3.44588235,5.19176471 L2.17764706,3.92352941 L3.90705882,2.19411765 L5.17529412,3.46235294 C5.65294118,3.15764706 6.19647059,2.93529412 6.76470588,2.79529412 L6.76470588,1 L9.23529412,1 L9.23529412,2.79529412 C9.79529412,2.92705882 10.3305882,3.14941176 10.8082353,3.44588235 L12.0764706,2.17764706 L13.8223529,3.92352941 L12.5541176,5.19176471 C12.8505882,5.67764706 13.0811765,6.21294118 13.2129412,6.78941176 L15,6.78941176 L15,9.23529412 Z M8,11.7058824 C10.0505882,11.7058824 11.7058824,10.0505882 11.7058824,8 C11.7058824,5.94941176 10.0505882,4.29411765 8,4.29411765 C5.94941176,4.29411765 4.29411765,5.94941176 4.29411765,8 C4.29411765,10.0505882 5.94941176,11.7058824 8,11.7058824 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

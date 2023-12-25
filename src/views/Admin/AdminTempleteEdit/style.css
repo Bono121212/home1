@@ -1,0 +1,98 @@
+.ui.segment.full.edit{position:relative;width:100%;}
+.ui.segment.full.edit.dimon::after{content: '';display:block;position: absolute;top:0;left:0;right:0;bottom:0;background-color: transparent;}
+.ui.segment.full.edit .admin_tab_top{width:75rem ;margin:0 auto 2.5rem;}
+.ui.segment.full.edit .templete_title{width:75rem ;margin:0 auto;}
+
+.templete_edit{background:#fff;}
+.templete_edit .card_area + .card_area{margin-top:.875rem;}
+/* lnb 수정 불가표시  */
+.ta_lnb_area.edit,
+.tc_lnb_area.edit{position: relative;}
+.ta_lnb_area.edit:after,
+.tc_lnb_area.edit .tc_lnb_inner:after{content: '';display:block;position:absolute;top:0;bottom:0;left:0;right:0;}
+
+/* 템플릿 수정 */
+.admin-edit{overflow-x:hidden;padding-top:1.875rem;border-top:1px solid #ddd;border-bottom:1px solid #ddd;background:#fff;}
+
+/* 편집 버튼모음  */
+.edit_btn_box{position:absolute;top:1.125rem;left:.625rem;right:.625rem;display:flex;z-index: 10;}
+.edit_btn_box button.button.edit_btn:last-child{margin-right:0;}
+.edit_btn_box .b_right {display:flex;margin-left:auto;flex-wrap:wrap;}
+.tb_aside_box .edit_btn_box .b_right{width:7.188rem;}
+.tb_aside_box .edit_btn_box .b_right button.button{margin:0 0 .5rem .25rem}
+.tb_aside_box .edit_btn_box .b_right button.button:first-child{margin-left:1.563rem}
+.tb_aside_box .edit_btn_box .b_right .edit_edit{margin-left:0;}
+
+button.button.edit_btn{position:relative;width:2.625rem;height:2.625rem;margin:0 .5rem 0 0;padding:0;text-align:center;font-size:1rem;font-weight:900;border-radius: 1.563rem;background: #fff;box-shadow: 0 2px 6px 0 rgba(34, 34, 34, 0.6);}
+button.button.edit_btn:hover,
+button.button.edit_btn:focus{background:#fff;box-shadow: 0 2px 6px 0 rgba(34, 34, 34, 0.6)}
+button.button.edit_btn.edit_edit{width:4.063rem;color:#222;}
+button.button.edit_btn i.icon{width:1.5rem;height:1.5rem !important;margin:0 !important;background-repeat:no-repeat;background-position: 50% 50%;}
+button.button.edit_see i.icon,
+button.button.edit_unsee i.icon{position:relative;width:2.625rem;height:2.625rem !important;border-radius:50%;background-color:#fff;}
+button.button.edit_see i.icon{background-image:url('../../../images/all/icon-edit-see.svg');}
+button.button.edit_unsee i.icon{background-image:url('../../../images/all/icon-edit-unsee.svg');}
+button.button.edit_up i.icon{background-image:url('../../../images/all/icon-edit-up.svg');}
+button.button.edit_down i.icon{background-image:url('../../../images/all/icon-edit-down.svg');}
+button.button.edit_delete i.icon{background-image:url('../../../images/all/icon-edit-delete.svg');}
+
+button.button.edit_see,
+button.button.edit_unsee,
+button.button.edit_up,
+button.button.edit_down,
+button.button.edit_delete{display:none;}
+button.button.edit_see.on,
+button.button.edit_unsee.on,
+button.button.edit_up.on,
+button.button.edit_down.on,
+button.button.edit_delete.on{display:block;}
+
+button.button.edit_see{width:5.25rem;padding-left:2.375rem;line-height:2.5rem;background-color:#222;}
+button.button.edit_see i.icon{position:absolute;top:0;left:0;}
+button.button.edit_see:hover,
+button.button.edit_see:focus{background-color:#222;}
+button.button.edit_unsee{width:5.25rem;padding-left:2.375rem;line-height:2.5rem;background-color:#cecece;}
+button.button.edit_unsee i.icon{position:absolute;top:0;right:0;}
+button.button.edit_unsee:hover,
+button.button.edit_unsee:focus{background-color:#cecece;}
+button.button.edit_see::before{content: 'ON';position:absolute;top:1px;right:.875rem;text-align: center;font-size:.875rem;border-radius:1.25rem;color:#fff;}
+button.button.edit_unsee::before{content: 'OFF';position:absolute;top:1px;left:.75rem;text-align: center;font-size:.875rem;border-radius:1.25rem;color:#fff;}
+
+
+/* 수정라인표시 (점선) - 기본 */
+.opacity.edit{position:relative;min-height:4.25rem;border:1px dashed #222;margin:5px 0;padding:.625rem;}
+.opacity.edit::after{content:'';display:block;position:absolute;top:0;left:0;right:0;bottom:0;opacity:.5;background:#fff;}
+/* 수정라인표시 (실선) - 탭일경우 */
+.noOpacity.edit{position:relative;padding:5rem .625rem .625rem .625rem;border:1px solid #222;border-radius:1.5rem}
+.noOpacity.edit + .card_area{margin-top:.875rem;}
+.card_area + .noOpacity.edit{margin-top:.875rem;}
+/* 컨포넌트 추가버튼 */
+.btn_add_component{margin:1.25rem auto;text-align: center;}
+.btn_add_component button.ui.button{height:2.625rem;padding: .5rem 1.125rem .625rem;letter-spacing:-.4px;font-size:1rem;border-radius: 1.313rem;box-shadow: 0 2px 6px 0 rgba(34, 34, 34, 0.6);background-color: #fff;color:#222;}
+
+.opacity.edit .title_link,
+.opacity.edit .title_nolink{margin-top:0; min-height: 60px;}
+
+
+/* 템플릿수정A */
+.templete_edit .templete_type_a{width:76.25rem;margin:0 auto;} /* 넓이 조정 1220*/
+.templete_edit .ta_contents{width:58.375rem;} /* 넓이 조정 934 */
+.t_slide_area .opacity.edit .inner{background: #eee;}
+/* 템플릿수정B */
+.templete_edit .templete_type_b{width:76.25rem;margin:0 auto;} /* 넓이 조정 1220*/
+.templete_edit .tb_box::after{content:'';display:block;position:absolute;top:0;left:0;right:0;bottom:0;opacity:.5;background:#fff;}
+
+.tb_contents.edit{width:37.5rem;padding-top:0;}/* 넓이 조정*/
+.templete_edit .tb_body{width:42.5rem}/* 넓이 조정*/
+.tb_body.edit{width:42.5rem;}/* 넓이 조정*/
+
+.templete_edit .tb_top_slide{width:42.5rem;height:23.75rem;}
+.tb_top_slide.edit{height:23.75rem;}
+
+.tb_aside.edit{width:15.625rem;}
+.tb_aside_box{position:relative;}
+.tb_aside.edit .tb_aside_box + .tb_aside_box {margin-top:1.25rem;}
+.templete_type_c .t_slide_area { width: 75rem; margin: 0 auto;}
+  
+
+

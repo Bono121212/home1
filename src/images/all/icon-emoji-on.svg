@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>365C7152-96E6-447B-88CA-D88A1785F5B7</title>
+    <g id="Symbols_assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-669.000000, -837.000000)">
+            <g id="icon_emoji_24px" transform="translate(669.000000, 837.000000)">
+                <circle id="Oval" stroke="#00BFAE" stroke-width="1.4" cx="12" cy="12" r="9.3"></circle>
+                <g id="Group" transform="translate(6.830000, 13.400000)">
+                    <path d="M0.597052034,0.596198801 C1.37426633,2.34873587 3.12937333,3.6 5.17,3.6 C6.55071187,3.6 7.80071187,3.04035594 8.70553391,2.13553391 C9.15260319,1.68846462 9.51540376,1.18593569 9.76806576,0.596198801" id="Path" stroke="#00BFAE" stroke-width="1.2"></path>
+                    <circle id="Oval" fill="#00BFAE" cx="0.6" cy="0.6" r="1"></circle>
+                    <circle id="Oval" fill="#00BFAE" cx="9.76" cy="0.6" r="1"></circle>
+                </g>
+                <circle id="Oval" stroke="#00BFAE" fill="#00BFAE" cx="8.75" cy="9.75" r="1"></circle>
+                <circle id="Oval" stroke="#00BFAE" fill="#00BFAE" cx="15.25" cy="9.75" r="1"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

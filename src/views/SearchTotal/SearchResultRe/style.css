@@ -1,0 +1,3 @@
+.search_inner .search_input .show_text .re_text{display: none;}
+.search_inner .search_input .show_text .re_text span{color:#b9b9b9; font-size: 20px; line-height: 26px;padding-right:26px; background:url("../../../images/all/icon-searchdepth.svg") right 10px top 8px no-repeat;}
+.search_inner .search_input .show_text.research .re_text{display: block; max-width: 246px; cursor: default; }

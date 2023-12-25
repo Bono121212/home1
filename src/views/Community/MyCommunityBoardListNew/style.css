@@ -1,0 +1,19 @@
+.community .mycommunity-list-wrap .su-list .row.important.new .cell.title .ellipsis {max-width:18.375rem;}
+.community .mycommunity-list-wrap .su-list .row .cell .secret_i{margin: 0 0 0 .375rem;vertical-align: middle;}
+
+.table-board-title .right-wrap.board-down-title-right .go_all{
+    position: relative;
+    top:2px;
+    height: 2rem;
+    margin-right:-1.25rem;
+    padding: .313rem .625rem;
+    color: #6c788f;
+    font-size: 0.875rem;
+    letter-spacing: -0.01625rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    border: 1px solid #6c788f;
+    border-radius: 0.25rem;
+    background: transparent;
+}
+.table-board-title .right-wrap.board-down-title-right .go_all i.icon{position: relative;top: 0.125rem;width:24px;height:24px;margin:0;vertical-align: sub;background:url('../../../images/all/icon-series-24-px-2.svg') no-repeat left 50%;}

@@ -1,0 +1,8 @@
+.ui.input.right-top-count .count > .score {color:#222222;padding-right:0.5rem;}
+.ui.input.right-top-count .count > .score_value {background: #fff;
+    border: 1px solid #222222;
+    padding: 0.3rem 1rem;
+    color: #222222;}
+
+.course-radio-survey .ql-snow .text.ql-editor p{margin-bottom:.5rem;font-size: 0.875rem;font-weight:400;}
+.course-radio-survey .ui.input.right-top-count .count.count2{bottom:-2rem;}

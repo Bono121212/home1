@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4A23D0AC-79CD-4259-AF02-60DC514F4362</title>
+    <defs>
+        <polygon id="path-1" points="32.4777328 42 34 40.355 19.0553306 25 34 9.645 32.4777328 8 16 25"></polygon>
+        <filter x="-16.7%" y="-8.8%" width="133.3%" height="117.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.298039216   0 0 0 0 0.298039216   0 0 0 0 0.298039216  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Front" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="CommunityTemplate_Sample_B" transform="translate(-390.000000, -232.000000)" fill-rule="nonzero">
+            <g id="@-center" transform="translate(370.000000, 77.000000)">
+                <g id="ttl" transform="translate(0.000000, 0.000000)">
+                    <g id="btn" transform="translate(20.000000, 155.000000)">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="336px" viewBox="0 0 600 336" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>779E3936-0F0B-4D6F-84DB-5C64436B6ADB</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="586" height="276"></rect>
+    </defs>
+    <g id="최종본" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="New_Main_01" transform="translate(-960.000000, -163.000000)">
+            <g id="[+]-Welcome" transform="translate(360.000000, 163.000000)">
+                <g id="bg_course" transform="translate(899.124525, 168.000000) rotate(-180.000000) translate(-899.124525, -168.000000) translate(598.249050, 0.000000)">
+                    <g id="Oval" transform="translate(15.750950, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <circle stroke="#E5F6F4" stroke-width="60" mask="url(#mask-2)" cx="259" cy="-27" r="182"></circle>
+                    </g>
+                    <g id="Group" transform="translate(351.750950, 232.000000)" fill="#B8F1EC" stroke="#B8F1EC" stroke-linejoin="round" stroke-width="10">
+                        <polygon id="Triangle" transform="translate(118.000000, 34.000000) rotate(-180.000000) translate(-118.000000, -34.000000) " points="118 1.90424759e-12 158 68 78 68"></polygon>
+                        <polygon id="Triangle" transform="translate(40.000000, 34.000000) rotate(-180.000000) translate(-40.000000, -34.000000) " points="40 1.90424759e-12 80 68 0 68"></polygon>
+                    </g>
+                    <g id="Triangle-2" transform="translate(527.333333, 86.000000)" fill="#61E0D4" stroke="#61E0D4" stroke-linejoin="round" stroke-width="10">
+                        <polygon id="Triangle" points="19.8333333 9.66338121e-13 39.6666667 34 0 34"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

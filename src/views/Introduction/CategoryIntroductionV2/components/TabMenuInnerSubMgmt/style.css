@@ -1,0 +1,9 @@
+.belt-title { margin: 10px 0;}
+.belt-title .tit { display: block; color: #222; font-size: 20px; letter-spacing: -.6px; }
+.belt-title .sub-text { display: block; margin: 6px 0 0; color: #666; font-size: 14px; line-height: 22px; letter-spacing: -.42px; }
+.college-cont-wrap.mgmt00 .college-cont-map:first-child{padding:0 0 50px; border-top : 0}
+.college-cont-wrap.mgmt{padding-bottom:120px}
+.college-cont-wrap.mgmt .belt .college-sub-txt { padding-bottom: 30px; }
+.introduction.v2.eng .college-cont-wrap.mgmt .belt .college-sub-txt { padding-bottom: 60px; }
+.introduction.v2.chn .college-cont-wrap.mgmt .belt .college-sub-txt { padding-bottom: 60px; }
+.college-cont-wrap.mgmt .college-sub-txt strong{width : 223px}

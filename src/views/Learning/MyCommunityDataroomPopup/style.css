@@ -1,0 +1,17 @@
+/* Modal */
+.content-wrap-follow{padding:1.875rem;}
+
+
+.ui.modal.base .header.dataroom-popup-header {height:auto !important;overflow:hidden;}
+.dataroom-popup-header .dataroom-popup-left,
+.dataroom-popup-header .dataroom-popup-right {display:inline-block;padding:5px 0;}
+.dataroom-popup-header .dataroom-popup-left {float:left;}
+.dataroom-popup-header .dataroom-popup-right {float:right;margin-right: 2rem;}
+.dataroom-popup-header .dataroom-popup-right .ui.button.post.list2 {width:6.5rem;margin-right:1.5rem;}
+.dataroom-popup-header .dataroom-popup-right .ui.button.post.list2 > img {vertical-align:top;margin-right:0.3rem;}
+.dataroom-popup-header .dataroom-popup-right .ui.button.img-icon > .icon.clear2 {vertical-align:middle;margin-right:0.3rem;}
+.dataroom-popup-header .dataroom-popup-right .ui.button.img-icon > span {margin-left:0.3rem;font-size:14px;color:#222222;}
+.dataroom-popup-content.content > .test {background:#eeeeee;width:100%;height: 35rem;border-top: none;}
+
+
+.ui.modal.base .content {padding:0.5rem !important;}

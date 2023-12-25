@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3A76EC00-C537-4112-9AB9-84AEFBC0004C</title>
+    <defs>
+        <circle id="path-1" cx="21" cy="21" r="21"></circle>
+        <filter x="-23.8%" y="-19.0%" width="147.6%" height="147.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.133333333   0 0 0 0 0.133333333   0 0 0 0 0.133333333  0 0 0 0.6 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#Resources_Template" transform="translate(-354.000000, -386.000000)">
+            <rect fill="#F4F7FD" x="0" y="0" width="991" height="619"></rect>
+            <rect id="White-BG" fill="#FFFFFF" x="0" y="0" width="991" height="619"></rect>
+            <g id="btn_component_unsee" transform="translate(345.000000, 377.000000)">
+                <g id="Oval-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="icon_edit_unsee" transform="translate(9.000000, 9.000000)" fill="#222222">
+                    <path d="M12,19 C17.5228475,19 22,13.4053726 22,12 C22,10.5946274 17.5228475,5 12,5 C6.4771525,5 2,10.6079147 2,12 C2,13.3920853 6.4771525,19 12,19 Z" id="Oval"></path>
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="2.5" cx="12" cy="12" r="3.75"></circle>
+                    <rect id="Rectangle" transform="translate(12.000000, 12.000000) rotate(-315.000000) translate(-12.000000, -12.000000) " x="11" y="9.09494702e-13" width="2" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,4 @@
+.interest-content.step1 .filter-wrap {display: table;}
+.interest-content.step1 .ui.form .filter-wrap .column {width: 50%;}
+.interest-content.step1 .ui.form .filter-wrap .column:nth-of-type(2) {border-right: 0;}
+.interest-content.step1 .scrolling.channel-change .accordion.channel{ padding : 0px 20px 30px 30px}

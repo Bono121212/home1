@@ -1,0 +1,13 @@
+.screen_out{opacity:0;width:0;height:0;font-size:0;}
+.content.community.profile .community-list-wrap.mycomu_fi .ui.table tbody td{padding:1.15rem .625rem;}
+.content.community.profile .community-list-wrap.mycomu_fi .ui.table tbody td.title{font-size: 1rem;}
+.content.community.profile .community-list-wrap.mycomu_fi .ui.table tbody td:first-child{padding-left:1.25rem;}
+.content.community.profile .community-list-wrap.mycomu_fi .ui.table tbody td button.sece_btn{float:none;margin-top:0;}
+.content.community.profile .community-list-wrap.mycomu_fi .favorites_btn {margin:0 auto;}
+
+.community-main-contants{position:relative;}
+.community-main-contants .open-tab-radio{position:absolute;top:3.4rem;right:0;margin:0;}
+.community-main-contants .open-tab-radio > div{margin-right:0;margin-left:2.5rem;}
+.community-main-contants .open-tab-radio .ui.checkbox input.hidden + label{font-size:.875rem}
+
+.ui.button.manage_btn_new{width:5.5rem;height:2rem;margin:0;padding:0;font-size:.875rem;font-weight:700;border-radius:.25rem;border:1px solid #ff664d;letter-spacing:-0.01625rem;color:#ff664d;}

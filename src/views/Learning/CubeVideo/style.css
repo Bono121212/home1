@@ -1,0 +1,19 @@
+.btn-inner.left {float: left;}
+.btn-inner.right {float: right;}
+#gradientBottom {
+    position: absolute;
+    bottom: 0;
+    height: 183px;
+    width: 100%;
+    background: linear-gradient(180deg,transparent,rgba(0,0,0,.55) 100%,rgba(0,0,0,.75));
+    z-index: 0;
+    display: none;
+}
+.bottom-controls-wrap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.5rem;
+    z-index: 1;
+}
+.video-container.full { position: fixed; top: 0; left: 0; width: 100vw !important; height: 100vh !important; z-index: 100;}

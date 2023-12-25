@@ -1,0 +1,6 @@
+.ui.breadcrumb {
+    float: right;
+}
+
+.scrolling-area.badge-scrolling .scrolling {min-height:16rem; height:16rem}
+.scrolling-area.badge-scrolling .scrolling .belt li {margin-right:0.3rem}

@@ -1,0 +1,30 @@
+import React from "react";
+import CubeDetailSec from "../../../_Components/CubeDetailSec";
+import PlayerAudio from "../PlayerAudio";
+
+const PlayerContainer = (props) => {
+	return (
+		<CubeDetailSec className="cube-sec">
+			{/* Case 단독큐브 제목 있음 */}
+			{ props.title &&
+				<>
+					<div className="detail-sec-head type-cube-info">
+						<h2 className="detail-sec-title">웹 3.0, 커뮤니티 크리에이터의 시대가 온다.</h2>
+						<div className="detail-sec-info">
+							<span className="ui label text">Audio</span>
+							<span className="ui label text">40m</span>
+						</div>
+					</div>
+					<div className="detail-sec-body">
+						<PlayerAudio />
+					</div>
+				</>
+			}
+			{/* Case 유형큐브 제목 없음 */}
+			{ !props.title &&
+				<PlayerAudio />
+			}
+		</CubeDetailSec>
+	);
+};
+export default PlayerContainer;

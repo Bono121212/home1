@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>9ACFE18E-F84E-474C-8AAF-C34F25F988D8</title>
+    <g id="LMS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#-learningtype" transform="translate(-360.000000, -372.000000)" fill="#666666">
+            <g id="Group" transform="translate(360.000000, 80.000000)">
+                <g id="icon-/-16px-/-learningtype-/-Task" transform="translate(0.000000, 292.000000)">
+                    <g id="icon" transform="translate(2.000000, 1.000000)">
+                        <polygon id="Fill-1" points="9.35329647 0 8 1.35318135 10.6467035 4 12 2.64681865 12 2.64613814"></polygon>
+                        <path d="M2.46240037,6.84220862 L1.06410997,8.24049902 L1,11 L3.75984752,10.93589 L5.15779138,9.53794617 L10,4.69504447 L8.65230449,3.34734897 L7.30460899,2 L2.46240037,6.84220862 Z M2.84797667,9.15192027 L2,9.10889645 L2.01932191,8.28014098 L3.29930733,7 L5,8.70053476 L3.72001458,9.98067574 L2.89135983,10 L2.84797667,9.15192027 Z" id="Fill-2"></path>
+                        <polygon id="line" points="3.4139358e-13 12 12 12 12 13 4.16333634e-16 13"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

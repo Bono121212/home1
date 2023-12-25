@@ -1,0 +1,14 @@
+#root .header-t{border-bottom:1px solid #d6deed;background:#fff;}
+#root .header-t .cont-inner{display:flex;justify-content:space-between;line-height:4.75rem;}
+/* #root section.content.external-teacher{background-color: #f4f7fd;} */
+.t-title{font-size:.875rem;color:#444;}
+.t-logo a{display:block;padding-top:1.063rem;}
+#root .header-t .t-logout button{padding-right:2.063rem;font-weight:900;font-size:.875rem;color:#444;background:url('../../images/all/icon-floating-admin-24-px.svg') no-repeat 100% 50%;}
+
+#root .footer2 .copy-wrap .f-nav { position: absolute; right: 0; top: 1.3rem; font-size: 0.875rem; line-height: 1.43;}
+.f-nav a { font-weight: 700; color: #eee;}
+
+/* css 추가는 아래만 */
+.ui.button.memberout { margin: 0 25px 0 0; padding: 0; color: #999; font-size: 0.875rem; line-height: 1.43; vertical-align: top !important; font-weight: bold; position: relative;}
+.ui.button.memberout::after { content: ''; display: block; width: 1px; height: 6px; background: rgba(255,255,255, 0.4); position: absolute; top: 9px; right: -12px;}
+

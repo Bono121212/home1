@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>08996D7C-2F4C-4F09-A1B4-3260000E981E</title>
+    <defs>
+        <linearGradient x1="4.66312663%" y1="48.9474479%" x2="97.3496501%" y2="51.2413395%" id="linearGradient-1">
+            <stop stop-color="#659EFF" offset="0%"></stop>
+            <stop stop-color="#5091FF" offset="99.9166849%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1200" height="240" rx="8"></rect>
+    </defs>
+    <g id="Collection" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Collection_Chapter_Overview_01" transform="translate(-1022.000000, -3916.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1920" height="5356"></rect>
+            <g id="@-Contents" transform="translate(400.000000, 163.000000)">
+                <g id="[+]-04_Webpage_link" transform="translate(0.000000, 3544.000000)">
+                    <g id="img_bg_web_link" transform="translate(0.000000, 60.000000)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="icon_note_write-copy" transform="translate(600.000000, 197.000000)">
+                        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="210" height="48" rx="4"></rect>
+                        <g id="icon" transform="translate(22.000000, 12.633094)">
+                            <rect id="Rectangle" stroke="#5594FF" stroke-width="1.5" x="2.75" y="2.11690552" width="20.5" height="18.5" rx="1"></rect>
+                            <rect id="Rectangle" fill="#5594FF" x="5" y="4.36690552" width="11" height="1.5"></rect>
+                            <rect id="Rectangle-Copy-6" fill="#5594FF" x="17.5" y="4.36690552" width="3.5" height="1.5"></rect>
+                            <polygon id="Path-3" stroke="#5594FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="11.2423948 9.42877037 11.2423948 15.4287704 16.1042696 12.4287704"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

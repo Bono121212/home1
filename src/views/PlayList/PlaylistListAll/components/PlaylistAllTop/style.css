@@ -1,0 +1,25 @@
+/* 2022-04-05 playlist */
+.playlist-all-top .swiper-container .swiper-pagination {display:none;}
+.playlist-top-controller {display:flex; justify-content: center; align-items: center; margin-top:22px;}
+.playlist-top-controller .swiper-pagination {position:static; display:flex; justify-content:center; width:auto;}
+.playlist-top-controller .swiper-pagination .swiper-pagination-bullet {width:6px; height:6px; border-radius:3px; background-color: #cccccc; transition:all 0.3s ease; opacity: 1;}
+.playlist-top-controller .swiper-pagination .swiper-pagination-bullet-active {width:30px; background-color: #4c4c4c;}
+.playlist-top-controller .swiper-pagination .swiper-pagination-bullet + .swiper-pagination-bullet {margin-left:6px;}
+.playlist-top-controller .swiper-autoplay {display:flex; justify-content:center; align-items: center; margin-left:6px; width:12px; height:12px;}
+.playlist-top-controller .swiper-autoplay-button {display:none;}
+.playlist-top-controller .swiper-autoplay-button.is-play,
+.playlist-top-controller .swiper-autoplay-button.is-pause {display:block; width:32px; height:32px; background:no-repeat center center;}
+.playlist-top-controller .swiper-autoplay-button.is-play {background-image: url('../../../../../images/all/btn-auto-play.svg');}
+.playlist-top-controller .swiper-autoplay-button.is-pause {background-image: url('../../../../../images/all/btn-auto-pause.svg');}
+
+.playlist-top-head {height:48px; line-height:44px; border-bottom:1px solid #222; color:#282e3b; font-weight:400; font-size:18px; letter-spacing:-0.36px; box-sizing: border-box;}
+.playlist-top-head strong {font-weight: 700;}
+.playlist-top-body {margin-top:30px; border-bottom:1px solid #b9b9b9;}
+.playlist-top-title {margin-bottom:16px; letter-spacing: -0.32px;}
+.playlist-top-list {counter-reset:num1; padding:0; margin:0; margin-bottom:30px;}
+.playlist-top-list:last-child {margin-bottom:36px;}
+.playlist-top-list li {line-height:40px; }
+.playlist-top-list li + li {margin-top:10px;}
+.playlist-top-list li a {display:block; width:100%; line-height: inherit; color: #222; font-size: 14px; letter-spacing: -0.35px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.playlist-top-list li a.no-link {pointer-events: none; cursor: default;}
+.playlist-top-list > li a::before {display:inline-block; width:24px; margin-right:10px; counter-increment:num1; content:counter(num1, decimal); font-weight: 700; color:#00bfae; line-height: inherit; text-align:center;}

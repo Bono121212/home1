@@ -1,0 +1,44 @@
+#root section.channel.new .tab-menu { border-top-width: 0; margin-bottom : 0}
+.channel.new .main-info-area .progress-info-wrap {height: auto;}
+.channel.new .main-info-area .progress-info-wrap .cell.btn-wrap .ui.button.orange-arrow{height : 1rem; padding:0 0.625rem 0 0 }
+.channel.new .main-info-area .progress-info-wrap .cell.title {width : 1000px; padding-top: 30px; padding-bottom:35px;}
+.channel.new .main-info-area .progress-info-wrap .cell.title p{width :1000px}
+.channel.new .main-info-area .progress-info-wrap .cell.btn-wrap{padding : 36px 0 30px 0; vertical-align: top;}
+.channel.new .main-info-area .progress-info-wrap .cell.title .college-name.small {font-size:20px; font-weight: 400;}
+.channel.new .main-info-area .progress-info-wrap .cell.title .college-name.small strong {font-weight: 700;}
+
+.ui.sku.cate-tab.menu::after { display: none;}
+.ui.sku.cate-tab.menu .item{box-sizing: border-box; padding-top:3px;}
+.channel.new .college-detail .cont-wrap {padding-top: 40px;}
+.channel.new .college-detail .cont-wrap .sort-reult {position:relative; padding-top:0; margin-top:10px;}
+.channel.new .college-detail .cont-wrap .sort-reult .section-count+.comments-sort {top:0;}
+.channel.new .comments-sort .fields.inline .field:last-child { padding-right: 0;}
+.channel.new .college-detail .section-top .section-tit-btn {float:right;}
+.channel.new .college-detail .section-top .section-tit-btn .btn-more {color:#999999;font-size:14px;line-height:30px;padding:4px;  transform:translateX(-4px);}
+
+.sku.cate-tab .swiper-container {margin:0;}
+.sku.cate-tab .swiper-slide{width : auto; margin-right:60px}
+.sku.cate-tab .swiper-slide:last-child{margin:0}
+.tab-slide-buttons.swiper-button-prev, .tab-slide-buttons.swiper-button-next{display: none;}
+.tab-slide-buttons .ui.button {transform: translateY(-56%);}
+.tab-slide-buttons .ui.button.swiper-button-disabled{opacity: 0;}
+.tab-slide-buttons .ui.button.swiper-button-prev {left: auto; right: 100%; margin-right: 20px;}
+.tab-slide-buttons .ui.button.swiper-button-next {left: 100%;}
+.tab-slide-buttons .swiper-button-prev:after, .tab-slide-buttons .swiper-button-next:after{display: none;}
+.ui.button > i.icon.prev-on, .ui.button > i.icon.next-on {margin:0; padding:0; width: 24px; height: 24px; }
+i.icon.prev-on{background: url('../../../images/all/btn-prev-24-px.svg') 0 0 no-repeat !important;}
+i.icon.next-on{background: url('../../../images/all/btn-next-24-px.svg') 0 0 no-repeat !important;}
+
+.category-tab .sub-tab { margin: 0 auto; padding: 20px 0 0; width: 75rem; }
+.ui.button.toggleline { margin: 0; padding: 9px 19px 11px; color: #666; font-size: 0.875rem; font-weight: normal; border: 1px solid #999; border-radius: 30px; line-height: 1;}
+.ui.button.toggleline.active { color: #00bfae !important; border-color: #00bfae; font-weight: bold; background-color: #fff !important;}
+.category-tab .sub-tab .ui.button.toggleline{margin : 0 10px 10px 0}
+
+.channel.new .ui.cards+.more-comments{padding-top: 27px}
+
+/* 운영 app.css이미 들어가있음 */
+.ui.cards.card-item-wrap{margin : -13px 0 0 !important}
+.ui.cards.card-item-wrap .card-item:nth-child(4n) { margin-right: 0;}
+.ui.cards.card-item-wrap .card-item:nth-child(4n+1){margin-left:0}
+.ui.cards.card-item-wrap .card-item { margin: 13px;}
+

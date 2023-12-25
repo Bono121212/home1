@@ -1,0 +1,27 @@
+.my-commu-table {margin-top:3.125rem;}
+.my-commu-table table {border-radius: 0.5rem;background: #fff;margin: 0;padding: 0 0 0.625rem 0;box-shadow: 0 2px 6px 0 #ccd4e7;font-size:1rem;}
+.my-commu-table table tr th {color:#4c4c4c;padding:1.375rem 1.875rem;background:#fbfbfb;border-bottom:1px solid #eeeeee;border-right:1px solid #eeeeee;text-align:left;}
+.my-commu-table table tr:first-child th {border-radius: 0.5rem 0 0 0;}
+.my-commu-table table tr:last-child th {border-bottom:0;border-radius: 0 0 0.5rem 0.5rem;}
+.my-commu-table table tr td {color:#222222;padding: 1.25rem 1.875rem;}
+.my-commu-table table tr + tr td {border-top:1px solid #eeeeee;}
+
+.home-detail-profile {display:flex;align-items: center;width:50%;margin:0;float:left;}
+.home-detail-profile > span {font-size:16px;font-weight:bold;margin-left:0.5rem;}
+.home-detail-profile > span.crown {background: url('../../../resources/images/down/icon-community-manager02.png') 0 3px no-repeat;
+padding-left:20px;}
+.home-detail-profile.pro-mt30{margin-top: 1.375rem;}
+.home-detail-profile .pic .img{border-radius: 36px;width: 56px;}
+
+.ui.button.sece_btn {
+    color: #6c788f !important;
+    border: 0.063rem solid #6c788f;
+    font-size: 0.875em;
+    font-weight: 700;
+    float:right;
+    margin-top:1.25rem;
+    background: #f4f7fd;
+    padding: 0.5rem 1rem;
+}
+
+.ui.button.sece_btn img {vertical-align: middle;}

@@ -1,0 +1,81 @@
+.templete_sub_contents{position:relative;width:100%;padding-top:3.75rem;padding-bottom:7.5rem;}
+.templete_sub_contents.narrow{width:calc(100% - 19.375rem);margin-left:2.5rem;}
+
+.templete_sub_contents .location{margin-bottom:1.25rem;}
+.templete_sub_contents .location ul{display:flex;}
+.templete_sub_contents .location li{font-size:.75rem;color:#777}
+.templete_sub_contents .location li:last-child{font-weight:900;}
+.templete_sub_contents .location li.home{position:relative;padding-left:1rem;background:url('../../../images/all/icon-community-menu-home-off.svg') -2px 50% no-repeat;}
+.templete_sub_contents .location li + li {margin-left:.563rem;padding-left:10px;background:url('../../../images/all/icon-breadcrumb-step-grey.svg') 0 53% no-repeat !important; }
+
+
+.templete_sub_contents .sub_title{margin-bottom:2.938rem;}
+.templete_sub_contents .sub_title strong{display: inline-block; font-size:1.875rem; }
+.templete_sub_contents .sub_title .label_1{position:relative; display: inline-block; vertical-align: text-bottom; margin-left:1rem;padding:.438rem 1rem;font-size:.875rem;border:1px solid #ff664d;border-radius:1.563rem;color:#ff664d;}
+
+.templete_sub_contents .list_title{display:flex;margin-bottom:1.25rem;}
+.templete_sub_contents .list_title .list_cnt span{line-height: 2.75;}
+.templete_sub_contents .list_title .option_box{margin-left:auto;}
+.templete_sub_contents .list_title .btn_box button{width:5.938rem; height: 2.375rem;border-color:#4c4c4c;background:#4c4c4c;color:#fff;}
+.templete_sub_contents .list_box{margin-bottom:1.25rem;}
+.templete_sub_contents .list_box table.table{border-radius:0;border:0;border-top:2px solid #222;border-bottom: 1px solid rgba(34, 36, 38, 0.1);}
+.templete_sub_contents .list_box table.table th{padding:1.25rem 0;text-align:center;background:transparent;}
+.templete_sub_contents .list_box table.table td{padding:1.25rem 0; text-align: center;}
+.templete_sub_contents .list_box table.table td.title{padding:1.25rem .625rem 1.25rem 1.875rem; text-align: left;}
+.templete_sub_contents .list_box table.table .title .ellipsis{display:inline-block;max-width:20.813rem;vertical-align:bottom;}
+.templete_sub_contents .list_box table.table .title .add_file{width:1rem;height:1rem;vertical-align:middle;background:url('../../../images/all/icon-community-file-copy-2.png') no-repeat left 50%;}
+.templete_sub_contents .list_box table.table .title .secret{width:1.125rem;height:1.125rem;margin-top:-1px;vertical-align:middle;background:url('../../../images/all/icon-community-secret-18-px.svg') no-repeat left 50%;}
+.templete_sub_contents .list_box table.table .title .important::before{content:'중요';display: inline-block;width:2.25rem;height:1.5rem;margin-right:.75rem;
+    border:1px solid #e1002a;text-align:center;line-height:1.3rem;letter-spacing: -0.01875rem;border-radius: 0.25rem;font-size:.75rem;color:#e1002a;}
+.templete_sub_contents .list_box table.table .title .new::after{content: 'N';display: inline-block;line-height:1.3rem;font-size:.75rem;font-weight:900;color:#e1002a;}
+.templete_sub_contents .list_box table.table .title .reply{margin: 0 0.375rem; font-size: 0.875rem;}
+.templete_sub_contents .list_box table.table .writer span{word-break: break-all;}
+.templete_sub_contents .list_box table.table .date{text-align:center;}
+.templete_sub_contents .list_box table.table .cnt{text-align:center;}
+.templete_sub_contents .list_box table.table .like{text-align:center;}
+
+.templete_sub_contents .option_box .ui.selection.dropdown{min-width:10rem;width:10rem;min-height: 2.375rem;height: 2.375rem;border-color:#999;}
+.templete_sub_contents .option_box .ui.selection.dropdown.option_detail{width:41.25rem;}
+.templete_sub_contents .option_box .ui.selection.dropdown .menu .item{height: 2.375rem;line-height: 2.375rem;padding-right:.625rem !important;}
+.templete_sub_contents .option_box .ui.selection.dropdown .text{overflow: hidden;display:block;width:100%;line-height:2.375rem;color:#222 !important;text-overflow: ellipsis;white-space: nowrap; }
+.templete_sub_contents .option_box .ui.selection.dropdown .default.text{overflow: hidden;display:block;width:100%;line-height:2.375rem;color:#222 !important;text-overflow: ellipsis;white-space: nowrap; }
+.templete_sub_contents .option_box .ui.selection.dropdown .icon.dropdown{margin:-.313rem -1rem 0 0;padding:0 !important;}
+.templete_sub_contents .option_box .ui.selection.dropdown .icon.dropdown:before{width:2rem;height:2rem;}
+
+.icon.rcmd_i{width: 1.125rem; height: 1.125rem; vertical-align: text-bottom; background: url('../../../images/all/icon-recommended-course-orange.svg') no-repeat center center;}
+
+.templete_sub_contents .lms-paging-holder{padding-bottom:2.5rem}
+.templete_sub_contents .paging-search{box-shadow: none; border: 0.063rem solid #ddd}
+.templete_sub_contents .paging-search > .ui.input.search.h38 input, .templete_sub_contents .paging-search > .ui.selection.dropdown {border-color: #999 !important;}
+.templete_sub_contents .paging-search > .ui.selection.active.dropdown { border-color: #00bfae !important; }
+.icon.post_i{width: 1.125rem; height: 1.125rem !important; background: url('../../../images/all/icon-24-px-list-post-wht.svg') no-repeat center center; vertical-align: text-bottom !important;}
+i.icon.secret{width:1.125rem;height:1.125rem;margin-top:-1px;vertical-align:middle;background:url('../../../images/all/icon-community-secret-18-px.svg') no-repeat left 50%;}
+
+
+.templete_type_a .templete_sub_contents,
+.templete_type_b .templete_sub_contents { width: calc(100% - 19.375rem); margin-left: 40px; }
+.templete_type_c .templete_sub_contents { width: 75rem; margin: 0 auto; }
+
+
+/* 22-07-06 커뮤니티 글 상세 important, secret 교체 및 추가 */
+.templete_sub_contents .list_box table.table .title .t_inner.important::before{content:''; display: inline-block;width:2.25rem;height:1.5rem; margin-right: .75rem; background:url('https://image.mysuni.sk.com/suni-asset/public/images/all/badge-important.svg') no-repeat left top/100%; border: 0; flex:none}
+.templete_sub_contents .list_box table.table .title .reply,
+.templete_sub_contents .list_box table.table .title .new::after,
+.templete_sub_contents .list_box table.table .title .secret,
+.templete_sub_contents .list_box table.table .title .add_file{flex: none}
+.templete_sub_contents .list_box table.table .title .t_inner{display:inline-flex; align-items: center; overflow: hidden;}
+.templete_sub_contents .list_box table.table .title .t_inner .ellipsis {max-width: none !important; flex: 1 1 auto}
+.templete_type_a .templete_sub_contents .list_box table.table .title .t_inner,
+.templete_type_b .templete_sub_contents .list_box table.table .title .t_inner{max-width : 530px}
+.templete_type_c .templete_sub_contents .list_box table.table .title .t_inner{max-width : 750px}
+.list_img_box .info_body .new::before {position: relative; top: -2px}
+.compo_vod .compo_info .info_top {align-items: center;}
+.compo_vod .compo_info .info_bottom {align-items: center;}
+.detail_tit .dt_tit.new .secret{margin :-6px 0 0 6px}
+.paging-list-box {width: 100%; display: flex; align-items: center; justify-content: space-between;}
+.paging-list-icon, .paging-list-box h2, .paging-list-box .paging-list-span{flex:none;}
+.paging-list-box h3{flex: 0 1 auto; display: inline-flex; align-items: center; width: auto; margin-right: auto;}
+.paging-list-box h3 strong{flex: 0 1 auto; display: inline-block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.paging-list-box h3 .secret{margin: 0 6px; flex: none}
+.tmp-check{padding-bottom: 0}
+.templete_sub_contents .list_box table.table .title .secret {background-image: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-community-secret-18-px.svg');}

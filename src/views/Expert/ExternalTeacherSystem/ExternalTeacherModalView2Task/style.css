@@ -1,0 +1,10 @@
+.view_answer{width:910px;margin:20px auto 57px;border-top:1px solid #eee;border-bottom:1px solid #eee;}
+.view_answer .ui.accordion .title{height:44px;padding:12.5px 0;font-size:.875rem;font-weight:900;color:#0e73db}
+.view_answer .ui.accordion .title span::before{content:'정답보기';display:inline-block;}
+.view_answer .ui.accordion .title i.i_down:before{content:'';display:inline-block;width:8px;height:8px;background-image:url('../../../../images/all/icon-contents-more-open-8-px.svg') !important;background-repeat:no-repeat;background-position:0;}
+.view_answer .ui.accordion .title.active i.i_down:before{background-image:url('../../../../images/all/icon-contents-more-close-8-px.svg') !important;}
+.view_answer .ui.accordion .title.active span::before{content:'정답닫기';}
+.view_answer .ui.accordion dl{display:flex;width:100%;font-size:.875rem;}
+.view_answer .ui.accordion dl + dl{margin-top:8px;}
+.view_answer .ui.accordion dl dt{width:46px;font-weight:900;color:#536280;}
+.view_answer .ui.accordion dl dd{width:calc(100% - 46px);color:#282e3b;}

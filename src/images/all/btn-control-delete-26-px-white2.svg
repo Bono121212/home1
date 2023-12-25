@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>EC6CDB79-3236-41E1-B4F0-E7C214CAB283</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="500" height="667" rx="8"></rect>
+        <filter x="-3.6%" y="-2.7%" width="107.2%" height="105.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.126983635   0 0 0 0 0.135497306   0 0 0 0 0.169100996  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-4">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.717647 0 0 0 0 0.752941 0 0 0 0 0.819608 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="-Admin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CommunityAdmin_04_Setting_06_Card_03_Contents_02(SD-10-10)" transform="translate(-879.000000, -615.000000)">
+            <rect fill="#F4F7FD" x="0" y="0" width="1400" height="1729"></rect>
+            <rect id="BG" fill="#F4F7FD" x="0" y="0" width="1400" height="1688"></rect>
+            <g id="Type-Preview" transform="translate(0.000000, 270.000000)">
+                <rect id="bg_white" fill="#FFFFFF" x="0" y="0" width="1400" height="1544"></rect>
+                <g id="[-A-]" fill="#FFFFFF">
+                    <rect id="bg_white" x="0" y="0" width="1400" height="2016"></rect>
+                </g>
+                <g id="Ready-to-go" transform="translate(90.000000, 30.000000)">
+                    <rect id="Guide" stroke="#222222" x="299.5" y="269.5" width="931" height="1535" rx="24"></rect>
+                    <g id="btn-group_02" transform="translate(310.000000, 280.000000)"></g>
+                </g>
+            </g>
+            <g id="#pop-up" transform="translate(450.000000, 240.000000)">
+                <g id="btn_pop-up">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <g id="02_콘텐츠-표시-옵션" transform="translate(30.000000, 314.000000)">
+                    <g id="list_file_01" transform="translate(0.000000, 40.000000)">
+                        <rect id="bg" stroke="#EEEEEE" fill="#FFFFFF" x="0.5" y="0.5" width="439" height="67"></rect>
+                        <g filter="url(#filter-4)" id="btn-/-control-/-delete-/-26px">
+                            <g transform="translate(399.000000, 21.000000)">
+                                <rect id="Rectangle" stroke="#466197" x="0.5" y="0.5" width="25" height="25" rx="4"></rect>
+                                <path d="M17.2426407,7.34314575 L18.6568542,8.75735931 L14.4141458,13.0001458 L18.6568542,17.2426407 L17.2426407,18.6568542 L13.0001458,14.4141458 L8.75735931,18.6568542 L7.34314575,17.2426407 L11.5861458,13.0001458 L7.34314575,8.75735931 L8.75735931,7.34314575 L13.0001458,11.5861458 L17.2426407,7.34314575 Z" id="icon_imgdelte_24px" fill="#466197" transform="translate(13.000000, 13.000000) rotate(-270.000000) translate(-13.000000, -13.000000) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="title" transform="translate(0.000000, 13.000000)"></g>
+            </g>
+        </g>
+    </g>
+</svg>

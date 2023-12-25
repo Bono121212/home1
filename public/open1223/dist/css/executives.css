@@ -1,0 +1,218 @@
+@charset "UTF-8";
+.community-banner-inner.black .community-banner-title {
+  color: #000 !important;
+  font-weight: 700;
+}
+
+.community-banner-inner.black .community-banner-copy {
+  color: #000 !important;
+}
+
+.home-card-title .copy {
+  color: #222;
+  margin-left: 10px;
+  font-size: 14px;
+  letter-spacing: -0.42px
+}
+
+.require-work-wrap {
+  display: flex;
+}
+
+.require-work-wrap .require-card {
+  flex: 1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 30px;
+  box-shadow: 0 2px 6px 0 #ccd4e7;
+}
+
+.require-work-wrap .require-card .title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.require-work-wrap .require-card .asset-type1 {
+  padding: 0 50px 24px;
+  border-bottom: solid 1px #d8d8d8;
+  margin-bottom: 20px;
+}
+
+.require-work-wrap .require-card:not(:first-child) {
+  margin-left: 20px;
+  height: 450px;
+}
+
+.require-work-wrap .require-card:nth-child(1) {
+  background-color: #6198ff;
+
+}
+
+.require-work-wrap .require-card:nth-child(2) {
+  background-color: rgba(102, 46, 204, 0.69);
+}
+
+.require-work-wrap .require-card .copy-list {
+  align-self: flex-start;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.require-work-wrap .require-card .copy-list li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.require-work-wrap .require-card .copy-list li {
+  position: relative;
+  padding-left: 10px;
+}
+
+.require-work-wrap .require-card .copy-list li:after {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.require-work-wrap .require-card .util-wrap {
+  display: flex;
+  justify-content: space-between
+}
+
+.require-work-wrap .require-card .util-wrap a {
+  display: inline-block;
+  width: 173px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #fff;
+  white-space: nowrap;
+  padding: 14px 0;
+  font-weight: 700;
+  color: #4e8cff;
+  text-align: center;
+}
+
+.require-work-wrap .require-card .util-wrap a:not(:first-child) {
+  margin-left: 10px;
+}
+
+.require-work-wrap .require-card .util-wrap a img {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.require-work-wrap .require-card > *:last-child {
+  margin-top: auto;
+}
+
+.require-work-wrap .require-card .message {
+  text-align: center;
+  height: 50px;
+  padding: 14px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  color: #e4d6ff;
+  width: 100%;
+}
+
+.recommend-wrap {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommend-wrap .recommend-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.07);
+  width: 270px;
+}
+
+.recommend-wrap .recommend-card.big-card{
+  border-radius: 15px;overflow: hidden;
+  box-shadow: 2px 4px 6px 0 rgb(0 0 0 / 7%);
+  width: 250px;
+  padding-top: 70px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.recommend-wrap .recommend-card:not(:first-child) {
+  margin-left: 20px;
+}
+
+.recommend-wrap .recommend-card .asset-type2 {
+  display: block
+}
+
+.recommend-wrap .recommend-card .card-body {
+  padding: 20px 20px 40px;
+  background-color: #fff;
+}
+
+.recommend-wrap .recommend-card .card-body .title {
+  font-size: 18px;
+  color: #222;
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.recommend-wrap .recommend-card .card-body .copy {
+  font-size: 14px;
+  color: #999;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 4.7em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .recommend-wrap .recommend-card .card-body .copy {
+    display: block;
+  }
+}
+
+.recommend-article {
+  box-shadow: 0 2px 6px 0 #ccd4e7;
+  background-color: #fff;
+  border-radius: 8px;
+
+}
+
+.recommend-article li {
+  padding: 22px 30px;
+  display: flex;
+}
+
+.recommend-article li:not(:last-child) {
+  border-bottom: solid 1px #eee;
+}
+
+.recommend-article li .copy {
+  color: #222;
+  flex: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 0;
+}
+
+.recommend-article li .recommend-download {
+  flex: none;
+}

@@ -1,0 +1,17 @@
+.ui.label.onlytext.bold.size24 > span {font-size:0.875rem}
+.audio-container {position: relative; background-color: #262626; display: flex; align-items: center; flex-direction: column}
+.audio-container + .lms-sticky-menu{margin-top: 40px}
+.audio-container + .lms-sticky-menu.lms-fixed{margin-top: 0}
+.l-audio{
+
+}
+.audio-container .video-overlay{
+    background: #000000e0;
+    min-width: 720px;
+    width: 97%;
+    position: static;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    transform: none;
+    margin: 10px 0 10px;
+}

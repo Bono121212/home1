@@ -1,0 +1,14 @@
+.mypage_contents .table-wrapper .community_nodata{
+    margin: 0;
+    padding: 7.5rem 0 13.75rem;
+    background: #fff;
+    box-shadow: 0 0.125rem 0.375rem 0 #ccd4e7;
+    border-radius: 0.5rem;
+}
+
+.mypage_contents .community_nodata i.icon + p{
+    white-space: pre-wrap;
+    color:#222;
+    margin-bottom: 0.75rem;
+}
+

@@ -1,0 +1,34 @@
+
+.ui.modal.base.tutorials2 .content{padding:0 !important}
+.ui.modal.base.tutorials2  .header .right-btn{top: -.5rem;right: 0 !important}
+.ui.modal.base.tutorials2  .header .ui.checkbox{vertical-align: text-top;}
+.ui.modal.base.tutorials2  .header .ui.checkbox input.hidden + label{font-size:.875rem;}
+
+.tutorials2 .content .cont-wrap .right .tu-cont .swiper-container .swiper-pagination .swiper-pagination-bullet-active{width: 2.25rem;background: #ff664d;border-radius: 0.25rem;}
+.tutorials2 .content .cont-wrap .right .tu-cont .title.top{margin-bottom:1.25rem !important;padding-left: 0 !important;padding-top:3.125rem !important;text-align:center;}
+.tutorials2 .content .cont-wrap .right .tu-cont .title.top .tit1{height:3.125rem;font-size:1.125rem;}
+.tutorials2 .content .cont-wrap .right .tu-cont .swiper-container .swiper-pagination{position:absolute !important;bottom:-.875rem;}
+
+.tu-cont .swiper-container{overflow: initial;}
+
+.tu-cont .swiper-button-prev,
+.tu-cont .swiper-button-next{width:.875rem;height:2rem;margin-top:0;}
+.tu-cont .swiper-button-prev{left:1.875rem;background:url('../../../images/all/swiper-button-prev.png') no-repeat left top;}
+.tu-cont .swiper-button-next{right:1.875rem;background:url('../../../images/all/swiper-button-next.png') no-repeat left top;}
+.tu-cont .swiper-button-prev:after, 
+.tu-cont .swiper-button-next:after{content:'';}
+
+.sub-img{width:36.25rem;margin:0 auto;}
+.sub-img img{width:100%;}
+
+.tu1-main{width:31.25rem;margin:0 auto;padding-top:10.625rem;}
+.tu1-main .btn-list a{display:block;height:5.625rem;margin-bottom:2.5rem;padding-top:.5rem;padding-left:7.5rem;background-repeat: no-repeat;background-position:0 0;}
+.tu1-main .btn-list a > strong{font-size: 1rem;color:#222;}
+.tu1-main .btn-list a > p{ margin-top:.375rem;font-size: .875rem;color:#666;}
+.tu1-main .btn-list a.icon01{background-image:url('../../../images/all/icon-btn-list01.png');}
+.tu1-main .btn-list a.icon02{background-image:url('../../../images/all/icon-btn-list02.png');}
+.tu1-main .btn-list a.icon03{background-image:url('../../../images/all/icon-btn-list03.png');}
+
+.tu1-main .btn-list a.icon01:hover{background-image:url('../../../images/all/icon-btn-list01-hover.png');}
+.tu1-main .btn-list a.icon02:hover{background-image:url('../../../images/all/icon-btn-list02-hover.png');}
+.tu1-main .btn-list a.icon03:hover{background-image:url('../../../images/all/icon-btn-list03-hover.png');}

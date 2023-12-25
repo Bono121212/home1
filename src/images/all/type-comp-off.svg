@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3706C707-81CF-4178-B50F-F09EE68A2E81</title>
+    <g id="Admin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#Resources_Template" transform="translate(-1005.000000, -1099.000000)">
+            <g id="Off" transform="translate(120.000000, 1069.000000)">
+                <g id="btn_01_off" transform="translate(841.000000, 0.000000)">
+                    <g id="Type_comp_off" transform="translate(44.000000, 30.000000)">
+                        <rect id="Rectangle" fill="#CECECE" x="10" y="9.5" width="28" height="28"></rect>
+                        <rect id="Rectangle" fill="#F5F5F5" x="18" y="22" width="12" height="3"></rect>
+                        <rect id="Rectangle" fill="#F5F5F5" transform="translate(24.000000, 23.500000) rotate(-270.000000) translate(-24.000000, -23.500000) " x="18" y="22" width="12" height="3"></rect>
+                        <g id="dot" transform="translate(3.500000, 3.000000)" fill="#CECECE">
+                            <rect id="Rectangle" x="0" y="0" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-15" x="0" y="39" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-16" x="9" y="39" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-17" x="18" y="39" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-18" x="27" y="39" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-19" x="36" y="39" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-10" x="36" y="0" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-6" x="9" y="0" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-7" x="18" y="0" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-8" x="27" y="0" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-5" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) " x="-1.5" y="1.5" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-14" transform="translate(1.000000, 38.500000) rotate(-270.000000) translate(-1.000000, -38.500000) " x="-1.5" y="37.5" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-20" transform="translate(40.000000, 38.500000) rotate(-270.000000) translate(-40.000000, -38.500000) " x="37.5" y="37.5" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-9" transform="translate(40.000000, 2.500000) rotate(-270.000000) translate(-40.000000, -2.500000) " x="37.5" y="1.5" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-11" transform="translate(1.000000, 11.500000) rotate(-270.000000) translate(-1.000000, -11.500000) " x="-1.5" y="10.5" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-21" transform="translate(40.000000, 11.500000) rotate(-270.000000) translate(-40.000000, -11.500000) " x="37.5" y="10.5" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-12" transform="translate(1.000000, 20.500000) rotate(-270.000000) translate(-1.000000, -20.500000) " x="-1.5" y="19.5" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-22" transform="translate(40.000000, 20.500000) rotate(-270.000000) translate(-40.000000, -20.500000) " x="37.5" y="19.5" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-13" transform="translate(1.000000, 29.500000) rotate(-270.000000) translate(-1.000000, -29.500000) " x="-1.5" y="28.5" width="5" height="2"></rect>
+                            <rect id="Rectangle-Copy-23" transform="translate(40.000000, 29.500000) rotate(-270.000000) translate(-40.000000, -29.500000) " x="37.5" y="28.5" width="5" height="2"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

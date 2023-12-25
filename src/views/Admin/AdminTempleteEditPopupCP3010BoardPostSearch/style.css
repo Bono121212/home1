@@ -1,0 +1,15 @@
+.ui.modal.modal_sc_post_box {overflow:hidden;height:42.563rem;}
+
+.cnt_inner .nodata{margin-top:3.188rem;padding-bottom:0;}
+.cnt_inner .nodata .txt{color:#4c4c4c; font-size: 1.25rem;}
+.cnt_inner .ui.table{ border-color: #777; }
+.table_wrap{height:267px;border-bottom : 0.063rem solid #ddd;}
+.table_wrap table.table:first-child{margin:1.25rem 0 0 0;}
+.table_wrap table.table th
+.table_wrap table.table td{text-align: center;}
+.table_wrap table.table td.tleft{text-align: left;}
+.table_wrap table.table td.ellipsis{max-width:24rem;}
+.table_wrap table.table .tleft:first-child{padding:0 1.875rem;}
+.table_wrap table.table td.ellipsis:first-child{padding:0 1.875rem;}
+.table_wrap .nodata{border-bottom:0; margin-bottom: 3.188rem;}
+.table_wrap .ui.table td:nth-child(n+3) {word-break: break-all;max-width: 100px; white-space: normal;}

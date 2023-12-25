@@ -1,0 +1,4 @@
+/* #root section.header{z-index:100;} */
+#root section.content.admin {min-height: calc(100vh - 90px - 76px);}
+#root section.templete_complete {min-height: calc(100vh - 90px - 76px);}
+#root section.content.ctm { min-height: calc(100vh - 76px - 90px);}

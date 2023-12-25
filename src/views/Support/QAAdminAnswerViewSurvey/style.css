@@ -1,0 +1,52 @@
+.ui.table.admin-answer-form td .svy-inpt{display: flex; justify-content: flex-start;}
+.ui.table.admin-answer-form td .svy-inpt .ui.input{width: 100%;font-size: 0.875rem; height:48px}
+.ui.table.admin-answer-form td .svy-inpt .ui.input input{padding: 0 18px; border-right-width:0px; border-radius: .25rem 0 0 .25rem; width: 100%; line-height: 48px; }
+.ui.table.admin-answer-form td .svy-inpt .ui.button.bg{color:#fff; background-color: #ff664d; width:90px; height: 48px; border-radius: 0 .25rem .25rem 0;}
+.ui.table.admin-answer-form td .ui.rating.rating-num .icon{width:20px !important; height: 20px !important; }
+.ui.table.admin-answer-form td .ui.rating.rating-num .icon:before,
+.ui.table.admin-answer-form td .ui.rating.rating-num .icon.selected:before, 
+.ui.table.admin-answer-form td .ui.rating.rating-num .icon.active:before{width: 20px !important; height: 20px !important; background-size: 20px !important;}
+.ui.table.admin-answer-form td .ui.rating.rating-num .icon + .icon{margin-left:6px}
+
+
+
+/* 만족도 변경 */
+.thumb-area { display: flex; align-items: center; justify-content: flex-start; }
+.thumb-group { display: flex; align-items: center;}
+.thumb-group .thumbs {width: 1.5rem;}
+.thumb-group .thumbs + .thumbs{margin-left: 1.5rem}
+.thumb-date {margin-left: 1.25rem; padding-left: 1.25rem; display: flex; align-items: center; color: #4c4c4c; font-size: .875rem; position: relative;}
+.thumb-date::before { content: ''; display: inline-block; width: 1px; height: 0.625rem; background-color: #b9b9b9; position: absolute; left:0}
+
+.ui.radio.thumbup input:checked, 
+.ui.radio.thumbup input:checked:focus, 
+.ui.radio.thumbup input:checked:focus ~ label:before, 
+.ui.radio.thumbup input:disabled:checked ~ label:before,
+.ui.radio.thumbup input:checked ~ label:before {
+    background-image: url('../../../images/all/icons-24-ic-thumup-on.svg') !important;
+}
+.ui.radio.thumbdown input:checked, 
+.ui.radio.thumbdown input:checked:focus, 
+.ui.radio.thumbdown input:checked:focus ~ label:before, 
+.ui.radio.thumbdown input:disabled:checked ~ label:before,
+.ui.radio.thumbdown input:checked ~ label:before {
+    background-image: url('../../../images/all/icons-24-ic-thumdown-on.svg') !important;
+}
+
+.ui.radio.thumbup input:focus, 
+.ui.radio.thumbup input:focus ~ label:before, 
+.ui.radio.thumbup input:disabled ~ label:before,
+.ui.radio.thumbup label:before, 
+.ui.radio.thumbup label:hover:before {
+    background-image: url('../../../images/all/icons-24-ic-thumup-off.svg') !important;
+}
+.ui.radio.thumbdown input:focus, 
+.ui.radio.thumbdown input:focus ~ label:before, 
+.ui.radio.thumbdown input:disabled ~ label:before,
+.ui.radio.thumbdown label:before, 
+.ui.radio.thumbdown label:hover:before {
+    background-image: url('../../../images/all/icons-24-ic-thumdown-off.svg') !important;
+}
+
+.icon.thumbup.on { vertical-align: top; width: 1.5rem; height: 1.5rem; background: url('../../../images/all/icons-24-ic-thumup-on.svg') no-repeat 0 0;}
+.icon.thumbdown.on { vertical-align: top; width: 1.5rem; height: 1.5rem; background: url('../../../images/all/icons-24-ic-thumdown-on.svg') no-repeat 0 0;}

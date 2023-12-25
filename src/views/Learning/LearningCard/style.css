@@ -1,0 +1,20 @@
+.ui.breadcrumb {
+    float: right;
+}
+
+
+.ui.pink-sub.label, .ui.pink-sub.labels .label {
+    background-color:#cb1fac !important;
+    color:#fff;
+    margin-bottom: 0.625rem !important;
+    font-size: .75rem;
+	margin-bottom: .625rem!important;
+	min-width: 2.5rem;
+	text-align: center;
+    margin: 0;
+    padding: 0 .8125rem;
+    font-size: .75rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    letter-spacing: .001rem;
+}

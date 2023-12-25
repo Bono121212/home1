@@ -1,0 +1,16 @@
+.task-area{width:75rem;margin:0 auto;}
+.external-table-wrap .ui.table .num{width:6.25rem;padding-left:1.25rem;padding-right:1.25rem;}
+.external-table-wrap .ui.table .company span{display:block;width:19.375rem;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.external-table-wrap .ui.table .name,
+.external-table-wrap .ui.table .score,
+.external-table-wrap .ui.table .status,
+.external-table-wrap .ui.table .date{width:8.75rem;}
+.external-table-wrap .ui.table .check{width:9.375rem;padding-right:1.25rem;}
+
+/* .external-teacher .table-board-title{margin-top:2.813rem;} */
+.external-teacher .ui.radio.checkbox{margin-left:1rem;}
+.external-teacher .check button{width:5rem;height:2rem;padding:0;border:1px solid;border-radius:.25rem;font-size:0.875rem;font-weight:900;}
+.external-teacher .chk-score button{border-color:#3e8ae9;color:#3e8ae9;}
+.external-teacher .chk-score button:active,
+.external-teacher .chk-score button:hover{border-color:#3e8ae9;color:#3e8ae9;}
+.external-teacher .chk-show button{border-color:#555;color:#555;}

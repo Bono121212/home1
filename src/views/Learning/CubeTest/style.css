@@ -1,0 +1,47 @@
+/* Survey */
+.survey-header {padding:1.5rem 0;border-bottom:1px solid #ddd;margin-bottom:50px;position:relative;}
+.survey-header .survey-header-left {display:inline-block;font-size:24px;color:#222222;font-weight:bold;}
+.survey-header .survey-header-right {display:inline-block; float:right;}
+.survey-header .survey-header-right .title{max-width: calc(100% - 2rem);word-break: break-all;}
+.survey-header.border-none {border:none;}
+.survey-header.border-none.mb30 {margin-bottom:1rem;}
+.survey-header.margin-none {margin:0;}
+.survey-header.pt0 {padding-top:0;}
+.lms .survey-header-right .ui.button.free {
+    display: block;
+}
+
+/* 설문지 */
+.course-radio-survey {padding-bottom: 3.72rem;}
+.course-radio-survey:last-child {border-bottom:1px solid #ddd;}
+.course-radio-survey p {font-size:1.15rem;letter-spacing: -0.4px;font-weight:700;margin-bottom:1rem;}
+.course-radio-survey p > span:first-child {padding-right:1rem;}
+.course-radio-survey p > span +span{flex: 1;}
+.course-radio-survey .ui.checkbox {display:block;margin:1.3rem 0;font-size:14px;}
+.course-radio-survey .ui.radio.base label {color:#000;}
+.course-radio-survey .ui.radio.base input:checked + label {color:#000;font-weight:700;}
+.course-survey-list {margin-left: 2rem;}
+
+/* 하단 버튼 */
+.survey-preview {padding: 3rem 0;text-align:center;border-top:1px solid #ddd;}
+.survey-preview.mt30 {margin-top:3rem;}
+.survey-preview .ui.button.fix {margin:0 0.6rem;}
+.survey-preview .ui.button.fix.line {background:#fff;}
+
+/* Header 상태값 버튼*/
+.right-area .ui.button.free,
+.survey-header-right .ui.button.free {margin-top:0.5rem;height: 2rem;font-weight:500;width: 7.25rem;clear: both;padding: 0 1.125rem;}
+
+.ui.button.free.submit {background: #5772c7;color: #fff;}
+.ui.button.ml20{margin-left: 1.25rem;margin-right: 0;}
+.ui.button.free.proceeding {border:1px solid #5772c7;color:#5772c7;background: #f4f7fd;}
+.ui.button.free.complete {border:1px solid #6c788f;color:#6c788f;}
+.ui.button.free.bg2 {background: #6c788f; color: #fff;}
+.course-info-header .ui.button.free.line {background:none;}
+.course-info-header > h1.survey_done {font-size:1.875rem;color:#ff664d;}
+
+.course-info-bottom span{display: block;color: #222222;font-size: 14px;}
+.course-info-bottom span:nth-child(2){margin-bottom: 10px;}
+.course-info-bottom .ui.button.free.submit,
+.course-info-bottom .ui.button.free.proceeding,
+.course-info-bottom .ui.button.pop.d{font-size:1rem; margin-right: 0;}

@@ -1,0 +1,68 @@
+
+
+
+/* 코멘트 입력창 */
+.form-contants .ui.form .field {margin:0 0 3.125rem 0}
+.form-contants .ui.form .field > label, .form-contants .ui.form .field > label {    font-size: 0.875rem;line-height: 1.43;letter-spacing: -0.00625rem;color: #4c4c4c;margin: 0 0 1rem 0;}
+.form-contants .ui.form .field > label::before {content: '';display: inline-block;vertical-align: middle;margin-right: 0.875rem;position: relative;top: -0.0625rem;width: 0.25rem;height: 0.25rem;background: #717988;border-radius: 100%;}
+
+/* Read-Header */
+.content.lms .header-deatil .item .ui.label.onlytext::after {content:'|';padding:0 0.675rem;font-size:12px;color:#d8d8d8;}
+.content.lms .header-rating span {font-size:14px;}
+.content.lms .header-span-first {font-weight:500;padding-right:5px;}
+.content.lms .header-right-link {text-align:right;}
+.content.lms .header-right-link a {font-size:14px;color:#5b6477;}
+.content.lms .header-right-link a:last-child {padding-left:15px;}
+.board-read-header .ui.label.onlytext:nth-child(2) > span:last-child {font-weight:700 !important}
+.content.lms .header-deatil .item .ui.label.onlytext:nth-last-child(2)::after {content:""; padding:0 0.675rem 0 0;}
+
+.read-header-left .text-list {padding: 0;font-size: 0.875rem;vertical-align: middle;color: #4c4c4c;background: none;margin-left: 0;font-weight:500;display:inline-block;}
+.read-header-left .text-list::after {content: '|';padding: 0 10px;font-size: 1px;color: #d8d8d8;}
+.read-header-left .text-list > img {width: auto ;vertical-align: middle;height: 2.1666em;}
+.read-header-left .text-list span {vertical-align: middle;line-height: 1.125rem;}
+.read-header-left > .text-list:last-child::after {content:none;}
+.read-header-left > .text-list:last-child span:last-child,
+.read-header-left > .text-list:first-child span {margin-left:0.5rem;font-weight: bold;}
+.read-header-left > .text-list:last-child{margin:0}
+.read-header-left > .text-list:last-child span:last-child{margin-left:0}
+
+
+/* 첨부파일 */
+.community-board-down p {font-size:16px;color: #222222;font-weight: 700;display:inline-block;}
+.board-down-title {margin-bottom:1rem;}
+.board-down-title p img {margin-right:0.5rem;}
+.down .ui.checkbox input.hidden + label {text-decoration: underline;margin:0.5rem 0;}
+.down i {vertical-align:middle;margin-left:1rem;}
+
+/* 버튼 2개 */
+.board-down-title-right {display:inline-block;float:right;}
+.board-down-title-right > button.ui.button.post.delete {margin-right:0.5rem;}
+.board-down-title-right > button > img {vertical-align:top;margin-right:0.2rem;}
+.board-down-title-right > button.ui.button.post.delete,
+.board-down-title-right > button.ui.button.post.list2 {width:8.375rem;}
+.board-down-title-right > button.ui.button.post.list2.complete {border:1px solid #3e8ae9;color:#3e8ae9;}
+.board-down-title-right > button.ui.button.post.list2.complete02 + .complete {margin-left:1rem;}
+.board-down-title-right > button.ui.button.post.list2.complete02 {background:#3e8ae9;color:#fff;border:1px solid #3e8ae9;}
+.board-down-title-right > .ui.selection.dropdown.ui.small-border.dropdown.m0 {margin-right:0.5rem; vertical-align: top}
+
+/* 프로필 */
+.community-board-card {border-radius: 0.5rem;background: #fff;margin-top:2rem;padding: 0 0 0.625rem 0;box-shadow: 0 2px 6px 0 #ccd4e7;padding:2rem;}
+.community-board-card > img{width: 56px;height: 56px; border-radius: 100%}
+.community-board-card .board-card-title {display: inline-block;vertical-align: top;margin-left: 1.5rem;}
+.community-board-card .board-card-title h3 {font-size:16px;margin-bottom:0.5rem;font-weight:700;}
+.community-board-card .board-card-title h4 {font-size:14px;}
+
+
+/* 좋아요 */
+.ui.button.post.edit.dataroom-icon {margin-right:0.5rem;}
+.ui.button.post.edit.dataroom-icon > img {margin-right:0.3rem;vertical-align: middle;}
+
+
+.more-comments.padding-margin {border-bottom:1px solid #d6deed;padding-bottom:3rem;margin-bottom: 3.8rem;}
+.content.community .ov-paragraph.download-area .down a span {font-size: .875rem;color: #0e73db;line-height: 1.5rem;text-decoration: underline;}
+
+.course-info-header{position:relative;}
+.course-info-header .actions{position:absolute;top:0;right:0;}
+
+
+.commu_bubble_popup .community-ballon-content ul li button{margin:0;padding:.625rem 1.25rem !important;}

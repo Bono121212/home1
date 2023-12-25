@@ -1,0 +1,4 @@
+.menu_right_contents > table > tbody > tr.type_slt th,
+.menu_right_contents > table > tbody > tr.type_slt td{padding-top:1.875rem;padding-bottom:4.375rem;}
+
+.menu_right_contents > table > tbody > tr > td > .board-write-radio.bwr2{margin-top:0;padding-bottom:0;}

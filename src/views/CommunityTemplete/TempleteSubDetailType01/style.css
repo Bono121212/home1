@@ -1,0 +1,90 @@
+.detail_tit .dt_tit strong{display: inline-block; color:#222; font-size: 1.875rem; word-break: break-word;}
+.detail_tit .dt_tit.important{position:relative;}
+.detail_tit .dt_tit i.icon.i_important{display:none;}
+.detail_tit .dt_tit.important strong{display:inline; padding-left:3rem;}
+.detail_tit .dt_tit.important i.icon.i_important{display:inline-block;position:absolute;left: 0;top:13px; margin:0; width: 2.25rem;height: 1.5rem;background:url('../../../images/all/badge-important_36x24.png') no-repeat left top;}
+.detail_tit .dt_tit.new{position:relative;}
+.detail_tit .dt_tit.new strong::after{content:'';display:inline-block;margin-left:0.5rem;width:.75rem;height:.75rem;background:url('../../../images/all/comm-tag-new.svg') no-repeat 0 0; vertical-align: 5px;}
+
+.board_header{margin-bottom:2.5rem;justify-content: space-between; align-items: flex-end; padding: 2.5rem 0 1.25rem; border-bottom: 0.063rem solid #ddd;}
+.board_header .header_left_area{align-items: flex-end;}
+.board_header .header_right_area{height: 20px;}
+
+.pic_prf{display: flex; margin-right: 0.625rem; cursor:pointer;}
+.prf_info{padding: 12px 0 0 0.625rem;}
+.prf_info *{display: block; font-size: 0.875rem; line-height: 20px;}
+.prf_info > span{margin-top:4px}
+.prf_info strong{max-width: 180px;}
+.header_left_area .pic_prf .profile{width:56px; height:56px; overflow: hidden; border-radius: 50%; background-color: #fff;}
+
+.header_left_area .ui.label{position:relative; padding:0 10px; background-color:transparent; font-size: 0.875rem; font-weight: normal; height: 20px; line-height: 20px;}
+.header_left_area .ui.label > .detail{margin-left: 0.063rem; color:#666; opacity:1;}
+.detail_tit .header_left_area .ui.label > .detail{margin-left: 6px;}
+.header_left_area .ui.label > .icon + .detail{color:#4c4c4c}
+.line_left.ui.label+.line_left.ui.label:before, .pic_prf+.line_left.ui.label:before{content:''; position: absolute; width:0.063rem; height: 0.375rem; background-color: #d8d8d8; top:8px; left: 0 }
+.header_left_area .pic_prf + .ui.label.line_left{padding-left:10px}
+.header_left_area .ui.label.line_left:first-child{padding-left:0;}
+
+.post_header.ui.button{display: inline-block; color:#999; font-size: 0.875rem; padding:0 0 8px; white-space: pre-wrap; word-wrap: break-word; line-height:1rem;}
+.post_header.ui.button + .ui.button{margin:0 0 0 1.25rem;}
+.post_header.ui.button:active,.post_header.ui.button:hover, .post_header.ui.button:focus{color:#999}
+
+.ui.icon .icon.edit_bk{height: 1rem; margin-right:4px !important; background: url("../../../images/all/btn-comm-edit-16-px-bk.svg") no-repeat 100%;}
+.ui.icon .icon.delete_bk{height: 1rem; margin-right:4px !important; background: url("../../../images/all/btn-comm-delete-16-px-bk.svg") no-repeat 100%;}
+.ui.icon .icon.share_bk{height: 1rem; margin-right:4px !important; background: url("../../../images/all/btn-comm-share-16-px-bk.svg") no-repeat 100%;}
+.ui.icon .icon.mark_bk{height: 1rem; margin-right:4px !important; background: url("../../../images/all/btn-comm-mark-16-px-bk.svg") no-repeat 100%;}
+.ui.icon .icon.list_bk{height: 1rem; margin-right:4px !important; background: url("../../../images/all/icon-comm-list-16-px-bk.svg") no-repeat 100%;}
+i.icon.fileAll { width: 24px; height: 24px !important; background: url('https://image.mysuni.sk.com/suni-asset/public/images/all/icon-down-type-4-24-px-grey.svg')
+    0 0 no-repeat;
+}
+.ui.icon .icon.importance_bk {position:relative; top:1px; width:24px; height:16px; margin-right:4px !important; background:url("../../../images/all/icon-important-bk.png") no-repeat center center / 100% auto;}
+.ui.icon .icon.importance_on {position:relative; top:1px; width:24px; height:16px; margin-right:4px !important; background:url("../../../images/all/icon-important-on.png") no-repeat center center / 100% auto;}
+
+.temp-board-down .down .ui.checkbox input.hidden + label{font-size: 0.875rem;}
+.temp-board-down .down i{margin-left:0.625rem}
+
+.board_bottom{justify-content: space-between; align-items: flex-end; padding: 3.875rem 1.375rem; border-bottom: 0.063rem solid #ddd;}
+
+.header_left_area i.icon{width:1rem !important;height: 1rem;margin-right:0.35rem !important; margin-top:2px !important}
+.header_left_area i.icon.likeoff{background:url('../../../images/all/btn-community-like-off-16-px.svg') no-repeat left top;}
+.header_left_area i.icon.commentoff{background:url('../../../images/all/icon-comm-comment.svg') no-repeat left top;}
+.header_left_area i.icon.like_on{background: url("../../../images/all/btn-community-like-on-16-px.png") no-repeat 100%;}
+.header_left_area i.icon.comment_on{ background: url("../../../images/all/btn-community-comment-on.svg") no-repeat 100%;}
+.header_left_area a.ui.labels .label:focus, 
+.header_left_area a.ui.labels .label:hover, 
+.header_left_area a.ui.label:hover:focus,
+.header_left_area a.ui.label:hover{background:transparent;}
+
+.comment_field{padding: 2.5rem 0 0}
+.comment_field .field{width: calc(100% - 13.125rem); height:4.875rem; margin:0 !important}
+.comment_field .ui.form{display: flex; overflow:hidden; justify-content: space-between; border:0.063rem solid #ddd; border-radius: 0.5rem;}
+.comment_field .ui.form textarea{padding: 1.25rem 0 0 1.25rem; color:#222; font-size: 0.875rem; border:0}
+
+.comment_right{display: inline-block; width: 13.125rem; padding: 1.25rem; border-left: 0.063rem solid #ddd; text-align: right;}
+.comment_right .count{display: inline-block; text-align: right; font-size: 0.875rem; line-height: 2.5;}
+.comment_right .count span{display: inline-block; font-size: 0.875rem;}
+.comment_right .count .now{color:#222;}
+.comment_right .count .max{color:#999;}
+
+.ui.labeled.button.comment_edit{margin-left:1.25rem; padding : 0.625rem 1.25rem !important; color:#fff; font-size: 0.875rem; background : #4c4c4c !important;}
+
+.list_sort{padding: 2.5rem 0 1.25rem; text-align: right; }
+.list_sort .ui.checkbox.radio + .ui.checkbox.radio{margin-left: 2.5rem}
+.list_sort label{font-size: 0.875rem !important;}
+
+.board_dt_wrap .more-comments{padding-top: 1.25rem}
+.board_dt_wrap .videobox{margin-bottom:1.563rem;}
+.board_dt_wrap .videobox iframe{width:100%;}
+/* 커뮤니티 일반게시판 이미지 마진 삭제 요청(2021.09.13) */
+/* .board_dt_wrap .ql-editor img{margin:1.875rem 0;} */
+.board_dt_wrap .ql-editor img{margin:0;}
+.board_dt_wrap .board_header{align-items:flex-start}
+
+.card-slide-list.pd60 + .board_header{padding-top:0}
+
+.templete_sub_contents .board-down-title p > .cnt{display: inline-block; color: #555; font-size: 1rem; margin-left: 0.375rem;}
+.templete_sub_contents .board-down-title p img{vertical-align: -1px}
+.templete_sub_contents .paging{margin-top:50px; padding-top:60px; border-top:1px solid #ddd}
+.templete_sub_contents .paging .paging-list{box-shadow: none; border : 1px solid #ddd}
+.templete_sub_contents .paging a:last-of-type .paging-list-box{border-bottom: none;}
+

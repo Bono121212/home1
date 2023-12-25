@@ -1,0 +1,10 @@
+
+/* 복습시간 추가 2022-01 */
+.ui.modal.cpl-modal .res.header{position: relative;}
+.ui.modal.cpl-modal .res.header .sub.f12 { max-width: 500px;}
+.ui.modal.cpl-modal .ui.dropdown.sl-year { position: absolute; top: 24px; right: 30px;}
+.ui.modal.cpl-modal .content{padding: 0 !important}
+.ui.modal.cpl-modal .scrolling-80vh {max-height:70vh; height: 60vh; overflow-y: auto;}
+.ui.dropdown.sl-year > .text {display: block; font-weight: normal;}
+.completion-time .table-css .bullet-list2 .name{width : auto !important; max-width: 235px;}
+.ui.modal.cpl-modal .completion-time .table-css .head .cell i.icon{top: 1px; margin-bottom:0}

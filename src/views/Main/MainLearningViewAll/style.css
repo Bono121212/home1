@@ -1,0 +1,5 @@
+.ma-title .inner p.txt {font-size:0.875rem;color:#999;}
+.sort-reult .section-count + .comments-sort .ui.checkbox input + label{padding-left:2rem;font-size:.875rem;color:#6c788f;}
+.sort-reult .section-count + .comments-sort .ui.checkbox input:checked + label{font-weight:700;color:#6c788f;}
+.sort-reult .section-count + .comments-sort .ui.check input + label::before{background-image:url('../../../images/all/btn-check-disabled.svg') !important;}
+.sort-reult .section-count + .comments-sort .ui.check input:checked + label::before{background-image:url('../../../images/all/btn-check-selected.svg') !important;}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CEC5AEBF-559B-48B2-B47A-7347D6D53232</title>
+    <defs>
+        <path d="M9.83364294,14.3529819 L10.6201166,16.1040928 L0.836854916,17.5029819 L0,5.69746857 L4.72726385,0 C11.2806891,1.25849304 14.5574017,1.99282036 14.5574017,2.20298195 C14.5574017,2.41314354 14.2872004,5.11314354 13.7467977,10.3029819 L12.0099898,10.3029819 L7.03323089,8.75149097 L9.83364294,14.3529819 Z" id="path-1"></path>
+    </defs>
+    <g id="[03]-Note" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[N]-Note-case" transform="translate(-1590.000000, -734.000000)">
+            <g id="newpage-popup_note--copy-8" transform="translate(1467.000000, 514.000000)">
+                <g id="내용" transform="translate(0.000000, 40.000000)">
+                    <g id="write" transform="translate(20.000000, 162.000000)">
+                        <g id="note" transform="translate(16.000000, 16.000000)">
+                            <g id="time_-jump" transform="translate(87.000000, 0.000000)">
+                                <circle id="Oval" cx="8" cy="10" r="8"></circle>
+                                <g id="Group-18" transform="translate(1.000000, 0.000000)">
+                                    <g id="Path-11">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <g id="Path-9"></g>
+                                        <rect id="Rectangle" stroke="#75777B" mask="url(#mask-2)" x="1.33685492" y="4.50298195" width="11" height="11" rx="5.5"></rect>
+                                    </g>
+                                    <polyline id="Path-8" stroke="#75777B" stroke-linecap="round" points="13.76 8.95298195 12.26 10.7529819 10.76 8.95298195"></polyline>
+                                </g>
+                                <g id="Group-12" transform="translate(4.000000, 6.516129)"></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

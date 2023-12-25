@@ -1,0 +1,6 @@
+.ui.modal.base .content.admin_popup_add {padding:2rem 2rem 2.5rem !important;text-align:center;}
+.ui.modal.base .content.admin_popup_add .admin_table td {word-break: break-all;}
+
+.ui.modal.w450 { width: 25.25rem; }
+ 
+.ui.input.admin_text_input.add > input {min-width: 30.25rem !important;}

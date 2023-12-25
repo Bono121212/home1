@@ -1,0 +1,39 @@
+.support-list-wrap.faq .faq-list-wrap { margin-top: 3px; border-radius: 8px; box-shadow: 0 2px 6px 0 #ccd4e7; overflow: hidden; background: #fff; }
+.support-list-wrap.faq .cate-wrap { text-align: center; margin-bottom: 30px; }
+.support-list-wrap.faq .cate-wrap .radio-wrap { display: inline-block; overflow: hidden; padding-bottom: 10px; }
+.support-list-wrap.faq .cate-wrap .radio-wrap .ui.radio.checkbox {
+    float: left; height: 42px; padding: 0;
+    background: #fff; border: #00bfae 1px solid; border-radius: 23px; position: relative;
+}
+/* .support-list-wrap.faq .cate-wrap .radio-wrap .ui.radio.checkbox.checked { background: #3e8ae9; } */
+.support-list-wrap.faq .cate-wrap .radio-wrap .ui.radio.checkbox.checked input.hidden + label { color: #fff; font-weight: 400; }
+.support-list-wrap.faq .cate-wrap .radio-wrap .ui.radio.checkbox + .ui.radio.checkbox { margin-left: 10px; }
+.support-list-wrap.faq .cate-wrap .radio-wrap .ui.radio.checkbox label:before,
+.support-list-wrap.faq .cate-wrap .radio-wrap .ui.radio.checkbox label:after { display: none; }
+.support-list-wrap.faq .cate-wrap .radio-wrap .ui.radio.checkbox input.hidden + label{ color:#444; height: 42px; line-height: 2.5; padding: 0 2.5rem !important; text-align: center;}
+.support-list-wrap.faq .cate-wrap .radio-wrap .ui.radio.checkbox.checked:after {
+    display: block; content: ""; position: absolute; width: 0px; height: 0px;
+    border-bottom: none; border-top: 10px solid #00bfae; border-right: 7px solid transparent; border-left: 7px solid  transparent;
+    top: 100%; left: 50%; transform: translateX(-50%);
+}
+.faq-list-wrap .accordion.ui.styled { width: 100%; }
+.faq-list-wrap .accordion.ui.styled .title {display: table; width: 100%; line-height: 24px; padding: 1.3rem 1.8rem; position: relative; font-size: 1rem; font-weight: 400; color: #222; border-top: 1px solid #eee;}
+.faq-list-wrap .accordion.ui.styled .title.active{ font-weight: 600; background: #fbfbfb; }
+.faq-list-wrap .accordion.ui.styled .title .faq-icon { display: table-cell; width: 3rem; }
+.faq-list-wrap .accordion.ui.styled .title .txt-wrap { display: table-cell; padding-right: 2rem; }
+.faq-list-wrap .accordion.ui.styled .title .txt-faq-cate { display: inline-block; }
+.faq-list-wrap .accordion.ui.styled .title p { display: inline-block; text-align: left; padding-left: 0.4rem; }
+.faq-list-wrap .accordion.ui.styled .title .dropdown.icon { position: absolute; right: 30px; top: 22px; transform: rotate(0); }
+.faq-list-wrap .accordion.ui.styled .content { padding-left: 4.8rem; padding-top: 0; padding-right: 3.8rem; font-size: 0.875rem; line-height: 1.4; color: #444; }
+.faq-list-wrap .accordion.ui.styled .content img { max-width: 100%; }
+.faq-list-wrap .accordion.ui.styled .content.active { background: #fbfbfb; }
+.faq-list-wrap .accordion.ui.styled .content.active p { margin-bottom: 1rem; }
+.faq-list-wrap .accordion.ui.styled .content.active p:last-child { margin-bottom: 0; }
+
+
+.support-list-wrap.faq .cate-wrap .radio-wrap .ui.radio.checkbox label:hover,
+.support-list-wrap.faq .cate-wrap .radio-wrap .ui.radio.checkbox + label:hover{color:#6c788f}
+
+.faq-list-wrap .ui.accordion .dropdown.icon::before{display: none;}
+.faq-list-wrap .ui.accordion .dropdown.icon::after{ content:''; display: inline-block; width: 1.5rem; height: 1.5rem; background: url('../../../images/all/icon-comcard-open.svg')}
+.faq-list-wrap .ui.accordion .title.active .dropdown.icon::after{transform:rotate(180deg)}

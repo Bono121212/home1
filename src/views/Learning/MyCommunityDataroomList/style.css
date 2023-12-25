@@ -1,0 +1,7 @@
+
+.mycommunity-board-list {background: #fff;border-radius: 0.5rem;box-shadow: 0 2px 6px 0 #ccd4e7;}
+.mycommunity-board-list .ui.table {border:none;border-radius: 8px;}
+.mycommunity-board-list .ui.table thead tr th {text-align:center;background:#fff;height: 4.3125rem;border-bottom:1px solid #d6deed;}
+.mycommunity-board-list .ui.table tbody tr td {height: 4.3125rem;font-size:1rem;text-align:center;padding:0.78571429em 1.785714em;font-size:14px;color:#666666;}
+.mycommunity-board-list .ui.table tbody tr td:first-child {text-align:left;font-size:16px;color: #222222;}
+

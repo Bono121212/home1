@@ -1,0 +1,10 @@
+.ui.breadcrumb {
+    float: right;
+}
+
+.main-info-area > .progress-info-wrap.mypage.personal-detail .cell .stamp-wrap .ui.label.stamp > div a{display: inline-block;width: 100%;height: 100%;}
+.mylearning-list-wrap table.ml-02-02 td.title .ellipsis.noteOn,
+.mylearning-list-wrap table.ml-02-03 td.title .ellipsis.noteOn,
+.mylearning-list-wrap table.ml-02-06 td.title .ellipsis.noteOn{display:inline-block;width:auto;max-width:22rem;padding-right:1.25rem;background:url('../../../images/all/icon-note-create.svg') no-repeat 100% .3125rem;}
+.mylearning-list-wrap table.ml-02-03 td.title .ellipsis.noteOn{max-width:23.75rem;}
+.mylearning-list-wrap table.ml-02-06 td.title .ellipsis.noteOn{max-width:28.75rem;}

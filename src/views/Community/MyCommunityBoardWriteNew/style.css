@@ -1,0 +1,6 @@
+.board-write-radio{position: relative;padding-bottom:2.813rem;}
+.board-write-radio div.checked + .board-write-checkbox.feed_chkbox{display:block;}
+
+.board-write-checkbox.feed_chkbox{display:none;position:absolute;top:1.25rem;left:0;margin-top:1.25rem;}
+.board-write-checkbox.feed_chkbox .ui.checkbox label {margin: 0;font-size:1rem;font-weight:500;color:#777;}
+.board-write-checkbox.feed_chkbox .ui.checkbox input:checked + label{font-weight:700;}

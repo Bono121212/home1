@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>D59739B9-9835-4374-BDB1-D80037BC37D0</title>
+    <g id="Symbols_assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon">
+            <rect id="area" x="0" y="0" width="24" height="24"></rect>
+            <g id="Combined-Shape" transform="translate(3.140290, 9.000000)" stroke="#CFCFCF" stroke-width="2">
+                <polyline id="Path" points="4.85971026 0 3.37073239e-13 0 3.37073239e-13 11.5 3.85971026 9 10.8597103 9 10.8597103 5"></polyline>
+            </g>
+            <path d="M21,3 L21,15.9193752 L17.3507811,13 L9,13 L9,3 L21,3 Z" id="Combined-Shape" stroke="#CFCFCF" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>

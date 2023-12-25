@@ -1,0 +1,45 @@
+.login-content .right-area.sty2 {overflow-y: hidden;}
+.login_language_wrap {position:fixed; right:30px; top:32px; display:flex; justify-content: flex-end; align-items: center;}
+.login_language_wrap::before {content:''; position: relative; top:0; display:block; width:16px; height:16px; margin-right:4px; background: url('https://image.mysuni.sk.com/suni-asset/public/skuniv-design/images/all/icons-16-ic-language-mint.png') no-repeat 0 0 / 100% auto;}
+.login_language_wrap b {display:block; width:2px; height:2px; background-color: #999; margin:0 4px; border-radius: 50%;}
+.login_language_wrap .btn_language {position:relative; display:flex; justify-content: center; align-items: center; margin:-4px; padding:4px; font-size:12px; font-weight: 400; line-height: 16px; color:#999999;}
+.login_language_wrap .btn_language.is_active {font-weight: 700; color:#000;}
+
+/* _layout */
+.password_change_wrap { position: relative; }
+.password_change_wrap .header { display: block; position: relative; width: 100%; height: 80px; }
+.password_change_wrap .header .logo {position: absolute;top: 50%;left: 30px;transform: translateY(-50%);}
+.password_change_wrap .header .logo i.sk-university-login.icon { vertical-align: top; }
+.password_change_wrap .desc-box {display: flex; justify-content: center; margin:0; background: #F4F7FD;overflow: hidden;padding: 2rem 1rem;clear: both;}
+.password_change_wrap .desc-box .desc-box-inner {max-width: 1200px; margin: auto; display: flex;align-items: center;}
+/* .password_change_wrap .desc-box i.icon.login-sub2.woman { width: 170px; height: 134px; margin-right: 3rem; } */
+.password_change_wrap .desc-box i.icon.login-sub2.icon-pw { width: 170px; height: 150px; margin-right: 3rem; background: url("https://image.mysuni.sk.com/suni-asset/public/skuniv-design/images/all/icon_onboard_pw_change.png") no-repeat 0 0 !important;}
+.password_change_wrap .desc-box i.icon.login-sub2.step-01 { width: 170px; height: 150px; margin-right: 3rem; background: url("https://image.mysuni.sk.com/suni-asset/public/skuniv-design/images/all/icon_onboard_step01.png") no-repeat 0 0 !important;}
+.password_change_wrap .desc-box i.icon.login-sub2.step-02 { width: 170px; height: 150px; margin-right: 3rem; background: url("https://image.mysuni.sk.com/suni-asset/public/skuniv-design/images/all/icon_onboard_step02.png") no-repeat 0 0 !important;}
+.password_change_wrap .desc-box i.icon.login-sub2.step-03 { width: 170px; height: 150px; margin-right: 3rem; background: url("https://image.mysuni.sk.com/suni-asset/public/skuniv-design/images/all/icon_onboard_step03.png") no-repeat 0 0 !important;}
+.password_change_wrap .desc-box i.icon.login-sub2.step-04 { width: 170px; height: 150px; margin-right: 3rem; background: url("https://image.mysuni.sk.com/suni-asset/public/skuniv-design/images/all/icon_onboard_step04.png") no-repeat 0 0 !important;}
+.password_change_wrap .desc-box i.icon.login-sub2.step-05 { width: 170px; height: 150px; margin-right: 3rem; background: url("https://image.mysuni.sk.com/suni-asset/public/skuniv-design/images/all/icon_onboard_step05.png") no-repeat 0 0 !important;}
+.password_change_wrap .desc-box h2 {margin-bottom: 20px; font-size: 20px; color: #000; font-weight: 700;}
+.password_change_wrap .desc-box p {font-size: 16px; line-height: 24px;}
+.password_change_wrap .desc-box p + p {margin-top:8px;}
+.password_change_wrap .desc-box .primary{color: #ff664d}
+.password_chng_contents {position: relative; display: flex;flex-wrap: wrap; justify-content: center; width: 100%; max-width: 1200px; margin:100px auto 0;}
+.password_chng_contents .left-side {flex:none; width: 300px; margin-right: 100px;}
+.password_chng_contents .right-side {max-width: 520px;}
+.password_chng_contents .right-side .form-tit {margin-bottom: 20px; font-size: 18px;}
+.password_chng_contents .right-side .form-tit strong {font-weight: 700;}
+.password_chng_contents .right-side .form-list .list-item {position: relative; padding-left:12px; color: #666; margin-top:6px;}
+.password_chng_contents .right-side .form-list .list-item::before {content:''; position: absolute; left: 0; top: 11px; display: block; width: 4px; height: 3px; border-radius: 50%; background-color: #999;}
+.password_chng_contents .bottom_actions { width: 100%; display: flex; align-items: center; justify-content: center; margin-top:100px;}
+.password_chng_contents .bottom_actions .ui.button{margin : 0 .5rem}
+.password_chng_contents .ui.form label {font-size: 18px; margin-bottom: 10px;}
+.password_chng_contents .ui.form .field {padding: 0; margin: 0; width: 300px;}
+.password_chng_contents .ui.form .field:first-child + .field {margin:40px 0 16px}
+.password_chng_contents .ui.form .field .ui.input input {width: 100%;}
+.password_chng_contents .ui.form .field .ui.input {display: flex; flex-wrap: wrap;}
+.password_chng_contents .ui.form .field .ui.input .validation {position: static;}
+.password_chng_contents .ui.form .making-guide.error .icon {float: left;margin: 0.125rem 0.25rem 0 0;vertical-align: middle;}
+.password_chng_contents .ui.form .field .making-guide {float: left; vertical-align: middle; line-height: 1.125rem; padding: 0.5rem 0 0 0; font-size: 0.75rem; letter-spacing: -0.0125rem; color: #4c4c4c;}
+
+/* Sementic Styles */
+.password_chng_contents .ui.form .field > label {display: block;margin: 0em 0em 0.28571429rem 0em;color: rgba(0, 0, 0, 0.87);font-size: 0.92857143em;font-weight: bold;text-transform: none;}

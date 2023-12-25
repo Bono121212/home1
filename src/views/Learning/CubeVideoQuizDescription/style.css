@@ -1,0 +1,4 @@
+.quiz-descriptive > .descriptive-box{padding: 1.25rem 0;border-bottom: 1px solid #eeeeee;}
+.quiz-descriptive > .descriptive-box > span{display: inline-block;margin-bottom: 0.625rem;color: #222222;font-size: 0.875rem;font-weight: 700;}
+.quiz-descriptive > .descriptive-box > p{font-size: 0.875rem;}
+.quiz-descriptive > .more-comments{padding-top: 1.25rem;padding-bottom: 0.938rem;}

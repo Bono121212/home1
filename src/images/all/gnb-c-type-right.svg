@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="64" viewBox="0 0 30 64">
+    <defs>
+        <linearGradient id="mxpb1280pa" x1="50%" x2="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <path fill="url(#mxpb1280pa)" d="M0 0H30V64H0z" transform="translate(-1270 -77) translate(0 77) translate(1270) matrix(1 0 0 -1 0 64)"/>
+                    <path fill="#222" fill-rule="nonzero" d="M22.522 25L21 26.645 25.945 32 21 37.355 22.522 39 29 32z" transform="translate(-1270 -77) translate(0 77) translate(1270)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

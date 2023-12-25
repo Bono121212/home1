@@ -1,0 +1,13 @@
+.qna-write-content .apl-form-wrap.support { padding-top: 50px;}
+.apl-form-wrap .faq-info { font-size: 12px; font-weight: 400; color: #888; padding-top: 0; padding-bottom: 0; line-height: 20px; }
+.faq-info i.icon.info20 { left: 0; margin-right: 6px; }
+.qna-write-content .ui.editor-wrap { width: 100%; }
+.qna-write-content .ui.selection.dropdown { width: 300px; }
+.ui.dropdown.selection .icon.dropdown:before { width: 22px; height: 22px; }
+.ui.selection.dropdown.trig-pop-faq > .default.text { color: #666 !important; }
+.qna-write-content .ql-editor.ql-blank::before { font-style: inherit; font-size: 0.875rem; color: #999; }
+
+button.faq-info.ui.button,
+button.faq-info.ui.button:hover,
+button.faq-info.ui.button:active,
+button.faq-info.ui.button:focus{background-color: #fff; color:#888; border:0; outline: none;}

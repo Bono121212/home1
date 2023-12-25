@@ -1,0 +1,64 @@
+.login-content .right-area.join-contents{background:#fff}
+.join-contents .form-section{padding-top:2.875rem; width:300px;}
+.join-contents .form-title{color:#222; font-size: 1.25rem;}
+.login-content .join-contents .form-section .field{padding-top:2.3rem; margin:0;}
+.login-content .join-contents .form-section .field label{color:#4c4c4c; font-size: 0.875rem; font-weight: bold;}
+.login-content .join-contents .form-section .field input{height: 3rem; border: 0.063rem solid #7f7f7f;}
+.login-content .join-contents .field + .field{padding-top:1.25rem}
+.login-content .join-contents .field:last-of-type{padding:0.625rem 0 1.875rem}
+.login-content .join-contents .field input{padding: 0.875rem 1.125rem;font-size: 0.75rem;}
+.login-content .join-contents .field span{display: block; color:#4c4c4c; font-size: 0.75rem;}
+.login-content .join-contents .field a{color:#4c4c4c; font-size: 0.75rem; font-weight: 600; text-decoration: underline;}
+.login-content .join-contents .ui.button{width: 100%;}
+
+/*****************************************************
+	@@ 공통
+*****************************************************/
+/* Fonts */
+@font-face {font-family: "notosanskr";font-style: normal;
+	font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2)
+	format("woff2"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff)
+	format("woff"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format("opentype");}
+
+	@font-face {font-family: "notosanskr";font-style: normal;font-weight: 300;
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2)
+	format("woff2"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff)
+	format("woff"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format("opentype");}
+
+	@font-face {font-family: "notosanskr";font-style: normal;font-weight: 400;
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2)
+	format("woff2"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff)
+	format("woff"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format("opentype");}
+
+	@font-face {font-family: "notosanskr";font-style: normal;font-weight: 500;
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format("woff2"),
+	url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format("woff"),
+	url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format("opentype");}
+
+	@font-face {font-family: "notosanskr";font-style: normal;font-weight: 700;
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2)
+	format("woff2"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff)
+	format("woff"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format("opentype");}
+
+	@font-face {font-family: "notosanskr";font-style: normal;font-weight: 900;
+	  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2)
+	  format("woff2"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff)
+	  format("woff"),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format("opentype");}
+
+/*****************************************************
+	@@ V2 Design
+*****************************************************/
+/*  */
+
+/* Layout */
+.login-content.v2 {background-color: #E8F2FF;}
+.login-content.v2 .left-area {position:relative; padding-top:150px; background-color: #E8F2FF;}
+.login-content.v2 .right-area {position:relative; background-color: #fff; border-radius: 40px 0 0 40px; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);}
+.login-content.v2 .right-area .inner .logo.big {display: inline-block; vertical-align: top; margin-bottom: 1.8rem; margin-left:0rem;}
+
+/* Content */
+.login-content.v2 .left-area .title {font-size: 92px; line-height: 112px; font-weight: 700; margin-bottom: 12px; color: #BBD2EE;}
+.login-content.v2 .left-area p {color: #666; font-size: 16px; line-height: 24px; text-align: center; padding-bottom: 0;}
+.login-content.v2 .left-area p strong {font-weight: 700;}
+.login-content.v2 .left-area .illust {margin-top:20px; width:480px;}
+.login-content.v2 .left-area .illust img {width: 100%;}
